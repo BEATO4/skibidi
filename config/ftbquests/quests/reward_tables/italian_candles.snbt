@@ -1,0 +1,13 @@
+{
+	id: "7D1250984355CE24"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ count: 10, item: "spelunkery:mineomite" }
+		{ item: "minecraft:tnt" }
+		{ count: 10, item: "apotheosis:explosive_arrow" }
+		{ item: "oreganized:shrapnel_bomb" }
+		{ count: 5, item: "supplementaries:bomb" }
+	]
+	title: "Italian Candles"
+}

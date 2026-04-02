@@ -7,6 +7,8 @@ logs/
 crash-reports/
 .mixin.out/
 hs_err_pid*.log
+win_event*.txt
+replay_pid*.log
 
 # 2. Partidas guardadas, capturas y descargas de servidores
 saves/
@@ -43,8 +45,18 @@ journeymap/
 # Si quitas el "#" de la siguiente línea, Git ignorará todos los archivos .jar.
 # mods/*.jar
 mods/.connector
+mods/.index
 L_Enders_Cataclysm-*.jar
 alexscaves-*.jar
 better-end-*.jar
 Cataclysmic_tunes_V8(Maledictus_update).zip
 Cataclysmic_tunes_V7(scylla_update).zip
+
+#extras
+DIM-123/
+data/
+fancymenu_data/
+keybinding presets/
+modernfix/
+schematics/
+kubejs\data

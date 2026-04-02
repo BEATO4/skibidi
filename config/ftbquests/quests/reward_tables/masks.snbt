@@ -1,0 +1,62 @@
+{
+	id: "6F8EF8428806C60E"
+	loot_size: 1
+	order_index: 36
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_fury"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_fear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_rage"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_bliss"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_misery"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_faith"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Masks"
+}
