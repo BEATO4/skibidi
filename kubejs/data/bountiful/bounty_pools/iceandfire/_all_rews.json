@@ -1,0 +1,84 @@
+{
+
+	"content": {
+
+		"luxury_currency_1": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "iceandfire:sapphire_gem",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 500,
+			"weightMult": 0.5,
+			"repRequired": 5
+		},
+
+		"luxury_currency_2": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "iceandfire:sapphire_gem",
+			"amount": {
+				"min": 3,
+				"max": 8
+			},
+			"unitWorth": 400,
+			"weightMult": 0.5,
+			"repRequired": 10
+		},
+
+		"luxury_currency_3": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "iceandfire:sapphire_gem",
+			"amount": {
+				"min": 5,
+				"max": 10
+			},
+			"unitWorth": 300,
+			"weightMult": 0.5,
+			"repRequired": 15
+		},
+
+		"luxury_currency_4": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "iceandfire:sapphire_gem",
+			"amount": {
+				"min": 8,
+				"max": 12
+			},
+			"unitWorth": 250,
+			"weightMult": 0.5,
+			"repRequired": 20
+		},
+		
+		"luxury_currency_5": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "iceandfire:sapphire_gem",
+			"amount": {
+				"min": 12,
+				"max": 15
+			},
+			"unitWorth": 200,
+			"weightMult": 0.5,
+			"repRequired": 25
+		},
+
+	"luxury_currency_6": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "iceandfire:sapphire_block",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 800,
+			"weightMult": 0.5,
+			"repRequired": 30
+		}
+
+	}
+}

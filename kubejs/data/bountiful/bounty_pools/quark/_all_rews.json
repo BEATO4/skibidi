@@ -1,0 +1,422 @@
+{
+	"content": {
+
+		"Sakura Paper Lantern": {
+			"type": "item",
+            "rarity": "RARE",
+			"content": "quark:paper_lantern_sakura",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800
+		},
+
+		"Sakura Paper Wall": {
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "quark:paper_wall_sakura",
+			"amount": {
+				"min": 10,
+				"max": 20
+			},
+			"unitWorth": 200
+		},
+		
+		"Paper Lantern": {
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "quark:paper_lantern",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 400
+		},
+
+		"Paper Wall": {
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "quark:paper_wall",
+			"amount": {
+				"min": 10,
+				"max": 20
+			},
+			"unitWorth": 100
+		},
+
+		"Big Paper Wall": {
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "quark:paper_wall_big",
+			"amount": {
+				"min": 10,
+				"max": 20
+			},
+			"unitWorth": 100
+		},
+
+		"monsterbox": {
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "quark:monster_box",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 5000
+		},
+
+		"Ancient Tome Prot": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:4s,id:\"minecraft:protection\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Thorns": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:thorns\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome FF": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:4s,id:\"minecraft:feather_falling\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Sharpness": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:sharpness\"}]}",
+            "repRequired": 5
+        },
+		
+		"Ancient Tome Smite": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:smite\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome BaneOA": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:bane_of_arthropods\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Knockback": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:knockback\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Fire Aspect": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:fire_aspect\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Looting": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:looting\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Sweeping Edge": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:sweeping\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Unbreaking": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:unbreaking\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Fortune": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:fortune\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Power": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:power\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Punch": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:punch\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Luck of the Sea": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:luck_of_the_sea\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Lure": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:lure\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Effiency": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:efficiency\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Loyalty": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:loyalty\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Impaling": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:impaling\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Riptide": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:impaling\"}]}",
+            "repRequired": 5
+        },
+
+		"Ancient Tome Piercing": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "quark:ancient_tome",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:piercing\"}]}",
+            "repRequired": 5
+        },
+
+        "all_rew_music_disc_chatter": {
+			"type": "item",
+			"content": "quark:music_disc_chatter",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+            "weightMult": 0.01,
+            "repRequired": 20
+		},
+        "all_rew_music_disc_crickets": {
+			"type": "item",
+			"content": "quark:music_disc_crickets",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+            "weightMult": 0.01,
+            "repRequired": 20
+		},
+        "all_rew_music_disc_clock": {
+			"type": "item",
+			"content": "quark:music_disc_clock",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+            "weightMult": 0.01,
+            "repRequired": 20
+		},
+        "all_rew_music_disc_fire": {
+			"type": "item",
+			"content": "quark:music_disc_fire",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+            "weightMult": 0.01,
+            "repRequired": 20
+		},
+        "all_rew_music_disc_wind": {
+			"type": "item",
+			"content": "quark:music_disc_wind",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+            "weightMult": 0.01,
+            "repRequired": 20
+		},
+
+        "all_rew_music_disc_ocean": {
+			"type": "item",
+			"content": "quark:music_disc_ocean",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+            "weightMult": 0.01,
+            "repRequired": 20
+		},
+        "all_rew_music_disc_drips": {
+			"type": "item",
+			"content": "quark:music_disc_drips",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+            "weightMult": 0.01,
+            "repRequired": 20
+		}
+    }
+}

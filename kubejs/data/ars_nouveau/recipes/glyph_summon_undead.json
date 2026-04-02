@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:conjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:orbofthe_summoner"
+      }
+    },
+    {
+      "item": {
+        "item": "iceandfire:witherbone"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_summon_undead"
+}

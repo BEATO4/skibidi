@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:drowned",
+      "weight": 5
+    },
+    {
+      "name": "upgrade_aquatic:thrasher",
+      "weight": 5
+    }
+  ]
+}

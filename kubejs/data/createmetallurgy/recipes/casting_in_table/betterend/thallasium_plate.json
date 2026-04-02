@@ -1,0 +1,17 @@
+{
+  "type": "createmetallurgy:casting_in_table",
+  "ingredients": [
+    {
+      "item": "createmetallurgy:graphite_plate_mold"
+    },
+    {
+      "amount": 90,
+      "fluid": "createmetalwork:molten_thallasium",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 60,
+  "result": {
+    "item": "betterend:thallasium_forged_plate"
+  }
+}

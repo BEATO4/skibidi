@@ -1,0 +1,40 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "hexerei:blood_bottle"
+    },
+    {
+      "tag": "forge:logs/archwood"
+    },
+    {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    {
+      "item": "ars_nouveau:magebloom"
+    },
+    {
+      "item": "hexerei:mandrake_root"
+    },
+    {
+      "item": "ars_nouveau:magebloom"
+    },
+    {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    {
+      "tag": "forge:logs/archwood"
+    }
+  ],
+  "output": {
+    "item": "ars_scalaes:archwood_broom"
+  },
+
+  "liquidOutput": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "fluidLevelsConsumed": 1000
+}

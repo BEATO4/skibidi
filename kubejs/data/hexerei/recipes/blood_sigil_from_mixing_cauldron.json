@@ -1,0 +1,40 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:lava"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "forbidden_arcanus:polished_darkstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "forbidden_arcanus:polished_darkstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "forbidden_arcanus:polished_darkstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "forbidden_arcanus:polished_darkstone"
+    }
+  ],
+  "output": {
+    "item": "hexerei:blood_sigil"
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:lava"
+  },
+  "fluidLevelsConsumed": 333,
+  "heatRequirement": "heated"
+}

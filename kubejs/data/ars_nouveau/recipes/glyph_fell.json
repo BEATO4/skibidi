@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:earth_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "create:mechanical_saw"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:diamond_axe"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_fell"
+}

@@ -1,0 +1,48 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "tag": "forge:glass"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:glass"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:glass"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:glass"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:phantom_powder"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:phantom_powder"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:phantom_powder"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:phantom_powder"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_phantom_block"
+}

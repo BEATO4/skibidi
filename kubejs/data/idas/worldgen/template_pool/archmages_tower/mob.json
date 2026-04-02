@@ -1,0 +1,87 @@
+{
+  "name": "idas:archmages_tower/mob",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "idas:archmages_tower/archmages_tower_witch",
+        "processors": "idas:archmages_tower_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "idas:archmages_tower/archmages_tower_vindicator",
+        "processors": "idas:archmages_tower_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_provoker",
+        "processors": "idas:archmages_tower_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_firecaller",
+        "processors": "idas:archmages_tower_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_necromancer",
+        "processors": "idas:archmages_tower_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_sorcerer",
+        "processors": "idas:archmages_tower_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_archivist",
+        "processors": "idas:archmages_tower_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_alchemist",
+        "processors": "idas:archmages_tower_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_inquisitor",
+        "processors": "idas:archmages_tower_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    }
+  ]
+}

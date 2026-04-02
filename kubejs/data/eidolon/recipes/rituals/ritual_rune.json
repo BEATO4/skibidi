@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:ritual_brazier_crafting",
+  "focusItems": [
+    {
+      "type": "minecraft:item",
+      "item": "eidolon:lesser_soul_gem"
+    }
+  ],
+  "healthRequirement": 20.0,
+  "output": {
+    "item": "forbidden_arcanus:rune"
+  },
+  "pedestalItems": [
+    {
+      "tag": "forge:dusts/redstone"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:diamond"
+    }
+  ]
+}

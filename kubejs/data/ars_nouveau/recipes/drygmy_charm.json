@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_nouveau:drygmy_charm"
+  },
+  "pedestalItems": [
+    {
+      "item": "forbidden_arcanus:golden_dragon_scale"
+    },
+    {
+      "item": "forbidden_arcanus:silver_dragon_scale"
+    },
+    {
+      "item": "forbidden_arcanus:golden_dragon_scale"
+    },
+    {
+      "item": "forbidden_arcanus:silver_dragon_scale"
+    },
+    {
+      "item": "forbidden_arcanus:golden_dragon_scale"
+    },
+    {
+      "item": "forbidden_arcanus:silver_dragon_scale"
+    },
+    {
+      "item": "forbidden_arcanus:golden_dragon_scale"
+    },
+    {
+      "item": "forbidden_arcanus:silver_dragon_scale"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:drygmy_shard"
+    }
+  ],
+  "sourceCost": 0
+}

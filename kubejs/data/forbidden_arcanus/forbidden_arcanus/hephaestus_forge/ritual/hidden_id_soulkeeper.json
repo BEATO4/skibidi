@@ -1,0 +1,45 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 500,
+    "blood": 1000,
+    "experience": 0,
+    "souls": 100
+  },
+  "inputs": [
+    {
+      "amount": 5,
+      "ingredient": {
+        "item": "iceandfire:ectoplasm"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "tag": "iceandfire:mob_skulls"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:soul_heart"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:netherite_greathammer"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:soulkeeper"
+    }
+  }
+}

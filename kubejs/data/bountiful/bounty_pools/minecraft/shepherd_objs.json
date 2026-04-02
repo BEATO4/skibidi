@@ -1,0 +1,17 @@
+
+{
+	"content": {
+
+        "string": {
+            "type": "item",
+            "content": "minecraft:string",
+            "amount": {
+                "min": 8,
+                "max": 36
+            },
+            "unitWorth": 100
+        }
+
+	}
+
+}

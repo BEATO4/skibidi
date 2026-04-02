@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:wither",
+    "minecraft:ender_dragon",
+    "minecraft:elder_guardian",
+    "iceandfire:gorgon",
+    "iceandfire:fire_dragon",
+    "iceandfire:ice_dragon",
+    "iceandfire:lightning_dragon",
+    "alexsmobs:bone_serpent",
+    "alexsmobs:bone_serpent_part",
+    "alexsmobs:centipede_body",
+    "alexsmobs:centipede_head",
+    "alexsmobs:centipede_tail",
+    "alexsmobs:anaconda",
+    "alexsmobs:anaconda_part",
+    "alexsmobs:void_worm",
+    "alexsmobs:void_worm_part",
+    "alexsmobs:tendon_segment",
+    "mowziesmobs:axe_attack",
+    "mowziesmobs:ferrous_wroughtnaut",
+    "mowziesmobs:umvuthana",
+    "mowziesmobs:frostmaw"
+  ]
+}

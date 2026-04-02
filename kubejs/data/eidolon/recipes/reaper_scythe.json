@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "pp ",
+    " sp",
+    "s  "
+  ],
+  "reagents": "utct",
+  "key": {
+    "p": {
+      "tag": "forge:ingots/pewter"
+    },
+    "u": {
+      "tag": "eidolon:patron_symbol"
+    },
+    "t": {
+      "item": "hexerei:cloth"
+    },
+    "c": {
+      "item": "eidolon:soul_shard"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "eidolon:reaper_scythe"
+  }
+}

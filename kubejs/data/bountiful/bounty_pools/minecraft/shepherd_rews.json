@@ -1,0 +1,17 @@
+
+{
+	"content": {
+
+        "primary_currency_bonus": {
+			"type": "item",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 1,
+				"max": 15
+			},
+			"unitWorth": 500,
+			"weightMult": 6
+		}
+	}
+
+}

@@ -1,0 +1,130 @@
+{
+  "weights": {
+    "common": 1,
+    "uncommon": 5,
+    "rare": 20,
+    "epic": 50
+  },
+  "rewards": [
+    {
+      "type": "biomemakeover:item",
+      "item": "quark:diamond_heart",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "alexscaves:biome_treat",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "alexscaves:sweet_tooth",
+      "min": 1,
+      "max": 3
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "alexscaves:radiant_essence",
+      "min": 1,
+      "max": 3
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "alexscaves:sugar_staff",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "alexscaves:pure_darkness",
+      "min": 2,
+      "max": 5
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "alexscaves:darkened_apple",
+      "min": 1,
+      "max": 3
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "ars_additions:fire_resistance_charm",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "ars_additions:undying_charm",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "ars_additions:fall_prevention_charm",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "ars_additions:water_breathing_charm",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "ars_additions:ender_mask_charm",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "ars_additions:void_protection_charm",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "ars_additions:sonic_boom_protection_charm",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "ars_additions:wither_protection_charm",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "ars_additions:golden_charm",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "ars_additions:night_vision_charm",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "simplyswords:runic_tablet",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "iceandfire:sapphire_gem",
+      "min": 5,
+      "max": 10
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "forbidden_arcanus:deorum_nugget",
+      "min": 9,
+      "max": 32
+    }
+  ]
+}

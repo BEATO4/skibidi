@@ -1,0 +1,9 @@
+{
+	"block": "alexsmobs:void_worm_effigy",
+	"stats": {
+		"maxEterna": 40.0,
+		"eterna": 0,
+		"quanta": 20,
+		"arcana": 10
+	}
+}

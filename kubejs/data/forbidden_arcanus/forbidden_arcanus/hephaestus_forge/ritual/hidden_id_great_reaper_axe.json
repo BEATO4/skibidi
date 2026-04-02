@@ -1,0 +1,54 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:unholy_symbol"
+    ],
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 0,
+    "blood": 30000,
+    "experience": 0,
+    "souls": 100
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "born_in_chaos_v1:dark_metal_block"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "eidolon:lesser_soul_gem"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "born_in_chaos_v1:seedof_chaos"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:mundabitur_dust"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "betterend:aeternium_axe"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "born_in_chaos_v1:great_reaper_axe"
+    }
+  }
+}

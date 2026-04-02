@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "tag": "forge:gems/source"
+  },
+  "output": "kubejs:ice_essence",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:frostaya_pod"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:ice"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:snow_block"
+      }
+    }
+  ],
+  "source": 2000
+}

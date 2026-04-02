@@ -1,0 +1,319 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "tools"
+	group: "1D344E867FA1E0AF"
+	id: "2441E1BDA6689B90"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bBounty Boards&r collect quests from anywhere, though the type are usually related to the &bDegree&r that they have. The &bDegrees&r that each Board has can be modified. "
+				""
+				"Complete the quests to earn rewards and to build up &5Reputation&r! As you become more &5Reputable&r, you may find that the Quests give better rewards or even new unique Rewards!"
+			]
+			id: "1CE5DB8F32C55162"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CE35A585114AFD8"
+				table_id: 3922798688039514987L
+				type: "random"
+			}]
+			subtitle: "Recieve Quests and get Rewards!"
+			tasks: [{
+				id: "097AD25B52AF80C7"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&bWaystones&r are a great way to teleport between locations, for a small XP cost. "
+				""
+				"They can be difficult to craft though, requiring both Mechanical Crafters and the Enchanting Apparatus!"
+			]
+			id: "24A2AE4C4974B805"
+			min_required_tasks: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B9FE70F51730843"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "78611259EA3CE748"
+					item: {
+						Count: 1
+						id: "ars_nouveau:warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Teleportation!"
+			tasks: [
+				{
+					id: "7120BF6CD064ABCB"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "422FC169445D0E52"
+					item: "waystones:mossy_waystone"
+					type: "item"
+				}
+				{
+					id: "3DF8D988E5293620"
+					item: "waystones:sandy_waystone"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: ["You'll be doing lots of exploring in this pack. A &bBottle of Dimensional Tears&r is a quick way to warp back to your spawn (or base). Obtain one by using an &bEmpty Bottle&r on a block of &bCrying Obsidian&r or a filled &bRespawn Anchor&r."]
+			id: "469130521D081BB9"
+			rewards: [
+				{
+					id: "3EBD324DB3006B4F"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "22A7014C1D76C647"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Return home!"
+			tasks: [{
+				id: "4FE57DB16B9686DF"
+				item: {
+					Count: 1
+					id: "spelunkery:portal_fluid_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&bSpyglasses&r have been given some much needed improvements. They can be stored in the Belt Slot in your inventory and as long as you are carrying one, they can be accessed at anytime by pressing &d\"Z\"&r."
+				""
+				"Additionally, you can scope further in or out with a mousewheel!"
+			]
+			id: "45B5E234D1A7DC39"
+			rewards: [{
+				id: "676FBEE0A52A3BA1"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "Zoom in!"
+			tasks: [{
+				id: "39E8DD1376A38E38"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["&bBedrolls&r let you sleep without setting your spawnpoint! They can be dyed just like beds."]
+			id: "405E55B7AF63B20A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76798126DAA5FD03"
+				table_id: 1030506019370660012L
+				type: "random"
+			}]
+			subtitle: "Home away from home!"
+			tasks: [{
+				id: "6E292FDD97D75AA0"
+				item: "upgrade_aquatic:bedroll"
+				type: "item"
+			}]
+			title: "Bedrolls"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&6Apothic Tomes&r are useful tools that can be used in place of &6Books&r in an &bEnchanting Table.&r They function similiarly to a book, but instead only recieve &dEnchantments&r for a specific piece of equipment. "
+				""
+				"Additionally, &6Tomes of Scrapping&r extract enchantments off of a piece of equipment, storing them as a &6book&r for later use."
+			]
+			id: "59F85A95694F0A7A"
+			rewards: [{
+				count: 3
+				id: "5D0664970C0B83FD"
+				item: "apotheosis:improved_scrap_tome"
+				type: "item"
+			}]
+			subtitle: "Specifiy Enchantments"
+			tasks: [
+				{
+					id: "3D17DC7E79EF88E5"
+					item: "apotheosis:helmet_tome"
+					type: "item"
+				}
+				{
+					id: "391BA95B4E59C54A"
+					item: "apotheosis:chestplate_tome"
+					type: "item"
+				}
+				{
+					id: "2EB99E017B7A2B2C"
+					item: "apotheosis:leggings_tome"
+					type: "item"
+				}
+				{
+					id: "78ED234FC23179AE"
+					item: "apotheosis:boots_tome"
+					type: "item"
+				}
+				{
+					id: "52248617CA2F7563"
+					item: "apotheosis:weapon_tome"
+					type: "item"
+				}
+				{
+					id: "54CDF72BDE1587BE"
+					item: "apotheosis:bow_tome"
+					type: "item"
+				}
+				{
+					id: "3818153BBB48780A"
+					item: "apotheosis:pickaxe_tome"
+					type: "item"
+				}
+				{
+					id: "5DE880912E9DD7ED"
+					item: "apotheosis:fishing_tome"
+					type: "item"
+				}
+				{
+					id: "19F16772F4717781"
+					item: "apotheosis:other_tome"
+					type: "item"
+				}
+			]
+			title: "Apothic Tomes"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"A sluice needs a few things to work. First, it must have a fluid flowing through it. Second, the side of the sluice that the fluid is exiting from must be a grate and not solid (r-click with a pickaxe to do this). Lastly, &ethe fluid must be flowing out AND down from the sluice&r. You can collect by interacting with the sluice. It has 9 slots and acts similar to a chest."
+				""
+				"Only one source block of fluid is needed; the rest can (and probably should) be flowing. Channels can help create longer waterways for aesthetic purposes."
+				""
+				"For recipes in the sluice using both a block and a fluid, &ethrow the block&r into the fluid."
+				""
+				"Unfortunately, only &9Water&r and &cLava&r currently work in the sluice. &5Dimensional Tears&r and &bSpring Water&r do not currently function."
+				""
+				"&eCheck the next page for an image of a possible sluice setup. -->"
+				"{@pagebreak}"
+				""
+				"{image:imcquests:textures/misc/sluice.png width:200 height:200 align:center}"
+			]
+			icon: "spelunkery:stone_sluice"
+			id: "7CB53B29D7C17D98"
+			rewards: [{
+				id: "307406BEC02BD658"
+				item: "spelunkery:wooden_sluice"
+				type: "item"
+			}]
+			subtitle: "Passive-ish resource gathering!"
+			tasks: [{
+				id: "4F49AB789EDF57B2"
+				title: "Sluices"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The &dTransmogrification Table&r can be used to make items have the appearance of other items!"
+				""
+				"It even works on armor!"
+				""
+				"It takes &6Amethyst Shards&r or &6Spinel&r as fuel. It changes the first item to have the appearance of the second item."
+				""
+				"&eNOTE: The &dVoid Fragment&e can be used to make armor invisible. This is great if you want to show off your MC skin!"
+			]
+			id: "732EE130794FBAA6"
+			rewards: [{
+				count: 32
+				id: "01C63BA8D02479EE"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			subtitle: "Change the Appearance of Items"
+			tasks: [
+				{
+					id: "190BB6256C36666E"
+					item: "transmog:transmogrification_table"
+					type: "item"
+				}
+				{
+					id: "4BC47811472A401E"
+					item: "transmog:void_fragment"
+					type: "item"
+				}
+			]
+			title: "Transmog!"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: ["Applying the &b\"Chainsaw\"&r enchantment to an axe will let you chop down an entire tree at once! Breaking one log will automatically harvest anything above it as well on the tree."]
+			id: "6FC0ACDECC489CF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A4D00503CB02EDD"
+				table_id: 3891788239355830357L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "6B370C759E5B4783"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:chainsaw"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Tree-capitator"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "15625425098F66D6"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "373FE2D603910786"
+				title: "Work In Progress"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+	]
+	title: "Tools of the Trade"
+}

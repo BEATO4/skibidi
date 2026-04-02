@@ -1,0 +1,76 @@
+{
+
+	"content": {
+
+		"Wooden Shield": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "shieldexp:wooden_shield",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 500
+		},
+
+		"Iron Shield": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "shieldexp:iron_shield",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"repRequired": 3
+		},
+
+		"Golden Shield": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "shieldexp:golden_shield",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 3000,
+			"repRequired": 5
+		},
+
+		"Diamond Shield": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "shieldexp:diamond_shield",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 6000,
+			"repRequired": 5
+		},
+
+		"Netherite Shield": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "shieldexp:netherite_shield",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+			"repRequired": 10
+		},
+
+		"Paragon Shield": {
+			"type": "item",
+			"rarity": "Legendary",
+			"content": "shieldexp:paragon_shield",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 15000,
+			"repRequired": 10
+		}
+	}
+}

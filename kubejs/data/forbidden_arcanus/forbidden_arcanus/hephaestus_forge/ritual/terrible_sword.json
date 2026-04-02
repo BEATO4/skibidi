@@ -1,0 +1,35 @@
+{
+  "additional_requirements": {
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 10000,
+    "blood": 1000,
+    "experience": 1000,
+    "souls": 500
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "aquamirae:anglers_fang"
+      }
+    },
+    {
+      "amount": 7,
+      "ingredient": {
+        "item": "aquamirae:ship_graveyard_echo"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "iceandfire:dragonsteel_ice_sword"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "aquamirae:terrible_sword"
+    }
+  }
+}

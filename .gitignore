@@ -1,0 +1,50 @@
+# ==========================================
+# .gitignore para tu Modpack de Minecraft
+# ==========================================
+
+# 1. Archivos temporales, registros y volcados
+logs/
+crash-reports/
+.mixin.out/
+hs_err_pid*.log
+
+# 2. Partidas guardadas, capturas y descargas de servidores
+saves/
+screenshots/
+server-resource-packs/
+
+# 3. Configuraciones locales del jugador (Controles, servidores, estado del cliente)
+options.txt
+optionsof.txt
+servers.dat
+
+# 4. Archivos de Caché y estados locales en la raíz (Basados en tu carpeta)
+usercache.json
+usernamecache.json
+welcomescreen_cache.json
+patchouli_data.json
+rhino.local.properties
+observable_announce
+emi.json
+
+# 5. Datos de mods del lado del cliente y mapas
+local/
+xaero/
+XaeroWaypoints_BACKUP*/
+journeymap/
+
+# 6. Archivos de Entornos de Desarrollo / IDEs (IntelliJ, VS Code)
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# 7. Archivos JAR de los mods (OPCIONAL PERO MUY RECOMENDADO)
+# Si quitas el "#" de la siguiente línea, Git ignorará todos los archivos .jar.
+# mods/*.jar
+mods/.connector
+L_Enders_Cataclysm-*.jar
+alexscaves-*.jar
+better-end-*.jar
+Cataclysmic_tunes_V8(Maledictus_update).zip
+Cataclysmic_tunes_V7(scylla_update).zip

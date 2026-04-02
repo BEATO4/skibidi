@@ -1,0 +1,42 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:lava"
+  },
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "irons_spellbooks:cinder_essence"
+    },
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "item": "irons_spellbooks:cinder_essence"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    }
+  ],
+  "output": {
+    "item": "born_in_chaos_v1:potion_of_rampage",
+    "count": 1
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:lava",
+    "amount": 1000
+  },
+  "fluidLevelsConsumed": 2000,
+  "heatRequirement": "heated"
+}

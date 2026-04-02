@@ -1,0 +1,51 @@
+{
+  "additional_requirements": {
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 10000,
+    "blood": 2500,
+    "experience": 5000,
+    "souls": 0
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "born_in_chaos_v1:smoldering_infernal_ember"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:fire_rune"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "traveloptics:pyro_spellweave_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "iceandfire:fire_dragon_blood"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "netherexp:shotgun_fist"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "traveloptics:infernal_devastator"
+    }
+  }
+}

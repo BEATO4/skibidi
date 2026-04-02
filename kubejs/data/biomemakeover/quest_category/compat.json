@@ -1,0 +1,45 @@
+{
+  "weight": 8,
+  "requests": [
+    {
+      "item": "ars_nouveau:sourceberry_bush",
+      "max_count": 12,
+      "points": 1
+    },
+    {
+      "item": "ars_nouveau:source_gem",
+      "max_count": 4,
+      "points": 3
+    },
+    {
+      "item": "iceandfire:wither_shard",
+      "max_count": 6,
+      "points": 2
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber",
+      "max_count": 4,
+      "points": 4
+    },
+    {
+      "item": "ars_nouveau:mendosteen_pod",
+      "max_count": 3,
+      "points": 2
+    },
+    {
+      "item": "ars_nouveau:bastion_pod",
+      "max_count": 3,
+      "points": 2
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod",
+      "max_count": 3,
+      "points": 2
+    },
+    {
+      "item": "ars_nouveau:bombegranate_pod",
+      "max_count": 3,
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "odo",
+    "dcd",
+    " c "
+  ],
+  "reagents": "isis",
+  "key": {
+    "i": {
+      "item": "apotheosis:infused_breath"
+    },
+    "s": {
+      "item": "eidolon:shadow_gem"
+    },
+    "d": {
+      "tag": "iceandfire:scales/dragon"
+    },
+    "g": {
+      "item": "minecraft:diamond"
+    },
+    "o": {
+      "item": "forbidden_arcanus:obsidian_ingot"
+    },
+    "c": {
+      "item": "forbidden_arcanus:draco_arcanus_staff"
+    }
+  },
+  "result": {
+    "item": "knavesneeds:forbidden_arcanus/draco_arcanus/greataxe"
+  }
+}

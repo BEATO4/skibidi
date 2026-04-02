@@ -1,0 +1,22 @@
+{
+  "__comment": "all items that the crystallization enchantment for the galena guantlet can use.",
+  "values": [
+    "#alexscaves:ferromagnetic_items",
+    "alexscaves:desolate_dagger",
+    "minecraft:diamond",
+    "minecraft:quartz",
+    "minecraft:amethyst_shard",
+    "minecraft:diamond_sword",
+    "minecraft:diamond_pickaxe",
+    "minecraft:diamond_axe",
+    "minecraft:diamond_shovel",
+    "minecraft:diamond_hoe",
+    "#simplyswords:diamond_gear",
+    "#integrations:nether_ruby_gear",
+    "betternether:nether_ruby",
+    "betternether:nether_ruby_block",
+    "betternether:nether_ruby_stairs",
+    "betternether:nether_ruby_slab",
+    "quark:pickarang"
+  ]
+}

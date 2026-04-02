@@ -1,0 +1,21 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " f ",
+    "frf",
+    " f "
+  ],
+  "reagents": "ffff",
+  "key": {
+    "f": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "r": {
+      "item": "irons_spellbooks:blank_rune"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:arcane_rune",
+    "count": 1
+  }
+}

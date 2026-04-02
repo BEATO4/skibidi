@@ -1,0 +1,53 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:end_stone",
+    "betterend:endstone_dust",
+    "betterend:brimstone",
+    "betterend:sulphuric_rock",
+    "betterend:flavolite",
+    "betterend:violecite",
+    "betterend:umbralith",
+    "betterend:virid_jadestone",
+    "betterend:azure_jadestone",
+    "betterend:sandy_jadestone",
+    "alexscaves:muck",
+    "alexscaves:abyssmarine",
+    {
+      "id": "alexscaves:galena",
+      "required": false
+    },
+    {
+      "id": "alexscaves:radrock",
+      "required": false
+    },
+    {
+      "id": "alexscaves:limestone",
+      "required": false
+    },
+    {
+      "id": "alexscaves:guanostone",
+      "required": false
+    },
+    {
+      "id": "alexscaves:coprolith",
+      "required": false
+    },
+    {
+      "id": "alexscaves:cake_layer",
+      "required": false
+    },
+    {
+      "id": "alexscaves:block_of_chocolate",
+      "required": false
+    },
+    {
+      "id": "alexscaves:block_of_frosted_chocolate",
+      "required": false
+    },
+    {
+      "id": "quark:permafrost",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "forbidden_arcanus:silver_dragon_scale"
+      }
+    },
+    {
+      "item": {
+        "item": "forbidden_arcanus:silver_dragon_scale"
+      }
+    },
+    {
+      "item": {
+        "item": "forbidden_arcanus:silver_dragon_scale"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_wind_shear"
+}

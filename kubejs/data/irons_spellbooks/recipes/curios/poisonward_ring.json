@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "da ",
+    "aca",
+    " a "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "a": {
+      "item": "create:zinc_ingot"
+    },
+    "d": {
+      "item": "irons_spellbooks:nature_rune"
+    },
+	"c": {
+		"item": "eidolon:basic_ring"
+	},
+    "z": {
+      "item": "alexsmobs:poison_bottle"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:poisonward_ring",
+    "count": 1
+  }
+}

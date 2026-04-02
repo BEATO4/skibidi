@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:amethyst_shard",
+    "minecraft:lapis_lazuli",
+    "iceandfire:sapphire_gem",
+    "forbidden_arcanus:arcane_crystal",
+    "caverns_and_chasms:spinel"
+  ]
+}

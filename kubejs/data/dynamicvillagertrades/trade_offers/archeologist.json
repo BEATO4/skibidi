@@ -1,0 +1,540 @@
+{
+  "profession": "betterarcheology:archeologist",
+  "replace": false,
+  "offers": {
+    "1_novice": {
+      "trades": [
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:minecart",
+            "price": 1,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+          }
+        },
+        {
+          "offer": {
+            "experience": 2,
+            "item": "farmersdelight:canvas",
+            "price": 6,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+          }
+        },
+        {
+          "offer": {
+            "experience": 2,
+            "item": "minecraft:torch",
+            "price": 16,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+          }
+        },
+        {
+          "offer": {
+            "experience": 2,
+            "item": "spelunkery:flint_hammer_and_chisel",
+            "price": 1,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {}
+        }
+      ],
+      "replace": false,
+      "min_trades": 0,
+      "max_trades": 1
+    },
+    "2_apprentice": {
+      "trades": [
+        {
+          "offer": {
+            "experience": 5,
+            "item": "supplementaries:rope",
+            "price": 6,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "spelunkery:rope_ladder",
+            "price": 8,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:lantern",
+            "price": 3,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {}
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:brush",
+            "price": 1,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {}
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "price": 2,
+            "count": 1,
+            "item": "quark:mud_pillar",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {}
+        }
+      ],
+      "replace": false,
+      "min_trades": 0,
+      "max_trades": 1
+    },
+    "3_journeyman": {
+      "trades": [
+        {
+          "offer": {
+            "experience": 25,
+            "item": "alexscaves:cave_codex",
+            "price": 1,
+            "max_uses": 5,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "spelunkery:glowstick",
+            "price": 8,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "price": 2,
+            "count": 1,
+            "item": "quark:carved_mud_bricks",
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {}
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "price": 2,
+            "count": 1,
+            "item": "minecraft:chiseled_sandstone",
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {}
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "price": 2,
+            "count": 1,
+            "item": "minecraft:chiseled_red_sandstone",
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {}
+        }
+      ],
+      "replace": false,
+      "min_trades": 0,
+      "max_trades": 1
+    },
+    "4_expert": {
+      "trades": [
+        {
+          "offer": {
+            "experience": 15,
+            "item": "alexscaves:cave_tablet",
+            "price": 1,
+            "max_uses": 3,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {}
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "price": 3,
+            "count": 4,
+            "item": "spelunkery:dust_bun",
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {}
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "price": 4,
+            "item": "supplementaries:urn",
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {}
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "supplementaries:statue",
+            "price": 1,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {}
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "price": 10,
+            "item": "spelunkery:magnetic_compass",
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {}
+        }
+      ],
+      "replace": false,
+      "min_trades": 0,
+      "max_trades": 1
+    },
+    "5_master": {
+      "trades": [
+      ],
+      "subgroups": {
+        "2_chiseled_bookshelves": {
+          "trades": [
+            {
+              "offer": {
+                "item": "minecraft:angler_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:archer_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:arms_up_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:blade_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:brewer_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:burn_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:danger_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:explorer_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:friend_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:heart_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:heartbreak_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:howl_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:miner_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:mourner_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:plenty_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:prize_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:sheaf_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:shelter_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:skull_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "minecraft:snort_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "alexscaves:dinosaur_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "alexscaves:footprint_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "alexscaves:guardian_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "alexscaves:hero_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            },
+            {
+              "offer": {
+                "item": "upgrade_aquatic:predator_pottery_sherd",
+                "price": 5,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "pottery": 0.3
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        }
+      },
+      "replace": false,
+      "min_trades": 0,
+      "max_trades": 1
+    }
+  }
+}

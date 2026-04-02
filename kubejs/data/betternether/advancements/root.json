@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "welcome": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+    "description": {
+      "translate": "advancements.betternether.root.description"
+    },
+    "icon": {
+      "item": "betternether:cincinnasite_lantern"
+    },
+    "title": {
+      "translate": "advancements.betternether.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "welcome"
+    ]
+  ]
+}

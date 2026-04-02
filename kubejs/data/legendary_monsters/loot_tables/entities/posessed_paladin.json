@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "rune",
+      "rolls": 9,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:ectoplasm"
+
+        }
+      ]
+    }
+  ]
+}

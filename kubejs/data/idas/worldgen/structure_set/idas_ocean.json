@@ -1,0 +1,66 @@
+{
+  "structures": [
+    {
+      "structure": "idas:sunken_ship/sunken_ship",
+      "weight": 1
+    },
+    {
+      "structure": "idas:sunken_ship/sunken_ship_coral",
+      "weight": 1
+    },
+    {
+      "structure": "idas:sunken_ship/sunken_ship_ruins",
+      "weight": 1
+    },
+    {
+      "structure": "idas:iceandfire/sirens_cove",
+      "weight": 1
+    },
+    {
+      "structure": "betterarcheology:underwater_0",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:underwater_1",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:underwater_2",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:underwater_3",
+      "weight": 3
+    },
+    {
+      "structure": "feur_extension_fossil:fossil_baby_fish",
+      "weight": 2
+    },
+    {
+      "structure": "feur_extension_fossil:fossil_bone_fish",
+      "weight": 2
+    },
+    {
+      "structure": "feur_extension_fossil:fossil_guardian",
+      "weight": 2
+    },
+    {
+      "structure": "feur_extension_fossil:fossil_fish",
+      "weight": 2
+    },
+    {
+      "structure": "feur_extension_fossil:fossil_hand",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 169480681,
+    "spacing": 25,
+    "separation": 20,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 3,
+      "other_set": "#idas:ocean_avoid"
+    }
+  }
+}

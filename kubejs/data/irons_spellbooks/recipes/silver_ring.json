@@ -1,0 +1,24 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " a ",
+    "aca",
+    " a "
+  ],
+  "reagents": "    ",
+  "key": {
+    "a": {
+      "item": "oreganized:silver_ingot"
+    },
+	"c": {
+		"item": "eidolon:basic_ring"
+	},
+    "z": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:silver_ring",
+    "count": 1
+  }
+}

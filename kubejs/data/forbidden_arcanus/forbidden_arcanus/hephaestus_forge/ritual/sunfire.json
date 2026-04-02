@@ -1,0 +1,71 @@
+{
+  "additional_requirements": {
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 10000,
+    "blood": 0,
+    "experience": 5000,
+    "souls": 0
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "iceandfire:dragonsteel_fire_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "spelunkery:orange_glowstick"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:smelter_prism"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:smelter_prism"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "spelunkery:orange_glowstick"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:righteous_relic"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:sunfire"
+    }
+  }
+}

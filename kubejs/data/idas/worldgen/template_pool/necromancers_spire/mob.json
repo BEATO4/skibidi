@@ -1,0 +1,15 @@
+{
+  "name": "idas:necromancers_spire/mob",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_necromancer",
+        "processors": "idas:archmages_tower_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    }
+  ]
+}

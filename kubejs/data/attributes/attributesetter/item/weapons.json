@@ -1,0 +1,16 @@
+{
+  "cataclysm:meat_shredder": [
+    {
+      "attribute": "oreganized:kinetic_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "cataclysm:the_incinerator": [
+    {
+      "attribute": "oreganized:kinetic_damage",
+      "value": 5,
+      "operation": "ADDITION"
+    }
+  ]
+}

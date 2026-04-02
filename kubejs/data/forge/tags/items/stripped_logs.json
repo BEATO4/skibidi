@@ -1,0 +1,81 @@
+{
+  "replace": false,
+  "values": [
+    "atmospheric:stripped_laurel_log",
+    "atmospheric:stripped_laurel_wood",
+
+    "autumnity:stripped_maple_log",
+    "autumnity:stripped_maple_wood",
+
+    "caverns_and_chasms:stripped_azalea_log",
+    "caverns_and_chasms:stripped_azalea_wood",
+
+    "environmental:stripped_willow_log",
+    "environmental:stripped_willow_wood",
+    "environmental:stripped_plum_log",
+    "environmental:stripped_plum_wood",
+    "environmental:stripped_pine_log",
+    "environmental:stripped_pine_wood",
+
+    "upgrade_aquatic:stripped_driftwood_log",
+    "upgrade_aquatic:stripped_driftwood",
+    "upgrade_aquatic:stripped_river_log",
+    "upgrade_aquatic:stripped_river_wood",
+
+    "betternether:stalagnate_stripped_log",
+    "betternether:stalagnate_stripped_bark",
+    "betternether:willow_stripped_log",
+    "betternether:willow_stripped_bark",
+    "betternether:wart_stripped_log",
+    "betternether:wart_stripped_bark",
+    "betternether:rubeus_stripped_log",
+    "betternether:rubeus_stripped_bark",
+    "betternether:mushroom_fir_stripped_log",
+    "betternether:mushroom_fir_stripped_bark",
+    "betternether:anchor_tree_stripped_log",
+    "betternether:anchor_tree_stripped_bark",
+    "betternether:nether_sakura_stripped_log",
+    "betternether:nether_sakura_stripped_bark",
+
+    "betterend:mossy_glowshroom_stripped_log",
+    "betterend:mossy_glowshroom_stripped_bark",
+    "betterend:pythadendron_stripped_log",
+    "betterend:pythadendron_stripped_bark",
+    "betterend:end_lotus_stripped_log",
+    "betterend:end_lotus_stripped_bark",
+    "betterend:lacugrove_stripped_log",
+    "betterend:lacugrove_stripped_bark",
+    "betterend:dragon_tree_stripped_log",
+    "betterend:dragon_tree_stripped_bark",
+    "betterend:tenanea_stripped_log",
+    "betterend:tenanea_stripped_bark",
+    "betterend:helix_tree_stripped_log",
+    "betterend:helix_tree_stripped_bark",
+    "betterend:umbrella_tree_stripped_log",
+    "betterend:umbrella_tree_stripped_bark",
+    "betterend:jellyshroom_stripped_log",
+    "betterend:jellyshroom_stripped_bark",
+    "betterend:lucernia_stripped_log",
+    "betterend:lucernia_stripped_bark",
+
+    "mynethersdelight:stripped_powdery_block",
+
+    "netherexp:stripped_smokestalk_block",
+    "netherexp:stripped_claret_stem",
+    "netherexp:stripped_claret_hyphae",
+
+    "hexerei:stripped_mahogany_log",
+    "hexerei:stripped_mahogany_wood",
+    "hexerei:stripped_willow_log",
+    "hexerei:stripped_willow_wood",
+    "hexerei:stripped_witch_hazel_log",
+    "hexerei:stripped_witch_hazel_wood",
+
+    "eidolon:stripped_illwood_log",
+    "eidolon:stripped_illwood_bark",
+
+    "forbidden_arcanus:stripped_aurum_log",
+    "forbidden_arcanus:stripped_aurum_wood"
+
+  ]
+}

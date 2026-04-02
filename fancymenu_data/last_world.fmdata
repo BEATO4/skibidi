@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/josti/AppData/Roaming/PrismLauncher/instances/Integrated MC 3/minecraft/saves/mortal - Copy
+}
+

@@ -1,0 +1,8 @@
+{
+  "type": "forbidden_arcanus:simple_item",
+  "amount": 50,
+  "essence_type": "souls",
+  "item": {
+    "item": "forbidden_arcanus:enchanted_soul"
+  }
+}

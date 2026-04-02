@@ -1,0 +1,17 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:raw_iron",
+    "minecraft:raw_copper",
+    "minecraft:raw_gold",
+    "oreganized:raw_lead",
+    "oreganized:raw_silver",
+    "spelunkery:raw_magnetite",
+    "spelunkery:rough_cinnabar",
+    "spelunkery:rough_emerald",
+    "spelunkery:rough_lazurite",
+    "spelunkery:rough_diamond",
+    "rubinated_nether:rough_ruby",
+    "forbidden_arcanus:arcane_crystal"
+  ]
+}

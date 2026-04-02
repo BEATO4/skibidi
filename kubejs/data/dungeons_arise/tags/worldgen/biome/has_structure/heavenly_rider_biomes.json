@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "#integrated_api:collections/end_voids",
+      "required": false
+    }
+  ]
+}

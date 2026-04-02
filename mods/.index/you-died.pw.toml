@@ -1,0 +1,16 @@
+filename = 'YouDied-1.20-3.0.0.17-forge.jar'
+name = 'You Died'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'db538ff9015c58d481d7d9fe1bef60f6e0c59697'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4574925
+project-id = 582464

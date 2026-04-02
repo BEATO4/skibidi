@@ -1,0 +1,22 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [
+		{
+			"item": "oreganized:silver_ingot"
+		},
+		{
+			"item": "minecraft:stick"
+		},
+		{
+			"tag": "forge:feathers"
+		}
+	],
+	"result": {
+		"item": "caverns_and_chasms:large_arrow",
+		"count": 6
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [
+		{
+			"item": "cataclysm:void_jaw"
+		},
+		{
+			"item": "minecraft:stick"
+		},
+		{
+			"item": "minecraft:glostone_dust"
+		}
+	],
+	"result": {
+		"item": "cataclysm:void_scatter_arrow",
+		"count": 4
+	}
+}

@@ -1,0 +1,82 @@
+{
+  "irons_spellbooks:evoker_spell_book": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 100,
+      "operation": "BASE",
+      "slot": "curio:spellbook"
+    }
+  ],
+  "irons_spellbooks:netherite_spell_book": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 100,
+      "operation": "BASE",
+      "slot": "curio:spellbook"
+    }
+  ],
+  "irons_spellbooks:necronomicon_spell_book": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 100,
+      "operation": "BASE",
+      "slot": "curio:spellbook"
+    }
+  ],
+  "irons_spellbooks:druidic_spell_book": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 100,
+      "operation": "BASE",
+      "slot": "curio:spellbook"
+    }
+  ],
+  "irons_spellbooks:dragonskin_spell_book": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 100,
+      "operation": "BASE",
+      "slot": "curio:spellbook"
+    }
+  ],
+  "irons_spellbooks:villager_spell_book": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 100,
+      "operation": "BASE",
+      "slot": "curio:spellbook"
+    }
+  ],
+  "irons_spellbooks:blaze_spell_book": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 100,
+      "operation": "BASE",
+      "slot": "curio:spellbook"
+    }
+  ],
+  "irons_spellbooks:diamond_spell_book": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 50,
+      "operation": "BASE",
+      "slot": "curio:spellbook"
+    }
+  ],
+  "irons_spellbooks:rotten_spell_book": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 50,
+      "operation": "BASE",
+      "slot": "curio:spellbook"
+    }
+  ],
+  "ice_and_fire_spellbooks:dragonmancers_oathbook": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 175,
+      "operation": "BASE",
+      "slot": "curio:spellbook"
+    }
+  ]
+}

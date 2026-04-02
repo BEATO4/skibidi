@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:prismarine_crystals"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "forbidden_arcanus:arcane_crystal"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:prismarine_crystals"
+        },
+        {
+          "amount": 25,
+          "fluid": "create_enchantment_industry:hyper_experience",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:prismarine_crystals"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:prismarine_crystals"
+        },
+        {
+          "item": "iceandfire:pixie_dust"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:prismarine_crystals"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:prismarine_crystals"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "minecraft:prismarine_crystals"
+  }
+}

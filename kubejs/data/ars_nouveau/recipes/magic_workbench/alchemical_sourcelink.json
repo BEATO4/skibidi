@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " a ",
+    "grg",
+    " a "
+  ],
+  "reagents": "bbbb",
+  "key": {
+    "b": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "r": {
+      "item": "minecraft:brewing_stand"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "a": {
+      "item": "ars_nouveau:source_gem"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:alchemical_sourcelink"
+  }
+}

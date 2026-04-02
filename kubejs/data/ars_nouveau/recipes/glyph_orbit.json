@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "spelunkery:magnetic_compass"
+      }
+    },
+    {
+      "item": {
+        "item": "forbidden_arcanus:dark_matter"
+      }
+    },
+    {
+      "item": {
+        "item": "forbidden_arcanus:dark_matter"
+      }
+    },
+    {
+      "item": {
+        "item": "forbidden_arcanus:dark_matter"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_orbit"
+}

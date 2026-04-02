@@ -1,0 +1,265 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_solutions"
+	group: "1D344E867FA1E0AF"
+	id: "53B71A917DB2A7AB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Either craft the chest directly or craft an upgrade and right click a chest!"]
+			id: "2ED8794FF41FFAF2"
+			min_required_tasks: 1
+			rewards: [{
+				id: "771426C2621BC9DC"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			subtitle: "Get started upgrading your chests! "
+			tasks: [
+				{
+					id: "34C412431D848522"
+					item: "ironchest:wood_to_iron_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "2E1D5FB5C81A2B8E"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+			]
+			title: "Iron Chest!"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&bStorage Drawers&r allow players to store many items in one block. Additionally, &6they can hold many upgrades&r to greatly increase storage capacity. "
+				""
+				"- &d\"Right Click\"&r to deposit items."
+				"- &d\"Shift + Right Click\"&r to deposit an entire stack of items."
+				"- &d\"Left Click\"&r to retrieve items."
+				"- &d\"Shift + Right Click\"&r to retrieve an entire stack of items."
+			]
+			id: "01CE43C88220C4E5"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "5B587CDC22E8DBB6"
+					item: "storagedrawers:drawer_key"
+					type: "item"
+				}
+				{
+					id: "7BC39AEA223C696E"
+					item: "storagedrawers:quantify_key"
+					type: "item"
+				}
+				{
+					id: "150BD0AAE1D3A3DA"
+					item: "storagedrawers:shroud_key"
+					type: "item"
+				}
+			]
+			subtitle: "Compound Storage!"
+			tasks: [{
+				consume_items: false
+				id: "6B6F7329A55BFF11"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(storagedrawers:full_drawers)"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Storage Drawers"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01CE43C88220C4E5"]
+			description: ["&bDrawer Controllers&r allow multiple &bStorage Drawers&r to be connected together. Depositing items here will deposit them into the correlating &bStorage Drawer&r, as long as they are connected by other Storage Drawers or &bController Extenders&r."]
+			id: "48E0EF1F2751CF84"
+			rewards: [{
+				count: 3
+				id: "07DA82FD45AE4AA9"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			subtitle: "Connect multiple Drawers!"
+			tasks: [{
+				id: "4D84C6D8F8180FE0"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01CE43C88220C4E5"]
+			description: ["&bUpgrade Templates&r serve as the base for any &bDrawer Upgrade&r you make. Upgrades can massively increase the storage of a &bStorage Drawer&r, but require &bMechanical Crafters&r (see '&5Create&r') to make."]
+			id: "5C9F44FEB159AC17"
+			rewards: [{
+				id: "356C98F82F684282"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D7694F69BD3FF3E"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&bSacks&r have 9 slots to hold items and act as early-game shulker boxes. But don't get too greedy because you will get slowed down if you carry too many. "
+				"&7Note: Sacks cannot go into backpacks."
+			]
+			id: "433FF7C6C0DB737E"
+			subtitle: "Early-Game Shulker Box!"
+			tasks: [{
+				id: "53DF101D62DBB7BC"
+				item: "supplementaries:sack"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Backpacks are a great way to carry more goods. Equip them to your back and open them with &d\"B\"&r."
+				""
+				"They also have a ton of special &bUpgrades&r. Experiment with the ones you like best!"
+			]
+			id: "315C0F3DA890D9D2"
+			rewards: [{
+				id: "2BA242163EF0E0A9"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "44A07882FF88C693"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["315C0F3DA890D9D2"]
+			description: ["Holds 4 rows of items and 2 &bUpgrades&r!"]
+			id: "026063F3AE73F2BD"
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "73256B815AD4D84A"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["026063F3AE73F2BD"]
+			description: ["Holds 5 rows of items and 3 &bUpgrades&r!"]
+			id: "31DB9BD07C46F830"
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "1402112109C0E01B"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["31DB9BD07C46F830"]
+			description: ["Holds 6 rows of items and 4 &bUpgrades&r!"]
+			id: "14DFF8E2F8657B3E"
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "43C99A8560217F13"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["14DFF8E2F8657B3E"]
+			description: ["Holds 7 rows of items and 5 &bUpgrades&r!"]
+			id: "33F13FAB1384A38C"
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "54A93F70CF86E198"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33F13FAB1384A38C"]
+			description: ["Holds 8 rows of items and 6 &bUpgrades&r!"]
+			id: "7E5E6D13C72F18B0"
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "091B8FB37D0F870E"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "1F3478A2758B010B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "25B692F4A1F3DDDA"
+				title: "Work In Progress"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"- The inventory is greatly improved through the &e\"Inventorio\"&r mod!"
+				""
+				"- You now have multiple offhands! This is now called the &bUtility Belt&r. You can scroll through them with a keybind (default &5\"Button 4\"&r)."
+				""
+				"- You also now have a &bTool Belt&r on the right side of your inventory. When breaking blocks, you will automatically swap to the best tool for the job from the toolbelt. &7Items with mending in the toolbelt will be repaired using xp before that xp goes into the experience bar."
+				"&eNote: &aTridents&r can go in the &aSword slot&r and &cShears&r can go in the &cHoe slot&r. "
+				""
+				"- There is a new leggings enchantment called &bDeep Pockets&r. Each level adds &6an additional row&r to your inventory. Additionally, the first level adds 4 extra slots to the &bUtility Belt&r."
+				""
+				"- The capacity for the &bEnder Chest&r has been doubled."
+				"- An &bInfinity Bow&r no longer requires arrows."
+				"- &bTotems&r activate from the &bUtility Belt&r."
+			]
+			icon: "minecraft:bundle"
+			id: "0B3E3B6A5D24C13E"
+			rewards: [{
+				id: "1FA9ED1BB2CECE03"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			subtitle: "Additional inventory slots, better off-hand practicality, and more"
+			tasks: [{
+				id: "7EB99878DBD59269"
+				title: "Inventorio"
+				type: "checkmark"
+			}]
+			title: "Inventorio Management"
+			x: 4.0d
+			y: -1.0d
+		}
+	]
+	title: "Storage Solutions"
+}

@@ -1,0 +1,35 @@
+{
+  "weight": 7,
+  "requests": [
+    {
+      "item": "biomemakeover:moth_scales",
+      "max_count": 3,
+      "points": 10
+    },
+    {
+      "item": "biomemakeover:bulbus_root",
+      "max_count": 3,
+      "points": 10
+    },
+    {
+      "item": "biomemakeover:illunite_shard",
+      "max_count": 2,
+      "points": 12
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal",
+      "max_count": 2,
+      "points": 12
+    },
+    {
+      "item": "forbidden_arcanus:edelwood_planks",
+      "max_count": 5,
+      "points": 6
+    },
+    {
+      "item": "born_in_chaos_v1:dark_metal_ingot",
+      "max_count": 2,
+      "points": 20
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "da ",
+    "aca",
+    " a "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "d": {
+      "item": "irons_spellbooks:fire_rune"
+    },
+	"c": {
+		"item": "eidolon:basic_ring"
+	},
+    "z": {
+      "item": "ars_nouveau:fire_essence"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:fireward_ring",
+    "count": 1
+  }
+}

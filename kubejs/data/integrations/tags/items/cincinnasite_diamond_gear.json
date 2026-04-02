@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "knavesneeds:betternether/cincinnasite_diamond/claymore",
+    "knavesneeds:betternether/cincinnasite_diamond/cutlass",
+    "knavesneeds:betternether/cincinnasite_diamond/glaive",
+    "knavesneeds:betternether/cincinnasite_diamond/katana",
+    "knavesneeds:betternether/cincinnasite_diamond/longsword",
+    "knavesneeds:betternether/cincinnasite_diamond/rapier",
+    "knavesneeds:betternether/cincinnasite_diamond/sai",
+    "knavesneeds:betternether/cincinnasite_diamond/spear",
+    "knavesneeds:betternether/cincinnasite_diamond/twinblade",
+    "knavesneeds:betternether/cincinnasite_diamond/warglaive",
+    "knavesneeds:betternether/cincinnasite_diamond/greathammer",
+    "knavesneeds:betternether/cincinnasite_diamond/greataxe",
+    "knavesneeds:betternether/cincinnasite_diamond/chakram",
+    "knavesneeds:betternether/cincinnasite_diamond/scythe",
+    "knavesneeds:betternether/cincinnasite_diamond/halberd",
+    "betternether:cincinnasite_shovel_diamond",
+    "betternether:cincinnasite_sword_diamond",
+    "betternether:cincinnasite_axe_diamond",
+    "betternether:cincinnasite_pickaxe_diamond",
+    "betternether:cincinnasite_hoe_diamond"
+  ]
+}

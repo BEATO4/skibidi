@@ -1,0 +1,33 @@
+{
+  "name": "integrated_minecraft:fractured_athenaeum_mob_large",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:fractured_athenaeum_mob7",
+        "processors": "integrated_minecraft:fractured_athenaeum_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:fractured_athenaeum_mob8",
+        "processors": "integrated_minecraft:fractured_athenaeum_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:fractured_athenaeum_mob9",
+        "processors": "integrated_minecraft:fractured_athenaeum_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    }
+  ]
+}

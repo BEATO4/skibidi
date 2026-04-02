@@ -1,0 +1,14 @@
+{
+  "structures": [
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 990880770,
+    "spacing": 32,
+    "separation": 16,
+    "exclusion_zone": {
+      "chunk_count": 6,
+      "other_set": "betterarcheology:fossil_sites"
+    }
+  }
+}

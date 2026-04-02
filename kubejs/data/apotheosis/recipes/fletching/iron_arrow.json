@@ -1,0 +1,19 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [
+		{
+			"item": "minecraft:iron_nugget"
+		},
+		{
+			"item": "minecraft:arrow"
+		}
+	],
+	"result": {
+		"item": "archeryexp:iron_arrow",
+		"count": 1
+	}
+}

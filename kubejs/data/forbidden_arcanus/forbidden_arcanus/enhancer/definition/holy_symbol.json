@@ -1,0 +1,9 @@
+{
+  "description": {
+    "hephaestus_forge": {
+      "translate": "item.forbidden_arcanus.enhancer.divine_pact.hephaestus_forge"
+    }
+  },
+  "effects": [],
+  "item": "eidolon:holy_symbol"
+}

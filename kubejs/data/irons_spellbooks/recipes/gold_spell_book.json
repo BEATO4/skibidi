@@ -1,0 +1,34 @@
+{
+  "type": "eidolon:worktable",
+  "pattern":
+  [
+    "gmm",
+    "ghh",
+    "gmm"
+  ],
+  "reagents": "q q ",
+  "key":
+  {
+    "g":
+    {
+      "tag": "forge:ingots/gold"
+    },
+    "m":
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+	"q":
+    {
+      "item": "rubinated_nether:ruby"
+    },
+    "h":
+    {
+      "item": "mynethersdelight:hoglin_hide"
+    }
+  },
+  "result":
+  {
+    "item": "irons_spellbooks:gold_spell_book",
+    "count": 1
+  }
+}

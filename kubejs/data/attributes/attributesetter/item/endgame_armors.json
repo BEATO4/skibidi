@@ -1,0 +1,756 @@
+{
+  "savage_and_ravage:griefer_helmet": [
+    {
+      "attribute": "betterend:generic.blindness_resistance",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "galosphere:illager_resistance",
+      "value": 1.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "biomemakeover:projectile_resistance",
+      "value": 1.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "savage_and_ravage:griefer_chestplate": [
+    {
+      "attribute": "galosphere:illager_resistance",
+      "value": 1.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "biomemakeover:projectile_resistance",
+      "value": 1.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "savage_and_ravage:griefer_leggings": [
+    {
+      "attribute": "galosphere:illager_resistance",
+      "value": 1.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "biomemakeover:projectile_resistance",
+      "value": 1.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "savage_and_ravage:griefer_boots": [
+    {
+      "attribute": "galosphere:illager_resistance",
+      "value": 1.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "biomemakeover:projectile_resistance",
+      "value": 1.5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:mortem_helmet": [
+    {
+      "attribute": "attributeslib:overheal",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:healing_received",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:summon_damage",
+      "value": 0.20,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:mortem_chestplate": [
+    {
+      "attribute": "attributeslib:overheal",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:healing_received",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:summon_damage",
+      "value": 0.20,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:mortem_leggings": [
+    {
+      "attribute": "attributeslib:overheal",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:healing_received",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:summon_damage",
+      "value": 0.20,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:mortem_boots": [
+    {
+      "attribute": "attributeslib:overheal",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:healing_received",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:summon_damage",
+      "value": 0.20,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:tyr_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:arrow_velocity",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:tyr_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:arrow_velocity",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:tyr_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:arrow_velocity",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:tyr_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:arrow_velocity",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "aquamirae:abyssal_heaume": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "aquamirae:abyssal_brigantine": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "aquamirae:abyssal_leggings": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "aquamirae:abyssal_boots": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "aquamirae:terrible_helmet": [
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "aquamirae:terrible_chestplate": [
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "aquamirae:terrible_leggings": [
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "aquamirae:terrible_boots": [
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "born_in_chaos_v1:dark_metal_armor_helmet": [
+    {
+      "attribute": "caverns_and_chasms:weakness_aura",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:crit_damage",
+      "value": 1.5,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "born_in_chaos_v1:dark_metal_armor_chestplate": [
+    {
+      "attribute": "caverns_and_chasms:weakness_aura",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:crit_damage",
+      "value": 2.0,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "born_in_chaos_v1:dark_metal_armor_leggings": [
+    {
+      "attribute": "caverns_and_chasms:weakness_aura",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:crit_damage",
+      "value": 1.5,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "born_in_chaos_v1:dark_metal_armor_boots": [
+    {
+      "attribute": "caverns_and_chasms:weakness_aura",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:crit_damage",
+      "value": 1.5,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:draco_arcanus_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:draco_arcanus_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:draco_arcanus_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "forbidden_arcanus:draco_arcanus_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 3,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "cataclysm:ignitium_helmet": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "caverns_and_chasms:lifesteal",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "cataclysm:ignitium_elytra_chestplate": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "caverns_and_chasms:lifesteal",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "cataclysm:ignitium_chestplate": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "caverns_and_chasms:lifesteal",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "cataclysm:ignitium_leggings": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "caverns_and_chasms:lifesteal",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "cataclysm:ignitium_boots": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "caverns_and_chasms:lifesteal",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "cataclysm:cursium_helmet": [
+    {
+      "attribute": "caverns_and_chasms:magic_protection",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:dodge_chance",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "cataclysm:cursium_chestplate": [
+    {
+      "attribute": "caverns_and_chasms:magic_protection",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:dodge_chance",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "cataclysm:cursium_leggings": [
+    {
+      "attribute": "caverns_and_chasms:magic_protection",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:dodge_chance",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "cataclysm:cursium_boots": [
+    {
+      "attribute": "caverns_and_chasms:magic_protection",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "attributeslib:dodge_chance",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

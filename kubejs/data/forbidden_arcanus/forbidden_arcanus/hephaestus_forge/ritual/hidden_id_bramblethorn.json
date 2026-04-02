@@ -1,0 +1,51 @@
+{
+  "additional_requirements": {
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 250,
+    "blood": 0,
+    "experience": 100,
+    "souls": 0
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:spore_blossom"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "spelunkery:tangle_roots"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "alexsmobs:poison_bottle"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ars_nouveau:earth_essence"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "minecraft:stick"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:bramblethorn"
+    }
+  }
+}

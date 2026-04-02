@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "integrated_minecraft:witches_abode",
+    "integrated_minecraft:ancient_archwood_tree",
+    "ars_nouveau:hunter_wilden_den",
+    "ars_nouveau:guardian_wilden_den",
+    "hexerei:witch_hut",
+    "idas:dark_tower",
+    "irons_spellbooks:evoker_fort",
+    "irons_spellbooks:mangrove_hut",
+    "irons_spellbooks:pyromancer_tower",
+    "irons_spellbooks:mountain_tower"
+  ]
+}

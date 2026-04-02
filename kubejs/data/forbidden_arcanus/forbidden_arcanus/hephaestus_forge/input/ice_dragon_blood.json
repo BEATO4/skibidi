@@ -1,0 +1,8 @@
+{
+  "type": "forbidden_arcanus:simple_item",
+  "amount": 50000,
+  "essence_type": "blood",
+  "item": {
+    "item": "iceandfire:ice_dragon_blood"
+  }
+}

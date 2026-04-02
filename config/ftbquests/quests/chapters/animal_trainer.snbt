@@ -1,0 +1,99 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "animal_trainer"
+	group: "22F79693740523BB"
+	icon: "domesticationinnovation:collar_tag"
+	id: "21A111C19A9FD33D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&bFeeding Troughs&r are storage blocks that animals will automatically eat from. &6With enough food, animals may breed on their own!&r"]
+			id: "3A0718B4AC66E05F"
+			rewards: [
+				{
+					count: 5
+					id: "212649D072693C8D"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "322EDDB37FEFC0B1"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "Automatically feed animals!"
+			tasks: [{
+				id: "0A674BE0D29CEA70"
+				item: "quark:feeding_trough"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"There are many new enchantments in &5Integrated Minecraft.&r Some of these enchantments are for your pets and/or mounts. In order to give them these enchantments, you must first apply them to a &bcollar.&r Then, you can r-click your pet and they will wear the collar with all of the enchantments on it."
+				""
+				"&eNOTE: In addition to allowing for enchantments, collars can also act as a nametag for pets."
+			]
+			id: "3F349443440FE9E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E8B416678702408"
+				table_id: 5073878219004838248L
+				type: "choice"
+			}]
+			subtitle: "Make Your Pet as OP as You!"
+			tasks: [{
+				id: "72F4281DAF1E3E1A"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			title: "Pet Enchantments"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: ["&bCages&r can capture animals that are small enough. May be helpful in starting a farm!"]
+			id: "72E15D3F7E68967C"
+			rewards: [
+				{
+					id: "0A24995FB5983CB1"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65768F7C5234D46A"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "Capture (Small) Mobs!"
+			tasks: [{
+				id: "38E64D23E99C02A5"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "066A1D5D53496042"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "07AE969A44BD0EDE"
+				title: "Work In Progress"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+	]
+	title: "Animal Trainer"
+}

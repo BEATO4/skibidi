@@ -1,0 +1,32 @@
+{
+  "mobs": [
+    {
+      "name": "quark:forgotten",
+      "weight": 5
+    },
+    {
+      "name": "minecraft:spider",
+      "weight": 10
+    },
+    {
+      "name": "minecraft:skeleton",
+      "weight": 15
+    },
+    {
+      "name": "minecraft:zombie",
+      "weight": 15
+    },
+    {
+      "name": "born_in_chaos_v1:decaying_zombie",
+      "weight": 10
+    },
+    {
+      "name": "born_in_chaos_v1:door_knight",
+      "weight": 5
+    },
+    {
+      "name": "born_in_chaos_v1:bonescaller",
+      "weight": 5
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:lava"
+  },
+  "ingredients": [
+    {
+      "item": "iceandfire:wither_shard"
+    },
+    {
+      "item": "iceandfire:wither_shard"
+    },
+    {
+      "item": "iceandfire:wither_shard"
+    },
+    {
+      "item": "iceandfire:wither_shard"
+    },
+    {
+      "item": "netherexp:warped_wart"
+    },
+    {
+      "item": "iceandfire:wither_shard"
+    },
+    {
+      "item": "iceandfire:wither_shard"
+    },
+    {
+      "item": "iceandfire:wither_shard"
+    }
+  ],
+  "output": {
+    "item": "born_in_chaos_v1:elixirof_wither_resistance",
+    "count": 1
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:lava",
+    "amount": 1000
+  },
+  "fluidLevelsConsumed": 2000,
+  "heatRequirement": "heated"
+}

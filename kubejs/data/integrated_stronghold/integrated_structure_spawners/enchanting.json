@@ -1,0 +1,16 @@
+{
+  "mobs": [
+    {
+      "name": "betterend:shadow_walker",
+      "weight": 5
+    },
+    {
+      "name": "ars_nouveau:wilden_stalker",
+      "weight": 10
+    },
+    {
+      "name": "ars_nouveau:wilden_guardian",
+      "weight": 10
+    }
+  ]
+}

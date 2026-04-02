@@ -1,0 +1,44 @@
+{
+  "parent": "dungeons_arise:wda_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "The Infested Temple"
+    },
+    "description": {
+      "translate": "Scary Monsters And Super Creeps"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 300
+  },
+  "criteria": {
+    "in_infested_temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:infested_temple"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_infested_temple"
+    ]
+  ]
+}

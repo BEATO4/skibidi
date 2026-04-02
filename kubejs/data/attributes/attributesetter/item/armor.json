@@ -1,0 +1,1245 @@
+{
+  "mowziesmobs:geomancer_beads": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "mowziesmobs:geomancer_robe": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "mowziesmobs:geomancer_belt": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "mowziesmobs:geomancer_sandals": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:forlorn_harbinger_hood": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:forlorn_harbinger_robe": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:forlorn_harbinger_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:forlorn_harbinger_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:mechanized_exoskeleton_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:mechanized_exoskeleton_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:mechanized_exoskeleton_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:mechanized_exoskeleton_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:deepling_mage_armor_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:deepling_mage_armor_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:deepling_mage_armor_robe": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:deepling_mage_armor_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:cursed_wraithguard_crown": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:cursed_wraithguard_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:cursed_wraithguard_spectral_wrapping": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:cursed_wraithguard_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:abyssal_hide_armor_hat": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:abyssal_hide_armor_robe": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:abyssal_hide_armor_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:abyssal_hide_armor_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:tectonic_crest_armor_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:tectonic_crest_armor_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:tectonic_crest_armor_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "traveloptics:tectonic_crest_armor_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 2,
+      "operation": "ADDITION"
+    }
+  ],
+  "irons_spellbooks:plagued_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:plagued_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:plagued_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:plagued_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:priest_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:priest_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:priest_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:priest_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:shadowwalker_boots": [
+  {
+    "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+    "value": 1,
+    "operation": "ADDITION"
+  },
+  {
+    "attribute": "irons_spellbooks:spell_power",
+    "value": 0,
+    "operation": "BASE"
+  },
+  {
+    "attribute": "irons_spellbooks:ender_spell_power",
+    "value": 0.08,
+    "operation": "MULTIPLY_BASE"
+  }
+],
+  "irons_spellbooks:shadowwalker_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:shadowwalker_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:shadowwalker_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:cryomancer_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:cryomancer_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:cryomancer_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:cryomancer_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:cultist_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:cultist_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:cultist_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:cultist_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:archevoker_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:archevoker_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:archevoker_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:archevoker_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:electromancer_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:electromancer_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:electromancer_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:electromancer_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:pyromancer_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:pyromancer_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:pyromancer_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:pyromancer_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "irons_spellbooks:netherite_mage_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "irons_spellbooks:netherite_mage_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "irons_spellbooks:netherite_chestplate_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "irons_spellbooks:netherite_mage_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "eidolon:warlock_boots": [
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "eidolon:warlock_cloak": [
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "eidolon:warlock_hat": [
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 1,
+      "operation": "ADDITION"
+    }
+  ],
+  "born_in_chaos_v1:nightmare_mantleofthe_night_helmet": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "born_in_chaos_v1:nightmare_mantleofthe_night_leggings": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "born_in_chaos_v1:nightmare_mantleofthe_night_boots": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_ice_helmet": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_ice_chestplate": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_ice_leggings": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_ice_boots": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_fire_helmet": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_fire_chestplate": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_fire_leggings": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_fire_boots": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_lightning_helmet": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_lightning_chestplate": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_lightning_leggings": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "iceandfire:dragonsteel_lightning_boots": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "eidolon:bonelord_helm": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "eidolon:bonelord_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "eidolon:bonelord_greaves": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "caverns_and_chasms:silver_helmet": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 15,
+      "operation": "ADDITION"
+    }
+  ],
+  "caverns_and_chasms:silver_chestplate": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 15,
+      "operation": "ADDITION"
+    }
+  ],
+  "caverns_and_chasms:silver_leggings": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 15,
+      "operation": "ADDITION"
+    }
+  ],
+  "caverns_and_chasms:silver_boots": [
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 15,
+      "operation": "ADDITION"
+    }
+  ],
+  "caverns_and_chasms:sanguine_helmet": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 15,
+      "operation": "ADDITION"
+    }
+  ],
+  "caverns_and_chasms:sanguine_chestplate": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 15,
+      "operation": "ADDITION"
+    }
+  ],
+  "caverns_and_chasms:sanguine_leggings": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 15,
+      "operation": "ADDITION"
+    }
+  ],
+  "caverns_and_chasms:sanguine_boots": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.10,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 15,
+      "operation": "ADDITION"
+    }
+  ],
+  "ars_elemental:fire_hat": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:fire_robes": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:fire_leggings": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:fire_boots": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:air_hat": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:air_robes": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:air_leggings": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:air_boots": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:earth_hat": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:earth_robes": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:earth_leggings": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:earth_boots": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:aqua_hat": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:aqua_robes": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:aqua_leggings": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_elemental:aqua_boots": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_nouveau:battlemage_hood": [
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_nouveau:battlemage_robes": [
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_nouveau:battlemage_leggings": [
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "ars_nouveau:battlemage_boots": [
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

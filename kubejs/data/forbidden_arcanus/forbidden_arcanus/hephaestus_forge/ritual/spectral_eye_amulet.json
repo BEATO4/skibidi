@@ -1,0 +1,75 @@
+{
+  "additional_requirements": {
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 1000,
+    "blood": 5000,
+    "experience": 100,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "supplementaries:lumisene_bottle"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:deorum_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:deorum_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:deorum_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:deorum_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "supplementaries:lumisene_bottle"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "eidolon:basic_amulet"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pure.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "forbidden_arcanus:spectral_eye_amulet"
+    }
+  }
+}

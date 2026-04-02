@@ -1,0 +1,72 @@
+
+{
+	"content": {
+
+        "candle_holders": {
+            "type": "item",
+            "content": "#supplementaries:candle_holders",
+            "amount": {
+                "min": 5,
+                "max": 25
+            },
+            "unitWorth": 600
+        },
+
+        "scoonce": {
+            "type": "item",
+            "content": "supplementaries:sconce",
+            "amount": {
+                "min": 5,
+                "max": 25
+            },
+            "unitWorth": 600
+        },
+
+        "sconce_lever": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "supplementaries:sconce_lever",
+            "amount": {
+                "min": 5,
+                "max": 10
+            },
+            "unitWorth": 900
+        },
+
+        "notice board": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "supplementaries:notice_board",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 200
+        },
+
+        "blackboard": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "supplementaries:blackboard",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1000
+        },
+
+        "antique_ink": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "supplementaries:antique_ink",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 1000,
+            "repRequired": 10
+        }
+
+	}
+
+}

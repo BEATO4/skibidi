@@ -1,0 +1,155 @@
+{
+  "weight": 20,
+  "requests": [
+    {
+      "item": "minecraft:glass_bottle",
+      "max_count": 6,
+      "points": 1
+    },
+    {
+      "item": "hexerei:herb_jar",
+      "max_count": 1,
+      "points": 3
+    },
+    {
+      "item": "hexerei:sage",
+      "max_count": 10,
+      "points": 1
+    },
+    {
+      "item": "minecraft:turtle_egg",
+      "max_count": 1,
+      "points": 20
+    },
+    {
+      "item": "hexerei:seed_mixture",
+      "max_count": 8,
+      "points": 0.5
+    },
+    {
+      "item": "hexerei:mandrake_root",
+      "max_count": 3,
+      "points": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "max_count": 12,
+      "points": 0.5
+    },
+    {
+      "item": "spelunkery:sulfur",
+      "max_count": 12,
+      "points": 0.5
+    },
+    {
+      "item": "spelunkery:salt",
+      "max_count": 12,
+      "points": 0.5
+    },
+    {
+      "item": "minecraft:paper",
+      "max_count": 6,
+      "points": 1
+    },
+    {
+      "item": "minecraft:redstone",
+      "max_count": 12,
+      "points": 1
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "max_count": 5,
+      "points": 1
+    },
+    {
+      "item": "minecraft:fermented_spider_eye",
+      "max_count": 3,
+      "points": 4
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "max_count": 3,
+      "points": 8
+    },
+    {
+      "item": "hexerei:coffer",
+      "max_count": 1,
+      "points": 10
+    },
+    {
+      "item": "minecraft:rabbit_foot",
+      "max_count": 2,
+      "points": 15
+    },
+    {
+      "item": "minecraft:phantom_membrane",
+      "max_count": 2,
+      "points": 7
+    },
+    {
+      "item": "hexerei:moon_dust",
+      "max_count": 2,
+      "points": 9
+    },
+    {
+      "item": "hexerei:candle",
+      "max_count": 2,
+      "points": 3
+    },
+    {
+      "item": "hexerei:infused_fabric",
+      "max_count": 5,
+      "points": 8
+    },
+    {
+      "item": "forbidden_arcanus:dark_rune",
+      "max_count": 2,
+      "points": 7
+    },
+    {
+      "item": "hexerei:courier_letter",
+      "max_count": 2,
+      "points": 10
+    },
+    {
+      "item": "minecraft:bone",
+      "max_count": 10,
+      "points": 0.4
+    },
+    {
+      "item": "forbidden_arcanus:edelwood_bucket",
+      "max_count": 1,
+      "points": 10
+    },
+    {
+      "item": "forbidden_arcanus:darkstone",
+      "max_count": 16,
+      "points": 0.2
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "max_count": 10,
+      "points": 0.4
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "max_count": 10,
+      "points": 0.4
+    },
+    {
+      "item": "minecraft:pumpkin",
+      "max_count": 4,
+      "points": 1
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "max_count": 12,
+      "points": 1
+    },
+    {
+      "item": "hexerei:mixing_cauldron",
+      "max_count": 1,
+      "points": 12
+    }
+  ]
+}

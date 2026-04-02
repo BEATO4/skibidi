@@ -1,0 +1,15 @@
+{
+	"content": {
+
+        "fisherman_obj_flying_fish": {
+            "type": "item",
+            "content": "alexsmobs:flying_fish",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 400,
+            "weightMult": 1.5
+        }
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "create:cut_andesite",
+    "create:cut_andesite_stairs",
+    "create:cut_andesite_wall",
+    "create:polished_cut_andesite",
+    "create:polished_cut_andesite_stairs",
+    "create:polished_cut_andesite_wall",
+    "create:cut_andesite_bricks",
+    "create:cut_andesite_brick_stairs",
+    "create:cut_andesite_brick_wall",
+    "create:small_andesite_bricks",
+    "create:small_andesite_brick_stairs",
+    "create:small_andesite_brick_wall",
+    "create:layered_andesite",
+    "create:andesite_pillar",
+    "minecraft:andesite",
+    "minecraft:andesite_stairs",
+    "minecraft:andesite_wall",
+    "minecraft:polished_andesite",
+    "quark:andesite_bricks",
+    "quark:chiseled_andesite_bricks",
+    "quark:andesite_pillar",
+    "quark:andesite_bricks_wall",
+    "quark:andesite_bricks_stairs",
+    "minecraft:polished_andesite_stairs"
+  ]
+}

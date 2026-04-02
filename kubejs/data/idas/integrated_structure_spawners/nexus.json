@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "iceandfire:ghost",
+      "weight": 5
+    },
+    {
+      "name": "betterend:shadow_walker",
+      "weight": 15
+    }
+  ]
+}

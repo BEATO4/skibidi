@@ -1,0 +1,39 @@
+{
+  "additional_requirements": {
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 20000,
+    "blood": 0,
+    "experience": 7500,
+    "souls": 100
+  },
+  "inputs": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "betterend:eternal_crystal"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "betterend:ender_dust"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "knavesneeds:betterend/aeternium/twinblade"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:stars_edge"
+    }
+  }
+}

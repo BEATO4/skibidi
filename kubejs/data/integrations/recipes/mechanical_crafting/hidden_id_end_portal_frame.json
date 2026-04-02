@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "E": {
+      "item": "betterend:eternal_crystal"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "spelunkery:portal_fluid_bottle"
+    },
+    "N": {
+      "item": "minecraft:end_stone"
+    },
+    "A": {
+      "item": "betterend:aeternium_forged_plate"
+    }
+  },
+  "pattern": [
+    "AAAAA",
+    "SBEBS",
+    "AENEA"
+  ],
+  "result": {
+    "item": "minecraft:end_portal_frame",
+    "count": 3
+  }
+}

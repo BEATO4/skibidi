@@ -1,0 +1,46 @@
+GENERAL TODO
+-Eidolon ponder
+-Sluice ponder
+-FA Gavel Compat mod
+-Winter wagon krampus summong ritual quest
+-More eidolon summon rituals
+-hex woodcutting to sawmills
+-Vanilla mobs in other nether biomes
+dread citadel lock breakable
+boss summoning to black market
+FABRIC STRONGHOLD BROKEN
+cataclysm to modritnh
+
+1.5.1 TODO
+-CHECK STRUCT CREDITS CONFIG
+APPLY DEFAULT RECOURCE PACKS
+
+broken labby loot??
+
+
+
+
+
+
+-DEFAULT CONFIG RESET
+OVERRIDE RESOURCE PACKS
+
+ADD optiGUI with colorful cont update
+armor modifiers overiding?
+
+ADD NEW STRUCTURES TO MAPS
+
+TEST LOOTR TEXTURE
+
+STRUCTURE CREDIT SERVER SIDE
+COPPER BOX/CHEST
+
+AIR BALLOON??
+DRAGON NESTS
+SNIFFER DEN
+
+unqiue weapon ideas:
+-potato weapon create
+-wrench create weapon
+-one for each cave
+-blood hex one

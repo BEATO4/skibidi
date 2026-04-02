@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "eie",
+    "ipi",
+    "eie"
+  ],
+  "reagents": "mrmr",
+  "key": {
+    "e": {
+      "item": "oreganized:electrum_ingot"
+    },
+    "i": {
+      "item": "eidolon:gold_inlay"
+    },
+    "p": {
+      "item": "iceandfire:pixie_dust"
+    },
+    "m": {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    "r": {
+      "item": "forbidden_arcanus:rune"
+    }
+  },
+  "result": {
+    "item": "eidolon:holy_symbol"
+  }
+}

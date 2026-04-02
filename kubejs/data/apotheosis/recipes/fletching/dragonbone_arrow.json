@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "iceandfire:wither_shard"
+		},
+		{
+			"item": "minecraft:bone"
+		},
+		{
+			"item": "iceandfire:dragonbone"
+		}
+	],
+	"result": {
+		"item": "iceandfire:dragonbone_arrow",
+		"count": 12
+	}
+}

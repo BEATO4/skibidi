@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "   ",
+    "IAI",
+    "   "
+  ],
+  "reagents": "REEE",
+  "key": {
+    "A": {
+      "item": "ice_and_fire_spellbooks:fire_dragon_priest_helmet"
+    },
+    "I": {
+      "item": "traveloptics:darkness_cloth"
+    },
+    "R": {
+      "item": "irons_spellbooks:blood_rune"
+    },
+    "E": {
+      "item": "alexscaves:dark_tatters"
+    }
+  },
+  "result": {
+    "item": "traveloptics:forlorn_harbinger_hood",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:villager",
+    "guardvillagers:guard",
+    "minecraft:wandering_trader",
+    "minecraft:vindicator",
+    "minecraft:evoker",
+    "minecraft:pillager",
+    "illagerinvasion:provoker",
+    "illagerinvasion:basher",
+    "illagerinvasion:sorcerer",
+    "illagerinvasion:archivist",
+    "illagerinvasion:inquisitor",
+    "illagerinvasion:marauder",
+    "illagerinvasion:invoker",
+    "illagerinvasion:alchemist",
+    "illagerinvasion:firecaller",
+    "illagerinvasion:necromancer",
+    "minecraft:illusioner",
+    "alexsmobs:centipede_head"
+]
+}

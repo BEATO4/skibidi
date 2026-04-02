@@ -1,0 +1,7 @@
+{
+  "golemPressesButtons": true,
+  "buttonPressChancePercent": 5,
+  "golemTransportStackSize": 16,
+  "weatheringTickFrom": 504000,
+  "weatheringTickTo": 552000
+}

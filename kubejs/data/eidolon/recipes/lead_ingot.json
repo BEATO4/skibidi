@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "oreganized:lead_nugget"
+    }
+  },
+  "result": {
+    "item": "eidolon:lead_ingot"
+  }
+}

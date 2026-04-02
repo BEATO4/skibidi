@@ -1,0 +1,10 @@
+{
+  "values": [
+    "spelunkery:diamond_grindstone",
+    "minecraft:spawner",
+    "iceandfire:dread_spawner",
+    "ars_additions:source_spawner",
+    "#waystones:waystones",
+    "#waystones:sharestone"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+	"content": {
+
+		"all_objs_primary_currency": {
+			"type": "item",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 1000,
+			"weightMult": 3
+		},
+
+		"Music Discs": {
+            "name": "Music Discs",
+            "type": "item_tag",
+            "rarity": "LEGENDARY",
+            "content": "minecraft:music_discs",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+			"unitWorth": 4000
+        },
+
+		"blaze": {
+			"type": "entity",
+			"timeMult": 4.0,
+			"rarity": "EPIC",
+			"content": "minecraft:blaze",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 1750,
+			"weightMult": 0.2
+		},
+
+		"cavespider": {
+			"type": "entity",
+			"timeMult": 4.0,
+			"rarity": "UNCOMMON",
+			"content": "minecraft:cave_spider",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 1200,
+			"weightMult": 0.1
+		},
+
+		"skeleton": {
+			"type": "entity",
+			"timeMult": 2.0,
+			"content": "minecraft:skeleton",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 350,
+			"weightMult": 0.2
+		},
+		
+		"pillager": {
+			"type": "entity",
+			"rarity": "UNCOMMON",
+			"timeMult": 3.0,
+			"content": "minecraft:pillager",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 1000,
+			"weightMult": 0.2
+		},
+
+		"vindicator": {
+			"type": "entity",
+			"timeMult": 3.0,
+			"rarity": "EPIC",
+			"content": "minecraft:vindicator",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 1500,
+			"weightMult": 0.2
+		},
+
+		"witch": {
+			"type": "entity",
+			"timeMult": 2.0,
+			"rarity": "UNCOMMON",
+			"content": "minecraft:witch",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 1200
+		}
+	}
+}

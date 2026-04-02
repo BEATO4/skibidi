@@ -1,0 +1,919 @@
+{
+  "profession": "minecraft:farmer",
+  "replace": true,
+  "offers": {
+    "1_novice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:wheat",
+            "price": 18,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "wheat": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:cabbage",
+            "price": 12,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "cabbage": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:cabbage",
+            "price": 1,
+            "second_count": 1,
+            "sell_count": 3,
+            "sell_item": "farmersdelight:cabbage_leaf",
+            "max_uses": 10,
+            "type": "minecraft:process_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "processing": 1.0,
+            "cabbage": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:tomato",
+            "price": 18,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "tomato": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:onion",
+            "price": 14,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "onion": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:rice_panicle",
+            "price": 8,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "rice": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:rice_panicle",
+            "price": 1,
+            "second_count": 1,
+            "sell_count": 1,
+            "sell_item": "farmersdelight:rice",
+            "max_uses": 20,
+            "type": "minecraft:process_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "processing": 1.0,
+            "rice": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:potato",
+            "price": 20,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "potato": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:carrot",
+            "price": 18,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "carrot": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:beetroot",
+            "price": 12,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "beetroot": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:bread",
+            "count": 4,
+            "max_uses": 16,
+            "experience": 1,
+            "type": "minecraft:sell_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "wheat": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:tomato_sauce",
+            "price": 4,
+            "max_uses": 16,
+            "experience": 1,
+            "type": "minecraft:sell_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "tomato": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:cooked_rice",
+            "price": 4,
+            "max_uses": 16,
+            "experience": 1,
+            "type": "minecraft:sell_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "tomato": 1.0,
+            "rice": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "2_apprentice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "supplementaries:flax",
+            "price": 8,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "flax": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:pumpkin",
+            "price": 4,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "pumpkin": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:pumpkin",
+            "price": 1,
+            "second_count": 1,
+            "sell_count": 6,
+            "sell_item": "farmersdelight:pumpkin_slice",
+            "max_uses": 20,
+            "type": "minecraft:process_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "processing": 1.0,
+            "pumpkin": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:melon",
+            "price": 4,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "melon": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:melon",
+            "price": 1,
+            "second_count": 1,
+            "sell_count": 6,
+            "sell_item": "minecraft:melon_slice",
+            "max_uses": 20,
+            "type": "minecraft:process_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "processing": 1.0,
+            "melon": 1.0
+          }
+        },
+        {
+          "offer": {
+            "count": 2,
+            "experience": 5,
+            "item": "minecraft:pumpkin_pie",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "pumpkin": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "count": 3,
+            "max_uses": 16,
+            "experience": 5,
+            "item": "minecraft:apple",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "apple": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "price": 3,
+            "max_uses": 16,
+            "experience": 5,
+            "item": "farmersdelight:melon_juice",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "melon": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "price": 3,
+            "max_uses": 16,
+            "experience": 5,
+            "item": "farmersdelight:apple_cider",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "melon": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "price": 3,
+            "max_uses": 16,
+            "experience": 5,
+            "item": "farmersdelight:hot_cocoa",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "melon": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "price": 2,
+            "max_uses": 16,
+            "experience": 5,
+            "item": "farmersdelight:pie_crust",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "wheat": 1.0,
+            "selling": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "3_journeyman": {
+      "trades": [
+        {
+          "offer": {
+            "count": 12,
+            "experience": 10,
+            "item": "minecraft:cookie",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "farmersdelight:straw_bale",
+            "price": 5,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "count": 12,
+            "experience": 10,
+            "item": "farmersdelight:sweet_berry_cookie",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "selling": 1.0,
+            "berry": 1.0
+          }
+        },
+        {
+          "offer": {
+            "count": 12,
+            "experience": 10,
+            "item": "farmersdelight:honey_cookie",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:sweet_berries",
+            "price": 14,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "berry": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:glow_berries",
+            "price": 12,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "berry": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "delightful:salmonberries",
+            "price": 8,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "berry": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "ars_nouveau:sourceberry_bush",
+            "price": 12,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "berry": 1.0,
+            "buying": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "4_expert": {
+      "trades": [
+        {
+          "offer": {
+            "experience": 15,
+            "count": 3,
+            "item": "farmersdelight:cake_slice",
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "cake": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "count": 3,
+            "item": "farmersdelight:apple_pie_slice",
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "cake": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "count": 3,
+            "item": "farmersdelight:sweet_berry_cheesecake_slice",
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "cake": 1.0,
+            "berry": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "count": 3,
+            "item": "farmersdelight:chocolate_pie_slice",
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "cake": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "farmersdelight:organic_compost",
+            "price": 8,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "effect": "minecraft:night_vision",
+            "price": 5,
+            "duration": 100,
+            "experience": 15,
+            "type": "minecraft:sell_suspicious_stew"
+          },
+          "level": "expert",
+          "attributes": {
+            "night_vision": 1.0,
+            "stew": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "effect": "minecraft:strength",
+            "price": 5,
+            "duration": 120,
+            "experience": 15,
+            "type": "minecraft:sell_suspicious_stew"
+          },
+          "level": "expert",
+          "attributes": {
+            "strength": 1.0,
+            "stew": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "effect": "minecraft:regeneration",
+            "price": 5,
+            "duration": 20,
+            "experience": 15,
+            "type": "minecraft:sell_suspicious_stew"
+          },
+          "level": "expert",
+          "attributes": {
+            "regeneration": 1.0,
+            "stew": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "effect": "minecraft:haste",
+            "price": 5,
+            "duration": 120,
+            "experience": 15,
+            "type": "minecraft:sell_suspicious_stew"
+          },
+          "level": "expert",
+          "attributes": {
+            "haste": 1.0,
+            "stew": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "effect": "minecraft:jump_boost",
+            "price": 5,
+            "duration": 160,
+            "experience": 15,
+            "type": "minecraft:sell_suspicious_stew"
+          },
+          "level": "expert",
+          "attributes": {
+            "jump_boost": 1.0,
+            "stew": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "effect": "minecraft:saturation",
+            "price": 5,
+            "duration": 7,
+            "experience": 15,
+            "type": "minecraft:sell_suspicious_stew"
+          },
+          "level": "expert",
+          "attributes": {
+            "saturation": 1.0,
+            "stew": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:cabbage_crate",
+            "price": 1,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "cabbage": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:tomato_crate",
+            "price": 1,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "tomato": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:onion_crate",
+            "price": 1,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "onion": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:rice_bale",
+            "price": 1,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "onion": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "quark:apple_crate",
+            "price": 1,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "apple": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "quark:potato_crate",
+            "price": 2,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "potato": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "quark:carrot_crate",
+            "price": 2,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "carrot": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "quark:beetroot_crate",
+            "price": 1,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "beetroot": 1.0,
+            "buying": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "5_master": {
+      "trades": [
+        {
+          "offer": {
+            "count": 3,
+            "item": "minecraft:golden_carrot",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "carrot": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:brown_mushroom_colony",
+            "price": 1,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "master",
+          "attributes": {
+            "mushroom": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:red_mushroom_colony",
+            "price": 1,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "master",
+          "attributes": {
+            "mushroom": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "count": 3,
+            "experience": 30,
+            "item": "minecraft:golden_apple",
+            "price": 6,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "apple": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "effect": "minecraft:speed",
+            "price": 5,
+            "duration": 120,
+            "experience": 15,
+            "type": "minecraft:sell_suspicious_stew"
+          },
+          "level": "master",
+          "attributes": {
+            "speed": 1.0,
+            "stew": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "effect": "minecraft:haste",
+            "price": 5,
+            "duration": 120,
+            "experience": 15,
+            "type": "minecraft:sell_suspicious_stew"
+          },
+          "level": "master",
+          "attributes": {
+            "haste": 1.0,
+            "stew": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "effect": "alexsmobs:poison_resistance",
+            "price": 5,
+            "duration": 120,
+            "experience": 15,
+            "type": "minecraft:sell_suspicious_stew"
+          },
+          "level": "master",
+          "attributes": {
+            "haste": 1.0,
+            "stew": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "effect": "alexsmobs:soulsteal",
+            "price": 5,
+            "duration": 120,
+            "experience": 15,
+            "type": "minecraft:sell_suspicious_stew"
+          },
+          "level": "master",
+          "attributes": {
+            "haste": 1.0,
+            "stew": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "count": 3,
+            "experience": 30,
+            "item": "minecraft:glistering_melon_slice",
+            "price": 4,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "melon": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "farmersdelight:glow_berry_custard",
+            "price": 4,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "berry": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "farmersdelight:vegetable_soup",
+            "price": 8,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "carrot": 1.0,
+            "beetroot": 1.0,
+            "cabbage": 1.0,
+            "tomato": 1.0,
+            "onion": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "farmersdelight:mixed_salad",
+            "price": 6,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "beetroot": 1.0,
+            "cabbage": 1.0,
+            "tomato": 1.0,
+            "selling": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "farmersdelight:mushroom_rice",
+            "price": 10,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "rice": 1.0,
+            "selling": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    }
+  }
+}

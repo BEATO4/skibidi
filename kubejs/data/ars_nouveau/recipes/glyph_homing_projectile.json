@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "forbidden_arcanus:dark_nether_star"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:manipulation_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:dowsing_rod"
+      }
+    },
+    {
+      "item": {
+        "item": "eidolon:shadow_gem"
+      }
+    }
+  ],
+  "output": "ars_elemental:glyph_homing_projectile"
+}

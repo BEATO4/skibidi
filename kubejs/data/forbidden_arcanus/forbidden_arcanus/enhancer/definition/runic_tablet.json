@@ -1,0 +1,9 @@
+{
+  "description": {
+    "hephaestus_forge": {
+      "translate": "item.forbidden_arcanus.enhancer.runic_tablet.hephaestus_forge"
+    }
+  },
+  "effects": [],
+  "item": "simplyswords:runic_tablet"
+}

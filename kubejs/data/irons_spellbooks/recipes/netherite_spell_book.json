@@ -1,0 +1,35 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "eoe",
+    "ipi",
+    "eqe"
+  ],
+  "reagents": "mrmr",
+  "key": {
+    "e": {
+      "item": "eidolon:wicked_weave"
+    },
+    "i": {
+      "item": "hexerei:blood_bottle"
+    },
+    "p": {
+      "item": "irons_spellbooks:ruined_book"
+    },
+	"o": {
+      "item": "minecraft:netherite_ingot"
+    },
+	"q": {
+      "item": "biomemakeover:lightning_bottle"
+    },
+    "r": {
+      "item": "eidolon:death_essence"
+    },
+    "m": {
+      "item": "forbidden_arcanus:rune"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:netherite_spell_book"
+  }
+}

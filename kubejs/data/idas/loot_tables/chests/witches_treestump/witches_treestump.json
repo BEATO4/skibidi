@@ -1,0 +1,698 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+       {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"Seize one ghast tear, a spider's eye,\n\\\"},
+                {\\\"text\\\":\\\"Add a second fermented, lest you die.\n\\\"},
+                {\\\"text\\\":\\\"Brew it with glowstone dust, bright as the moon,\n\\\"},
+                {\\\"text\\\":\\\"And a golden carrot, harvested soon.\n\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Add dragon's breath, but do not breath in,\n\\\"},
+                {\\\"text\\\":\\\"It is not for the weak, nor the foolhardy kin.\n\\\"},
+                {\\\"text\\\":\\\"A potion of strength, to give you might,\n\\\"},
+                {\\\"text\\\":\\\"And a potion of swiftness, for quickened flight.\n\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Stir it well, with a blaze rod's vigor,\n\\\"},
+                {\\\"text\\\":\\\"An effect you desire, drink to trigger.\n\\\"},
+                {\\\"text\\\":\\\"This brew is not for the faint of heart,\n\\\"},
+                {\\\"text\\\":\\\"But for the sister who seeks true arcane art.\n\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the Witch's Treestump\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Art of the Brew",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+                pages:[
+                    \"[
+                      {\\\"text\\\":\\\"§4§lOn Brewing the Elixir of Rampage\n\\\"},
+                      {\\\"text\\\":\\\"Within these pages lies the secret to creating the Elixir of Rampage, a brew that ignites ferocity in those bold enough to drink it. It's searing might may shred both mind and body if wielded by the unworthy.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"Begin with a heated cauldron. First, add two scoops of Mundabitur Dust, that strange ash of twisted fates. Then a measure of Blaze Powder to fan the embers of inner wrath, followed by Fire Dust dredged from charred chaos.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"Repeat this sequence until all ingredients—Mundabitur Dust, Blaze Powder, and Fire Dust—have blended into a molten, shimmering broth.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"If the heat doesn’t break you, and the fumes don’t blind you, you will hold in your hands the Elixir of Rampage: a vessel of raw, searing power, best sipped with caution.\\\"}
+                    ]\"
+                ],
+                title:Journal,
+                author:CraisinLord,
+                display:{Lore:[\"Found in the Apothecary Abode\"]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Recipe: Elixir of Rampage",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AntiqueInk:1b,
+                pages:[
+                    \"[
+                      {\\\"text\\\":\\\"§4§lOn Brewing the Elixir of Vampirism\n\\\"},
+                      {\\\"text\\\":\\\"Within these pages lies the secret to harnessing vampiric power. The key ingredient is the Lifestealer’s Bone, a relic from an ancient vampire lord who gave his soul to the Lord of Chaos for unimaginable might.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"Legends whisper that this Lifestealer either struck down the Dark Titan or became it, forever bound to undeath and thirsting for blood. To draw forth the essence of his fury, begin by heating a cauldron with molten rock—lava—until it boils with dread intensity.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"Once the cauldron seethes, drop in the Lifestealer Bone. Then pour in blood—bottles upon bottles—to feed the crimson hunger, and finally add a single Seed of Chaos, binding this gruesome brew to otherworldly forces.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"As these elements collide in the churning lava, a dark metamorphosis takes place. The mixture will twist and writhe, forging a crimson draught that grants its drinker vampiric strength and the power to steal life with each strike.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"Yet be warned: the Elixir of Vampirism demands a heavy toll. Only those prepared to embrace eternal hunger, to revel in the taste of mortal essence, should dare to sip this forbidden brew.\\\"}
+                    ]\"
+                ],
+                title:Journal,
+                author:CraisinLord,
+                display:{Lore:[\"Found in the Apothecary Abode\"]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Recipe: Elixir of Vampirism",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AntiqueInk:1b,
+                pages:[
+                    \"[
+                      {\\\"text\\\":\\\"§4§lOn Brewing the Elixir of Wither Resistance\n\\\"},
+                      {\\\"text\\\":\\\"Within these pages, learn to defy one of the most dreadful curses that plague mortal flesh: the Wither.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"Begin by stoking your cauldron with lava’s molten warmth. Once it bubbles with infernal heat, cast in shards of Wither, dark fragments born of corruption and decay.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"These Wither Shards seethe with malevolent energy, their presence threatening to consume any who dare approach. Yet, into this brew we must also place a Warped Wart—an unlikely savior with antidotal properties that tame the vile essence within.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"As the shards swirl in their molten prison and the Warped Wart’s magic takes root, the mixture begins to change. From chaos and corruption emerges a draught that stands against the Wither’s relentless grasp.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"text\\\":\\\"Thus, the Elixir of Wither Resistance is born. A single sip grants resilience against that creeping blight, sparing your bones from the Wither’s inevitable decay. Use it wisely, for defiance of death itself always carries a price.\\\"}
+                    ]\"
+                ],
+                title:Journal,
+                author:CraisinLord,
+                display:{Lore:[\"Found in the Apothecary Abode\"]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Recipe: Elixir of Wither Resistance",
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_poison"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_strength"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_regeneration"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_harming"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_leaping"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:slow_falling"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_healing"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_invisibility"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "hexerei:blood_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "hexerei:herb_jar"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "hexerei:infused_fabric"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:slime_in_a_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:bottled_cloud"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "biomemakeover:lightning_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "biomemakeover:glowshroom_stew"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "biomemakeover:swamp_jives_music_disk"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "hexerei:candle",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:glistering_melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "create:rose_quartz",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:powdered_obsidian",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        }, 
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:brown_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:red_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:warped_fungus",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:crimson_fungus",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:nether_wart",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "netherexp:warped_wart",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "hexerei:seed_mixture",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "hexerei:mandrake_root",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "hexerei:wax_blend",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "forbidden_arcanus:arcane_crystal",
+          "functions": [
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

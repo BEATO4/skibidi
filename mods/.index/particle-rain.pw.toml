@@ -1,0 +1,17 @@
+filename = 'particlerain-4.0.0-beta.5+1.20.1-forge.jar'
+name = 'Particle Rain'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'v4-beta.5 for 1.20.1-forge'
+
+[download]
+hash = 'f0776c78f8ef74b34137ce3acb5ce229a8152d3b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7378848
+project-id = 421897

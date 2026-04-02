@@ -1,0 +1,28 @@
+{
+	"type": "sophisticatedbackpacks:backpack_upgrade",
+	"conditions": [
+	  {
+		"itemRegistryName": "sophisticatedbackpacks:gold_backpack",
+		"type": "sophisticatedcore:item_enabled"
+	  }
+	],
+	"pattern": [
+	  "DAD",
+	  "ABA",
+	  "DAD"
+	],
+	"key": {
+	    "A": {
+		"item": "mynethersdelight:hoglin_hide"
+	  },
+		"D": {
+		"item": "minecraft:gold_block"
+	  },
+	  "B": {
+		"item": "sophisticatedbackpacks:iron_backpack"
+	  }
+	},
+	"result": {
+	  "item": "sophisticatedbackpacks:gold_backpack"
+	}
+  }

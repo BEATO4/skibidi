@@ -1,0 +1,133 @@
+
+{
+	"content": {
+
+
+        "ench_book_efficacy1": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:efficiency\"}]}"
+        },
+
+        "ench_book_efficacy2": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "repRequired": 3,
+            "unitWorth": 3000,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:efficiency\"}]}"
+        },
+
+        "ench_book_efficacy3": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000,
+            "repRequired": 6,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:efficiency\"}]}"
+        },
+
+        "ench_book_efficacy4": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "repRequired": 10,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:4s,id:\"minecraft:efficiency\"}]}"
+        },
+
+        "ench_book_efficacy5": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 15000,
+            "repRequired": 15,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:efficiency\"}]}"
+        },
+
+        "ench_book_fortune1": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6500,
+            "repRequired": 10,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:fortune\"}]}"
+        },
+
+        "ench_book_fortune2": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 13000,
+            "repRequired": 20,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:fortune\"}]}"
+        },
+
+        "ench_book_fortune3": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 19500,
+            "repRequired": 30,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:fortune\"}]}"
+        },
+
+        "ench_book_silk_touch": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "repRequired": 10,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:silk_touch\"}]}"
+        }
+
+	}
+
+}

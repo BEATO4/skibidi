@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " a ",
+    "aca",
+    " d "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "a": {
+      "item": "oreganized:silver_ingot"
+    },
+    "d": {
+      "item": "forbidden_arcanus:arcane_crystal"
+    },
+	"c": {
+		"item": "eidolon:basic_amulet"
+	},
+    "z": {
+      "item": "ars_nouveau:conjuration_essence"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:concentration_amulet",
+    "count": 1
+  }
+}

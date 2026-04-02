@@ -1,0 +1,46 @@
+{
+  "type": "eidolon:worktable",
+  "pattern":
+  [
+    " Sc",
+    "hra",
+    "cg "
+  ],
+  "reagents": " b b",
+  "key":
+  {
+    "r":
+    {
+      "item": "irons_spellbooks:rotten_spell_book"
+    },
+    "a":
+    {
+      "tag": "integrations:cave_material"
+    },
+    "h":
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    "S":
+    {
+      "item": "hexerei:mindful_trance_blend"
+    },
+    "g":
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "c":
+    {
+      "item": "eidolon:wicked_weave"
+    },
+	"b":
+    {
+      "item": "eidolon:warped_sprouts"
+    }
+  },
+  "result":
+  {
+    "item": "irons_spellbooks:druidic_spell_book",
+    "count": 1
+  }
+}

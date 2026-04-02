@@ -1,0 +1,50 @@
+{
+	"content": {
+		"Glass Shards": {
+            "name": "Glass Shards",
+            "type": "item_tag",
+            "rarity": "COMMON",
+            "content": "quark:shards",
+            "amount": {
+                "min": 10,
+                "max": 50
+            },
+			"unitWorth": 20
+        },
+
+		"Framed Glass": {
+            "name": "Framed Glass",
+            "type": "item_tag",
+            "rarity": "RARE",
+            "content": "quark:framed_glasses",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+			"unitWorth": 400
+        },
+
+		"Framed Glass Panes": {
+            "name": "Framed Glass Panes",
+            "type": "item_tag",
+            "rarity": "RARE",
+            "content": "quark:framed_glass_panes",
+            "amount": {
+                "min": 4,
+                "max": 48
+            },
+			"unitWorth": 200
+        },
+
+		"Pathfinder Quills": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "quark:pathfinders_quill",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+			"unitWorth": 10000
+        }
+	}
+}

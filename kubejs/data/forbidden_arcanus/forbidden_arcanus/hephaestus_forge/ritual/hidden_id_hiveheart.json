@@ -1,0 +1,51 @@
+{
+  "additional_requirements": {
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 0,
+    "blood": 0,
+    "experience": 250,
+    "souls": 0
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:honeycomb_block"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "create:honey_bucket"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ars_nouveau:starbuncle_shards"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:gold_greathammer"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:hiveheart"
+    }
+  }
+}

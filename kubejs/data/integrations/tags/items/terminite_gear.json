@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "knavesneeds:betterend/terminite/claymore",
+    "knavesneeds:betterend/terminite/cutlass",
+    "knavesneeds:betterend/terminite/glaive",
+    "knavesneeds:betterend/terminite/katana",
+    "knavesneeds:betterend/terminite/longsword",
+    "knavesneeds:betterend/terminite/rapier",
+    "knavesneeds:betterend/terminite/sai",
+    "knavesneeds:betterend/terminite/spear",
+    "knavesneeds:betterend/terminite/twinblade",
+    "knavesneeds:betterend/terminite/warglaive",
+    "knavesneeds:betterend/terminite/greathammer",
+    "knavesneeds:betterend/terminite/greataxe",
+    "knavesneeds:betterend/terminite/chakram",
+    "knavesneeds:betterend/terminite/scythe",
+    "knavesneeds:betterend/terminite/halberd",
+    "betterend:terminite_shovel",
+    "betterend:terminite_sword",
+    "betterend:terminite_axe",
+    "betterend:terminite_pickaxe",
+    "betterend:terminite_hoe",
+    "betterend:terminite_helmet",
+    "betterend:terminite_chestplate",
+    "betterend:terminite_leggings",
+    "betterend:terminite_boots"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "iceandfire:dragonforge",
+  "dragon_type": "ice",
+  "cook_time": 250,
+  "input": {
+    "item": "minecraft:glass_bottle"
+  },
+  "blood": {
+    "item": "betterend:ender_dust"
+  },
+  "result": {
+    "item": "minecraft:dragon_breath"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"replace": false,
+
+	"values": [
+	  "alexscaves:raw_scarlet_neodymium",
+	  "alexscaves:raw_azure_neodymium",
+	  "alexscaves:amber",
+	  "alexscaves:uranium",
+	  "alexscaves:pearl",
+	  "alexscaves:occult_gem"
+	]
+  }

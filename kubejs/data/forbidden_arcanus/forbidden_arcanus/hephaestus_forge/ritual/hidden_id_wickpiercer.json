@@ -1,0 +1,51 @@
+{
+  "additional_requirements": {
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 500,
+    "blood": 0,
+    "experience": 0,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:candle"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "betternether:cincinnasite_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "knavesneeds:betternether/cincinnasite/spear"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:wickpiercer"
+    }
+  }
+}

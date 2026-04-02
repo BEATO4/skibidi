@@ -1,0 +1,42 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:lava"
+  },
+  "ingredients": [
+    {
+      "item": "born_in_chaos_v1:sharpened_dark_metal_sword"
+    },
+    {
+      "item": "born_in_chaos_v1:intoxicating_decoction"
+    },
+    {
+      "item": "born_in_chaos_v1:intoxicating_decoction"
+    },
+    {
+      "item": "alexsmobs:poison_bottle"
+    },
+    {
+      "item": "alexsmobs:poison_bottle"
+    },
+    {
+      "item": "born_in_chaos_v1:spider_mandible"
+    },
+    {
+      "item": "born_in_chaos_v1:spider_mandible"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "output": {
+    "item": "born_in_chaos_v1:spider_bite_sword",
+    "count": 1
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:lava",
+    "amount": 1000
+  },
+  "fluidLevelsConsumed": 2000,
+  "heatRequirement": "heated"
+}

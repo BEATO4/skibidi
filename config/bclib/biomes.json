@@ -1,0 +1,24 @@
+{
+  "force_include": {
+    "NETHER": [],
+    "END_LAND": [],
+    "END_VOID": [],
+    "END_CENTER": [],
+    "END_BARRENS": []
+  },
+  "force_exclude": {
+    "NETHER": [
+      "betternether:crimson_glowing_woods",
+      "betternether:gravel_desert",
+      "betternether:sulfuric_bone_reef",
+      "betternether:wart_forest",
+      "betternether:wart_forest_edge",
+      "betternether:soul_plain",
+      "betternether:poor_nether_grasslands",
+      "betternether:old_swampland",
+      "betternether:old_fungiwoods",
+      "betternether:nether_mushroom_forest"
+    ],
+    "END": []
+  }
+}

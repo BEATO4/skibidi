@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "born_in_chaos_v1:dark_metal_block"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "cataclysm:witherite_block"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "born_in_chaos_v1:dark_metal_block"
+        },
+        {
+          "amount": 250,
+          "fluid": "createmetallurgy:molten_netherite",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "born_in_chaos_v1:dark_metal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "born_in_chaos_v1:dark_metal_block"
+        },
+        {
+          "item": "minecraft:nether_star"
+        }
+      ],
+      "results": [
+        {
+          "item": "born_in_chaos_v1:dark_metal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "born_in_chaos_v1:dark_metal_block"
+        },
+        {
+          "item": "forbidden_arcanus:mundabitur_dust"
+        }
+      ],
+      "results": [
+        {
+          "item": "born_in_chaos_v1:dark_metal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "born_in_chaos_v1:dark_metal_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "born_in_chaos_v1:dark_metal_block"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "born_in_chaos_v1:dark_metal_block"
+  }
+}

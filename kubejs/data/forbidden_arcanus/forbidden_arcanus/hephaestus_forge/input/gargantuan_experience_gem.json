@@ -1,0 +1,8 @@
+{
+  "type": "forbidden_arcanus:simple_item",
+  "amount": 1280,
+  "essence_type": "experience",
+  "item": {
+    "item": "ars_technica:gargantuan_experience_gem"
+  }
+}

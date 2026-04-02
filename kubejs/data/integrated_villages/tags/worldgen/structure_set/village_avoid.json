@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:pillager_outposts",
+    "mowziesmobs:frostmaw_spawns",
+    "mowziesmobs:umvuthana_groves"
+  ]
+}

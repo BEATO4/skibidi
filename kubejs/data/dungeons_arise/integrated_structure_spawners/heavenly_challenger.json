@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "cataclysm:endermaptera",
+      "weight": 5
+    },
+    {
+      "name": "minecraft:shulker",
+      "weight": 10
+    }
+  ]
+}

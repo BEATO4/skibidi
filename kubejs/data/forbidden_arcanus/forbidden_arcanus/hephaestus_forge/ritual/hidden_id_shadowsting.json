@@ -1,0 +1,54 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:unholy_symbol"
+    ],
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 3500,
+    "blood": 25000,
+    "experience": 500,
+    "souls": 100
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "alexscaves:shadow_silk"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "alexsmobs:skreecher_soul"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "create_enchantment_industry:hyper_experience_bottle"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "betternether:cincinnasite_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:netherite_rapier"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:shadowsting"
+    }
+  }
+}

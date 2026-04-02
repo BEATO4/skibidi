@@ -1,0 +1,34 @@
+{
+  "type": "eidolon:worktable",
+  "pattern":
+  [
+    "gmm",
+    "ghh",
+    "gmm"
+  ],
+  "reagents": "q q ",
+  "key":
+  {
+    "g":
+    {
+      "tag": "forge:ingots/iron"
+    },
+    "m":
+    {
+      "item": "eidolon:pewter_inlay"
+    },
+	"q":
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    "h":
+    {
+      "item": "minecraft:leather"
+    }
+  },
+  "result":
+  {
+    "item": "irons_spellbooks:iron_spell_book",
+    "count": 1
+  }
+}

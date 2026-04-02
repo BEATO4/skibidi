@@ -1,0 +1,35 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "flf",
+    "sbs",
+    "fxf"
+  ],
+  "reagents": "acac",
+  "key": {
+    "b": {
+      "item": "irons_spellbooks:netherite_spell_book"
+    },
+    "l": {
+      "tag": "integrations:dragonsteel_ingots"
+    },
+    "s": {
+      "tag": "iceandfire:scales/dragon"
+    },
+    "a": {
+      "item": "forbidden_arcanus:dark_rune"
+    },
+    "c": {
+      "item": "apotheosis:infused_breath"
+    },
+    "f": {
+      "item": "hexerei:infused_fabric"
+    },
+    "x": {
+      "item": "eidolon:shadow_gem"
+    }
+  },
+  "result": {
+    "item": "ice_and_fire_spellbooks:dragonmancers_oathbook"
+  }
+}

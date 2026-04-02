@@ -1,0 +1,60 @@
+{
+  "name": "integrated_minecraft:fractured_athenaeum_mob_small",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:fractured_athenaeum_mob1",
+        "processors": "integrated_minecraft:fractured_athenaeum_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:fractured_athenaeum_mob2",
+        "processors": "integrated_minecraft:fractured_athenaeum_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:fractured_athenaeum_mob3",
+        "processors": "integrated_minecraft:fractured_athenaeum_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:fractured_athenaeum_mob4",
+        "processors": "integrated_minecraft:fractured_athenaeum_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:fractured_athenaeum_mob5",
+        "processors": "integrated_minecraft:fractured_athenaeum_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:fractured_athenaeum_mob6",
+        "processors": "integrated_minecraft:fractured_athenaeum_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    }
+  ]
+}

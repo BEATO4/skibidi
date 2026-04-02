@@ -1,0 +1,49 @@
+{
+	"content": {
+
+        "Stymphalian Arrows": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "iceandfire:stymphalian_arrow",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 1500
+        },
+
+        "Dragon Bone Arrows": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "iceandfire:dragonbone_arrow",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 2000
+        },
+
+        "Ampithere Arrows": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "iceandfire:amphithere_arrow",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 1500
+        },
+
+        "Tide Arrows": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "iceandfire:sea_serpent_arrow",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 1500
+        }
+
+	}
+}

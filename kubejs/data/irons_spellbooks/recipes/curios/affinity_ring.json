@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "da ",
+    "aca",
+    " a "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:emerald"
+    },
+	"c": {
+		"item": "eidolon:basic_ring"
+	},
+    "z": {
+      "item": "ars_nouveau:manipulation_essence"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:affinity_ring",
+    "count": 1
+  }
+}

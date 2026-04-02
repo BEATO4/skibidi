@@ -1,0 +1,65 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:rarity": "rare",
+								"minecraft:potion_contents": {
+									"custom_color": 2637097,
+									"custom_effects": [
+										{
+											"id": "minecraft:slowness",
+											"amplifier": 2,
+											"duration": 2222
+										},
+										{
+											"id": "minecraft:mining_fatigue",
+											"amplifier": 2,
+											"duration": 777
+										},
+										{
+											"id": "minecraft:nausea",
+											"amplifier": 2,
+											"duration": 1111
+										},
+										{
+											"id": "minecraft:blindness",
+											"duration": 777
+										},
+										{
+											"id": "minecraft:weakness",
+											"amplifier": 2,
+											"duration": 2222
+										},
+										{
+											"id": "minecraft:poison",
+											"duration": 2222
+										},
+										{
+											"id": "minecraft:unluck",
+											"duration": 2222
+										}
+									]
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Cave Spider Essence",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

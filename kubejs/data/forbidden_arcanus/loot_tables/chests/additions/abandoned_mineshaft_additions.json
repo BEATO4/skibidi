@@ -1,0 +1,57 @@
+{
+	"pools": [
+		{
+			"name": "main_loot",
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "forbidden_arcanus:obsidian_ingot"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 20
+				}
+			]
+		},
+		{
+			"name": "other_loot",
+			"rolls": {
+				"min": 1.0,
+				"max": 2.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+			{
+				"type": "minecraft:item",
+				"name": "forbidden_arcanus:bat_wing",
+				"weight": 10,
+				"functions": [
+					{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 1.0,
+							"max": 2.0,
+							"type": "minecraft:uniform"
+						}
+					}
+				]
+			},
+			{
+				"type": "minecraft:empty",
+				"weight": 30
+			}
+		]
+	}]
+}

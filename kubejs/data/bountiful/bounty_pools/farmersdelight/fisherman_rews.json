@@ -1,0 +1,109 @@
+{
+	"content": {
+
+		"Salmon Roll": {
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "farmersdelight:salmon_roll",
+			"amount": {
+				"min": 2,
+				"max": 10
+			},
+			"unitWorth": 200
+		},
+
+		"Cod Roll": {
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "farmersdelight:cod_roll",
+			"amount": {
+				"min": 2,
+				"max": 10
+			},
+			"unitWorth": 200
+		},
+
+		"Kelp Roll Slice": {
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "farmersdelight:kelp_roll_slice",
+			"amount": {
+				"min": 2,
+				"max": 16
+			},
+			"unitWorth": 100
+		},
+
+		"Kelp Roll": {
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "farmersdelight:kelp_roll",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 150,
+			"repRequired": 2
+		},
+
+		"Fish Stew": {
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "farmersdelight:fish_stew",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 350,
+			"repRequired": 5
+		},
+
+		"Baked Cod Stew": {
+			"type": "item",
+            "rarity": "EPIC",
+			"content": "farmersdelight:baked_cod_stew",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 550,
+			"repRequired": 7
+		},
+
+		"squid ink pasta": {
+			"type": "item",
+            "rarity": "EPIC",
+			"content": "farmersdelight:squid_ink_pasta",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 750,
+			"repRequired": 10
+		},
+
+		"Grilled Salmon": {
+			"type": "item",
+            "rarity": "EPIC",
+			"content": "farmersdelight:grilled_salmon",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 550,
+			"repRequired": 10
+		},
+
+		"Rice Roll Medley": {
+			"type": "item",
+            "rarity": "EPIC",
+			"content": "farmersdelight:grilled_salmon",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 550,
+			"repRequired": 15
+		}
+	}
+}

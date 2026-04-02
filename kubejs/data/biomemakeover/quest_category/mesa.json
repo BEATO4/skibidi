@@ -1,0 +1,30 @@
+{
+  "weight": 4,
+  "requests": [
+    {
+      "item": "biomemakeover:scuttler_tail",
+      "max_count": 2,
+      "points": 30
+    },
+    {
+      "item": "iceandfire:ectoplasm",
+      "max_count": 3,
+      "points": 15
+    },
+    {
+      "item": "biomemakeover:pink_bud",
+      "max_count": 1,
+      "points": 20.0
+    },
+    {
+      "item": "hexerei:crow_flute",
+      "max_count": 1,
+      "points": 15.0
+    },
+    {
+      "item": "hexerei:tallow_bottle",
+      "max_count": 1,
+      "points": 10
+    }
+  ]
+}

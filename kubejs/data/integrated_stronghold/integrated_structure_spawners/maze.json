@@ -1,0 +1,28 @@
+{
+  "mobs": [
+    {
+      "name": "irons_spellbooks:catacombs_zombiecave_enderman",
+      "weight": 10
+    },
+    {
+      "name": "born_in_chaos_v1:fallen_chaos_knight",
+      "weight": 10
+    },
+    {
+      "name": "born_in_chaos_v1:skeleton_thrasher",
+      "weight": 10
+    },
+    {
+      "name": "betterend:shadow_walker",
+      "weight": 15
+    },
+    {
+      "name": "iceandfire:ghost",
+      "weight": 10
+    },
+    {
+      "name": "quark:forgotten",
+      "weight": 10
+    }
+  ]
+}

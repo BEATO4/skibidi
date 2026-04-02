@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "traveloptics:abyssal_spellweave_ingot"
+    },
+    {
+      "item": "forbidden_arcanus:dark_matter"
+    },
+    {
+      "item": "eidolon:wicked_weave"
+    },
+    {
+      "fluid": "oreganized:molten_lead",
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "item": "traveloptics:abyssal_spellweave_ingot",
+      "count": 2
+    }
+  ]
+}

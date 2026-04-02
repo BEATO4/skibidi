@@ -1,0 +1,124 @@
+{
+	"content": {
+		"Sugar Cane Bundle": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:sugar_cane_block",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 400
+		},
+
+		"Cactus Bundle": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:cactus_block",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 400
+		},
+
+		"Golden Apple Crate": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "quark:golden_apple_crate",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 5000
+		},
+
+		"Apple Crate": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:apple_crate",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 1000
+		},
+
+		"Potato Crate": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:potato_crate",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 400
+		},
+
+		"Carrot Crate": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:carrot_crate",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 400
+		},
+
+		"Golden Carrot Crate": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "quark:golden_carrot_crate",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 1000
+		},
+
+		"Beetroot Crate": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:beetroot_crate",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 400
+		},
+
+		"Cocoa Bean Sack": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:cocoa_beans_sack",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 400
+		},
+
+		"Sweet Berry Sack": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:berry_sack",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 400
+		},
+
+		"Glow Berry Sack": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:glowberry_sack",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 400
+		}
+	}
+}

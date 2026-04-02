@@ -1,0 +1,71 @@
+ {
+  "additional_requirements": {
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 1000,
+    "blood": 10000,
+    "experience": 750,
+    "souls": 100
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:dark_nether_star"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:skreecher_soul"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:soul_heart"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "iceandfire:ghost_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "iceandfire:ghost_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "iceandfire:ghost_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:soul_heart"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:skreecher_soul"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:waking_lichblade"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:awakened_lichblade"
+    }
+  }
+}

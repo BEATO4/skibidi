@@ -1,0 +1,70 @@
+{
+  "structures": [
+    {
+      "structure": "idas:labyrinth",
+      "weight": 3
+    },
+    {
+      "structure": "idas:desert_pyramid",
+      "weight": 5
+    },
+    {
+      "structure": "idas:desert_ruins",
+      "weight": 4
+    },
+    {
+      "structure": "idas:dig_site/dig_site_desert",
+      "weight": 3
+    },
+    {
+      "structure": "cataclysm:cursed_pyramid",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:ruined_pyramid",
+      "weight": 3
+    },
+    {
+      "structure": "integrated_minecraft:deathworm_pit",
+      "weight": 4
+    },
+    {
+      "structure": "feur_extension_fossil:bones_tree",
+      "weight": 2
+    },
+    {
+      "structure": "feur_extension_fossil:fossil_arc",
+      "weight": 2
+    },
+    {
+      "structure": "feur_extension_fossil:fossil_chest",
+      "weight": 2
+    },
+    {
+      "structure": "feur_extension_fossil:fossil_dragon",
+      "weight": 2
+    },
+    {
+      "structure": "feur_extension_fossil:fossil_fang",
+      "weight": 2
+    },
+    {
+      "structure": "feur_extension_fossil:fossil_snake",
+      "weight": 2
+    },
+    {
+      "structure": "feur_extension_fossil:small_rex_camp",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "salt": 1694804146,
+    "spacing": 19,
+    "separation": 14,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 3,
+      "other_set": "#idas:desert_avoid"
+    }
+  }
+}

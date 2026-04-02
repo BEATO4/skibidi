@@ -1,0 +1,16 @@
+{
+	"content": {
+
+		"all_obj_cockroach": {
+			"type": "entity",
+			"timeMult": 6.0,
+			"content": "alexsmobs:cockroach",
+			"amount": {
+				"min": 3,
+				"max": 5
+			},
+			"unitWorth": 250,
+			"weightMult": 0.2
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:unholy_symbol"
+    ],
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 0,
+    "blood": 20000,
+    "experience": 2500,
+    "souls": 100
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "born_in_chaos_v1:dark_metal_block"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexscaves:pure_darkness"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "born_in_chaos_v1:seedof_chaos"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:obsidian_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "betterend:aeternium_sword"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "born_in_chaos_v1:darkwarblade"
+    }
+  }
+}

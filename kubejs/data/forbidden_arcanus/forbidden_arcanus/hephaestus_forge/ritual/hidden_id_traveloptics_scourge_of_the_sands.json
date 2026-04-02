@@ -1,0 +1,39 @@
+{
+  "additional_requirements": {
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 9000,
+    "blood": 5000,
+    "experience": 5000,
+    "souls": 500
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:guster_eye"
+      }
+    },
+    {
+      "amount": 7,
+      "ingredient": {
+        "item": "cataclysm:ancient_metal_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "knavesneeds:forbidden_arcanus/reinforced_deorum/glaive"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "traveloptics:scourge_of_the_sands"
+    }
+  }
+}

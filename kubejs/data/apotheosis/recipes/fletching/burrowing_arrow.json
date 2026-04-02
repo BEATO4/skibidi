@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "alexscaves:corrodent_teeth"
+		},
+		{
+			"item": "minecraft:stick"
+		},
+		{
+			"item": "alexscaves:dark_tatters"
+		}
+	],
+	"result": {
+		"item": "alexscaves:burrowing_arrow",
+		"count": 6
+	}
+}

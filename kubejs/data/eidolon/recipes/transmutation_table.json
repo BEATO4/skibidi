@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " d ",
+    "a a",
+    "ooo"
+  ],
+  "reagents": "eccc",
+  "key": {
+    "e": {
+      "item": "betterend:eternal_crystal"
+    },
+    "c": {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    "d": {
+      "item": "forbidden_arcanus:dark_nether_star"
+    },
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "a": {
+      "item": "alexsmobs:farseer_arm"
+    }
+  },
+  "result": {
+    "item": "alexsmobs:transmutation_table"
+  }
+}

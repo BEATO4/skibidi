@@ -1,0 +1,150 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+             "function": "minecraft:set_count",
+             "count": {
+              "min": 5.0,
+              "max": 10.0,
+              "type": "minecraft:uniform"
+             }
+            }
+           ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "functions": [
+            {
+             "function": "minecraft:set_count",
+             "count": {
+              "min": 2.0,
+              "max": 5.0,
+              "type": "minecraft:uniform"
+             }
+            }
+           ],
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:sapphire_gem",
+          "functions": [
+            {
+             "function": "minecraft:set_count",
+             "count": {
+              "min": 2.0,
+              "max": 3.0,
+              "type": "minecraft:uniform"
+             }
+            }
+           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:deathworm_egg_giant",
+          "functions": [
+            {
+             "function": "minecraft:set_count",
+             "count": {
+              "min": 2.0,
+              "max": 3.0,
+              "type": "minecraft:uniform"
+             }
+            }
+           ],
+           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:deathworm_chitin_yellow",
+          "functions": [
+            {
+             "function": "minecraft:set_count",
+             "count": {
+              "min": 2.0,
+              "max": 4.0,
+              "type": "minecraft:uniform"
+             }
+            }
+           ],
+           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:deathworm_chitin_white",
+          "functions": [
+            {
+             "function": "minecraft:set_count",
+             "count": {
+              "min": 2.0,
+              "max": 4.0,
+              "type": "minecraft:uniform"
+             }
+            }
+           ],
+           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:deathworm_chitin_red",
+          "functions": [
+            {
+             "function": "minecraft:set_count",
+             "count": {
+              "min": 2.0,
+              "max": 4.0,
+              "type": "minecraft:uniform"
+             }
+            }
+           ],
+           "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:deathworm_egg",
+          "functions": [
+            {
+             "function": "minecraft:set_count",
+             "count": {
+              "min": 2.0,
+              "max": 3.0,
+              "type": "minecraft:uniform"
+             }
+            }
+           ],
+           "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:artifact_shards"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:villager_fossil_body"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:villager_fossil_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dune_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "atmospheric:petrified_armor_trim_smithing_template"
+        }
+      ]
+    }
+  ]
+}

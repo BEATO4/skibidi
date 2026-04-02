@@ -1,0 +1,11 @@
+{
+	"block": "alexscaves:beholder",
+	"stats": {
+		"maxEterna": 0,
+		"eterna": 0,
+		"quanta": 15,
+		"arcana": 15,
+		"rectification": -10,
+		"clues": 0
+	}
+}

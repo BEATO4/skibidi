@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "da ",
+    "aca",
+    " a "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "d": {
+      "item": "ars_nouveau:source_gem"
+    },
+	"c": {
+		"item": "eidolon:basic_ring"
+	},
+    "z": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:cast_time_ring",
+    "count": 1
+  }
+}

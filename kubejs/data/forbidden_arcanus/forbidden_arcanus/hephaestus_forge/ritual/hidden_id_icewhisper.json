@@ -1,0 +1,54 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:elementarium"
+    ],
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 3000,
+    "blood": 0,
+    "experience": 1500,
+    "souls": 0
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "iceandfire:ice_dragon_blood"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:blue_ice"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "alexscaves:sea_glass_shards"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ars_nouveau:frostaya_pod"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:netherite_halberd"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:icewhisper"
+    }
+  }
+}

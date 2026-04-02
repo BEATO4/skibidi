@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " l ",
+    "lrl",
+    " e "
+  ],
+  "reagents": "afaf",
+  "key": {
+    "r": {
+      "item": "eidolon:basic_amulet"
+    },
+    "l": {
+      "item": "born_in_chaos_v1:spider_mandible"
+    },
+    "e": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "a": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "f": {
+      "item": "alexsmobs:poison_bottle"
+    }
+  },
+  "result": {
+    "item": "traveloptics:sigil_of_the_spider_sorcerer"
+  }
+}

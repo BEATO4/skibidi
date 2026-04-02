@@ -1,0 +1,75 @@
+{
+  "additional_requirements": {
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 300,
+    "blood": 1500,
+    "experience": 0,
+    "souls": 9
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexscaves:uranium"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "spelunkery:sulfur"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:pointed_dripstone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:rocky_shell"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexscaves:uranium"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:rocky_shell"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:pointed_dripstone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "spelunkery:sulfur"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "ars_nouveau:earth_essence"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pure.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "forbidden_arcanus:terrastomp_prism"
+    }
+  }
+}

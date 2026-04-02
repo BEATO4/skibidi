@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " b ",
+    "gog",
+    "ooo"
+  ],
+  "reagents": "didi",
+  "key": {
+    "b": {
+      "item": "ars_nouveau:apprentice_spell_book"
+    },
+    "g": {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    "o": {
+      "item": "forbidden_arcanus:processed_obsidian_block"
+    },
+    "d": {
+      "item": "betterend:eternal_crystal"
+    },
+    "i": {
+      "item": "eidolon:gold_inlay"
+    }
+  },
+  "result": {
+    "item": "eidolon:soul_enchanter"
+  }
+}

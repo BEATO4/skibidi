@@ -1,0 +1,19 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [
+		{
+			"item": "minecraft:gold_nugget"
+		},
+		{
+			"item": "minecraft:arrow"
+		}
+	],
+	"result": {
+		"item": "archeryexp:gold_arrow",
+		"count": 1
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "item": "minecraft:arrow"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:arrow"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_projectile"
+}

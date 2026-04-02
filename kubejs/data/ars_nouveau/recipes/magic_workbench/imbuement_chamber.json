@@ -1,0 +1,23 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "aga",
+    "a a",
+    "aga"
+  ],
+  "reagents": "bbbb",
+  "key": {
+    "b": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "a": {
+      "item": "ars_nouveau:archwood_planks"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:imbuement_chamber"
+  }
+}

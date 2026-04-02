@@ -1,0 +1,137 @@
+{
+	"content": {
+		"pet collar": {
+			"type": "item",
+			"content": "domesticationinnovation:collar_tag",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 2000
+		},
+
+		"ench_book_healthboost1": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"domesticationinnovation:health_boost\"}]}"
+        },
+
+		"ench_book_healthboost2": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"domesticationinnovation:health_boost\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 5
+        },
+
+		"ench_book_healthboost3": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"domesticationinnovation:health_boost\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 10
+        },
+
+		"ench_book_fireproof": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"domesticationinnovation:fireproof\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 10
+        },
+
+		"ench_book_immunityframe1": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"domesticationinnovation:immunity_frame\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 5
+        },
+
+		"ench_book_immunityframe2": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"domesticationinnovation:immunity_frame\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 10
+        },
+
+		"ench_book_immunityframe3": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"domesticationinnovation:immunity_frame\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 15
+        },
+
+		"ench_book_deflecting": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"domesticationinnovation:deflecting\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 10
+        },
+
+		"ench_book_poisonresistance": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"domesticationinnovation:poison_resistance\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 10
+        }
+	}
+}

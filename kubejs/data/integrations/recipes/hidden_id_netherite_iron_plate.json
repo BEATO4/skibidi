@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "quark:rusty_iron_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "chance": 0.25
+    }
+  ]
+}

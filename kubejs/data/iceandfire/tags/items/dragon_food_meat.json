@@ -1,0 +1,56 @@
+{
+  "values": [
+    "minecraft:beef",
+    "minecraft:cooked_beef",
+    "minecraft:chicken",
+    "minecraft:cooked_chicken",
+    "minecraft:mutton",
+    "minecraft:cooked_mutton",
+    "minecraft:porkchop",
+    "minecraft:cooked_porkchop",
+    "alexsdelight:cooked_bison",
+    "alexsdelight:raw_bison",
+    "alexsdelight:cooked_bunfungus",
+    "alexsdelight:raw_bunfungus",
+    "alexsmobs:kangaroo_meat",
+    "alexsmobs:cooked_kangaroo_meat",
+    "alexsdelight:kangaroo_shank",
+    "alexsdelight:bison_mince",
+    "alexsdelight:cooked_loose_moose_rib",
+    "alexsdelight:loose_moose_rib",
+    "alexsmobs:moose_ribs",
+    "alexsmobs:cooked_moose_ribs",
+    {
+      "id": "#forge:raw_mutton",
+      "required": false
+    },
+    {
+      "id": "#forge:raw_pork",
+      "required": false
+    },
+    {
+      "id": "#forge:raw_chicken",
+      "required": false
+    },
+    {
+      "id": "#forge:raw_beef",
+      "required": false
+    },
+    {
+      "id": "#forge:cooked_mutton",
+      "required": false
+    },
+    {
+      "id": "#forge:cooked_pork",
+      "required": false
+    },
+    {
+      "id": "#forge:cooked_chicken",
+      "required": false
+    },
+    {
+      "id": "#forge:cooked_beef",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "additional_requirements": {
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 5000,
+    "blood": 0,
+    "experience": 1000,
+    "souls": 500
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:dark_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "cataclysm:cursium_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:dark_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "cataclysm:cursium_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:dark_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "cataclysm:cursium_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:dark_rune"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "cataclysm:cursium_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "forbidden_arcanus:reinforced_deorum_sword"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "traveloptics:cursed_wraithblade"
+    }
+  }
+}

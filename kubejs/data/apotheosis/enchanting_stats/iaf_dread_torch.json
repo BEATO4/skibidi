@@ -1,0 +1,9 @@
+{
+	"block": "iceandfire:dread_torch",
+	"stats": {
+		"maxEterna": 40.0,
+		"eterna": 0,
+		"quanta": 5,
+		"arcana": 5.0
+	}
+}

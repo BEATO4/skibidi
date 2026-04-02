@@ -1,0 +1,24 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "  E",
+    " g ",
+    "g  "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "E": {
+      "item": "aquamirae:ship_graveyard_echo"
+    },
+	"g": {
+      "item": "irons_spellbooks:frozen_bone"
+    },
+    "z": {
+      "item": "ars_nouveau:water_essence"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:ice_staff",
+    "count": 1
+  }
+}

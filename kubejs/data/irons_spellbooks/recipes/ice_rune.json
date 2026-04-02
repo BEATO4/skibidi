@@ -1,0 +1,21 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " f ",
+    "frf",
+    " f "
+  ],
+  "reagents": "ffff",
+  "key": {
+    "f": {
+      "item": "kubejs:ice_essence"
+    },
+    "r": {
+      "item": "irons_spellbooks:blank_rune"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:ice_rune",
+    "count": 1
+  }
+}

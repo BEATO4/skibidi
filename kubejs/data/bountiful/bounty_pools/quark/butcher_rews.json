@@ -1,0 +1,38 @@
+{
+	"content": {
+
+		"Grate": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:grate",
+			"amount": {
+				"min": 5,
+				"max": 10
+			},
+			"unitWorth": 400
+		},
+		
+		"Bound Rabbit Hide": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:bonded_rabbit_hide",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 600
+		},
+
+		"Bound Leather": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:bonded_leather",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 400
+		}
+		
+	}
+}

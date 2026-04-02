@@ -1,0 +1,646 @@
+{
+  "profession": "minecraft:butcher",
+  "replace": true,
+  "offers": {
+    "1_novice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:chicken",
+            "price": 10,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "buying": 1.0,
+            "chicken": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:leather",
+            "price": 5,
+            "max_uses": 16,
+            "experience": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "selling": 1.0,
+            "beef": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:chicken",
+            "price": 4,
+            "second_count": 1,
+            "sell_count": 3,
+            "sell_item": "farmersdelight:chicken_cuts",
+            "max_uses": 10,
+            "type": "minecraft:process_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "processing": 1.0,
+            "chicken": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:porkchop",
+            "price": 5,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "buying": 1.0,
+            "pork": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:porkchop",
+            "price": 4,
+            "second_count": 1,
+            "sell_count": 3,
+            "sell_item": "farmersdelight:bacon",
+            "max_uses": 10,
+            "type": "minecraft:process_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "processing": 1.0,
+            "pork": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:rabbit",
+            "experience": 5,
+            "price": 3,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "buying": 1.0,
+            "rabbit": 1.0
+          }
+        },
+        {
+          "offer": {
+            "price": 7,
+            "experience": 1,
+            "item": "minecraft:rabbit_stew",
+            "type": "minecraft:sell_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "selling": 1.0,
+            "rabbit": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "price": 3,
+            "item": "farmersdelight:flint_knife",
+            "type": "minecraft:sell_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "tools": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "2_apprentice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:coal",
+            "price": 15,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "coal": 1.0
+          }
+        },
+        {
+          "offer": {
+            "count": 5,
+            "max_uses": 16,
+            "experience": 5,
+            "item": "minecraft:cooked_porkchop",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "selling": 1.0,
+            "pork": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:rabbit_hide",
+            "price": 5,
+            "max_uses": 16,
+            "experience": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "selling": 1.0,
+            "rabbit": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:cooked_rabbit",
+            "price": 2,
+            "max_uses": 16,
+            "experience": 5,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "selling": 1.0,
+            "rabbit": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:cooked_chicken",
+            "price": 4,
+            "max_uses": 16,
+            "experience": 5,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "selling": 1.0,
+            "chicken": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:mutton",
+            "price": 5,
+            "max_uses": 16,
+            "experience": 5,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "buying": 1.0,
+            "mutton": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:mutton",
+            "price": 4,
+            "experience": 5,
+            "second_count": 1,
+            "sell_count": 3,
+            "sell_item": "farmersdelight:mutton_chops",
+            "max_uses": 10,
+            "type": "minecraft:process_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "processing": 1.0,
+            "mutton": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:beef",
+            "price": 5,
+            "max_uses": 16,
+            "experience": 5,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "buying": 1.0,
+            "beef": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:beef",
+            "price": 4,
+            "experience": 5,
+            "second_count": 1,
+            "sell_count": 3,
+            "sell_item": "farmersdelight:minced_beef",
+            "max_uses": 10,
+            "type": "minecraft:process_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "processing": 1.0,
+            "mutton": 1.0
+          }
+        },
+        
+        {
+          "offer": {
+            "count": 10,
+            "max_uses": 16,
+            "experience": 10,
+            "item": "farmersdelight:beef_stew",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "selling": 1.0,
+            "chicken": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "price": 5,
+            "item": "farmersdelight:iron_knife",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "tools": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "3_journeyman": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:cooked_beef",
+            "price": 7,
+            "max_uses": 16,
+            "experience": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "selling": 1.0,
+            "beef": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "quark:bonded_leather",
+            "price": 15,
+            "max_uses": 16,
+            "experience": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "selling": 1.0,
+            "beef": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:cooked_mutton",
+            "price": 6,
+            "max_uses": 16,
+            "experience": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "selling": 1.0,
+            "mutton": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:ham",
+            "price": 3,
+            "max_uses": 16,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "buying": 1.0,
+            "ham": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:moose_ribs",
+            "price": 5,
+            "max_uses": 16,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "buying": 1.0,
+            "moose": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:moose_ribs",
+            "price": 2,
+            "experience": 20,
+            "second_count": 1,
+            "sell_count": 2,
+            "sell_item": "alexsdelight:loose_moose_rib",
+            "max_uses": 10,
+            "type": "minecraft:process_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "processing": 1.0,
+            "moose": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 25,
+            "experience": 25,
+            "price_multiplier": 0.1,
+            "item": "farmersdelight:golden_knife",
+            "base_price": 12,
+            "type": "minecraft:sell_enchanted_tool"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "tools": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:chicken_soup",
+            "price": 10,
+            "max_uses": 16,
+            "experience": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "selling": 1.0,
+            "chicken": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "4_expert": {
+      "trades": [
+        {
+          "offer": {
+            "item": "farmersdelight:smoked_ham",
+            "price": 7,
+            "max_uses": 16,
+            "experience": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "selling": 1.0,
+            "ham": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "quark:bonded_rabbit_hide",
+            "price": 20,
+            "max_uses": 16,
+            "experience": 25,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "selling": 1.0,
+            "rabbit": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:cooked_moose_ribs",
+            "price": 24,
+            "max_uses": 16,
+            "experience": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "selling": 1.0,
+            "exotic": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:kangaroo_meat",
+            "price": 3,
+            "max_uses": 16,
+            "experience": 15,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "buying": 1.0,
+            "exotic": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:kangaroo_meat",
+            "price": 4,
+            "experience": 30,
+            "second_count": 1,
+            "sell_count": 3,
+            "sell_item": "alexsdelight:kangaroo_shank",
+            "max_uses": 10,
+            "type": "minecraft:process_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "processing": 1.0,
+            "exotic": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsdelight:raw_bison",
+            "price": 3,
+            "max_uses": 16,
+            "experience": 15,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "buying": 1.0,
+            "exotic": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsdelight:raw_bison",
+            "price": 4,
+            "experience": 30,
+            "second_count": 1,
+            "sell_count": 3,
+            "sell_item": "alexsdelight:bison_mince",
+            "max_uses": 10,
+            "type": "minecraft:process_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "processing": 1.0,
+            "kangaroo": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 3,
+            "experience": 35,
+            "item": "farmersdelight:diamond_knife",
+            "base_price": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "tools": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 3,
+            "experience": 35,
+            "item": "farmersdelight:roasted_mutton_chops",
+            "base_price": 20,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "selling": 1.0,
+            "mutton": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 1,
+      "max_trades": 1
+    },
+    "5_master": {
+      "trades": [
+        {
+          "offer": {
+            "item": "alexsmobs:cooked_kangaroo_meat",
+            "price": 15,
+            "max_uses": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "selling": 1.0,
+            "exotic": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsdelight:cooked_bison",
+            "price": 20,
+            "max_uses": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "selling": 1.0,
+            "exotic": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexscaves:dinosaur_nugget",
+            "price": 15,
+            "max_uses": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "selling": 1.0,
+            "exotic": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexscaves:slam",
+            "price": 15,
+            "max_uses": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "selling": 1.0,
+            "exotic": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:honey_glazed_ham_block",
+            "price": 30,
+            "max_uses": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "selling": 1.0,
+            "pork": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:shepherds_pie_block",
+            "price": 30,
+            "max_uses": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "selling": 1.0,
+            "mutton": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:roast_chicken_block",
+            "price": 30,
+            "max_uses": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "selling": 1.0,
+            "chicken": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 1,
+      "max_trades": 1
+    }
+  }
+}

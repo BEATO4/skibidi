@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:starbuncle_shards"
+    },
+    {
+      "item": "alexscaves:sea_glass_shards"
+    },
+    {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    {
+      "fluid": "create_enchantment_industry:hyper_experience",
+      "amount": 25
+    }
+  ],
+  "results": [
+    {
+      "item": "betterarcheology:torrent_totem"
+    }
+  ]
+}

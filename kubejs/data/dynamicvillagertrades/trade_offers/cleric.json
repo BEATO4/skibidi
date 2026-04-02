@@ -1,0 +1,669 @@
+{
+  "profession": "minecraft:cleric",
+  "replace": true,
+  "offers": {
+    "1_novice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:rotten_flesh",
+            "price": 16,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "loot": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:spider_eye",
+            "price": 5,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "loot": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:bone",
+            "price": 8,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "loot": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:glass_bottle",
+            "price": 8,
+            "max_uses": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "potions": 1.0
+          }
+        },
+        {
+          "offer": {
+            "count": 2,
+            "experience": 1,
+            "item": "minecraft:redstone",
+            "type": "minecraft:sell_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "potions": 1.0,
+            "material": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 2,
+            "item": "ars_nouveau:sourceberry_bush",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "ars": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "2_apprentice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:gold_ingot",
+            "price": 3,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "material": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:gunpowder",
+            "price": 4,
+            "experience": 10,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "loot": 1.0,
+            "potions": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:phantom_membrane",
+            "price": 2,
+            "experience": 10,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "loot": 1.0,
+            "potions": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:ender_pearl",
+            "price": 1,
+            "experience": 10,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "loot": 1.0,
+            "ender_pearl": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:amethyst_shard",
+            "price": 8,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "material": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:lapis_lazuli",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "material": 1.0,
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "ars_nouveau:magebloom_fiber",
+            "price": 8,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "ars_nouveau:source_berry_roll",
+            "price": 7,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "spelunkery:salt",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "material": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "3_journeyman": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:rabbit_foot",
+            "price": 1,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "material": 1.0,
+            "potions": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "ars_nouveau:blue_archwood_sapling",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "ars_nouveau:red_archwood_sapling",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "ars_nouveau:purple_archwood_sapling",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "ars_nouveau:green_archwood_sapling",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "ars_elemental:yellow_archwood_sapling",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:blaze_powder",
+            "price": 12,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "loot": 1.0,
+            "potions": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "quark:soul_bead",
+            "price": 12,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "loot": 1.0
+          }
+        },
+        {
+          "offer": {
+            "buy_1": {
+                "id": "alexsmobs:gazelle_horn",
+                "Count": 1
+            },
+            "sell": {
+              "id": "iceandfire:sapphire_gem",
+              "Count": 1
+          },
+            "max_uses": 16,
+            "type": "dynamicvillagertrades:sell_item_for_items"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "sapphire": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:nether_wart",
+            "price": 12,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "loot": 1.0,
+            "potions": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "netherexp:warped_wart",
+            "price": 12,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "loot": 1.0,
+            "potions": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "minecraft:glowstone",
+            "price": 4,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "material": 1.0,
+            "potions": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "ars_nouveau:source_gem",
+            "price": 8,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "ars_nouveau:sourcestone",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "ars": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "4_expert": {
+      "trades": [
+        {
+          "offer": {
+            "buy_1": {
+                "id": "minecraft:scute",
+                "Count": 4
+            },
+            "sell": {
+              "id": "iceandfire:sapphire_gem",
+              "Count": 1
+          },
+            "max_uses": 16,
+            "type": "dynamicvillagertrades:sell_item_for_items"
+          },
+          "level": "expert",
+          "attributes": {
+            "sapphire": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:bear_fur",
+            "price": 5,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "loot": 1.0
+          }
+        },
+        {
+          "offer": {
+            "buy_1": {
+                "id": "alexsmobs:elastic_tendon",
+                "Count": 4
+            },
+            "sell": {
+              "id": "iceandfire:sapphire_gem",
+              "Count": 1
+          },
+            "max_uses": 16,
+            "type": "dynamicvillagertrades:sell_item_for_items"
+          },
+          "level": "expert",
+          "attributes": {
+            "sapphire": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "ars_nouveau:wilden_spike",
+            "price": 3,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "loot": 1.0,
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "ars_nouveau:wilden_wing",
+            "price": 3,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "loot": 1.0,
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "ars_nouveau:wilden_horn",
+            "price": 3,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "loot": 1.0,
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:glass_bottle",
+            "price": 6,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "potions": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "ars_nouveau:source_berry_pie",
+            "price": 10,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "ars": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "spelunkery:nephrite_chunk",
+            "price": 5,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "material": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "minecraft:experience_bottle",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "potions": 1.0,
+            "material": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "max_uses": 5,
+            "item": "minecraft:ender_pearl",
+            "price": 5,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "ender_pearl": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "5_master": {
+      "trades": [
+        {
+          "offer": {
+            "buy_1": {
+                "id": "iceandfire:sapphire_gem",
+                "Count": 4
+            },
+            "sell": {
+              "id": "iceandfire:ambrosia",
+              "Count": 1
+          },
+            "max_uses": 3,
+            "type": "dynamicvillagertrades:sell_item_for_items"
+          },
+          "level": "master",
+          "attributes": {
+            "sapphire": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:ender_pearl",
+            "price": 8,
+            "max_uses": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "ender_pearl": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "forbidden_arcanus:arcane_crystal",
+            "price": 5,
+            "max_uses": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "arcane_crystal": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "forbidden_arcanus:rune",
+            "price": 16,
+            "max_uses": 16,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "arcane_crystal": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "ars_nouveau:ritual_wilden_summon",
+            "price": 20,
+            "max_uses": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "ars": 1.0,
+            "loot": 1.0
+          }
+        },
+        {
+          "offer": {
+            "buy_1": {
+                "id": "iceandfire:sapphire_gem",
+                "Count": 4
+            },
+            "sell": {
+              "id": "quark:monster_box",
+              "Count": 1
+          },
+            "max_uses": 3,
+            "type": "dynamicvillagertrades:sell_item_for_items"
+          },
+          "level": "master",
+          "attributes": {
+            "sapphire": 1.0
+          }
+        },
+        {
+          "offer": {
+            "buy_1": {
+                "id": "iceandfire:sapphire_gem",
+                "Count": 4
+            },
+            "sell": {
+              "id": "irons_spellbooks:villager_spell_book",
+              "Count": 1
+          },
+            "max_uses": 3,
+            "type": "dynamicvillagertrades:sell_item_for_items"
+          },
+          "level": "master",
+          "attributes": {
+            "sapphire": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:ender_eye",
+            "price": 32,
+            "second_count": 1,
+            "sell_count": 1,
+            "sell_item": "endrem:evil_eye",
+            "max_uses": 1,
+            "type": "minecraft:process_item"
+          },
+          "level": "master",
+          "attributes": {
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    }
+  }
+}

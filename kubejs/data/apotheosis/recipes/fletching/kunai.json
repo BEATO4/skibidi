@@ -1,0 +1,22 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [
+		{
+			"item": "oreganized:silver_nugget"
+		},
+		{
+			"item": "minecraft:stick"
+		},
+		{
+			"item": "minecraft:air"
+		}
+	],
+	"result": {
+		"item": "caverns_and_chasms:kunai",
+		"count": 2
+	}
+}

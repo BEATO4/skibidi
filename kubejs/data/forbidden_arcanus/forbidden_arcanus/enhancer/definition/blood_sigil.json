@@ -1,0 +1,16 @@
+{
+  "description": {
+    "hephaestus_forge": {
+      "translate": "item.forbidden_arcanus.enhancer.blood_sigil.hephaestus_forge"
+    }
+  },
+  "effects": [
+    {
+      "type": "forbidden_arcanus:multiply_required_essence",
+      "conditions": [],
+      "essence_type": "blood",
+      "multiplier": 0.5
+    }
+  ],
+  "item": "hexerei:blood_sigil"
+}

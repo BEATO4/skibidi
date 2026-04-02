@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:magiblade"
+  },
+  "pedestalItems": [
+    {
+      "item": "create_enchantment_industry:hyper_experience_bottle"
+    },
+    {
+      "item": "create_enchantment_industry:hyper_experience_bottle"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "apotheosis:warden_tendril"
+    },
+    {
+      "item": "apotheosis:warden_tendril"
+    },
+    {
+      "item": "iceandfire:sapphire_gem"
+    },
+    {
+      "item": "iceandfire:sapphire_gem"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:decaying_relic"
+    }
+  ],
+  "sourceCost": 1000
+}

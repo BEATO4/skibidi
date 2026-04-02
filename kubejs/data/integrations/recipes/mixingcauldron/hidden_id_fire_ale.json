@@ -1,0 +1,26 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:lava"
+  },
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:fire_resistance\"}"
+    }
+  ],
+  "output": {
+    "item": "irons_spellbooks:fire_ale",
+    "count": 1
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:lava",
+    "amount": 0
+  },
+  "fluidLevelsConsumed": 2000,
+  "heatRequirement": "heated"
+}

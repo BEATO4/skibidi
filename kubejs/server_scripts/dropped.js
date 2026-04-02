@@ -1,0 +1,1 @@
+ItemEvents.dropped([global.itemsToRemove], e => e.cancel())

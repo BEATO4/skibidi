@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "   ",
+    "IAI",
+    "   "
+  ],
+  "reagents": "REEE",
+  "key": {
+    "A": {
+      "item": "ice_and_fire_spellbooks:ice_dragon_priest_helmet"
+    },
+    "I": {
+      "item": "cataclysm:cursium_ingot"
+    },
+    "R": {
+      "item": "irons_spellbooks:ice_rune"
+    },
+    "E": {
+      "item": "ars_nouveau:conjuration_essence"
+    }
+  },
+  "result": {
+    "item": "traveloptics:cursed_wraithguard_crown",
+    "count": 1
+  }
+}

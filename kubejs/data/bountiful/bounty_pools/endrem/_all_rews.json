@@ -1,0 +1,18 @@
+{
+
+	"content": {
+
+		"lost_eye": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "endrem:lost_eye",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 3000,
+			"repRequired": 15
+		}
+
+	}
+}

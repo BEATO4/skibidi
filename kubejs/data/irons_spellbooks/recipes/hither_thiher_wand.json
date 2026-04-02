@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " g ",
+    " d ",
+    " S "
+  ],
+  "reagents": "rrrr",
+  "key": {
+    "g": {
+      "item": "ars_nouveau:source_gem"
+    },
+    "d": {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+	"S": {
+      "item": "minecraft:stick"
+    },
+    "r": {
+      "item": "waystones:warp_dust"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:hither_thither_wand",
+    "count": 1
+  }
+}

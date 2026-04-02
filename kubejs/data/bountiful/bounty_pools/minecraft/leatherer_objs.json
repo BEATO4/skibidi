@@ -1,0 +1,20 @@
+
+{
+	"content": {
+        
+		"hoglin": {
+			"type": "entity",
+			"timeMult": 4.0,
+			"rarity": "UNCOMMON",
+			"content": "minecraft:hoglin",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 1650,
+			"weightMult": 0.2
+		}
+
+	}
+
+}

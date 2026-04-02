@@ -1,0 +1,26 @@
+
+{
+    "content": {
+
+        "tree_bark": {
+            "type": "item",
+            "content": "farmersdelight:tree_bark",
+            "amount": {
+                "min": 4,
+                "max": 48
+            },
+            "unitWorth": 30
+        },
+
+        "canvas": {
+            "type": "item",
+            "content": "farmersdelight:canvas",
+            "amount": {
+                "min": 2,
+                "max": 32
+            },
+            "unitWorth": 100
+        }
+	}
+
+}

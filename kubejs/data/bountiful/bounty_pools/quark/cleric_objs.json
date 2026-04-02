@@ -1,0 +1,36 @@
+{
+	"content": {
+		"Soul Bead": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:soul_bead",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 600
+		},
+
+		"Slime Bucket": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "quark:slime_in_a_bucket",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000
+		},
+
+		"Ancient Fruit": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "quark:ancient_fruit",
+			"amount": {
+				"min": 1,
+				"max": 10
+			},
+			"unitWorth": 1000
+		}
+	}
+}

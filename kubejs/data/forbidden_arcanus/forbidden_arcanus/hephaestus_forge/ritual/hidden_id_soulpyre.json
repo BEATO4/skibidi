@@ -1,0 +1,57 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 1000,
+    "blood": 10000,
+    "experience": 500,
+    "souls": 100
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:soul_heart"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "iceandfire:fire_dragon_blood"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "iceandfire:ectoplasm"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "eidolon:crimson_gem"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "oreganized:electrum_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:netherite_greataxe"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:soulpyre"
+    }
+  }
+}

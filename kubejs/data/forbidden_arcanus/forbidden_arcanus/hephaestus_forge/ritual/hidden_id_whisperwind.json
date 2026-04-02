@@ -1,0 +1,51 @@
+{
+  "additional_requirements": {
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 5000,
+    "blood": 10000,
+    "experience": 1500,
+    "souls": 250
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ars_nouveau:air_essence"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "iceandfire:siren_tear"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "create_enchantment_industry:hyper_experience_bottle"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:runic_katana"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:whisperwind"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "count": 2,
+    "item": "ars_elemental:spell_mirror"
+  },
+  "pedestalItems": [
+    {
+      "item": "forbidden_arcanus:rune"
+    },
+    {
+      "item": "forbidden_arcanus:rune"
+    },
+    {
+      "tag": "forge:gems/quartz"
+    },
+    {
+      "tag": "forge:gems/quartz"
+    },
+    {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    {
+      "item": "forbidden_arcanus:deorum_ingot"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "oreganized:silver_mirror"
+    }
+  ],
+  "sourceCost": 0
+}

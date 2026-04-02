@@ -1,0 +1,70 @@
+{
+  "essences": {
+    "aureal": 5000,
+    "blood": 20000,
+    "experience": 0,
+    "souls": 500
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:dark_nether_star"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "tag": "integrations:dragonsteel_ingots"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "cataclysm:witherite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:sculk_catalyst"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "bosses_of_mass_destruction:ancient_anima"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:sculk_catalyst"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "cataclysm:witherite_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "tag": "integrations:dragonsteel_ingots"
+      }
+    }
+  ],
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "main_ingredient": {
+    "item": "alexsmobs:void_worm_eye"
+  },
+  "result": {
+    "type": "forbidden_arcanus:upgrade_tier",
+    "required_tier": 4,
+    "upgraded_tier": 5
+  }
+}

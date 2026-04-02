@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "illagerinvasion:hallowed_gem"
+    },
+    {
+      "item": "illagerinvasion:hallowed_gem"
+    },
+    {
+      "fluid": "create_enchantment_industry:hyper_experience",
+      "amount": 50
+    }
+  ],
+  "results": [
+    {
+      "item": "biomemakeover:enchanted_totem"
+    }
+  ]
+}

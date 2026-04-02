@@ -1,0 +1,21 @@
+{
+	"replace": false,
+
+	"values": [
+	  "apotheosis:library",
+	  "apotheosis:ender_library",
+	  "ars_nouveau:storage_lectern",
+	  "create:brown_toolbox",
+	  "create:item_vault",
+	  "create:portable_storage_interface",
+	  "minecraft:lava_bucket",
+	  "quark:crafter",
+	  "quark:crate",
+	  "quark:encased_pipe",
+	  "quark:pipe",
+	  "quark:seed_pouch",
+	  "supplementaries:sack",
+	  "sophisticatedbackpacks:backpack",
+	  "storagedrawers:oak_half_drawers_4"
+	]
+  }

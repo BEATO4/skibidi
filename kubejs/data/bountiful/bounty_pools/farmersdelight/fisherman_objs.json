@@ -1,0 +1,24 @@
+{
+	"content": {
+
+		"Raw Cod Slice": {
+			"type": "item",
+			"content": "farmersdelight:cod_slice",
+			"amount": {
+				"min": 2,
+				"max": 20
+			},
+			"unitWorth": 100
+		},
+
+		"Raw Salmon Slice": {
+			"type": "item",
+			"content": "farmersdelight:salmon_slice",
+			"amount": {
+				"min": 2,
+				"max": 20
+			},
+			"unitWorth": 100
+		}
+    }
+}

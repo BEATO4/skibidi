@@ -1,0 +1,14 @@
+{
+  "structures": [
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 990880772,
+    "spacing": 16,
+    "separation": 12,
+    "exclusion_zone": {
+      "chunk_count": 6,
+      "other_set": "minecraft:ocean_ruins"
+    }
+  }
+}

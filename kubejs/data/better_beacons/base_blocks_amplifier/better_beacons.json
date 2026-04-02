@@ -1,0 +1,64 @@
+{
+  "values": [
+    {
+      "block": "minecraft:copper_block",
+      "amplifier": 0
+    },
+    {
+      "block": "minecraft:iron_block",
+      "amplifier": 0
+    },
+    {
+      "block": "minecraft:gold_block",
+      "amplifier": 0
+    },
+    {
+      "block": "minecraft:emerald_block",
+      "amplifier": 1
+    },
+    {
+      "block": "create:brass_block",
+      "amplifier": 1
+    },
+    {
+      "block": "oreganized:lead_block",
+      "amplifier": 1
+    },
+    {
+      "block": "minecraft:diamond_block",
+      "amplifier": 2
+    },
+    {
+      "block": "oreganized:electrum_block",
+      "amplifier": 2
+    },
+    {
+      "block": "rubinated_nether:ruby_block",
+      "amplifier": 2
+    },
+    {
+      "block": "betterend:terminite_block",
+      "amplifier": 2
+    },
+    {
+      "block": "minecraft:netherite_block",
+      "amplifier": 3
+    },
+    {
+      "block": "betterend:aeternium_block",
+      "amplifier": 4
+    },
+    {
+      "block": "iceandfire:dragonsteel_fire_block",
+      "amplifier": 4
+    },
+    {
+      "block": "iceandfire:dragonsteel_ice_block",
+      "amplifier": 4
+    },
+    {
+      "block": "iceandfire:dragonsteel_lightning_block",
+      "amplifier": 4
+    }
+  ]
+}

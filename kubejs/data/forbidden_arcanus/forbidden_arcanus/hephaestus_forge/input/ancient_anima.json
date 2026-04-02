@@ -1,0 +1,8 @@
+{
+  "type": "forbidden_arcanus:simple_item",
+  "amount": 50000,
+  "essence_type": "aureal",
+  "item": {
+    "item": "bosses_of_mass_destruction:ancient_anima"
+  }
+}

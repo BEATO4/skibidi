@@ -1,0 +1,23 @@
+{
+  "structures": [
+    {
+      "structure": "cataclysm:ruined_citadel",
+      "weight": 1
+    },
+    {
+      "structure": "integrated_minecraft:fractured_athenaeum",
+      "weight": 1
+    },
+    {
+      "structure": "integrated_minecraft:void_research_pod",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1234577919,
+    "spacing": 100,
+    "separation": 75,
+    "type": "mes:advanced_random_spread",
+    "min_distance_from_world_origin": 7000
+  }
+}

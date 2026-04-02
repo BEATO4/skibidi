@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:pillager",
+      "weight": 15
+    },
+    {
+      "name": "biomemakeover:cowboy",
+      "weight": 10
+    }
+  ]
+}

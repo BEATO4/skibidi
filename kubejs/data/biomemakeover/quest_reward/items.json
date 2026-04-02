@@ -1,0 +1,93 @@
+{
+  "weights": {
+    "common": 110,
+    "uncommon": 90,
+    "rare": 0,
+    "epic": 0
+  },
+  "rewards": [
+    {
+      "type": "biomemakeover:item",
+      "item": "minecraft:glowstone_dust",
+      "min": 8,
+      "max": 12
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "minecraft:gunpowder",
+      "min": 7,
+      "max": 12
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "minecraft:redstone",
+      "min": 7,
+      "max": 15
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "minecraft:spider_eye",
+      "min": 7,
+      "max": 12
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "minecraft:emerald",
+      "min": 4,
+      "max": 8
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "create:rose_quartz",
+      "min": 4,
+      "max": 8
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "minecraft:lapis_lazuli",
+      "min": 7,
+      "max": 15
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "hexerei:blood_sigil",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "hexerei:medium_satchel",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "biomemakeover:illunite_shard",
+      "min": 7,
+      "max": 15
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "biomemakeover:swamp_jives_music_disk",
+      "min": 1,
+      "max": 1
+    },    {
+      "type": "biomemakeover:item",
+      "item": "forbidden_arcanus:enchanted_soul",
+      "min": 2,
+      "max": 7
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "forbidden_arcanus:golden_orchid_seeds",
+      "min": 5,
+      "max": 9
+    },
+    {
+      "type": "biomemakeover:item",
+      "item": "forbidden_arcanus:arcane_crystal_dust",
+      "min": 10,
+      "max": 32
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bL ",
+    "TTT",
+    "T T"
+  ],
+  "key": {
+    "b": {
+      "item": "eidolon:magic_ink"
+    },
+    "T": {
+      "item": "eidolon:polished_planks"
+    },
+    "L": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:inscription_table",
+    "count": 1
+  }
+}

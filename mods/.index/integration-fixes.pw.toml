@@ -1,0 +1,16 @@
+filename = 'integrationfixes-1.20.1-1.1.0-all.jar'
+name = 'Integration Fixes'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cff6667e88ff4148361fa8e5a16bb00e7c22af84'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6611467
+project-id = 1278371

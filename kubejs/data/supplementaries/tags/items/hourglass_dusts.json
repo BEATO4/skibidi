@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "illagerinvasion:unusual_dust",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:illusionary_dust",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sulfur_dust",
+      "required": false
+    },
+    {
+      "id": "alexscaves:moth_dust",
+      "required": false
+    }
+  ]
+}

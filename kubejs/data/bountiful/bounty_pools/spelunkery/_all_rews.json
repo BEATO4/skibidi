@@ -1,0 +1,55 @@
+{
+	"content": {
+
+        "all_rew_mineomite": {
+			"type": "item",
+            "rarity": "UNCOMMON",
+			"content": "spelunkery:mineomite",
+			"amount": {
+				"min": 2,
+				"max": 9
+			},
+			"unitWorth": 300
+		},
+        "all_rew_glowsticks": {
+			"type": "item",
+            "rarity": "RARE",
+			"content": "#spelunkery:glowsticks",
+			"amount": {
+				"min": 4,
+				"max": 10
+			},
+			"unitWorth": 500
+		},
+        "all_rew_portal_fluid_bottle": {
+			"type": "item",
+            "rarity": "LEGENDARY",
+			"content": "spelunkery:portal_fluid_bottle",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 3000
+		},
+        "all_rew_spring_water_bucket": {
+			"type": "item",
+            "rarity": "LEGENDARY",
+			"content": "spelunkery:spring_water_bucket",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 5000
+		},
+        "all_rew_rough_diamond_block": {
+			"type": "item",
+            "rarity": "EPIC",
+			"content": "spelunkery:rough_diamond_block",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000
+		}
+	}
+}

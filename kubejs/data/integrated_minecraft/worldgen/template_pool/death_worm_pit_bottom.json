@@ -1,0 +1,15 @@
+{
+  "name": "integrated_minecraft:deathworm_pit_bottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:deathworm_pit_bottom",
+        "processors": "integrated_minecraft:deathworm_pit_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

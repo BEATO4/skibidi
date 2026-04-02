@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " a ",
+    "aca",
+    " d "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "a": {
+      "item": "eidolon:wicked_weave"
+    },
+    "d": {
+      "item": "born_in_chaos_v1:bone_heart"
+    },
+	"c": {
+		"item": "eidolon:basic_amulet"
+	},
+    "z": {
+      "item": "ars_nouveau:conjuration_essence"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:conjurers_talisman",
+    "count": 1
+  }
+}

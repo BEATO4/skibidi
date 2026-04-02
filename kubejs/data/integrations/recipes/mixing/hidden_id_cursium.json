@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "cataclysm:cursium_ingot"
+    },
+    {
+      "item": "forbidden_arcanus:corrupt_soul"
+    },
+    {
+      "item": "netherexp:wraithing_flesh"
+    },
+    {
+      "fluid": "createmetallurgy:molten_void_steel",
+      "amount": 90
+    }
+  ],
+  "results": [
+    {
+      "item": "cataclysm:cursium_ingot",
+      "count": 2
+    }
+  ]
+}

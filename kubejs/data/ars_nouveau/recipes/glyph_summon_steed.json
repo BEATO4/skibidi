@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "item": "minecraft:saddle"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:orbofthe_summoner"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "item": {
+        "item": "farmersdelight:horse_feed"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_summon_steed"
+}

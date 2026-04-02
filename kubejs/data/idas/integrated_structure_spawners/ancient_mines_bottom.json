@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "alexsmobs:centipede_head",
+      "weight": 15
+    },
+    {
+      "name": "irons_spellbooks:catacombs_zombiecave_enderman",
+      "weight": 10
+    }
+  ]
+}

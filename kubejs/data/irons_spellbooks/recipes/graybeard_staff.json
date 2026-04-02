@@ -1,0 +1,24 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "  E",
+    " S ",
+    "S  "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "E": {
+      "item": "eidolon:lesser_soul_gem"
+    },
+    "z": {
+      "item": "forbidden_arcanus:rune"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:graybeard_staff",
+    "count": 1
+  }
+}

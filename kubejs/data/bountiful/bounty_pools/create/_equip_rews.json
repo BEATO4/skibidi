@@ -1,0 +1,211 @@
+{
+	"content": {
+		"white toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:white_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"orange toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:orange_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"magenta toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:magenta_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"light blue toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:light_blue_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"yellow toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:yellow_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"lime toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:lime_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"pink toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:pink_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"gray toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:gray_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"light gray toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:light_gray_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"cyan toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:cyan_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"purple toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:purple_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"blue toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:blue_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"green toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:green_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"red toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:red_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"black toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:black_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		},
+
+		"brown toolbox": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "create:brown_toolbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 8000,
+			"repRequired": 10,
+			"weightMult": 0.1
+		}
+	}
+}

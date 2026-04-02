@@ -1,0 +1,5476 @@
+{
+  "profession": "minecraft:librarian",
+  "replace": true,
+  "offers": {
+    "1_novice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:paper",
+            "price": 16,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "paper": 0.3
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:book",
+            "price": 4,
+            "experience": 1,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "book": 0.3
+          }
+        }
+      ],
+      "subgroups": {
+        "1_enchanted_books_novice": {
+          "affinity": {
+            "enchanter": 1.0
+          },
+          "trades": [
+            {
+              "key": "minecraft:lure",
+              "offer": {
+                "enchantment": "minecraft:lure",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333,
+                "lure": 0.3333333333333333,
+                "fishing": 1.0
+              }
+            },
+            {
+              "key": "minecraft:vanishing_curse",
+              "offer": {
+                "enchantment": "minecraft:vanishing_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "all": 1.0,
+                "curse": 0.3333333333333333,
+                "vanishing_curse": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:looting",
+              "offer": {
+                "enchantment": "minecraft:looting",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "melee": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "looting": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:thorns",
+              "offer": {
+                "enchantment": "minecraft:thorns",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "armor_chest": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "thorns": 0.3333333333333333,
+                "melee": 0.3333333333333333,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:depth_strider",
+              "offer": {
+                "enchantment": "minecraft:depth_strider",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333,
+                "strider": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:feather_falling",
+              "offer": {
+                "enchantment": "minecraft:feather_falling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "falling": 0.3333333333333333,
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:projectile_protection",
+              "offer": {
+                "enchantment": "minecraft:projectile_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "melee": -0.3333333333333333,
+                "projectile_protection": 0.3333333333333333,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:binding_curse",
+              "offer": {
+                "enchantment": "minecraft:binding_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "binding": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:respiration",
+              "offer": {
+                "enchantment": "minecraft:respiration",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "respiration": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_head": 0.3333333333333333,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:smite",
+              "offer": {
+                "enchantment": "minecraft:smite",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": 0.6000000000000001,
+                "smite": 0.5
+              }
+            },
+            {
+              "key": "minecraft:fire_protection",
+              "offer": {
+                "enchantment": "minecraft:fire_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5,
+                "fire_protection": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:sweeping",
+              "offer": {
+                "enchantment": "minecraft:sweeping",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": 0.33333333333333326,
+                "sweeping": 0.5
+              }
+            },
+            {
+              "key": "minecraft:knockback",
+              "offer": {
+                "enchantment": "minecraft:knockback",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "knockback": 0.5,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:unbreaking",
+              "offer": {
+                "enchantment": "minecraft:unbreaking",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "all": 1.0,
+                "unbreaking": 0.5,
+                "enchanter": 1.0,
+                "resource": 0.5,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:aqua_affinity",
+              "offer": {
+                "enchantment": "minecraft:aqua_affinity",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_head": 0.3333333333333333,
+                "low_level": -1.0,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:piercing",
+              "offer": {
+                "enchantment": "minecraft:piercing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.5,
+                "crossbow": 1.0,
+                "piercing": 0.5,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:luck_of_the_sea",
+              "offer": {
+                "enchantment": "minecraft:luck_of_the_sea",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "luck_of_the_sea": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "fishing": 1.0
+              }
+            },
+            {
+              "key": "minecraft:impaling",
+              "offer": {
+                "enchantment": "minecraft:impaling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "impaling": 0.3333333333333333,
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": 0.6000000000000001
+              }
+            },
+            {
+              "key": "minecraft:bane_of_arthropods",
+              "offer": {
+                "enchantment": "minecraft:bane_of_arthropods",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "bane": 0.3333333333333333,
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.3333333333333333,
+                "low_level": 0.6000000000000001,
+                "arthropods": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:blast_protection",
+              "offer": {
+                "enchantment": "minecraft:blast_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.5,
+                "blast_protection": 0.5,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:quick_charge",
+              "offer": {
+                "enchantment": "minecraft:quick_charge",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.3333333333333333,
+                "crossbow": 1.0,
+                "quick_charge": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_regen",
+              "offer": {
+                "enchantment": "ars_nouveau:mana_regen",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_boost",
+              "offer": {
+                "enchantment": "ars_nouveau:mana_boost",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:rebounding",
+              "offer": {
+                "enchantment": "apotheosis:rebounding",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "rebound": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:reflective",
+              "offer": {
+                "enchantment": "apotheosis:reflective",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "reflective": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:shield_bash",
+              "offer": {
+                "enchantment": "apotheosis:shield_bash",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "bash": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:spearfishing",
+              "offer": {
+                "enchantment": "apotheosis:spearfishing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "fishing": 0.3,
+                "weapon": 1.0
+              }
+            },
+            {
+              "key": "apotheosis:tempting",
+              "offer": {
+                "enchantment": "apotheosis:tempting",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "tempting": 0.3,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "apotheosis:bane_of_illagers",
+              "offer": {
+                "enchantment": "apotheosis:bane_of_illagers",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "illagers": 0.3
+              }
+            },
+            {
+              "key": "farmersdelight:backstabbing",
+              "offer": {
+                "enchantment": "farmersdelight:backstabbing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "backstabbing": 0.3
+              }
+            },
+            {
+              "key": "allurement:shockwave",
+              "offer": {
+                "enchantment": "allurement:shockwave",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_feet": 0.3,
+                "shockwave": 0.3
+              }
+            },
+            {
+              "key": "allurement:vengeance",
+              "offer": {
+                "enchantment": "allurement:vengeance",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "vengeance": 0.3
+              }
+            },
+            {
+              "key": "allurement:ascension_curse",
+              "offer": {
+                "enchantment": "allurement:ascension_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "ascension": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0
+              }
+            },
+            {
+              "key": "allurement:fleeting_curse",
+              "offer": {
+                "enchantment": "allurement:fleeting_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "novice",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "fleeting": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        },
+        "1_bookshelves": {
+          "trades": [
+            {
+              "offer": {
+                "experience": 1,
+                "item": "minecraft:bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "quark:spruce_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "quark:birch_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "quark:jungle_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "quark:acacia_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "quark:dark_oak_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "quark:mangrove_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "quark:bamboo_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "quark:cherry_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "quark:blossom_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "quark:azalea_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "upgrade_aquatic:driftwood_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 1,
+                "item": "upgrade_aquatic:river_bookshelf",
+                "price": 9,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        }
+      },
+      "unique_key_set": "enchantments",
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "2_apprentice": {
+      "trades": [
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:lantern",
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "lantern": 0.3
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:enchanted_book",
+            "price": 1,
+            "count": 7,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "book": 0.3
+          }
+        }
+      ],
+      "subgroups": {
+        "2_enchanted_books_apprentice": {
+          "affinity": {
+            "enchanter": 1.0
+          },
+          "trades": [
+            {
+              "key": "minecraft:flame",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:flame",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.3333333333333333,
+                "flame": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:fire_aspect",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:fire_aspect",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "weapon": 1.0,
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "melee": 0.3333333333333333,
+                "fire_aspect": 0.3333333333333333,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:lure",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:lure",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333,
+                "lure": 0.3333333333333333,
+                "fishing": 1.0
+              }
+            },
+            {
+              "key": "minecraft:power",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:power",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.5,
+                "power": 0.5,
+                "low_level": 0.6000000000000001
+              }
+            },
+            {
+              "key": "minecraft:loyalty",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:loyalty",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "loyalty": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:protection",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "protection": 0.5,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.5,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:punch",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:punch",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.5,
+                "low_level": 0.0,
+                "punch": 0.5
+              }
+            },
+            {
+              "key": "minecraft:looting",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:looting",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "melee": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "looting": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:thorns",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:thorns",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "armor_chest": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "thorns": 0.3333333333333333,
+                "melee": 0.3333333333333333,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:depth_strider",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:depth_strider",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333,
+                "strider": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:feather_falling",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:feather_falling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "falling": 0.3333333333333333,
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:sharpness",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:sharpness",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "sharpness": 0.5,
+                "low_level": 0.6000000000000001
+              }
+            },
+            {
+              "key": "minecraft:riptide",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:riptide",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:projectile_protection",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:projectile_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "melee": -0.3333333333333333,
+                "projectile_protection": 0.3333333333333333,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:frost_walker",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:frost_walker",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:binding_curse",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:binding_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "binding": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:respiration",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:respiration",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "respiration": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_head": 0.3333333333333333,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:smite",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:smite",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": 0.6000000000000001,
+                "smite": 0.5
+              }
+            },
+            {
+              "key": "minecraft:fire_protection",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:fire_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5,
+                "fire_protection": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:sweeping",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:sweeping",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": 0.33333333333333326,
+                "sweeping": 0.5
+              }
+            },
+            {
+              "key": "minecraft:knockback",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:knockback",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "knockback": 0.5,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:unbreaking",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:unbreaking",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "all": 1.0,
+                "unbreaking": 0.5,
+                "enchanter": 1.0,
+                "resource": 0.5,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:aqua_affinity",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:aqua_affinity",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_head": 0.3333333333333333,
+                "low_level": -1.0,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:multishot",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:multishot",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.5,
+                "crossbow": 1.0,
+                "low_level": -1.0,
+                "multishot": 0.5
+              }
+            },
+            {
+              "key": "minecraft:piercing",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:piercing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.5,
+                "crossbow": 1.0,
+                "piercing": 0.5,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:fortune",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:fortune",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "luck": 0.5,
+                "fortune": 0.5,
+                "low_level": 0.33333333333333326,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "minecraft:luck_of_the_sea",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:luck_of_the_sea",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "luck_of_the_sea": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "fishing": 1.0
+              }
+            },
+            {
+              "key": "minecraft:efficiency",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:efficiency",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "efficiency": 0.5,
+                "enchanter": 1.0,
+                "low_level": 0.6000000000000001,
+                "tool": 1.0,
+                "speed": 0.5
+              }
+            },
+            {
+              "key": "minecraft:impaling",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:impaling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "impaling": 0.3333333333333333,
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": 0.6000000000000001
+              }
+            },
+            {
+              "key": "minecraft:bane_of_arthropods",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:bane_of_arthropods",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bane": 0.3333333333333333,
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.3333333333333333,
+                "low_level": 0.6000000000000001,
+                "arthropods": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:blast_protection",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:blast_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.5,
+                "blast_protection": 0.5,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:quick_charge",
+              "offer": {
+                "experience": 5,
+                "enchantment": "minecraft:quick_charge",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.3333333333333333,
+                "crossbow": 1.0,
+                "quick_charge": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_regen",
+              "offer": {
+                "experience": 5,
+                "enchantment": "ars_nouveau:mana_regen",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_boost",
+              "offer": {
+                "experience": 5,
+                "enchantment": "ars_nouveau:mana_boost",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:chromatic",
+              "offer": {
+                "experience": 5,
+                "enchantment": "apotheosis:chromatic",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "chromatic": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:exploitation",
+              "offer": {
+                "experience": 5,
+                "enchantment": "apotheosis:exploitation",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "exploitation": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:growth_serum",
+              "offer": {
+                "experience": 5,
+                "enchantment": "apotheosis:growth_serum",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "growth_serum": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:icy_thorns",
+              "offer": {
+                "experience": 5,
+                "enchantment": "apotheosis:icy_thorns",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "icy_thorns": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:natures_blessing",
+              "offer": {
+                "experience": 5,
+                "enchantment": "apotheosis:natures_blessing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "natures_blessing": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:rebounding",
+              "offer": {
+                "experience": 5,
+                "enchantment": "apotheosis:rebounding",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "rebound": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:reflective",
+              "offer": {
+                "experience": 5,
+                "enchantment": "apotheosis:reflective",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "reflective": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:shield_bash",
+              "offer": {
+                "experience": 5,
+                "enchantment": "apotheosis:shield_bash",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "bash": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:spearfishing",
+              "offer": {
+                "experience": 5,
+                "enchantment": "apotheosis:spearfishing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "fishing": 0.3,
+                "weapon": 1.0
+              }
+            },
+            {
+              "key": "apotheosis:tempting",
+              "offer": {
+                "experience": 5,
+                "enchantment": "apotheosis:tempting",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "tempting": 0.3,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "apotheosis:bane_of_illagers",
+              "offer": {
+                "experience": 5,
+                "enchantment": "apotheosis:bane_of_illagers",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "illagers": 0.3
+              }
+            },
+            {
+              "key": "farmersdelight:backstabbing",
+              "offer": {
+                "experience": 5,
+                "enchantment": "farmersdelight:backstabbing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "backstabbing": 0.3
+              }
+            },
+            {
+              "key": "allurement:launch",
+              "offer": {
+                "experience": 5,
+                "enchantment": "allurement:launch",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "launch": 0.3
+              }
+            },
+            {
+              "key": "allurement:reeling",
+              "offer": {
+                "experience": 5,
+                "enchantment": "allurement:reeling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "crossbow": 1.0,
+                "reeling": 0.3
+              }
+            },
+            {
+              "key": "allurement:shockwave",
+              "offer": {
+                "experience": 5,
+                "enchantment": "allurement:shockwave",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_feet": 0.3,
+                "shockwave": 0.3
+              }
+            },
+            {
+              "key": "allurement:vengeance",
+              "offer": {
+                "experience": 5,
+                "enchantment": "allurement:vengeance",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "vengeance": 0.3
+              }
+            },
+            {
+              "key": "allurement:ascension_curse",
+              "offer": {
+                "experience": 5,
+                "enchantment": "allurement:ascension_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "ascension": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0
+              }
+            },
+            {
+              "key": "allurement:fleeting_curse",
+              "offer": {
+                "experience": 5,
+                "enchantment": "allurement:fleeting_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "fleeting": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        },
+        "2_chiseled_bookshelves": {
+          "trades": [
+            {
+              "offer": {
+                "experience": 5,
+                "item": "minecraft:chiseled_bookshelf",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 5,
+                "item": "woodworks:chiseled_spruce_bookshelf",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 5,
+                "item": "woodworks:chiseled_birch_bookshelf",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 5,
+                "item": "woodworks:chiseled_jungle_bookshelf",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 5,
+                "item": "woodworks:chiseled_acacia_bookshelf",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 5,
+                "item": "woodworks:chiseled_dark_oak_bookshelf",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 5,
+                "item": "woodworks:chiseled_mangrove_bookshelf",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 5,
+                "item": "woodworks:chiseled_bamboo_bookshelf",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 5,
+                "item": "woodworks:chiseled_cherry_bookshelf",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 5,
+                "item": "upgrade_aquatic:chiseled_driftwood_bookshelf",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 5,
+                "item": "upgrade_aquatic:chiseled_river_bookshelf",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "bookshelf": 0.3
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        }
+      },
+      "unique_key_set": "enchantments",
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "3_journeyman": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:ink_sac",
+            "price": 5,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "ink_sac": 0.3
+          }
+        },
+        {
+          "offer": {
+            "count": 4,
+            "experience": 10,
+            "item": "minecraft:glass",
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "glass": 0.3
+          }
+        }
+      ],
+      "subgroups": {
+        "3_enchanted_books_journeyman": {
+          "affinity": {
+            "enchanter": 1.0
+          },
+          "trades": [
+            {
+              "key": "minecraft:flame",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:flame",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.3333333333333333,
+                "flame": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:fire_aspect",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:fire_aspect",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "weapon": 1.0,
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "melee": 0.3333333333333333,
+                "fire_aspect": 0.3333333333333333,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:lure",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:lure",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333,
+                "lure": 0.3333333333333333,
+                "fishing": 1.0
+              }
+            },
+            {
+              "key": "minecraft:power",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:power",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.5,
+                "power": 0.5,
+                "low_level": 0.6000000000000001
+              }
+            },
+            {
+              "key": "minecraft:loyalty",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:loyalty",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "loyalty": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:protection",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "protection": 0.5,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.5,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:vanishing_curse",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:vanishing_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "all": 1.0,
+                "curse": 0.3333333333333333,
+                "vanishing_curse": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:punch",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:punch",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.5,
+                "low_level": 0.0,
+                "punch": 0.5
+              }
+            },
+            {
+              "key": "minecraft:looting",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:looting",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "melee": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "looting": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:thorns",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:thorns",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "armor_chest": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "thorns": 0.3333333333333333,
+                "melee": 0.3333333333333333,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:infinity",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:infinity",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "infinity": 0.3333333333333333,
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.3333333333333333,
+                "resource": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:depth_strider",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:depth_strider",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333,
+                "strider": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:feather_falling",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:feather_falling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "falling": 0.3333333333333333,
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:channeling",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:channeling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "thunder": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:sharpness",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:sharpness",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "sharpness": 0.5,
+                "low_level": 0.6000000000000001
+              }
+            },
+            {
+              "key": "minecraft:riptide",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:riptide",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:projectile_protection",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:projectile_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "melee": -0.3333333333333333,
+                "projectile_protection": 0.3333333333333333,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:frost_walker",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:frost_walker",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:binding_curse",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:binding_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "binding": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:respiration",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:respiration",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "respiration": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_head": 0.3333333333333333,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:smite",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:smite",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": 0.6000000000000001,
+                "smite": 0.5
+              }
+            },
+            {
+              "key": "minecraft:fire_protection",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:fire_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5,
+                "fire_protection": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:sweeping",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:sweeping",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": 0.33333333333333326,
+                "sweeping": 0.5
+              }
+            },
+            {
+              "key": "minecraft:knockback",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:knockback",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "knockback": 0.5,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:unbreaking",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:unbreaking",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "all": 1.0,
+                "unbreaking": 0.5,
+                "enchanter": 1.0,
+                "resource": 0.5,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:aqua_affinity",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:aqua_affinity",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_head": 0.3333333333333333,
+                "low_level": -1.0,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:multishot",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:multishot",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.5,
+                "crossbow": 1.0,
+                "low_level": -1.0,
+                "multishot": 0.5
+              }
+            },
+            {
+              "key": "minecraft:piercing",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:piercing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.5,
+                "crossbow": 1.0,
+                "piercing": 0.5,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:silk_touch",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:silk_touch",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "silk": 0.3333333333333333,
+                "silk_touch": 0.3333333333333333,
+                "enchanter": 1.0,
+                "resource": 0.3333333333333333,
+                "low_level": -1.0,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "minecraft:fortune",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:fortune",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "luck": 0.5,
+                "fortune": 0.5,
+                "low_level": 0.33333333333333326,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "minecraft:luck_of_the_sea",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:luck_of_the_sea",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "luck_of_the_sea": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "fishing": 1.0
+              }
+            },
+            {
+              "key": "minecraft:efficiency",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:efficiency",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "efficiency": 0.5,
+                "enchanter": 1.0,
+                "low_level": 0.6000000000000001,
+                "tool": 1.0,
+                "speed": 0.5
+              }
+            },
+            {
+              "key": "minecraft:impaling",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:impaling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "impaling": 0.3333333333333333,
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": 0.6000000000000001
+              }
+            },
+            {
+              "key": "minecraft:bane_of_arthropods",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:bane_of_arthropods",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "bane": 0.3333333333333333,
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.3333333333333333,
+                "low_level": 0.6000000000000001,
+                "arthropods": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:blast_protection",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:blast_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.5,
+                "blast_protection": 0.5,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:quick_charge",
+              "offer": {
+                "experience": 10,
+                "enchantment": "minecraft:quick_charge",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.3333333333333333,
+                "crossbow": 1.0,
+                "quick_charge": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_regen",
+              "offer": {
+                "experience": 10,
+                "enchantment": "ars_nouveau:mana_regen",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_boost",
+              "offer": {
+                "experience": 10,
+                "enchantment": "ars_nouveau:mana_boost",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:chromatic",
+              "offer": {
+                "experience": 10,
+                "enchantment": "apotheosis:chromatic",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "chromatic": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:exploitation",
+              "offer": {
+                "experience": 10,
+                "enchantment": "apotheosis:exploitation",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "exploitation": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:growth_serum",
+              "offer": {
+                "experience": 10,
+                "enchantment": "apotheosis:growth_serum",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "growth_serum": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:icy_thorns",
+              "offer": {
+                "experience": 10,
+                "enchantment": "apotheosis:icy_thorns",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "icy_thorns": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:natures_blessing",
+              "offer": {
+                "experience": 10,
+                "enchantment": "apotheosis:natures_blessing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "natures_blessing": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:rebounding",
+              "offer": {
+                "experience": 10,
+                "enchantment": "apotheosis:rebounding",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "rebound": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:reflective",
+              "offer": {
+                "experience": 10,
+                "enchantment": "apotheosis:reflective",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "reflective": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:shield_bash",
+              "offer": {
+                "experience": 10,
+                "enchantment": "apotheosis:shield_bash",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "bash": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:spearfishing",
+              "offer": {
+                "experience": 10,
+                "enchantment": "apotheosis:spearfishing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "fishing": 0.3,
+                "weapon": 1.0
+              }
+            },
+            {
+              "key": "apotheosis:tempting",
+              "offer": {
+                "experience": 10,
+                "enchantment": "apotheosis:tempting",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "tempting": 0.3,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "apotheosis:bane_of_illagers",
+              "offer": {
+                "experience": 10,
+                "enchantment": "apotheosis:bane_of_illagers",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "illagers": 0.3
+              }
+            },
+            {
+              "key": "farmersdelight:backstabbing",
+              "offer": {
+                "experience": 10,
+                "enchantment": "farmersdelight:backstabbing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "backstabbing": 0.3
+              }
+            },
+            {
+              "key": "allurement:launch",
+              "offer": {
+                "experience": 10,
+                "enchantment": "allurement:launch",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "launch": 0.3
+              }
+            },
+            {
+              "key": "allurement:reeling",
+              "offer": {
+                "experience": 10,
+                "enchantment": "allurement:reeling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "crossbow": 1.0,
+                "reeling": 0.3
+              }
+            },
+            {
+              "key": "allurement:shockwave",
+              "offer": {
+                "experience": 10,
+                "enchantment": "allurement:shockwave",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_feet": 0.3,
+                "shockwave": 0.3
+              }
+            },
+            {
+              "key": "allurement:vengeance",
+              "offer": {
+                "experience": 10,
+                "enchantment": "allurement:vengeance",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "vengeance": 0.3
+              }
+            },
+            {
+              "key": "allurement:ascension_curse",
+              "offer": {
+                "experience": 10,
+                "enchantment": "allurement:ascension_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "ascension": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0
+              }
+            },
+            {
+              "key": "allurement:fleeting_curse",
+              "offer": {
+                "experience": 10,
+                "enchantment": "allurement:fleeting_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "fleeting": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        },
+        "3_enchanting_book_templates": {
+          "affinity": {
+            "enchanter": 0.5
+          },
+          "trades": [
+            {
+              "offer": {
+                "experience": 10,
+                "item": "apotheosis:helmet_tome",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "armor": 0.3,
+                "armor_head": 0.5
+              }
+            },
+            {
+              "offer": {
+                "experience": 10,
+                "item": "apotheosis:chestplate_tome",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "armor": 0.3,
+                "armor_chest": 0.5
+              }
+            },
+            {
+              "offer": {
+                "experience": 10,
+                "item": "apotheosis:leggings_tome",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "armor": 0.3,
+                "armor_leggings": 0.5
+              }
+            },
+            {
+              "offer": {
+                "experience": 10,
+                "item": "apotheosis:boots_tome",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "armor": 0.3,
+                "armor_feet": 0.5
+              }
+            },
+            {
+              "offer": {
+                "experience": 10,
+                "item": "apotheosis:weapon_tome",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "weapon": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 10,
+                "item": "apotheosis:bow_tome",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "bow": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 10,
+                "item": "apotheosis:pickaxe_tome",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "tool": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 10,
+                "item": "apotheosis:fishing_tome",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "tool": 0.3
+              }
+            },
+            {
+              "offer": {
+                "experience": 10,
+                "item": "apotheosis:other_tome",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "misc": 0.3
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        }
+      },
+      "unique_key_set": "enchantments",
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "4_expert": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:writable_book",
+            "price": 2,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "writable_book": 0.3,
+            "enchanter": -0.5
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:clock",
+            "price": 5,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "enchanter": -0.5,
+            "clock": 0.3
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:compass",
+            "price": 4,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "enchanter": -0.5,
+            "compass": 0.3
+          }
+        }
+      ],
+      "subgroups": {
+        "4_enchanted_books_expert": {
+          "affinity": {
+            "enchanter": 1.0
+          },
+          "trades": [
+            {
+              "key": "minecraft:flame",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:flame",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.3333333333333333,
+                "flame": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:fire_aspect",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:fire_aspect",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "melee": 0.3333333333333333,
+                "fire_aspect": 0.3333333333333333,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:fire_aspect",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:fire_aspect",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "melee": 0.3333333333333333,
+                "fire_aspect": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:lure",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:lure",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333,
+                "lure": 0.3333333333333333,
+                "fishing": 1.0
+              }
+            },
+            {
+              "key": "minecraft:lure",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:lure",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "low_level": -0.33333333333333337,
+                "speed": 0.3333333333333333,
+                "lure": 0.3333333333333333,
+                "fishing": 1.0
+              }
+            },
+            {
+              "key": "minecraft:power",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:power",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.5,
+                "power": 0.5,
+                "low_level": 0.6000000000000001
+              }
+            },
+            {
+              "key": "minecraft:power",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:power",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.5,
+                "power": 0.5,
+                "low_level": 0.19999999999999996
+              }
+            },
+            {
+              "key": "minecraft:loyalty",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:loyalty",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "loyalty": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:loyalty",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:loyalty",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": -0.33333333333333337,
+                "loyalty": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:protection",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "protection": 0.5,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.5,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:protection",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:protection",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "protection": 0.5,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.5,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:vanishing_curse",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:vanishing_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "all": 1.0,
+                "curse": 0.3333333333333333,
+                "vanishing_curse": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:punch",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:punch",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.5,
+                "low_level": 0.0,
+                "punch": 0.5
+              }
+            },
+            {
+              "key": "minecraft:punch",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:punch",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.5,
+                "low_level": -1.0,
+                "punch": 0.5
+              }
+            },
+            {
+              "key": "minecraft:looting",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:looting",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "melee": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "looting": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:looting",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:looting",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "melee": 0.3333333333333333,
+                "low_level": -0.33333333333333337,
+                "looting": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:thorns",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:thorns",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "armor_chest": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "thorns": 0.3333333333333333,
+                "melee": 0.3333333333333333,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:thorns",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:thorns",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "armor_chest": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "thorns": 0.3333333333333333,
+                "melee": 0.3333333333333333,
+                "low_level": -0.33333333333333337
+              }
+            },
+            {
+              "key": "minecraft:infinity",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:infinity",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "infinity": 0.3333333333333333,
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.3333333333333333,
+                "resource": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:depth_strider",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:depth_strider",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333,
+                "strider": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:depth_strider",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:depth_strider",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": -0.33333333333333337,
+                "speed": 0.3333333333333333,
+                "strider": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:feather_falling",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:feather_falling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "falling": 0.3333333333333333,
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:feather_falling",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:feather_falling",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "falling": 0.3333333333333333,
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:channeling",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:channeling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "thunder": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:sharpness",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:sharpness",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "sharpness": 0.5,
+                "low_level": 0.6000000000000001
+              }
+            },
+            {
+              "key": "minecraft:sharpness",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:sharpness",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "sharpness": 0.5,
+                "low_level": 0.19999999999999996
+              }
+            },
+            {
+              "key": "minecraft:riptide",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:riptide",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:riptide",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:riptide",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": -0.33333333333333337,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:projectile_protection",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:projectile_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "melee": -0.3333333333333333,
+                "projectile_protection": 0.3333333333333333,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:projectile_protection",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:projectile_protection",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "melee": -0.3333333333333333,
+                "projectile_protection": 0.3333333333333333,
+                "defense": 0.3333333333333333,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:frost_walker",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:frost_walker",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:frost_walker",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:frost_walker",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:binding_curse",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:binding_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "binding": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:respiration",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:respiration",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "respiration": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_head": 0.3333333333333333,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:respiration",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:respiration",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "respiration": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_head": 0.3333333333333333,
+                "low_level": -0.33333333333333337
+              }
+            },
+            {
+              "key": "minecraft:smite",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:smite",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": 0.6000000000000001,
+                "smite": 0.5
+              }
+            },
+            {
+              "key": "minecraft:smite",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:smite",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": 0.19999999999999996,
+                "smite": 0.5
+              }
+            },
+            {
+              "key": "minecraft:fire_protection",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:fire_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.5,
+                "fire_protection": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:fire_protection",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:fire_protection",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.0,
+                "fire_protection": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:sweeping",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:sweeping",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": 0.33333333333333326,
+                "sweeping": 0.5
+              }
+            },
+            {
+              "key": "minecraft:sweeping",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:sweeping",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": -0.33333333333333337,
+                "sweeping": 0.5
+              }
+            },
+            {
+              "key": "minecraft:knockback",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:knockback",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "knockback": 0.5,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:knockback",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:knockback",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "knockback": 0.5,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:unbreaking",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:unbreaking",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "all": 1.0,
+                "unbreaking": 0.5,
+                "enchanter": 1.0,
+                "resource": 0.5,
+                "low_level": 0.33333333333333326
+              }
+            },
+            {
+              "key": "minecraft:unbreaking",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:unbreaking",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "all": 1.0,
+                "unbreaking": 0.5,
+                "enchanter": 1.0,
+                "resource": 0.5,
+                "low_level": -0.33333333333333337
+              }
+            },
+            {
+              "key": "minecraft:aqua_affinity",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:aqua_affinity",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_head": 0.3333333333333333,
+                "low_level": -1.0,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:multishot",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:multishot",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.5,
+                "crossbow": 1.0,
+                "low_level": -1.0,
+                "multishot": 0.5
+              }
+            },
+            {
+              "key": "minecraft:piercing",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:piercing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.5,
+                "crossbow": 1.0,
+                "piercing": 0.5,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:piercing",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:piercing",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.5,
+                "crossbow": 1.0,
+                "piercing": 0.5,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:silk_touch",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:silk_touch",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "silk": 0.3333333333333333,
+                "silk_touch": 0.3333333333333333,
+                "enchanter": 1.0,
+                "resource": 0.3333333333333333,
+                "low_level": -1.0,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "minecraft:fortune",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:fortune",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "luck": 0.5,
+                "fortune": 0.5,
+                "low_level": 0.33333333333333326,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "minecraft:fortune",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:fortune",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "luck": 0.5,
+                "fortune": 0.5,
+                "low_level": -0.33333333333333337,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "minecraft:luck_of_the_sea",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:luck_of_the_sea",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "luck_of_the_sea": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "fishing": 1.0
+              }
+            },
+            {
+              "key": "minecraft:luck_of_the_sea",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:luck_of_the_sea",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "luck_of_the_sea": 0.3333333333333333,
+                "low_level": -0.33333333333333337,
+                "fishing": 1.0
+              }
+            },
+            {
+              "key": "minecraft:efficiency",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:efficiency",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "efficiency": 0.5,
+                "enchanter": 1.0,
+                "low_level": 0.6000000000000001,
+                "tool": 1.0,
+                "speed": 0.5
+              }
+            },
+            {
+              "key": "minecraft:efficiency",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:efficiency",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "efficiency": 0.5,
+                "enchanter": 1.0,
+                "low_level": 0.19999999999999996,
+                "tool": 1.0,
+                "speed": 0.5
+              }
+            },
+            {
+              "key": "minecraft:impaling",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:impaling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "impaling": 0.3333333333333333,
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": 0.6000000000000001
+              }
+            },
+            {
+              "key": "minecraft:impaling",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:impaling",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "impaling": 0.3333333333333333,
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "low_level": 0.19999999999999996
+              }
+            },
+            {
+              "key": "minecraft:bane_of_arthropods",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:bane_of_arthropods",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "bane": 0.3333333333333333,
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.3333333333333333,
+                "low_level": 0.6000000000000001,
+                "arthropods": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:bane_of_arthropods",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:bane_of_arthropods",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "bane": 0.3333333333333333,
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.3333333333333333,
+                "low_level": 0.19999999999999996,
+                "arthropods": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:blast_protection",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:blast_protection",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.5,
+                "blast_protection": 0.5,
+                "low_level": 0.5
+              }
+            },
+            {
+              "key": "minecraft:blast_protection",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:blast_protection",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.5,
+                "blast_protection": 0.5,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:quick_charge",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:quick_charge",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.3333333333333333,
+                "crossbow": 1.0,
+                "quick_charge": 0.3333333333333333,
+                "low_level": 0.33333333333333326,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:quick_charge",
+              "offer": {
+                "experience": 15,
+                "enchantment": "minecraft:quick_charge",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.3333333333333333,
+                "crossbow": 1.0,
+                "quick_charge": 0.3333333333333333,
+                "low_level": -0.33333333333333337,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_regen",
+              "offer": {
+                "experience": 15,
+                "enchantment": "ars_nouveau:mana_regen",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_regen",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "ars_nouveau:mana_regen",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_boost",
+              "offer": {
+                "experience": 15,
+                "enchantment": "ars_nouveau:mana_boost",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_boost",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "ars_nouveau:mana_boost",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "supplementaries:stasis",
+              "offer": {
+                "experience": 15,
+                "enchantment": "supplementaries:stasis",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "stasis": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:chromatic",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:chromatic",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "chromatic": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:berserkers_fury",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:berserkers_fury",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "berserk": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:crescendo",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:crescendo",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "crossbow": 1.0,
+                "crescendo": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:earths_boon",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:earths_boon",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "earths_boon": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:exploitation",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:exploitation",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "exploitation": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:growth_serum",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:growth_serum",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "growth_serum": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:icy_thorns",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:icy_thorns",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "icy_thorns": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:icy_thorns",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "apotheosis:icy_thorns",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "icy_thorns": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:miners_fervor",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:miners_fervor",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "miners_fervor": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:natures_blessing",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:natures_blessing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "natures_blessing": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:natures_blessing",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "apotheosis:natures_blessing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "natures_blessing": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:obliteration",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:obliteration",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "anvil": 1.0,
+                "obliteration": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:rebounding",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:rebounding",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "rebound": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:rebounding",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "apotheosis:rebounding",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "rebound": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:reflective",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:reflective",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "reflective": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:reflective",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "apotheosis:reflective",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "reflective": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:scavenger",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:scavenger",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "looting": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:shield_bash",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:shield_bash",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "bash": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:shield_bash",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "apotheosis:shield_bash",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "bash": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:spearfishing",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:spearfishing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "fishing": 0.3,
+                "weapon": 1.0
+              }
+            },
+            {
+              "key": "apotheosis:spearfishing",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "apotheosis:spearfishing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "fishing": 0.3,
+                "weapon": 1.0
+              }
+            },
+            {
+              "key": "apotheosis:splitting",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:splitting",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "anvil": 1.0,
+                "splitting": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:stable_footing",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:stable_footing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "stable_footing": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:tempting",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:tempting",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "tempting": 0.3,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "apotheosis:bane_of_illagers",
+              "offer": {
+                "experience": 15,
+                "enchantment": "apotheosis:bane_of_illagers",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "illagers": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:bane_of_illagers",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "apotheosis:bane_of_illagers",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "illagers": 0.3
+              }
+            },
+            {
+              "key": "farmersdelight:backstabbing",
+              "offer": {
+                "experience": 15,
+                "enchantment": "farmersdelight:backstabbing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "backstabbing": 0.3
+              }
+            },
+            {
+              "key": "farmersdelight:backstabbing",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "farmersdelight:backstabbing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "backstabbing": 0.3
+              }
+            },
+            {
+              "key": "allurement:alleviating",
+              "offer": {
+                "experience": 15,
+                "enchantment": "allurement:alleviating",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "alleviating": 0.3
+              }
+            },
+            {
+              "key": "allurement:launch",
+              "offer": {
+                "experience": 15,
+                "enchantment": "allurement:launch",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "launch": 0.3
+              }
+            },
+            {
+              "key": "allurement:launch",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "allurement:launch",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "launch": 0.3
+              }
+            },
+            {
+              "key": "allurement:reeling",
+              "offer": {
+                "experience": 15,
+                "enchantment": "allurement:reeling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "crossbow": 1.0,
+                "reeling": 0.3
+              }
+            },
+            {
+              "key": "allurement:reeling",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "allurement:reeling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "crossbow": 1.0,
+                "reeling": 0.3
+              }
+            },
+            {
+              "key": "allurement:shockwave",
+              "offer": {
+                "experience": 15,
+                "enchantment": "allurement:shockwave",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_feet": 0.3,
+                "shockwave": 0.3
+              }
+            },
+            {
+              "key": "allurement:shockwave",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "allurement:shockwave",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_feet": 0.3,
+                "shockwave": 0.3
+              }
+            },
+            {
+              "key": "allurement:obedience",
+              "offer": {
+                "experience": 15,
+                "enchantment": "allurement:obedience",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "horse": 1.0,
+                "obedience": 0.3
+              }
+            },
+            {
+              "key": "allurement:vengeance",
+              "offer": {
+                "experience": 15,
+                "enchantment": "allurement:vengeance",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "vengeance": 0.3
+              }
+            },
+            {
+              "key": "allurement:vengeance",
+              "offer": {
+                "experience": 15,
+                "level": 2,
+                "enchantment": "allurement:vengeance",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "vengeance": 0.3
+              }
+            },
+            {
+              "key": "allurement:spread_of_ailments",
+              "offer": {
+                "experience": 15,
+                "enchantment": "allurement:spread_of_ailments",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "enchanter": 1.0,
+                "crossbow": 1.0,
+                "spreader": 0.3
+              }
+            },
+            {
+              "key": "allurement:ascension_curse",
+              "offer": {
+                "experience": 15,
+                "enchantment": "allurement:ascension_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "ascension": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0
+              }
+            },
+            {
+              "key": "allurement:fleeting_curse",
+              "offer": {
+                "experience": 15,
+                "enchantment": "allurement:fleeting_curse",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "expert",
+              "attributes": {
+                "curse": 0.3333333333333333,
+                "fleeting": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        }
+      },
+      "unique_key_set": "enchantments",
+      "replace": false,
+      "min_trades": 1,
+      "max_trades": 2
+    },
+    "5_master": {
+      "trades": [
+        {
+          "offer": {
+            "experience": 30,
+            "item": "minecraft:name_tag",
+            "price": 10,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "nametag": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "supplementaries:globe",
+            "price": 20,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {}
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "supplementaries:antique_ink",
+            "price": 30,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "ink": 1.0
+          }
+        }
+      ],
+      "subgroups": {
+        "5_enchanted_books_master": {
+          "affinity": {
+            "enchanter": 1.0
+          },
+          "trades": [
+            {
+              "key": "minecraft:flame",
+              "offer": {
+                "enchantment": "minecraft:flame",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.3333333333333333,
+                "flame": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:fire_aspect",
+              "offer": {
+                "enchantment": "minecraft:fire_aspect",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "weapon": 1.0,
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "melee": 0.3333333333333333,
+                "fire_aspect": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:power",
+              "offer": {
+                "enchantment": "minecraft:power",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.5,
+                "power": 0.5,
+                "low_level": 0.19999999999999996
+              }
+            },
+            {
+              "key": "minecraft:protection",
+              "offer": {
+                "enchantment": "minecraft:protection",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "protection": 0.5,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.5,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:punch",
+              "offer": {
+                "enchantment": "minecraft:punch",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.5,
+                "low_level": -1.0,
+                "punch": 0.5
+              }
+            },
+            {
+              "key": "minecraft:looting",
+              "offer": {
+                "enchantment": "minecraft:looting",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "melee": 0.3333333333333333,
+                "low_level": -0.33333333333333337,
+                "looting": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:infinity",
+              "offer": {
+                "enchantment": "minecraft:infinity",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "infinity": 0.3333333333333333,
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "melee": -0.3333333333333333,
+                "resource": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:feather_falling",
+              "offer": {
+                "enchantment": "minecraft:feather_falling",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "falling": 0.3333333333333333,
+                "armor_feet": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:channeling",
+              "offer": {
+                "enchantment": "minecraft:channeling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "trident": 1.0,
+                "melee": -0.3333333333333333,
+                "thunder": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:mending",
+              "offer": {
+                "enchantment": "minecraft:mending",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "all": 1.0,
+                "mending": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0,
+                "resource": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:sharpness",
+              "offer": {
+                "enchantment": "minecraft:sharpness",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "sharpness": 0.5,
+                "low_level": 0.19999999999999996
+              }
+            },
+            {
+              "key": "minecraft:projectile_protection",
+              "offer": {
+                "enchantment": "minecraft:projectile_protection",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "melee": -0.3333333333333333,
+                "projectile_protection": 0.3333333333333333,
+                "defense": 0.3333333333333333,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:respiration",
+              "offer": {
+                "enchantment": "minecraft:respiration",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "respiration": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_head": 0.3333333333333333,
+                "low_level": -0.33333333333333337
+              }
+            },
+            {
+              "key": "minecraft:smite",
+              "offer": {
+                "enchantment": "minecraft:smite",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": 0.19999999999999996,
+                "smite": 0.5
+              }
+            },
+            {
+              "key": "minecraft:fire_protection",
+              "offer": {
+                "enchantment": "minecraft:fire_protection",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "fire": 0.3333333333333333,
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "defense": 0.3333333333333333,
+                "low_level": 0.0,
+                "fire_protection": 0.3333333333333333
+              }
+            },
+            {
+              "key": "minecraft:sweeping",
+              "offer": {
+                "enchantment": "minecraft:sweeping",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "low_level": -0.33333333333333337,
+                "sweeping": 0.5
+              }
+            },
+            {
+              "key": "minecraft:knockback",
+              "offer": {
+                "enchantment": "minecraft:knockback",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "weapon": 1.0,
+                "enchanter": 1.0,
+                "melee": 0.5,
+                "knockback": 0.5,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "minecraft:unbreaking",
+              "offer": {
+                "enchantment": "minecraft:unbreaking",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "all": 1.0,
+                "unbreaking": 0.5,
+                "enchanter": 1.0,
+                "resource": 0.5,
+                "low_level": -0.33333333333333337
+              }
+            },
+            {
+              "key": "minecraft:multishot",
+              "offer": {
+                "enchantment": "minecraft:multishot",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.5,
+                "crossbow": 1.0,
+                "low_level": -1.0,
+                "multishot": 0.5
+              }
+            },
+            {
+              "key": "minecraft:piercing",
+              "offer": {
+                "enchantment": "minecraft:piercing",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.5,
+                "crossbow": 1.0,
+                "piercing": 0.5,
+                "low_level": 0.0
+              }
+            },
+            {
+              "key": "minecraft:silk_touch",
+              "offer": {
+                "enchantment": "minecraft:silk_touch",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "silk": 0.3333333333333333,
+                "silk_touch": 0.3333333333333333,
+                "enchanter": 1.0,
+                "resource": 0.3333333333333333,
+                "low_level": -1.0,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "minecraft:fortune",
+              "offer": {
+                "enchantment": "minecraft:fortune",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "luck": 0.5,
+                "fortune": 0.5,
+                "low_level": -0.33333333333333337,
+                "tool": 1.0
+              }
+            },
+            {
+              "key": "minecraft:luck_of_the_sea",
+              "offer": {
+                "enchantment": "minecraft:luck_of_the_sea",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "fire": -0.3333333333333333,
+                "enchanter": 1.0,
+                "luck": 0.3333333333333333,
+                "luck_of_the_sea": 0.3333333333333333,
+                "low_level": -0.33333333333333337,
+                "fishing": 1.0
+              }
+            },
+            {
+              "key": "minecraft:efficiency",
+              "offer": {
+                "enchantment": "minecraft:efficiency",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "efficiency": 0.5,
+                "enchanter": 1.0,
+                "low_level": 0.19999999999999996,
+                "tool": 1.0,
+                "speed": 0.5
+              }
+            },
+            {
+              "key": "minecraft:quick_charge",
+              "offer": {
+                "enchantment": "minecraft:quick_charge",
+                "level": 2,
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "melee": -0.3333333333333333,
+                "crossbow": 1.0,
+                "quick_charge": 0.3333333333333333,
+                "low_level": -0.33333333333333337,
+                "speed": 0.3333333333333333
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_regen",
+              "offer": {
+                "enchantment": "ars_nouveau:mana_regen",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "ars_nouveau:mana_boost",
+              "offer": {
+                "enchantment": "ars_nouveau:mana_boost",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "mana": 0.3
+              }
+            },
+            {
+              "key": "supplementaries:stasis",
+              "offer": {
+                "enchantment": "supplementaries:stasis",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "stasis": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:berserkers_fury",
+              "offer": {
+                "enchantment": "apotheosis:berserkers_fury",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "berserk": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:crescendo",
+              "offer": {
+                "enchantment": "apotheosis:crescendo",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "crossbow": 1.0,
+                "crescendo": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:earths_boon",
+              "offer": {
+                "enchantment": "apotheosis:earths_boon",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "earths_boon": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:endless_quiver",
+              "offer": {
+                "enchantment": "apotheosis:endless_quiver",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "bow": 1.0,
+                "endless_quiver": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:icy_thorns",
+              "offer": {
+                "level": 2,
+                "enchantment": "apotheosis:icy_thorns",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "icy_thorns": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:knowledge",
+              "offer": {
+                "enchantment": "apotheosis:knowledge",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "icy_thorns": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:miners_fervor",
+              "offer": {
+                "level": 2,
+                "enchantment": "apotheosis:miners_fervor",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "miners_fervor": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:natures_blessing",
+              "offer": {
+                "level": 2,
+                "enchantment": "apotheosis:natures_blessing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "tool": 1.0,
+                "natures_blessing": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:obliteration",
+              "offer": {
+                "enchantment": "apotheosis:obliteration",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "anvil": 1.0,
+                "obliteration": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:rebounding",
+              "offer": {
+                "level": 2,
+                "enchantment": "apotheosis:rebounding",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "rebound": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:reflective",
+              "offer": {
+                "level": 2,
+                "enchantment": "apotheosis:reflective",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "reflective": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:scavenger",
+              "offer": {
+                "enchantment": "apotheosis:scavenger",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "looting": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:shield_bash",
+              "offer": {
+                "level": 2,
+                "enchantment": "apotheosis:shield_bash",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "shield": 1.0,
+                "bash": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:spearfishing",
+              "offer": {
+                "level": 2,
+                "enchantment": "apotheosis:spearfishing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "fishing": 0.3,
+                "weapon": 1.0
+              }
+            },
+            {
+              "key": "apotheosis:splitting",
+              "offer": {
+                "enchantment": "apotheosis:splitting",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "anvil": 1.0,
+                "splitting": 0.3
+              }
+            },
+            {
+              "key": "apotheosis:bane_of_illagers",
+              "offer": {
+                "level": 2,
+                "enchantment": "apotheosis:bane_of_illagers",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "illagers": 0.3
+              }
+            },
+            {
+              "key": "farmersdelight:backstabbing",
+              "offer": {
+                "level": 2,
+                "enchantment": "farmersdelight:backstabbing",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "melee": 0.3,
+                "backstabbing": 0.3
+              }
+            },
+            {
+              "key": "allurement:alleviating",
+              "offer": {
+                "enchantment": "allurement:alleviating",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "alleviating": 0.3
+              }
+            },
+            {
+              "key": "allurement:launch",
+              "offer": {
+                "level": 2,
+                "enchantment": "allurement:launch",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "weapon": 1.0,
+                "launch": 0.3
+              }
+            },
+            {
+              "key": "allurement:reeling",
+              "offer": {
+                "level": 2,
+                "enchantment": "allurement:reeling",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "crossbow": 1.0,
+                "reeling": 0.3
+              }
+            },
+            {
+              "key": "allurement:shockwave",
+              "offer": {
+                "level": 2,
+                "enchantment": "allurement:shockwave",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "armor_feet": 0.3,
+                "shockwave": 0.3
+              }
+            },
+            {
+              "key": "allurement:obedience",
+              "offer": {
+                "enchantment": "allurement:obedience",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "horse": 1.0,
+                "obedience": 0.3
+              }
+            },
+            {
+              "key": "allurement:vengeance",
+              "offer": {
+                "level": 2,
+                "enchantment": "allurement:vengeance",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "armor": 1.0,
+                "vengeance": 0.3
+              }
+            },
+            {
+              "key": "allurement:spread_of_ailments",
+              "offer": {
+                "level": 2,
+                "enchantment": "allurement:spread_of_ailments",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "enchanter": 1.0,
+                "crossbow": 1.0,
+                "spreader": 0.3
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        },
+          "5_mending_master": {
+          "affinity": {
+            "enchanter": 1.0,
+            "mending": 1.0
+          },
+          "trades": [
+            {
+              "key": "minecraft:mending",
+              "offer": {
+                "enchantment": "minecraft:mending",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "all": 1.0,
+                "mending": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0,
+                "resource": 0.3333333333333333,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "apotheosis:life_mending",
+              "offer": {
+                "enchantment": "apotheosis:life_mending",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "all": 1.0,
+                "life_mending": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0,
+                "low_level": -1.0
+              }
+            },
+            {
+              "key": "allurement:reforming",
+              "offer": {
+                "enchantment": "allurement:reforming",
+                "type": "dynamicvillagertrades:enchant_specific_book"
+              },
+              "level": "master",
+              "attributes": {
+                "all": 1.0,
+                "reforming": 0.3333333333333333,
+                "treasure": 0.3333333333333333,
+                "enchanter": 1.0,
+                "low_level": -1.0
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        }
+      },
+      "unique_key_set": "enchantments",
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    }
+  }
+}

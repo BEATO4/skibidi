@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "simplyswords:iron_claymore"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "item": "simplyswords:twisted_blade"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "simplyswords:iron_claymore"
+        }
+      ],
+      "results": [
+        {
+          "item": "simplyswords:iron_claymore"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "simplyswords:iron_claymore"
+        },
+        {
+          "item": "alexscaves:polymer_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "simplyswords:iron_claymore"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "simplyswords:iron_claymore"
+  }
+}

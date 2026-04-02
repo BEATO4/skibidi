@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "knavesneeds:betterend/aeternium/claymore",
+    "knavesneeds:betterend/aeternium/cutlass",
+    "knavesneeds:betterend/aeternium/glaive",
+    "knavesneeds:betterend/aeternium/katana",
+    "knavesneeds:betterend/aeternium/longsword",
+    "knavesneeds:betterend/aeternium/rapier",
+    "knavesneeds:betterend/aeternium/sai",
+    "knavesneeds:betterend/aeternium/spear",
+    "knavesneeds:betterend/aeternium/twinblade",
+    "knavesneeds:betterend/aeternium/warglaive",
+    "knavesneeds:betterend/aeternium/greathammer",
+    "knavesneeds:betterend/aeternium/greataxe",
+    "knavesneeds:betterend/aeternium/chakram",
+    "knavesneeds:betterend/aeternium/scythe",
+    "knavesneeds:betterend/aeternium/halberd",
+    "betterend:aeternium_shovel",
+    "betterend:aeternium_sword",
+    "betterend:aeternium_axe",
+    "betterend:aeternium_pickaxe",
+    "betterend:aeternium_hoe",
+    "betterend:aeternium_helmet",
+    "betterend:aeternium_chestplate",
+    "betterend:aeternium_leggings",
+    "betterend:aeternium_boots"
+  ]
+}

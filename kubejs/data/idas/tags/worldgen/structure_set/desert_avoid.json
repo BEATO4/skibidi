@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:villages",
+    "idas:idas_rare",
+    "idas:idas_common",
+    "idas:idas_small",
+    "integrated_villages:regular_villages",
+    "mowziesmobs:umvuthana_groves"
+  ]
+}

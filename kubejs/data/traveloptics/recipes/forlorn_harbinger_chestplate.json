@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "   ",
+    "IAI",
+    "   "
+  ],
+  "reagents": "REEE",
+  "key": {
+    "A": {
+      "item": "ice_and_fire_spellbooks:fire_dragon_priest_chestplate"
+    },
+    "I": {
+      "item": "traveloptics:darkness_cloth"
+    },
+    "R": {
+      "item": "traveloptics:dark_gem_of_the_living_void"
+    },
+    "E": {
+      "item": "alexscaves:dark_tatters"
+    }
+  },
+  "result": {
+    "item": "traveloptics:forlorn_harbinger_robe",
+    "count": 1
+  }
+}

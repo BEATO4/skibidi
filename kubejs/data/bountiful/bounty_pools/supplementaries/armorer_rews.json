@@ -1,0 +1,41 @@
+
+{
+	"content": {
+
+        "pedestal": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "supplementaries:pedestal",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 400
+        },
+
+        "hat stand": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "supplementaries:hat_stand",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300
+        },
+
+        "safe": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "content": "supplementaries:safe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50000,
+            "repRequired": 20
+        }
+
+	}
+
+}

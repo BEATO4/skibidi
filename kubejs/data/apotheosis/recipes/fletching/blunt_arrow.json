@@ -1,0 +1,22 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [
+		{
+			"item": "caverns_and_chasms:spinel"
+		},
+		{
+			"item": "minecraft:stick"
+		},
+		{
+			"tag": "forge:feathers"
+		}
+	],
+	"result": {
+		"item": "caverns_and_chasms:blunt_arrow",
+		"count": 6
+	}
+}

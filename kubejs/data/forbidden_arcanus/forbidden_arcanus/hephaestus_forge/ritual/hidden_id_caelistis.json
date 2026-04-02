@@ -1,0 +1,78 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:holy_symbol"
+    ],
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 20000,
+    "blood": 25000,
+    "experience": 1200,
+    "souls": 900
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "betterend:eternal_crystal"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "betterend:eternal_crystal"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "born_in_chaos_v1:phantom_powder"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "born_in_chaos_v1:phantom_powder"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "eidolon:shadow_gem"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "eidolon:shadow_gem"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:corrupted_arcane_crystal"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:corrupted_arcane_crystal"
+      }
+    }
+  ],
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "main_ingredient": {
+    "item": "simplyswords:runic_longsword"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:caelestis"
+    }
+  }
+}

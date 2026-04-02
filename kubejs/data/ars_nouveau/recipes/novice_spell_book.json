@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " f ",
+    "gbg",
+    " g "
+  ],
+  "reagents": "adad",
+  "key": {
+    "d": {
+      "tag": "forge:gems/diamond"
+    },
+    "f": {
+      "item": "redeco:purple_upholstery"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "a": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "b": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:novice_spell_book"
+  }
+}

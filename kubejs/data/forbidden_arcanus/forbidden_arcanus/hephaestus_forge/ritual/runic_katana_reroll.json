@@ -1,0 +1,40 @@
+{
+  "additional_requirements": {
+
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 500,
+    "blood": 500,
+    "experience": 100,
+    "souls": 5
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:rune"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:runic_katana"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pure.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:runic_katana"
+    }
+  }
+}

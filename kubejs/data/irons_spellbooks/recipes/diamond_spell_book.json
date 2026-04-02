@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "eoe",
+    "ipi",
+    "eoe"
+  ],
+  "reagents": "mmmm",
+  "key": {
+    "e": {
+      "item": "minecraft:diamond"
+    },
+    "i": {
+      "item": "eidolon:wicked_weave"
+    },
+    "p": {
+      "item": "ars_nouveau:apprentice_spell_book"
+    },
+	"o": {
+      "item": "ars_nouveau:blank_parchment"
+    },
+    "m": {
+      "item": "mynethersdelight:hoglin_hide"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:diamond_spell_book"
+  }
+}

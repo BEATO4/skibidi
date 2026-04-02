@@ -1,0 +1,16 @@
+filename = 'knavesneeds-forge-2.0+1.20.1.jar'
+name = "Knaves' Needs"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1024f2b8c44dd48ca68586f2d482fefaede273a7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4798238
+project-id = 813527

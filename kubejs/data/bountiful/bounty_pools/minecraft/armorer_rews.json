@@ -1,0 +1,420 @@
+
+{
+	"content": {
+
+        "iron_ingot": {
+            "type": "item",
+            "content": "minecraft:iron_ingot",
+            "amount": {
+                "min": 3,
+                "max": 10
+            },
+            "unitWorth": 600
+        },
+
+        "gold_ingot": {
+            "type": "item",
+            "content": "minecraft:gold_ingot",
+            "amount": {
+                "min": 3,
+                "max": 10
+            },
+            "unitWorth": 900
+        },
+
+        "chains": {
+            "type": "item",
+            "content": "minecraft:chain",
+            "amount": {
+                "min": 3,
+                "max": 10
+            },
+            "unitWorth": 800
+        },
+
+        "trims": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "#minecraft:trim_templates",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "repRequired": 5
+        },
+
+        "trims_2": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "#minecraft:trim_templates",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "repRequired": 10
+        },
+
+		"ench_book_prot1": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2500,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}"
+        },
+
+		"ench_book_prot2": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 5000,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:protection\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 10
+        },
+
+		"ench_book_prot3": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 10000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:protection\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 20
+        },
+
+        "ench_book_prot4": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 15000,
+            "nbt": "{StoredEnchantments:[{lvl:4s,id:\"minecraft:protection\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 25
+        },
+
+        "ench_book_prot5": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:protection\"}]}",
+            "weightMult": 0.2,
+			"repRequired": 30
+        },
+
+		"ench_book_fireprot": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:fire_protection\"}]}",
+            "weightMult": 0.2
+        },
+
+        "ench_book_fireprot2": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 5000,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:fire_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 10
+        },
+
+        "ench_book_fireprot3": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 10000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:fire_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 20
+        },
+
+        "ench_book_fireprot4": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 15000,
+            "nbt": "{StoredEnchantments:[{lvl:4s,id:\"minecraft:fire_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 25
+        },
+        
+        "ench_book_fireprot5": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:fire_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 30
+        },
+
+		"ench_book_projprot": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:projectile_protection\"}]}",
+            "weightMult": 0.2
+        },
+
+        "ench_book_projprot2": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 5000,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:projectile_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 10
+        },
+
+        "ench_book_projprot3": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 10000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:projectile_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 20
+        },
+
+        "ench_book_projprot4": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 15000,
+            "nbt": "{StoredEnchantments:[{lvl:4s,id:\"minecraft:projectile_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 25
+        },
+
+        "ench_book_projprot5": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:projectile_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 30
+        },
+
+		"ench_book_blastprot": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:blast_protection\"}]}",
+            "weightMult": 0.2
+        },
+
+        "ench_book_blastprot2": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 5000,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:blast_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 10
+        },
+
+        "ench_book_blastprot3": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 10000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:blast_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 20
+        },
+
+        "ench_book_blastprot4": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 15000,
+            "nbt": "{StoredEnchantments:[{lvl:4s,id:\"minecraft:blast_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 25
+        },
+
+        "ench_book_blastprot5": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:blast_protection\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 30
+        },
+
+		"ench_book_thorns": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:thorns\"}]}",
+            "weightMult": 0.2
+        },
+
+        "ench_book_thorns2": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 5000,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:thorns\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 10
+        },
+
+        "ench_book_thorns3": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 10000,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:thorns\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 20
+        },
+
+        "ench_book_thorns4": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 15000,
+            "nbt": "{StoredEnchantments:[{lvl:4s,id:\"minecraft:thorns\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 25
+        },
+
+        "ench_book_thorns5": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 20000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:thorns\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 30
+        },
+
+        "ench_book_aqua_affinity": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 15000,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:aqua_affinity\"}]}",
+            "weightMult": 0.2,
+            "repRequired": 10
+        }
+
+	}
+
+}

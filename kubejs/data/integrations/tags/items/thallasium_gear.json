@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "knavesneeds:betterend/thallasium/claymore",
+    "knavesneeds:betterend/thallasium/cutlass",
+    "knavesneeds:betterend/thallasium/glaive",
+    "knavesneeds:betterend/thallasium/katana",
+    "knavesneeds:betterend/thallasium/longsword",
+    "knavesneeds:betterend/thallasium/rapier",
+    "knavesneeds:betterend/thallasium/sai",
+    "knavesneeds:betterend/thallasium/spear",
+    "knavesneeds:betterend/thallasium/twinblade",
+    "knavesneeds:betterend/thallasium/warglaive",
+    "knavesneeds:betterend/thallasium/greathammer",
+    "knavesneeds:betterend/thallasium/greataxe",
+    "knavesneeds:betterend/thallasium/chakram",
+    "knavesneeds:betterend/thallasium/scythe",
+    "knavesneeds:betterend/thallasium/halberd",
+    "betterend:thallasium_shovel",
+    "betterend:thallasium_sword",
+    "betterend:thallasium_axe",
+    "betterend:thallasium_pickaxe",
+    "betterend:thallasium_hoe",
+    "betterend:thallasium_helmet",
+    "betterend:thallasium_chestplate",
+    "betterend:thallasium_leggings",
+    "betterend:thallasium_boots",
+    "betterend:thallasium_boots"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    },
+    {
+      "fluid": "createmetallurgy:molten_netherite",
+      "amount": 90
+    }
+  ],
+  "results": [
+    {
+      "item": "cataclysm:ignitium_ingot",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:conjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:orbofthe_summoner"
+      }
+    },
+    {
+      "item": {
+        "item": "betterarcheology:wolf_fossil"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:bone"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_summon_wolves"
+}

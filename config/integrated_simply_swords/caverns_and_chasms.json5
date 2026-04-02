@@ -1,0 +1,15 @@
+{
+	/* This file controls values specifically for Caverns and Chasms.
+	   Material modifiers are set to the base damage of each material's tier.
+	   Values are ints, meaning you cannot have values with a decimal point.
+	   Valid:
+	   - '5'
+	   
+	   Invalid:
+	   - '3.4'
+	*/
+	"NECROMIUM": 0,
+	/* The slowness level applied by Necromium swords
+	*/
+	"SLOWNESS": 1
+}

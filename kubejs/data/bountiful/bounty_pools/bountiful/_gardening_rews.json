@@ -1,0 +1,183 @@
+{
+	"replace": true,
+
+	"content": {
+
+		"Oak Hedge": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:oak_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 100
+		},
+
+		"Spruce Hedge": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:spruce_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 100
+		},
+
+		"Birch Hedge": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:birch_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 100
+		},
+
+		"Jungle Hedge": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:jungle_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 100
+		},
+
+		"Acacia Hedge": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:acacia_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 100
+		},
+
+		"Dark Oak Hedge": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:dark_oak_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 100
+		},
+
+		"Mangrove Hedge": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:mangrove_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 100
+		},
+
+		"Cherry Hedge": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:cherry_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 100
+		},
+
+		"Azalea Hedge": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:azalea_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 100
+		},
+
+		"Flowering Azalea Hedge": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:flowering_azalea_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 100
+		},
+
+		"Frosty Trumpet Hedge": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "quark:blue_blossom_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 150
+		},
+
+		"Serene Trumpet Hedge": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "quark:lavender_blossom_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 150
+		},
+
+		"Warm Trumpet Hedge": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "quark:orange_blossom_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 150
+		},
+
+		"Sunny Trumpet Hedge": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "quark:yellow_blossom_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 150
+		},
+
+		"Fiery Trumpet Hedge": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "quark:red_blossom_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 150
+		},
+
+		"Ashen Hedge": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "quark:ancient_hedge",
+			"amount": {
+				"min": 5,
+				"max": 15
+			},
+			"unitWorth": 300
+		}
+		
+	}
+}

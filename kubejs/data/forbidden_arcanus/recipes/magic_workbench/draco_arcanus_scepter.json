@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " gd",
+    " og",
+    "c  "
+  ],
+  "reagents": "isis",
+  "key": {
+    "i": {
+      "item": "apotheosis:infused_breath"
+    },
+    "s": {
+      "item": "eidolon:shadow_gem"
+    },
+    "d": {
+      "item": "forbidden_arcanus:dark_nether_star"
+    },
+    "g": {
+      "item": "minecraft:diamond"
+    },
+    "o": {
+      "item": "forbidden_arcanus:obsidian_ingot"
+    },
+    "c": {
+      "item": "forbidden_arcanus:draco_arcanus_staff"
+    }
+  },
+  "result": {
+    "item": "forbidden_arcanus:draco_arcanus_scepter"
+  }
+}

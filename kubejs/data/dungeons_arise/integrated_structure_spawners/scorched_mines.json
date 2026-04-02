@@ -1,0 +1,16 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:blaze",
+      "weight": 5
+    },
+    {
+      "name": "minecraft:piglin_brute",
+      "weight": 10
+    },
+    {
+      "name": "minecraft:piglin",
+      "weight": 10
+    }
+  ]
+}

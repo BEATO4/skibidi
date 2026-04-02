@@ -1,0 +1,35 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "vav",
+    "wbf",
+    "vev"
+  ],
+  "reagents": "iiii",
+  "key": {
+    "a": {
+      "item": "ars_nouveau:air_essence"
+    },
+    "w": {
+      "item": "ars_nouveau:water_essence"
+    },
+    "e": {
+      "item": "ars_nouveau:earth_essence"
+    },
+    "f": {
+      "item": "ars_nouveau:fire_essence"
+    },
+    "v": {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    "b": {
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    "i": {
+      "item": "irons_spellbooks:arcane_ingot"
+    }
+  },
+  "result": {
+    "item": "forbidden_arcanus:elementarium"
+  }
+}

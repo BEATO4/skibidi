@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:husk",
+      "weight": 15
+    },
+    {
+      "name": "betternether:jungle_skeleton",
+      "weight": 10
+    }
+  ]
+}

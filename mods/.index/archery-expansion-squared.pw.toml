@@ -1,0 +1,16 @@
+filename = 'archexpsquared-0.3.0.jar'
+name = 'Archery Expansion Squared'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cadcf2f75fd730f7bac09231bfa30810468266f3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6425344
+project-id = 1217171

@@ -1,0 +1,36 @@
+{
+  "profession": "minecraft:nitwit",
+  "replace": true,
+  "offers": {
+    "1_novice": {
+      "trades": [],
+      "replace": false,
+      "min_trades": 0,
+      "max_trades": 0
+    },
+    "2_apprentice": {
+      "trades": [],
+      "replace": false,
+      "min_trades": 0,
+      "max_trades": 0
+    },
+    "3_journeyman": {
+      "trades": [],
+      "replace": false,
+      "min_trades": 0,
+      "max_trades": 0
+    },
+    "4_expert": {
+      "trades": [],
+      "replace": false,
+      "min_trades": 0,
+      "max_trades": 0
+    },
+    "5_master": {
+      "trades": [],
+      "replace": false,
+      "min_trades": 0,
+      "max_trades": 0
+    }
+  }
+}

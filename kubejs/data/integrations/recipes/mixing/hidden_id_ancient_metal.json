@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    {
+      "item": "oreganized:electrum_nugget"
+    },
+    {
+      "item": "alexscaves:pewen_sap"
+    },
+    {
+      "fluid": "create_enchantment_industry:hyper_experience",
+      "amount": 25
+    }
+  ],
+  "results": [
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    }
+  ]
+}

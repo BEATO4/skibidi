@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "  E",
+    " S ",
+    "g  "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "E": {
+      "item": "minecraft:amethyst_shard"
+    },
+	"g": {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    "z": {
+      "item": "ars_nouveau:source_gem"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:artificer_cane",
+    "count": 1
+  }
+}

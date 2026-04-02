@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "cataclysm:burning_arena",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:soul_black_smith",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "integrated_api:advanced_random_spread",
+    "salt": 912345556789,
+    "spacing": 65,
+    "separation": 40,
+    "super_exclusion_zone": {
+      "chunk_count": 8,
+      "other_set": "#idas:nether_rare_avoid"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "weight": 4,
+  "requests": [
+    {
+      "item": "minecraft:cocoa_beans",
+      "max_count": 5,
+      "points": 5
+    },
+    {
+      "item": "minecraft:glistering_melon_slice",
+      "max_count": 4,
+      "points": 8
+    },
+    {
+      "item": "minecraft:bamboo",
+      "max_count": 8,
+      "points": 1
+    },
+    {
+      "item": "hexerei:crystal_ball",
+      "max_count": 1,
+      "points": 10
+    },
+    {
+      "item": "forbidden_arcanus:arcane_bone_meal",
+      "max_count": 3,
+      "points": 10
+    }
+  ]
+}

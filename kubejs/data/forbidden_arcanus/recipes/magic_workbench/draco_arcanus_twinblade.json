@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "  d",
+    " c ",
+    "d  "
+  ],
+  "reagents": "isis",
+  "key": {
+    "i": {
+      "item": "apotheosis:infused_breath"
+    },
+    "s": {
+      "item": "eidolon:shadow_gem"
+    },
+    "d": {
+      "tag": "iceandfire:scales/dragon"
+    },
+    "c": {
+      "item": "forbidden_arcanus:draco_arcanus_staff"
+    }
+  },
+  "result": {
+    "item": "knavesneeds:forbidden_arcanus/draco_arcanus/twinblade"
+  }
+}

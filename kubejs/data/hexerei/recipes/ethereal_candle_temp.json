@@ -1,0 +1,20 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "   ",
+    " c ",
+    "   "
+  ],
+  "reagents": "e   ",
+  "key": {
+    "e": {
+      "item": "iceandfire:ectoplasm"
+    },
+    "c": {
+      "tag": "minecraft:candles"
+    }
+  },
+  "result": {
+    "item": "hexerei:candle"
+  }
+}

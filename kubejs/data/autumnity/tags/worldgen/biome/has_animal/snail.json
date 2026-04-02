@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    {
+      "id": "#forge:is_coniferous",
+      "required": false
+    },
+    {
+      "id": "#forge:deciduous/tree",
+      "required": false
+    },
+    {
+      "id": "#forge:is_grassland",
+      "required": false
+    },
+    {
+      "id": "#forge:deciduous/tree",
+      "required": false
+    },
+    {
+      "id": "#forge:floral",
+      "required": false
+    }
+  ]
+}

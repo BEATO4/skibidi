@@ -1,0 +1,206 @@
+{
+  "structures": [
+    {
+      "structure": "ars_additions:nexus_tower",
+      "weight": 3
+    },
+    {
+      "structure": "idas:cottage",
+      "weight": 3
+    },
+    {
+      "structure": "idas:animal_den/forest_den",
+      "weight": 3
+    },
+    {
+      "structure": "idas:animal_den/polar_bear_den",
+      "weight": 3
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_oak",
+      "weight": 3
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_spruce",
+      "weight": 3
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_birch",
+      "weight": 3
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_jungle",
+      "weight": 3
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_acacia",
+      "weight": 3
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_dark_oak",
+      "weight": 3
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp",
+      "weight": 3
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp_red",
+      "weight": 3
+    },
+    {
+      "structure": "idas:sunken_ship/sunken_ship_ruins",
+      "weight": 3
+    },
+    {
+      "structure": "idas:ancient_statue/ancient_statue_plains",
+      "weight": 3
+    },
+    {
+      "structure": "idas:ancient_statue/ancient_statue_jungle",
+      "weight": 3
+    },
+    {
+      "structure": "idas:ancient_statue/ancient_statue_desert",
+      "weight": 2
+    },
+    {
+      "structure": "idas:washing_camp",
+      "weight": 3
+    },
+    {
+      "structure": "idas:desert_market/desert_market",
+      "weight": 2
+    },
+    {
+      "structure": "idas:desert_market/desert_market_red",
+      "weight": 2
+    },
+    {
+      "structure": "idas:desert_market/desert_market_orange",
+      "weight": 2
+    },
+    {
+      "structure": "idas:pillager_camp",
+      "weight": 3
+    },
+    {
+      "structure": "idas:snifferhenge",
+      "weight": 1
+    },
+    {
+      "structure": "idas:train_ruins",
+      "weight": 2
+    },
+    {
+      "structure": "idas:frozen_crypt",
+      "weight": 2
+    },
+    {
+      "structure": "idas:abandoned_lighthouse",
+      "weight": 1
+    },
+    {
+      "structure": "biomemakeover:mushroom_house",
+      "weight": 2
+    },
+    {
+      "structure": "biomemakeover:sunken_ruin",
+      "weight": 2
+    },    
+    {
+      "structure": "betterarcheology:archeologist_camp_grassy",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:archeologist_camp_redsand",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:archeologist_camp_sand",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:buried_ruins_sand",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:catacombs",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:desert_obelisk",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:light_temple",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:mesa_ruins",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:mott",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:ruins_sand",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:stonehenge_grassy",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:temple_jungle",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:tumulus_grassy",
+      "weight": 3
+    },
+    {
+      "structure": "betterarcheology:villager_grave",
+      "weight": 5
+    },
+    {
+      "structure": "integrated_minecraft:farm",
+      "weight": 5
+    },
+    {
+      "structure": "integrated_minecraft:abandoned_factory",
+      "weight": 4
+    },
+    {
+      "structure": "integrated_minecraft:torii_gate",
+      "weight": 4
+    },
+    {
+      "structure": "integrated_minecraft:beach_house",
+      "weight": 5
+    },
+    {
+      "structure": "integrated_minecraft:travelers_camp",
+      "weight": 5
+    },
+    {
+      "structure": "integrated_minecraft:old_base",
+      "weight": 5
+    },
+    {
+      "structure": "integrated_minecraft:strange_ruins",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "salt": 169480673,
+    "spacing": 21,
+    "separation": 11,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 3,
+      "other_set": "#idas:small_avoid"
+    }
+  }
+}

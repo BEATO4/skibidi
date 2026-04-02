@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "quark:grate",
+    "oreganized:lead_bars",
+    "caverns_and_chasms:golden_bars",
+    "caverns_and_chasms:silver_bars",
+    "caverns_and_chasms:copper_bars",
+    "caverns_and_chasms:exposed_copper_bars",
+    "caverns_and_chasms:weathered_copper_bars",
+    "caverns_and_chasms:oxidized_copper_bars",
+    "caverns_and_chasms:waxed_copper_bars",
+    "caverns_and_chasms:waxed_exposed_copper_bars",
+    "caverns_and_chasms:waxed_weathered_copper_bars",
+    "caverns_and_chasms:waxed_oxidized_copper_bars",
+    "betternether:cincinnasite_bars",
+    "betterend:thallasium_bars",
+    "betterend:terminite_bars",
+    "createdeco:andesite_bars_overlay",
+    "createdeco:andesite_bars",
+    "createdeco:brass_bars_overlay",
+    "createdeco:brass_bars",
+    "createdeco:iron_bars_overlay",
+    "createdeco:copper_bars_overlay",
+    "createdeco:industrial_iron_bars_overlay",
+    "createdeco:industrial_iron_bars",
+    "createdeco:zinc_bars_overlay",
+    "createdeco:zinc_bars"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  }],
+  "type": "apotheosis:basic_trade",
+  "rare": true,
+  "input_1": {
+    "item": "iceandfire:sapphire_gem",
+    "count": 15
+  },
+  "input_2": {
+    "item": "minecraft:air",
+    "count": 0
+  },
+  "output": {
+    "item": "oreganized:electrum_boots",
+    "count": 1,
+    "nbt": {
+        "Enchantments": [
+            {
+                "lvl": 5,
+                "id": "minecraft:protection"
+            },
+            {
+                "lvl": 1,
+                "id": "minecraft:mending"
+            },
+            {
+                "lvl": 5,
+                "id": "minecraft:unbreaking"
+            },
+            {
+                "lvl": 1,
+                "id": "apotheosis:stable_footing"
+            },
+            {
+                "lvl": 5,
+                "id": "minecraft:feather_falling"
+            },
+            {
+                "lvl": 5,
+                "id": "allurement:shockwave"
+            }
+        ],
+        "display": {
+            "Name": "{\"translate\":\"name.apotheosis.merch_boots\", \"italic\": false, \"color\": \"#1ABBE0\"}"
+        },
+        "Damage": 0
+    }
+  },
+  "max_trades": 1,
+  "xp": 500,
+  "price_mult": 1.0
+}

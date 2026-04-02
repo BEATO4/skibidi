@@ -1,0 +1,64 @@
+
+{
+	"content": {
+
+        "guardian": {
+			"type": "entity",
+			"timeMult": 4.0,
+			"rarity": "EPIC",
+			"content": "minecraft:guardian",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 1750,
+			"weightMult": 0.2
+		},
+
+        "drowned": {
+			"type": "entity",
+			"timeMult": 2.0,
+			"rarity": "UNCOMMON",
+			"content": "minecraft:drowned",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 750,
+			"weightMult": 0.2
+		},
+
+		"ink sac": {
+            "type": "item",
+            "content": "minecraft:ink_sac",
+            "amount": {
+                "min": 3,
+                "max": 10
+            },
+            "unitWorth": 75
+        },
+
+		"glow ink sac": {
+            "type": "item",
+            "content": "minecraft:glow_ink_sac",
+            "amount": {
+                "min": 3,
+                "max": 10
+            },
+            "unitWorth": 150
+        },
+
+		"turtle egg": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:turtle_egg",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2000
+        }
+
+	}
+
+}

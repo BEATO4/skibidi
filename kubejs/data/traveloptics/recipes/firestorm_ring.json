@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " l ",
+    "srs",
+    " s "
+  ],
+  "reagents": "afaf",
+  "key": {
+    "r": {
+      "item": "eidolon:basic_ring"
+    },
+    "l": {
+      "item": "cataclysm:lava_power_cell"
+    },
+    "s": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "a": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "f": {
+      "item": "ars_nouveau:fire_essence"
+    }
+  },
+  "result": {
+    "item": "traveloptics:firestorm_ring"
+  }
+}

@@ -1,0 +1,16 @@
+filename = 'fruitsdelight-1.1.1.jar'
+name = 'Fruits Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3ecef6a32c36cffd14de39c3be7c5e16463781fd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6951298
+project-id = 943774

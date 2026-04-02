@@ -1,0 +1,33 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:flint_and_steel"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:intoxicatind_bomb"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:blaze_rod"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_flare"
+}

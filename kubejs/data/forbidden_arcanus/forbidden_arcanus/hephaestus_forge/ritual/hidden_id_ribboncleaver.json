@@ -1,0 +1,57 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 1500,
+    "blood": 0,
+    "experience": 2500,
+    "souls": 0
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexscaves:heart_of_iron"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "alexscaves:polymer_plate"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "biomemakeover:crude_cladding"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "eidolon:crimson_gem"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexscaves:shadow_silk"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:iron_claymore"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:ribboncleaver"
+    }
+  }
+}

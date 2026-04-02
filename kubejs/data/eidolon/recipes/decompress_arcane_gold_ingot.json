@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "eidolon",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:deorum_ingot"
+    }
+  ],
+  "result": {
+    "item": "forbidden_arcanus:deorum_nugget",
+    "count": 9
+  }
+}

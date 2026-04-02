@@ -1,0 +1,9 @@
+{
+  "description": {
+    "hephaestus_forge": {
+      "translate": "item.forbidden_arcanus.enhancer.maledictus_pact.hephaestus_forge"
+    }
+  },
+  "effects": [],
+  "item": "eidolon:unholy_symbol"
+}

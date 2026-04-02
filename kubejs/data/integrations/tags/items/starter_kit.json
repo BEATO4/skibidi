@@ -1,0 +1,31 @@
+{
+	"replace": false,
+	"values": [
+	  "quark:feeding_trough",
+	  "quark:trowel",
+	  "quark:abacus",
+	  "bountiful:bountyboard",
+	  "create:brown_toolbox",
+	  "create:goggles",
+	  "domesticationinnovation:collar_tag",
+	  "domesticationinnovation:pet_bed_white",
+	  "domesticationinnovation:feather_on_a_stick",
+	  "ars_nouveau:novice_spell_book",
+	  "farmersdelight:cooking_pot",
+	  "farmersdelight:iron_knife",
+	  "sawmill:sawmill",
+	  "supplementaries:rope",
+	  "supplementaries:cage",
+	  "supplementaries:sack",
+	  "shieldexp:wooden_shield",
+	  "sophisticatedbackpacks:backpack",
+	  "spelunkery:handheld_compactor",
+	  "supplementaries:altimeter",
+	  "spelunkery:parachute",
+	  "spelunkery:glowstick",
+	  "spelunkery:diamond_grindstone",
+	  "storagedrawers:oak_half_drawers_4",
+	  "quark:torch_arrow",
+	  "waystones:waystone"
+	]
+  }

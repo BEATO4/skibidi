@@ -1,0 +1,33 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:abjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    },
+    {
+      "item": {
+        "item": "eidolon:shadow_gem"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:seedof_chaos"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:wither_rose"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_hex"
+}

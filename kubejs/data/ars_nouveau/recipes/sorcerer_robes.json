@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "mgm",
+    "mdm",
+    "mmm"
+  ],
+  "reagents": "asas",
+  "key": {
+    "d": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "m": {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    "g": {
+      "item": "create:golden_sheet"
+    },
+    "a": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "s": {
+      "item": "ars_nouveau:source_gem"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:sorcerer_robes"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " l ",
+    "srs",
+    " s "
+  ],
+  "reagents": "afaf",
+  "key": {
+    "r": {
+      "item": "eidolon:basic_ring"
+    },
+    "l": {
+      "item": "cataclysm:cursium_ingot"
+    },
+    "s": {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    "a": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "f": {
+      "item": "netherexp:wraithing_flesh"
+    }
+  },
+  "result": {
+    "item": "traveloptics:aetherial_despair_ring"
+  }
+}

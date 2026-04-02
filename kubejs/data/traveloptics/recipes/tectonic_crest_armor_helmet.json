@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "   ",
+    "IAI",
+    "   "
+  ],
+  "reagents": "REEE",
+  "key": {
+    "A": {
+      "item": "traveloptics:primordial_crest_armor_helmet"
+    },
+    "I": {
+      "item": "traveloptics:tectonic_ingot"
+    },
+    "R": {
+      "item": "irons_spellbooks:fire_rune"
+    },
+    "E": {
+      "item": "ars_nouveau:fire_essence"
+    }
+  },
+  "result": {
+    "item": "traveloptics:tectonic_crest_armor_helmet",
+    "count": 1
+  }
+}

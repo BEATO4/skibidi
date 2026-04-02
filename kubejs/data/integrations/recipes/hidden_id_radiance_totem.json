@@ -1,0 +1,27 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "betterarcheology:radiance_totem"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexscaves:uranium"
+    },
+    {
+      "item": "alexscaves:uranium"
+    },
+    {
+      "item": "ars_nouveau:starbuncle_shards"
+    },
+    {
+      "item": "ars_nouveau:starbuncle_shards"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_additions:golden_lantern"
+    }
+  ],
+  "sourceCost": 1000
+}

@@ -1,0 +1,102 @@
+{
+	"content": {
+		"shield": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:shield",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"nbt": "{Damage:0}",
+			"forbids": [
+				{
+					"type": "item",
+					"content": "minecraft:iron_ingot"
+				}
+			],
+			"repRequired": 5
+		},
+
+        "primary_currency_bonus": {
+			"type": "item",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 1,
+				"max": 15
+			},
+			"unitWorth": 500,
+			"weightMult": 6
+		},
+
+        "ench_book_unbreaking1": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 4500,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:unbreaking\"}]}"
+        },
+
+        "ench_book_unbreaking2": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 9000,
+            "repRequired": 5,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"minecraft:unbreaking\"}]}"
+        },
+
+        "ench_book_unbreaking3": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 12000,
+            "repRequired": 10,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:unbreaking\"}]}"
+        },
+
+        "ench_book_unbreaking4": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 18000,
+            "repRequired": 15,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:4s,id:\"minecraft:unbreaking\"}]}"
+        },
+
+        "ench_book_unbreaking5": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "rarity": "EPIC",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 25000,
+            "repRequired": 20,
+            "weightMult": 0.2,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:unbreaking\"}]}"
+        }
+	}
+}

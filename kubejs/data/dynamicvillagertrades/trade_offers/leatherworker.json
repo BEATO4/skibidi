@@ -1,0 +1,655 @@
+{
+  "profession": "minecraft:leatherworker",
+  "replace": true,
+  "offers": {
+    "1_novice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:leather",
+            "price": 5,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:flint",
+            "price": 20,
+            "experience": 2,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:leather_leggings",
+            "price": 3,
+            "experience": 1,
+            "type": "minecraft:sell_dyed_armor"
+          },
+          "level": "novice",
+          "attributes": {
+            "leather_leggings": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:leather_chestplate",
+            "price": 7,
+            "experience": 1,
+            "type": "minecraft:sell_dyed_armor"
+          },
+          "level": "novice",
+          "attributes": {
+            "leather_chestplate": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:leather_helmet",
+            "price": 5,
+            "experience": 1,
+            "type": "minecraft:sell_dyed_armor"
+          },
+          "level": "novice",
+          "attributes": {
+            "leather_helmet": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:leather_boots",
+            "price": 4,
+            "experience": 1,
+            "type": "minecraft:sell_dyed_armor"
+          },
+          "level": "novice",
+          "attributes": {
+            "leather_boots": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "2_apprentice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "spelunkery:salt",
+            "price": 10,
+            "experience": 5,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:rotten_flesh",
+            "price": 3,
+            "experience": 5,
+            "second_count": 1,
+            "sell_count": 1,
+            "sell_item": "minecraft:leather",
+            "max_uses": 10,
+            "type": "minecraft:process_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "processing": 1.0,
+            "cabbage": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:rabbit_hide",
+            "price": 3,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "supplementaries:soap",
+            "price": 10,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "soap": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "minecraft:item_frame",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "decoration": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "minecraft:leather",
+            "price": 6,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "leather": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:leather_horse_armor",
+            "price": 6,
+            "experience": 15,
+            "type": "minecraft:sell_dyed_armor"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "leather_horse_armor": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "3_journeyman": {
+      "trades": [
+        {
+          "offer": {
+            "item": "alexsmobs:bear_fur",
+            "price": 1,
+            "experience": 15,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "nethersdelight:hoglin_hide",
+            "price": 1,
+            "experience": 15,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:kangaroo_hide",
+            "price": 1,
+            "experience": 15,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:bison_fur",
+            "price": 1,
+            "experience": 15,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "minecraft:saddle",
+            "price": 6,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "saddle": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 20,
+            "item": "sophisticatedbackpacks:backpack",
+            "price": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "backpack": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "minecraft:rabbit_hide",
+            "price": 5,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "rabbit_hide": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "4_expert": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:scute",
+            "price": 4,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {}
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:crocodile_scute",
+            "price": 1,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:spiked_scute",
+            "price": 1,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "quark:bonded_leather",
+            "price": 1,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "quark:bonded_rabbit_hide",
+            "price": 1,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "quark:ravager_hide",
+            "price": 1,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "alexsmobs:bison_carpet",
+            "price": 5,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "decoration": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:light_gray_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:gray_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:black_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:brown_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:red_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:orange_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:yellow_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:lime_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:green_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:cyan_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:light_blue_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:blue_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:purple_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:magenta_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:pink_dye",
+            "price": 3,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "dye": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 3,
+      "max_trades": 3
+    },
+    "5_master": {
+      "trades": [
+        {
+          "offer": {
+            "item": "alexscaves:tough_hide",
+            "price": 1,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "master",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "quark:bonded_leather",
+            "price": 5,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "leather": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "sophisticatedbackpacks:upgrade_base",
+            "price": 5,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "backpack": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "quark:bonded_rabbit_hide",
+            "price": 8,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "rabbit_hide": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 30,
+            "item": "alexsmobs:falconry_glove",
+            "price": 20,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {}
+        },
+        {
+          "offer": {
+            "item": "alexscaves:dark_tatters",
+            "price": 1,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "master",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "iceandfire:troll_leather_forest",
+            "price": 1,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "master",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "iceandfire:troll_leather_frost",
+            "price": 1,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "master",
+          "attributes": {
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "iceandfire:troll_leather_mountain",
+            "price": 1,
+            "experience": 30,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "buying": 1.0
+          }
+        }
+      ],
+      "replace": false,
+      "min_trades": 1,
+      "max_trades": 1
+    }
+  }
+}

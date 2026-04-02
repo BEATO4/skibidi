@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "eie",
+    "ipi",
+    "eie"
+  ],
+  "reagents": "mrmr",
+  "key": {
+    "e": {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    "i": {
+      "item": "eidolon:pewter_inlay"
+    },
+    "p": {
+      "item": "born_in_chaos_v1:phantom_powder"
+    },
+    "m": {
+      "item": "forbidden_arcanus:corrupti_dust"
+    },
+    "r": {
+      "item": "forbidden_arcanus:dark_rune"
+    }
+  },
+  "result": {
+    "item": "eidolon:unholy_symbol"
+  }
+}

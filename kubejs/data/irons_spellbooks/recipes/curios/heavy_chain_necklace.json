@@ -1,0 +1,24 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " a ",
+    "aca",
+    " a "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "a": {
+      "item": "minecraft:chain"
+    },
+	"c": {
+		"item": "eidolon:basic_amulet"
+	},
+    "z": {
+      "item": "forbidden_arcanus:dark_matter"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:heavy_chain_necklace",
+    "count": 1
+  }
+}

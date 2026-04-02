@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "   ",
+    "IAI",
+    "   "
+  ],
+  "reagents": "REEE",
+  "key": {
+    "A": {
+      "item": "ice_and_fire_spellbooks:ice_dragon_priest_leggings"
+    },
+    "I": {
+      "item": "traveloptics:abyssal_spellweave_ingot"
+    },
+    "R": {
+      "item": "irons_spellbooks:ender_rune"
+    },
+    "E": {
+      "item": "betterend:ender_shard"
+    }
+  },
+  "result": {
+    "item": "traveloptics:abyssal_hide_armor_leggings",
+    "count": 1
+  }
+}

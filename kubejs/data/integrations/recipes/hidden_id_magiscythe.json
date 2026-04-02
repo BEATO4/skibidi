@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "simplyswords:magiscythe"
+  },
+  "pedestalItems": [
+    {
+      "item": "create_enchantment_industry:hyper_experience_bottle"
+    },
+    {
+      "item": "iceandfire:sapphire_gem"
+    },
+    {
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "biomemakeover:lightning_bottle"
+    },
+    {
+      "item": "biomemakeover:lightning_bottle"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "simplyswords:decaying_relic"
+    }
+  ],
+  "sourceCost": 1000
+}

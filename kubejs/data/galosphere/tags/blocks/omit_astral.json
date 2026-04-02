@@ -1,0 +1,36 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:obsidian",
+    "quark:obsidian_pressure_plate",
+    "minecraft:netherite_block",
+    "minecraft:ancient_debris",
+    "minecraft:reinforced_deepslate",
+    "supplementaries:netherite_door",
+    "supplementaries:netherite_trapdoor",
+    {
+      "id": "cataclysm:obsidian_explosion_trap_bricks",
+      "required": false
+    },
+    {
+      "id": "cataclysm:obsidian_bricks",
+      "required": false
+    },
+    {
+      "id": "cataclysm:chiseled_obsidian_bricks",
+      "required": false
+    },
+    {
+      "id": "cataclysm:obsidian_brick_slab",
+      "required": false
+    },
+    {
+      "id": "cataclysm:obsidian_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "cataclysm:obsidian_brick_wall",
+      "required": false
+    }
+  ]
+}

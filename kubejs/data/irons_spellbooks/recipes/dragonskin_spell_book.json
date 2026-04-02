@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "eoe",
+    "ipi",
+    "eoe"
+  ],
+  "reagents": "mrmr",
+  "key": {
+    "e": {
+      "item": "irons_spellbooks:dragonskin"
+    },
+    "i": {
+      "item": "forbidden_arcanus:dark_matter"
+    },
+    "p": {
+      "item": "irons_spellbooks:ruined_book"
+    },
+	"o": {
+      "item": "born_in_chaos_v1:monster_skin"
+    },
+    "r": {
+      "item": "eidolon:shadow_gem"
+    },
+    "m": {
+      "item": "eidolon:crimson_gem"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:dragonskin_spell_book"
+  }
+}

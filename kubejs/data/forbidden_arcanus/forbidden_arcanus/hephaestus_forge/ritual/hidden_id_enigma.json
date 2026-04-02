@@ -1,0 +1,51 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 750,
+    "blood": 0,
+    "experience": 2500,
+    "souls": 5
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:guster_eye"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "create:brass_ingot"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "alexscaves:radon_bottle"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:gold_claymore"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:enigma"
+    }
+  }
+}

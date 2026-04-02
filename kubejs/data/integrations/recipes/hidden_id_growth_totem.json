@@ -1,0 +1,27 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "betterarcheology:growth_totem"
+  },
+  "pedestalItems": [
+    {
+      "item": "alexscaves:uranium"
+    },
+    {
+      "item": "alexscaves:uranium"
+    },
+    {
+      "item": "ars_nouveau:starbuncle_shards"
+    },
+    {
+      "item": "ars_nouveau:starbuncle_shards"
+    }
+  ],
+  "reagent": [
+    {
+      "tag": "minecraft:flowers"
+    }
+  ],
+  "sourceCost": 1000
+}

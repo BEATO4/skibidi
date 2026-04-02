@@ -1,0 +1,18 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "item": "minecraft:hopper"
+      }
+    },
+    {
+      "item": {
+        "item": "create:chute"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_pickup"
+}

@@ -1,0 +1,54 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:elementarium"
+    ],
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 15000,
+    "blood": 25000,
+    "experience": 3000,
+    "souls": 100
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "iceandfire:dragonsteel_lightning_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "biomemakeover:lightning_bottle"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "create:sturdy_sheet"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "alexscaves:azure_neodymium_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "knavesneeds:betterend/aeternium/greathammer"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:mjolnir"
+    }
+  }
+}

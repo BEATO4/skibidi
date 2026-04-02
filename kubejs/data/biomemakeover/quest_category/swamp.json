@@ -1,0 +1,45 @@
+{
+  "weight": 7,
+  "requests": [
+    {
+      "item": "hexerei:belladonna_flowers",
+      "max_count": 4,
+      "points": 5
+    },
+    {
+      "item": "hexerei:gold_rings",
+      "max_count": 4,
+      "points": 5
+    },
+    {
+      "item": "biomemakeover:willowing_branches",
+      "max_count": 4,
+      "points": 3
+    },
+    {
+      "item": "minecraft:lily_pad",
+      "max_count": 6,
+      "points": 3
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "max_count": 6,
+      "points": 5
+    },
+    {
+      "item": "hexerei:moon_dust",
+      "max_count": 4,
+      "points": 9
+    },
+    {
+      "item": "minecraft:tadpole_bucket",
+      "max_count": 1,
+      "points": 25
+    },
+    {
+      "item": "minecraft:mangrove_propagule",
+      "max_count": 12,
+      "points": 3
+    }
+  ]
+}

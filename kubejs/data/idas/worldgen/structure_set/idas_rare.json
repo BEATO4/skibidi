@@ -1,0 +1,154 @@
+{
+  "structures": [
+    {
+      "structure": "idas:pillager_fortress",
+      "weight": 3
+    },
+    {
+      "structure": "idas:ancient_mines",
+      "weight": 3
+    },
+    {
+      "structure": "idas:tinkers_workshop",
+      "weight": 3
+    },
+    {
+      "structure": "idas:ruins_of_the_deep",
+      "weight": 3
+    },
+    {
+      "structure": "idas:tree_of_wisdom",
+      "weight": 1
+    },
+    {
+      "structure": "idas:ars_nouveau/archmages_tower",
+      "weight": 3
+    },
+    {
+      "structure": "idas:collectors_museum",
+      "weight": 3
+    },
+    {
+      "structure": "idas:windswept_shrine",
+      "weight": 3
+    },
+    {
+      "structure": "ars_additions:arcane_library",
+      "weight": 1
+    },
+    {
+      "structure": "biomemakeover:mansion",
+      "weight": 3
+    },
+    {
+      "structure": "idas:tinkers_citadel",
+      "weight": 3
+    },
+    {
+      "structure": "hexerei:baba_yaga_hut",
+      "weight": 2
+    },
+    {
+      "structure": "mowziesmobs:monastery",
+      "weight": 3
+    },
+    {
+      "structure": "legendary_monsters:abandoned_crypt",
+      "weight": 2
+    },
+    {
+      "structure": "legendary_monsters:ancient_stronghold",
+      "weight": 2
+    },
+    {
+      "structure": "legendary_monsters:cloudy_temple",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:desert_hall",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:ceryneian_hind",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:greenwood_pub",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:mechanical_nest",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:keep_kayra",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:kisegi_sanctuary",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:infested_temple",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:bandit_towers",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:merchant_campsite",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:illager_campsite",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:heavenly_rider",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:heavenly_conqueror",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:heavenly_challenger",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:thornborn_towers",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:typhon",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:scorched_mines",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:foundry",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:plague_asylum",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_arise:mining_system",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480678,
+    "spacing": 36,
+    "separation": 24,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 3,
+      "other_set": "#idas:rare_avoid"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+
+{
+	"content": {
+
+        "ench_book_chromatic": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"apotheosis:chromatic\"}]}",
+            "weightMult": 0.333
+        },
+
+        "ench_book_exploitation": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"apotheosis:exploitation\"}]}",
+            "weightMult": 0.333
+        },
+
+        "ench_book_growth_serum": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"apotheosis:growth_serum\"}]}",
+            "weightMult": 0.333
+        }
+	}
+
+}

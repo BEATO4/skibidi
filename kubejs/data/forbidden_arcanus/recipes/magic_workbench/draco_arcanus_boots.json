@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "o o",
+    "d d",
+    "   "
+  ],
+  "reagents": "isis",
+  "key": {
+    "i": {
+      "item": "apotheosis:infused_breath"
+    },
+    "s": {
+      "item": "eidolon:shadow_gem"
+    },
+    "d": {
+      "tag": "iceandfire:scales/dragon"
+    },
+    "o": {
+      "item": "forbidden_arcanus:obsidian_ingot"
+    }
+  },
+  "result": {
+    "item": "forbidden_arcanus:draco_arcanus_boots"
+  }
+}

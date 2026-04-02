@@ -1,0 +1,22 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [
+		{
+			"item": "createdeco:netherite_nugget"
+		},
+		{
+			"item": "archeryexp:diamond_arrow"
+		},
+		{
+			"item": "minecraft:gold_nugget"
+		}
+	],
+	"result": {
+		"item": "archeryexp:netherite_arrow",
+		"count": 1
+	}
+}

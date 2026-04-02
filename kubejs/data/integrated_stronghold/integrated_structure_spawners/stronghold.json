@@ -1,0 +1,24 @@
+{
+  "mobs": [
+    {
+      "name": "irons_spellbooks:catacombs_zombiecave_enderman",
+      "weight": 10
+    },
+    {
+      "name": "irons_spellbooks:catacombs_zombieend_enderman",
+      "weight": 5
+    },
+    {
+      "name": "betterend:shadow_walker",
+      "weight": 15
+    },
+    {
+      "name": "iceandfire:ghost",
+      "weight": 10
+    },
+    {
+      "name": "quark:forgotten",
+      "weight": 5
+    }
+  ]
+}

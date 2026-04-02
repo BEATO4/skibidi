@@ -1,0 +1,375 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lBloody Weapons\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"Do you crave power, mortal? I see it in your eyes—the hunger, the desperation. I offer you a pact, a partnership forged in crimson.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"For each weapon, take a Dragonbone bow or Sword, and place it in a cauldron of lava. Add 2 of each remnant of life: living flesh, blood sacs, and bottled blood.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"With each life Bloodthirst takes, it grows stronger. Bloodbranch, a bow of explosive power. But beware—its strength comes at your own expense.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"What is your answer, mortal? Will you seize this gift? Or will you remain weak, shackled by fear? The choice is yours—but remember, power always demands a price.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in the Ruins of the Deep\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Bloody Weapons",
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 0
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lDwayne\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"Finally, someone has come looking for me. Let me introduce myself: I’m not just a rock—I’m The Rock. The toughest, hardest, most unstoppable force this world has ever seen. Some call me Dwayne, but names don’t matter when you’re this solid.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"I’ve been hiding here in Hermit’s Hollow, waiting for someone with the guts to bring me back to glory. If you think you’ve got what it takes, here’s the deal:\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"find a humble Stone Pebble. Bring it to the Godly Forge, surround it with eight pedestals, and top those pedestals with three dragon-breath-forged ingots. It’s not for the faint of heart—only champions can handle my kind of power.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Once I’m forged, throw me, and I’ll always come back to you. But remember, wielding me means stepping into greatness. Can you handle being the most electrifying weapon in existence? Or will you crumble under the pressure? Your move, champ.\n\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in the Farmhouse\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Dwayne",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lHarvest\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"The earth’s voice guided me—its power waiting to be claimed. With my scythe laid in a sacred forge, I gathered fragments of nature’s essence and placed them around it.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"4 essence of the earth and 4 fragments of the earth was all it took.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"When the ritual was done, the scythe was no longer a mere tool but an extension of the earth itself. Each swing now carries the strength of the harvest, the spirit of life renewed.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in a farmhouse\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Harvest",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lWatching Weapons\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"This book will detail how to create the Watching Weapons. They are a dark evil that may end up turning against you. You have been warned.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"To create these dark weapons, infuse a Claymore or Warglaive made of ancient metal from Hell with 1 eye from a monster of the void, 1 bottle of experience in its purest form, 2 eyes of the end, 2 silk made from shadow itself, and 2 bottles of dimensional energy.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Use this power only for evil. I'll always be watching, \n\\\"},
+                {\\\"text\\\":\\\"The Watcher\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Look behind you. \\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in the Haunted Manor\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Watching Weapons",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lThe Tempest\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"This journal will detail how we harnessed the elements. We created a Chakram of great power. One of air, fire, and water.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"To create this chakram, infuse a chakram covered in runes with 3 kinds of dragon blood, their corresponding essence, 1 shard from the earth's core, and a frosty magical pod.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"The council of tinkers deemed this weapon too dangerous to be created. So this journal was left up here. Proceed with caution.\n\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in the Tinkers Citadel\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Tempest",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lRibboncleaver\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"Hello explorer. Well done, you have conquered my treacherous workshop. Disclosed below is how to create a powerful weapon. A weapon... that lives. The Ribboncleaver.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"To create this blade, infuse an iron claymore with an iron heart, a ribbon of dark silk, 2 of the strongest plates, 2 bright red gems, and 2 hard dark cladding.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"This is an extremely powerful weapon, use it cautiously. Or not!\n\\\"},
+                {\\\"text\\\":\\\"-The Tinker\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in the Tinkers Workshop\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Ribboncleaver",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lThe Enigma\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"A recent expedition into the desert led to an encounter with a stormy foe. After slaying it, we have been researching how to take advantage of its power.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Just today we finally figured it out! The eye was the key...\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"But we have one huge problem.. it was stolen. I personally think it was Johnny. It's always Johnny. \\\"},
+                {\\\"text\\\":\\\"So I'm writing this book to tell you what we've learned about utilizing the eye.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"To create this weapon, infuse a golden claymore with the eye, 2 bottles of radiant green gas, 2 brass ingots, and 3 green gemstones.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"This ingredients should be enough to wake the power of the eye. Good Luck.\n\\\"},
+                {\\\"text\\\":\\\"-Melvin\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in the Pillager Fortress\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "The Enigma",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lThe Totem\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"Here it is. The book detailing the secerte recipe for the totem of undying. This is the biggest kept secret of all the illagers.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Surpisingly, the creation of this healing device is somewhat nuclear. \\\"},
+                {\\\"text\\\":\\\"To create this magical totem, mix Concentrated Experience, a golden magical token, and a bottle of green glowing gas.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"For the good of the illagers.\n\\\"},
+                {\\\"text\\\":\\\"-Nico\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in the Pillager Fortress\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "The Totem",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lIcewhisper\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"This book will detail how to use the cold depths of the sea to create a weapon of such frost it freezes everything within its reach.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Place a halberd made from a hellish metal into a magical device and surround it with 8 pedestals.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Place 3 pieces of blue ice, a bottle of icy blood, 2 shards of the sea, and 2 frosty pods onto the pedestals.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Use this icy power well.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in ruins of the deep\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Icewhisper",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lTotem of Torrents\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"This book will detail how to create a magical totem that will allow you to swim like a dolphin beyond the water.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"To create this magical totem, mix Concentrated Experience, a golden magical token, oceanic shards, and the heart of the sea itself.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Fly high.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in ruins of the deep\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Totem of Torrents",
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "weight": 5,
+  "requests": [
+    {
+      "item": "minecraft:warped_fungus",
+      "max_count": 5,
+      "points": 4
+    },
+    {
+      "item": "minecraft:crimson_fungus",
+      "max_count": 5,
+      "points": 4
+    },
+    {
+      "item": "minecraft:nether_wart",
+      "max_count": 8,
+      "points": 3
+    },
+    {
+      "item": "minecraft:twisting_vines",
+      "max_count": 5,
+      "points": 4
+    },
+    {
+      "item": "minecraft:weeping_vines",
+      "max_count": 5,
+      "points": 4
+    },
+    {
+      "item": "minecraft:warped_roots",
+      "max_count": 5,
+      "points": 4
+    },
+    {
+      "item": "minecraft:crimson_roots",
+      "max_count": 5,
+      "points": 4
+    },
+    {
+      "item": "minecraft:nether_wart_block",
+      "max_count": 3,
+      "points": 10
+    },
+    {
+      "item": "minecraft:warped_wart_block",
+      "max_count": 4,
+      "points": 5
+    },
+    {
+      "item": "minecraft:nether_sprouts",
+      "max_count": 2,
+      "points": 4
+    },
+    {
+      "item": "minecraft:crimson_nylium",
+      "max_count": 4,
+      "points": 5
+    },
+    {
+      "item": "minecraft:warped_nylium",
+      "max_count": 4,
+      "points": 5
+    },
+    {
+      "item": "rubinated_nether:ruby",
+      "max_count": 4,
+      "points": 10
+    },
+    {
+      "item": "minecraft:glowstone",
+      "max_count": 4,
+      "points": 10
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "max_count": 3,
+      "points": 12
+    },
+    {
+      "item": "netherexp:banshee_rod",
+      "max_count": 3,
+      "points": 12
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "max_count": 12,
+      "points": 4
+    },
+    {
+      "item": "netherexp:banshee_powder",
+      "max_count": 12,
+      "points": 4
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "max_count": 3,
+      "points": 10
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "max_count": 2,
+      "points": 25
+    },
+    {
+      "item": "netherexp:wraithing_flesh",
+      "max_count": 3,
+      "points": 15
+    },
+    {
+      "item": "minecraft:shroomlight",
+      "max_count": 4,
+      "points": 6
+    },
+    {
+      "item": "netherexp:shroomnight",
+      "max_count": 4,
+      "points": 6
+    }
+  ]
+}

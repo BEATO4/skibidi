@@ -1,0 +1,81 @@
+{
+	"content": {
+		"shiny_scales": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "iceandfire:shiny_scales",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 4000
+		},
+
+		"sea_serpent_scales": {
+			"type": "item_tag",
+			"rarity": "COMMON",
+			"content": "integrations:sea_serpent_scales",
+			"amount": {
+				"min": 2,
+				"max": 8
+			},
+			"unitWorth": 6000
+		},
+
+		"siren_tear": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "iceandfire:siren_tear",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 4000
+		},
+
+		"sea_serpent fang": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "iceandfire:sea_serpent_fang",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 9000
+		},
+
+		"sea_serpent": {
+			"type": "entity",
+			"timeMult": 10.0,
+			"content": "iceandfire:sea_serpent",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 50000
+		},
+
+		"siren": {
+			"type": "entity",
+			"rarity": "UNCOMMON",
+			"timeMult": 3.0,
+			"content": "iceandfire:siren",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 7000
+		},
+
+		"hippocampus fin": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "iceandfire:hippocampus_fin",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 4000
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+  ],
+  "placement": {
+    "salt": 169263692,
+    "spacing": 30,
+    "separation": 25,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 3,
+      "other_set": "#idas:small_nether_avoid"
+    }
+  }
+}

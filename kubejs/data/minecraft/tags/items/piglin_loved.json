@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "shieldexp:golden_shield",
+      "required": false
+    },
+    {
+      "id": "galosphere:golden_lichen_cordyceps",
+      "required": false
+    }
+  ]
+}

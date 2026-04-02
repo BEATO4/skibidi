@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " a ",
+    "aca",
+    " d "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "a": {
+      "item": "eidolon:wicked_weave"
+    },
+    "d": {
+      "item": "ars_nouveau:source_gem"
+    },
+	"c": {
+      "item": "eidolon:basic_amulet"
+	},
+    "z": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:amethyst_resonance_charm",
+    "count": 1
+  }
+}

@@ -1,0 +1,83 @@
+
+{
+    "content": {
+
+        "librarian_obj_bookshelf": null,
+
+        "integrated bookshelf": {
+            "type": "item_tag",
+            "content": "integrations:bookshelf_objs",
+            "amount": {
+                "min": 1,
+                "max": 14
+            },
+            "unitWorth": 1600
+        },
+
+        "integrated_chiseled_bookshelf": {
+            "type": "item_tag",
+            "content": "integrations:chiseled_bookshelf_objs",
+            "amount": {
+                "min": 1,
+                "max": 14
+            },
+            "unitWorth": 1200
+        },
+
+		"enchanted_book": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 4500
+        },
+
+        "written_book": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:written_book",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 1500
+        },
+
+        "librarian_obj_ink_sac": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:ink_sac",
+            "amount": {
+                "min": 2,
+                "max": 16
+            },
+            "unitWorth": 200
+        },
+
+        "glow_ink": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:glow_ink_sac",
+            "amount": {
+                "min": 2,
+                "max": 16
+            },
+            "unitWorth": 300
+        },
+
+        "black_dye": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:black_dye",
+            "amount": {
+                "min": 2,
+                "max": 16
+            },
+            "unitWorth": 200
+        }
+	}
+
+}

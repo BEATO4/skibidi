@@ -1,0 +1,162 @@
+{
+  "processors": [
+    {
+      "processor_type": "idas:waterlogging_fix_processor"
+    },
+    {
+      "processor_type": "integrated_api:tick_blocks_processor",
+      "blocks_to_tick": [
+        "minecraft:dispenser"
+      ]
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:bricks",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:cracked_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:white_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:white_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:orange_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:orange_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:magenta_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:magenta_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:light_blue_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:light_blue_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:yellow_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:yellow_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:lime_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:lime_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:pink_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:pink_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:gray_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:gray_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:light_gray_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:light_gray_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:cyan_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:cyan_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:purple_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:purple_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:blue_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:blue_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:brown_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:brown_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:green_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:green_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:red_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:red_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:black_terracotta",
+      "required_mod" : "biomemakeover",
+      "output_block" : "biomemakeover:black_terracotta_bricks",
+      "probability" : 0.3
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:purple_stained_glass_pane",
+      "required_mod" : "bountiful",
+      "output_block" : "bountiful:bountyboard",
+      "probability" : 1,
+      "otherwise_block": "minecraft:air"
+    },
+    {
+      "processor_type": "integrated_api:spawner_randomizing_processor",
+      "integrated_api_spawner_resourcelocation": "idas:generic",
+      "valid_block_light_level": {
+        "min_inclusive": 0,
+        "max_inclusive": 7
+      },
+      "delay": 20,
+      "max_nearby_entities": 6,
+      "max_spawn_delay": 800,
+      "min_spawn_delay": 200,
+      "required_player_range": 16,
+      "spawn_count": 4,
+      "spawn_range": 4
+    }
+  ]
+}

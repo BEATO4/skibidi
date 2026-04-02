@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "da ",
+    "aca",
+    " a "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "d": {
+      "item": "forbidden_arcanus:arcane_crystal"
+    },
+	"c": {
+		"item": "eidolon:basic_ring"
+	},
+    "z": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:cooldown_ring",
+    "count": 1
+  }
+}

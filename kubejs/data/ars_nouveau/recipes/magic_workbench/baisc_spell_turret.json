@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "gbg",
+    "brb",
+    "gbg"
+  ],
+  "reagents": "aaaa",
+  "key": {
+    "b": {
+      "item": "minecraft:redstone_block"
+    },
+    "r": {
+      "item": "ars_technica:calibrated_precision_mechanism"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "a": {
+      "item": "ars_nouveau:source_gem"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:basic_spell_turret"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "integrated_minecraft:scarlet_citadel_bottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:scarlet_citadel_bottom",
+        "processors": "idas:generic_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    }
+  ]
+}

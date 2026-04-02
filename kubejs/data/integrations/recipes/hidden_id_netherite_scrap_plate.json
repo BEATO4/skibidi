@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "alexscaves:rusty_scrap_metal_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "chance": 0.25
+    }
+  ]
+}

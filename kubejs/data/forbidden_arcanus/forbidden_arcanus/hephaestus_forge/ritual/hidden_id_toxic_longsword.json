@@ -1,0 +1,51 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 900,
+    "blood": 5000,
+    "experience": 0,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "alexscaves:unrefined_waste"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "alexsmobs:poison_bottle"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:poisonous_potato"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "iceandfire:hydra_fang"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:netherite_longsword"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:toxic_longsword"
+    }
+  }
+}

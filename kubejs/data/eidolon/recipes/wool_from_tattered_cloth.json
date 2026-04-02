@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "hexerei:infused_fabric"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_wool",
+    "count": 2
+  }
+}

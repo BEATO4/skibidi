@@ -1,0 +1,16 @@
+{
+	"content": {
+
+		"Grate": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "quark:torch_arrow",
+			"amount": {
+				"min": 4,
+				"max": 24
+			},
+			"unitWorth": 150
+		}
+		
+	}
+}

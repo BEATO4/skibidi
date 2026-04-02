@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "biomemakeover:cattail",
+    "biomemakeover:reed",
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "upgrade_aquatic:beachgrass"
+  ]
+}

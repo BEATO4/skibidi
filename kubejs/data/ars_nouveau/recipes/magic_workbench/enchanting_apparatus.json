@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "nsn",
+    "gag",
+    "nsn"
+  ],
+  "reagents": "bxbx",
+  "key": {
+    "b": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "x": {
+      "item": "forbidden_arcanus:xpetrified_orb"
+    },
+    "s": {
+      "item": "ars_nouveau:sourcestone"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "n": {
+      "item": "minecraft:gold_nugget"
+    },
+    "a": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:enchanting_apparatus"
+  }
+}

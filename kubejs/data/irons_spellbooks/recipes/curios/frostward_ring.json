@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "da ",
+    "aca",
+    " a "
+  ],
+  "reagents": "z   ",
+  "key": {
+    "a": {
+      "item": "oreganized:silver_ingot"
+    },
+    "d": {
+      "item": "aquamirae:ship_graveyard_echo"
+    },
+	"c": {
+		"item": "eidolon:basic_ring"
+	},
+    "z": {
+      "item": "ars_nouveau:water_essence"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:frostward_ring",
+    "count": 1
+  }
+}

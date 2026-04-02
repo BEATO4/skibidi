@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "knavesneeds:forbidden_arcanus/draco_arcanus/claymore",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/cutlass",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/glaive",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/katana",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/longsword",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/rapier",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/sai",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/spear",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/twinblade",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/warglaive",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/greathammer",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/greataxe",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/chakram",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/scythe",
+    "knavesneeds:forbidden_arcanus/draco_arcanus/halberd",
+    "forbidden_arcanus:draco_arcanus_shovel",
+    "forbidden_arcanus:draco_arcanus_sword",
+    "forbidden_arcanus:draco_arcanus_axe",
+    "forbidden_arcanus:draco_arcanus_pickaxe",
+    "forbidden_arcanus:draco_arcanus_hoe",
+    "forbidden_arcanus:draco_arcanus_helmet",
+    "forbidden_arcanus:draco_arcanus_chestplate",
+    "forbidden_arcanus:draco_arcanus_leggings",
+    "forbidden_arcanus:draco_arcanus_boots"
+  ]
+}

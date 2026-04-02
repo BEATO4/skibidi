@@ -1,0 +1,16 @@
+filename = 'carrasconlib-forge-1.20.1-0.1.jar'
+name = 'CarrasconLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bcd51694634275ed8920832f04da6b178df2046b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6289991
+project-id = 1215789

@@ -1,0 +1,184 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:witch_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:skeleton_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:stray_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:cave_spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:zombie_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:husk_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "iceandfire:spawn_egg_ghost"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ars_nouveau:wilden_hunter_se"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ars_nouveau:wilden_stalker_se"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:restless_spirit_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:thornshell_crab_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:baby_spider_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:firelight_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:skeleton_demoman_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:baby_skeleton_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:siamese_skeletons_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:skeleton_thrasher_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:firelight_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:bonescaller_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:spirit_guide_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:decaying_zombie_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:barrel_zombie_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:diamond_termite_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:bloody_gadfly_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:zombie_bruiser_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:zombie_lumberjack_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:zombie_fisherman_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:door_knight_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "born_in_chaos_v1:phantom_creeper_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "caverns_and_chasms:peeper_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "caverns_and_chasms:mime_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "caverns_and_chasms:deeper_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "savage_and_ravage:skeleton_villager_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:keeper_spawn_egg"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "irons_spellbooks:necromancer_spawn_egg"
+        }
+      ]
+    }
+  ]
+}

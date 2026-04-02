@@ -1,0 +1,45 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 0,
+    "blood": 100,
+    "experience": 0,
+    "souls": 0
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "simplyswords:runic_tablet"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "rubinated_nether:ruby"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:netherite_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:netherfused_gem"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pure.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:netherfused_gem"
+    }
+  }
+}

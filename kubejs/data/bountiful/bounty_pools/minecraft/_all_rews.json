@@ -1,0 +1,222 @@
+{
+
+	"content": {
+
+		"primary_currency": {
+			"type": "item",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 1,
+				"max": 15
+			},
+			"unitWorth": 500,
+			"weightMult": 2
+		},
+
+		"primary_currency_2": {
+			"type": "item",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 15,
+				"max": 30
+			},
+			"unitWorth": 450,
+			"repRequired": 5
+		},
+
+		"primary_currency_3": {
+			"type": "item",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 15,
+				"max": 45
+			},
+			"unitWorth": 400,
+			"repRequired": 10
+		},
+		
+		"primary_currency_4": {
+			"type": "item",
+			"content": "minecraft:emerald_block",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 2000,
+			"repRequired": 15
+		},
+
+		"primary_currency_5": {
+			"type": "item",
+			"content": "minecraft:emerald_block",
+			"amount": {
+				"min": 5,
+				"max": 10
+			},
+			"unitWorth": 1900,
+			"repRequired": 20
+		},
+
+		"primary_currency_6": {
+			"type": "item",
+			"content": "minecraft:emerald_block",
+			"amount": {
+				"min": 15,
+				"max": 20
+			},
+			"unitWorth": 1800,
+			"repRequired": 25
+		},
+
+		"Guildmasters Note": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "minecraft:written_book",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 5000,
+			"repRequired": 5,
+			"nbt": "{AntiqueInk:1b, display:{Name:'{\"text\":\"Guildmasters Note\"}'},
+          pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lGuildmaster's Summons\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"To the Adventurer who has been completing many of our quests.\n\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Please come to the Redhorn Guild House. We would like to meet you in-person to reward your efforts.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"We also have more tasks for you to complete, if you're up to it. Of course, we will reward you well.\n\\\"},
+				{\\\"text\\\":\\\"§5- Craisin, the Redhorn Guildmaster\\\"}
+              ]\"
+            ],
+            title:Note,
+            author:Hisakid,
+            display:{Lore:[\"Bounty Board Reward\"]}}"
+		},
+
+		"wolf spawn egg": {
+			"type": "item",
+            "rarity": "EPIC",
+			"content": "minecraft:wolf_spawn_egg",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 50000,
+			"repRequired": 10
+		},
+
+		"slime block": {
+			"type": "item",
+            "rarity": "EPIC",
+			"content": "minecraft:slime_block",
+			"amount": {
+				"min": 1,
+				"max": 5
+			},
+			"unitWorth": 1000,
+			"repRequired": 5
+		},
+
+		"EXP Bottle": {
+			"type": "item",
+            "rarity": "COMMON",
+			"content": "minecraft:experience_bottle",
+			"amount": {
+				"min": 10,
+				"max": 30
+			},
+			"unitWorth": 300,
+			"repRequired": 5
+		},
+
+		"EXP Bottle 2": {
+			"type": "item",
+            "rarity": "COMMON",
+			"content": "minecraft:experience_bottle",
+			"amount": {
+				"min": 30,
+				"max": 45
+			},
+			"unitWorth": 250,
+			"repRequired": 15
+		},
+
+		"diamond block": {
+			"type": "item",
+            "rarity": "EPIC",
+			"content": "minecraft:diamond_block",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 20000,
+			"repRequired": 20
+		},
+
+		"shulker shells": {
+			"type": "item",
+            "rarity": "LEGENDARY",
+			"content": "minecraft:shulker_shell",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 15000,
+			"repRequired": 25
+		},
+
+		"ancient debris": {
+			"type": "item",
+            "rarity": "LEGENDARY",
+			"content": "minecraft:ancient_debris",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 20000,
+			"repRequired": 20
+		},
+
+		"all_rew_notch_apple_reward": {
+			"type": "item",
+            "rarity": "LEGENDARY",
+			"content": "minecraft:enchanted_golden_apple",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 100000,
+			"repRequired": 30
+		},
+
+		"all_rew_netherite_template_reward": {
+			"type": "item",
+            "rarity": "LEGENDARY",
+			"content": "minecraft:netherite_upgrade_smithing_template",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 50000,
+			"repRequired": 10
+		},
+
+		"smithing": {
+			"type": "item",
+            "rarity": "LEGENDARY",
+			"content": "minecraft:netherite_upgrade_smithing_template",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 50000,
+			"repRequired": 20
+		}
+
+	}
+}

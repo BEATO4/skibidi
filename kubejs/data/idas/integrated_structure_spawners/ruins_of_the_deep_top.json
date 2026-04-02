@@ -1,0 +1,16 @@
+{
+  "mobs": [
+    {
+      "name": "biomemakeover:decayed",
+      "weight": 5
+    },
+    {
+      "name": "quark:forgotten",
+      "weight": 5
+    },
+    {
+      "name": "minecraft:skeleton",
+      "weight": 10
+    }
+  ]
+}

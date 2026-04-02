@@ -1,0 +1,15 @@
+{
+  "name": "integrated_minecraft:cerebrage_research_lab",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:cerebrage_research_lab",
+        "processors": "idas:generic_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:conjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:orbofthe_summoner"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:totem_of_undying"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_summon_vex"
+}

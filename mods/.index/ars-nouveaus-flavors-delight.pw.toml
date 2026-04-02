@@ -1,0 +1,16 @@
+filename = 'arsdelight-1.1.6.jar'
+name = "Ars Nouveau's Flavors & Delight"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b090eabb552236ab515691c12bf94daf21471023'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6531074
+project-id = 1131668

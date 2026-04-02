@@ -1,0 +1,17 @@
+filename = 'ArcheryExpansion-forge-1.20.1-1.0.7.3-all.jar'
+name = 'Archery Expansion'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = ' 	Archery Expansion (Forge) - 1.0.7.3 - 1.20.1'
+
+[download]
+hash = 'aaecde31d379370d2a56fd8946e2d5ba15919c37'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7171000
+project-id = 1164945

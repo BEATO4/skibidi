@@ -1,0 +1,9 @@
+{
+	"block": "aquamirae:luminescent_lamp",
+	"stats": {
+		"maxEterna": 40.0,
+		"eterna": 0,
+		"quanta": 10,
+		"arcana": 5
+	}
+}

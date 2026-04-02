@@ -1,0 +1,17 @@
+{
+	/* This file controls values specifically for Oreganized.
+	   Material modifiers are set to the base damage of each material's tier.
+	   Values are ints, meaning you cannot have values with a decimal point.
+	   Valid:
+	   - '5'
+	   
+	   Invalid:
+	   - '3.4'
+	*/
+	"ELECTRUM": 0,
+	/* This value changes the Kinetic damage for Electrum weapons.
+	   Valid:
+	   - '3.4'
+	*/
+	"KINETIC": 4.0
+}

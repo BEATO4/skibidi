@@ -1,0 +1,14 @@
+{
+  "structures": [
+  ],
+  "placement": {
+    "salt": 319515601,
+    "spacing": 50,
+    "separation": 40,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 8,
+      "other_set": "#dungeons_arise:dungeons_arise_avoid"
+    }
+  }
+}

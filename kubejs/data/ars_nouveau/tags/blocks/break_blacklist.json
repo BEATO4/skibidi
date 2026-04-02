@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:spawner",
+    "iceandfire:dread_spawner",
+    "iceandfire:dreadwood_planks",
+    "iceandfire:dreadwood_planks_lock",
+    "iceandfire:dread_stone",
+    "iceandfire:dread_stone_bricks",
+    "iceandfire:dread_stone_bricks_chiseled",
+    "iceandfire:dread_stone_bricks_cracked",
+    "iceandfire:dreadwood_log",
+    "cataclysm:dungeon_block",
+    "minecraft:sculk_shrieker",
+    "minecraft:sculk_sensor",
+    "minecraft:sculk_catalyst",
+    "minecraft:calibrated_sculk_sensor",
+    "waystones:waystone",
+    "waystones:mossy_waystone",
+    "waystones:sandy_waystone"
+  ]
+}

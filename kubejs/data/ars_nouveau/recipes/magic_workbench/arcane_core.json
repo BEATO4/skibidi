@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "sss",
+    "gag",
+    "sss"
+  ],
+  "reagents": "bbbb",
+  "key": {
+    "b": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "s": {
+      "item": "ars_nouveau:sourcestone"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "a": {
+      "item": "ars_nouveau:source_gem"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:arcane_core"
+  }
+}

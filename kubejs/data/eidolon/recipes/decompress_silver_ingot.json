@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "eidolon",
+  "ingredients": [
+    {
+      "item": "oreganized:silver_ingot"
+    }
+  ],
+  "result": {
+    "item": "eidolon:silver_nugget",
+    "count": 9
+  }
+}

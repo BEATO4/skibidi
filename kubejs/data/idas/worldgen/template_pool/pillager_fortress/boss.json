@@ -1,0 +1,15 @@
+{
+  "name": "idas:pillager_fortress/pillager_fortress_boss",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_invoker",
+        "processors": "idas:pillager_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    }
+  ]
+}

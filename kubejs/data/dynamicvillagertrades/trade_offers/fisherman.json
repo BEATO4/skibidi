@@ -1,0 +1,884 @@
+{
+  "profession": "minecraft:fisherman",
+  "replace": true,
+  "offers": {
+    "1_novice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:string",
+            "price": 20,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "string": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:coal",
+            "price": 10,
+            "max_uses": 16,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "coal": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "sell_item": "minecraft:cooked_cod",
+            "sell_count": 6,
+            "price": 4,
+            "max_uses": 16,
+            "experience": 1,
+            "item": "minecraft:cod",
+            "second_count": 6,
+            "type": "minecraft:process_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "cod": 1.0,
+            "processing": 1.0
+          }
+        },
+        {
+          "offer": {
+            "sell_item": "minecraft:cooked_salmon",
+            "sell_count": 6,
+            "price": 4,
+            "max_uses": 16,
+            "experience": 1,
+            "item": "minecraft:salmon",
+            "second_count": 6,
+            "type": "minecraft:process_item"
+          },
+          "level": "novice",
+          "attributes": {
+            "salmon": 1.0,
+            "processing": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:cod",
+            "price": 6,
+            "max_uses": 16,
+            "experience": 2,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "cod": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:salmon",
+            "price": 6,
+            "max_uses": 16,
+            "experience": 2,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "novice",
+          "attributes": {
+            "salmon": 1.0,
+            "buying": 1.0
+          }
+        }
+      ],
+      "subgroups": {
+        "1_aquarium": {
+          "affinity": {
+            "aquarium": 1.0
+          },
+          "trades": [
+            {
+              "offer": {
+                "max_uses": 16,
+                "experience": 5,
+                "item": "minecraft:salmon_bucket",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "cod": 1.0,
+                "aquarium": 1.0
+              }
+            },
+            {
+              "offer": {
+                "max_uses": 16,
+                "experience": 5,
+                "item": "minecraft:cod_bucket",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "novice",
+              "attributes": {
+                "cod": 1.0,
+                "aquarium": 1.0
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        }
+      },
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "2_apprentice": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:ink_sac",
+            "price": 10,
+            "max_uses": 16,
+            "experience": 2,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "string": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:glow_ink_sac",
+            "price": 5,
+            "max_uses": 16,
+            "experience": 5,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "coal": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "sell_item": "farmersdelight:salmon_slice",
+            "sell_count": 4,
+            "price": 4,
+            "max_uses": 16,
+            "experience": 5,
+            "item": "minecraft:salmon",
+            "type": "minecraft:process_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "salmon": 1.0,
+            "processing": 1.0
+          }
+        },
+        {
+          "offer": {
+            "sell_item": "farmersdelight:cod_slice",
+            "sell_count": 4,
+            "price": 4,
+            "max_uses": 16,
+            "experience": 5,
+            "item": "minecraft:cod",
+            "type": "minecraft:process_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "cod": 1.0,
+            "processing": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 16,
+            "experience": 2,
+            "item": "farmersdelight:salmon_roll",
+            "price": 2,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 16,
+            "experience": 2,
+            "item": "farmersdelight:cod_roll",
+            "price": 2,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 16,
+            "experience": 2,
+            "item": "farmersdelight:kelp_roll_slice",
+            "price": 2,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "item": "minecraft:campfire",
+            "price": 2,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "campfire": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "alexsmobs:fish_oil",
+            "price": 5,
+            "type": "minecraft:sell_item"
+          },
+          "level": "apprentice",
+          "attributes": {
+            "tools": 1.0,
+            "other": 1.0
+          }
+        }
+      ],
+      "subgroups": {
+        "2_aquarium": {
+          "affinity": {
+            "aquarium": 1.0
+          },
+          "trades": [
+            {
+              "offer": {
+                "max_uses": 16,
+                "experience": 15,
+                "item": "minecraft:pufferfish_bucket",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "pufferfish": 1.0,
+                "aquarium": 1.0
+              }
+            },
+            {
+              "offer": {
+                "max_uses": 16,
+                "experience": 15,
+                "item": "minecraft:tropical_fish_bucket",
+                "price": 10,
+                "type": "minecraft:sell_item"
+              },
+              "level": "apprentice",
+              "attributes": {
+                "tropicalfish": 1.0,
+                "aquarium": 1.0
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        }
+      },
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "3_journeyman": {
+      "trades": [
+        {
+          "offer": {
+            "item": "minecraft:scute",
+            "price": 1,
+            "max_uses": 16,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "scute": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:pufferfish",
+            "price": 1,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "pufferfish": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:flying_fish",
+            "price": 3,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "flyingfish": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "minecraft:tropical_fish",
+            "price": 6,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "tropicalfish": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:maggot",
+            "price": 4,
+            "max_uses": 16,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "other": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "quark:crab_shell",
+            "price": 1,
+            "max_uses": 16,
+            "experience": 10,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "crab": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "sell_item": "alexsmobs:cooked_lobster_tail",
+            "sell_count": 3,
+            "price": 4,
+            "max_uses": 16,
+            "experience": 10,
+            "item": "alexsmobs:lobster_tail",
+            "second_count": 3,
+            "type": "minecraft:process_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "lobster": 1.0,
+            "processing": 1.0
+          }
+        },
+        {
+          "offer": {
+            "sell_item": "quark:cooked_crab_leg",
+            "sell_count": 3,
+            "price": 4,
+            "max_uses": 16,
+            "experience": 10,
+            "item": "quark:crab_leg",
+            "second_count": 3,
+            "type": "minecraft:process_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "crab": 1.0,
+            "processing": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 5,
+            "count": 3,
+            "item": "alexsmobs:fish_bones",
+            "price": 5,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "other": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "count": 4,
+            "item": "quarkdelight:crab_bars",
+            "price": 4,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "farmersdelight:kelp_roll",
+            "price": 8,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 10,
+            "item": "farmersdelight:fish_stew",
+            "price": 6,
+            "type": "minecraft:sell_item"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 3,
+            "experience": 10,
+            "price_multiplier": 0.2,
+            "item": "minecraft:fishing_rod",
+            "base_price": 3,
+            "type": "minecraft:sell_enchanted_tool"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "tools": 2.0
+          }
+        },
+        {
+          "offer": {
+            "max_uses": 3,
+            "experience": 10,
+            "price_multiplier": 0.2,
+            "item": "minecraft:fishing_rod",
+            "base_price": 3,
+            "type": "minecraft:sell_enchanted_tool"
+          },
+          "level": "journeyman",
+          "attributes": {
+            "tools": 2.0
+          }
+        }
+      ],
+      "subgroups": {
+        "3_aquarium": {
+          "affinity": {
+            "aquarium": 1.0
+          },
+          "trades": [
+            {
+              "offer": {
+                "experience": 15,
+                "item": "alexsmobs:lobster_bucket",
+                "price": 12,
+                "type": "minecraft:sell_item"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "lobster": 1.0,
+                "aquarium": 1.0
+              }
+            },
+            {
+              "offer": {
+                "experience": 15,
+                "item": "quark:crab_bucket",
+                "price": 12,
+                "type": "minecraft:sell_item"
+              },
+              "level": "journeyman",
+              "attributes": {
+                "crab": 1.0,
+                "aquarium": 1.0
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        }
+      },
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    },
+    "4_expert": {
+      "trades": [
+        {
+          "offer": {
+            "item": "alexsmobs:shark_tooth",
+            "price": 4,
+            "max_uses": 16,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "other": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:serrated_shark_tooth",
+            "price": 4,
+            "max_uses": 16,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "other": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexsmobs:cachalot_whale_tooth",
+            "price": 1,
+            "max_uses": 16,
+            "experience": 20,
+            "type": "minecraft:buy_for_one_emerald"
+          },
+          "level": "expert",
+          "attributes": {
+            "other": 1.0,
+            "buying": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "quarkdelight:crab_pasta",
+            "price": 10,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "quarkdelight:miso_with_bamboo_sprouts",
+            "price": 18,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "farmersdelight:grilled_salmon",
+            "price": 18,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "experience": 15,
+            "item": "alexsdelight:lobster_pasta",
+            "price": 18,
+            "type": "minecraft:sell_item"
+          },
+          "level": "expert",
+          "attributes": {
+            "food": 1.0
+          }
+        }
+      ],
+      "subgroups": {
+        "4_aquarium": {
+          "affinity": {
+            "aquarium": 1.0
+          },
+          "trades": [
+            {
+              "offer": {
+                "experience": 25,
+                "item": "alexsmobs:blobfish_bucket",
+                "price": 20,
+                "type": "minecraft:sell_item"
+              },
+              "level": "expert",
+              "attributes": {
+                "aquarium": 1.0
+              }
+            },
+            {
+              "offer": {
+                "experience": 25,
+                "item": "alexsmobs:flying_fish_bucket",
+                "price": 20,
+                "type": "minecraft:sell_item"
+              },
+              "level": "expert",
+              "attributes": {
+                "aquarium": 1.0,
+                "flyingfish": 1.0
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        }
+      },
+      "replace": false,
+      "min_trades": 1,
+      "max_trades": 1
+    },
+    "5_master": {
+      "trades": [
+        {
+          "offer": {
+            "item": "quarkdelight:cooked_whole_crab",
+            "price": 20,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:squid_ink_pasta",
+            "price": 15,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "farmersdelight:rice_roll_medley_block",
+            "price": 20,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "food": 1.0
+          }
+        },
+        {
+          "offer": {
+            "item": "alexscaves:pearl",
+            "price": 10,
+            "type": "minecraft:sell_item"
+          },
+          "level": "master",
+          "attributes": {
+            "aquarium": 1.0
+          }
+        }
+      ],
+      "subgroups": {
+        "5_aquarium": {
+          "affinity": {
+            "aquarium": 1.0
+          },
+          "trades": [
+            {
+              "offer": {
+                "item": "alexsmobs:frilled_shark_bucket",
+                "price": 20,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "aquarium": 1.0
+              }
+            },
+            {
+              "offer": {
+                "item": "alexsmobs:mimic_octopus_bucket",
+                "price": 20,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "aquarium": 1.0
+              }
+            },
+            {
+              "offer": {
+                "item": "alexscaves:gossamer_worm_bucket",
+                "price": 32,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "aquarium": 1.0
+              }
+            },
+            {
+              "offer": {
+                "item": "alexscaves:sea_pig_bucket",
+                "price": 32,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "aquarium": 1.0
+              }
+            },
+            {
+              "offer": {
+                "item": "alexscaves:lanternfish_bucket",
+                "price": 20,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "aquarium": 1.0
+              }
+            },
+            {
+              "offer": {
+                "item": "alexscaves:tripodfish_bucket",
+                "price": 20,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "aquarium": 1.0
+              }
+            },
+            {
+              "offer": {
+                "item": "alexsmobs:comb_jelly_bucket",
+                "price": 20,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "aquarium": 1.0
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        },
+        "diving_equipment": {
+          "affinity": {
+            "tools": 1.0
+          },
+          "trades": [
+            {
+              "offer": {
+                "item": "alexscaves:diving_helmet",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "tools": 1.0
+              }
+            },
+            {
+              "offer": {
+                "item": "alexscaves:diving_chestplate",
+                "price": 16,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "tools": 1.0
+              }
+            },
+            {
+              "offer": {
+                "item": "alexscaves:diving_leggings",
+                "price": 14,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "tools": 1.0
+              }
+            },
+            {
+              "offer": {
+                "item": "alexscaves:diving_boots",
+                "price": 7,
+                "type": "minecraft:sell_item"
+              },
+              "level": "master",
+              "attributes": {
+                "tools": 1.0
+              }
+            }
+          ],
+          "replace": false,
+          "min_trades": 0,
+          "max_trades": 1,
+          "randomness": 0.1
+        }
+      },
+      "replace": false,
+      "min_trades": 2,
+      "max_trades": 2
+    }
+  }
+}

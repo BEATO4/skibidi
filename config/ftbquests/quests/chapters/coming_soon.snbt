@@ -1,0 +1,49 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "coming_soon"
+	group: "22F79693740523BB"
+	id: "45941EB11816979B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["A brand new quest chapter all about the farming and cooking options within &5Integrated Minecraft!&r Don't worry, it will include important information on the food book and earning extra hearts."]
+			id: "0CE2E4ABA84D5CF2"
+			shape: "heart"
+			tasks: [{
+				id: "3F800A9BF2380016"
+				title: "Farming"
+				type: "checkmark"
+			}]
+			title: "Cooking and Farming"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: ["Learn how to tame, train, and maim the various new mobs in this world in the upcoming Animal Trainer chapter."]
+			id: "49FB61DAB65D2BEF"
+			shape: "pentagon"
+			tasks: [{
+				id: "7CA47EFEAE607BDC"
+				title: "Animal Trainer"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: ["...or well...building anything, I guess. This chapter will showcase decorative blocks, building tools, and more!"]
+			id: "68FDFFAE3BE17592"
+			shape: "square"
+			tasks: [{
+				id: "7634FF76B0509E49"
+				title: "Building a Base"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "Coming Soon..."
+}

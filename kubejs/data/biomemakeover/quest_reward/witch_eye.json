@@ -1,0 +1,16 @@
+{
+  "weights": {
+    "common": 30,
+    "uncommon": 40,
+    "rare": 20,
+    "epic": 10
+  },
+  "rewards": [
+    {
+      "type": "biomemakeover:item",
+      "item": "endrem:witch_eye",
+      "min": 1,
+      "max": 1
+    }
+  ]
+}

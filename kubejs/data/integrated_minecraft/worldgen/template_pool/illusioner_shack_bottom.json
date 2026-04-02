@@ -1,0 +1,15 @@
+{
+  "name": "integrated_minecraft:illusioner_shack_bottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_minecraft:illusioner_shack_bottom",
+        "processors": "idas:generic_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

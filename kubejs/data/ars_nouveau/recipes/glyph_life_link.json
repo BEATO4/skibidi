@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "minecraft:lead"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_elemental:anima_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:lifestealer_bone"
+      }
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:lifestealer_bone"
+      }
+    }
+  ],
+  "output": "ars_elemental:glyph_life_link"
+}

@@ -1,0 +1,9 @@
+{
+	"block": "caverns_and_chasms:lava_lamp",
+	"stats": {
+		"maxEterna": 40.0,
+		"eterna": 0,
+		"quanta": 5,
+		"arcana": 10
+	}
+}

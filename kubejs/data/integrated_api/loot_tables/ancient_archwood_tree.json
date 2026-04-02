@@ -1,0 +1,320 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_additions:codex_entry",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 4.0,
+                "max": 8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:magebloom_fiber",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:common_ink",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 2.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:uncommon_ink",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 1.0
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arsdelight:bowl_of_wilden_salad",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 3.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arsdelight:bowl_of_honey_glazed_chimera",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 3.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arsdelight:arch_sauce",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 3.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arsdelight:arch_soup",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 3.0
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:bombegranate_pod",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arsdelight:bombegrante_tea",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 2.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:frostaya_pod",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arsdelight:frostaya_tea",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 2.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:bastion_pod",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arsdelight:bastion_tea",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 2.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:mendosteen_pod",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arsdelight:mendosteen_tea",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 2.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_elemental:flashpine_pod",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 8.0
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

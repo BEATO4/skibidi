@@ -1,0 +1,36 @@
+{
+	"filters": [
+	  {
+		"id": "/eye/",
+		"category": "emi:anvil_repairing"
+	  },
+	  {
+		"id": "/eye/",
+		"category": "emi:grinding"
+	  },
+	  {
+		"id": "/warp_stone/",
+		"category": "minecraft:crafting"
+	  },
+	  {
+		"id": "/warp_stone/",
+		"category": "emi:anvil_repairing"
+	  },
+	  {
+		"id": "/warp_stone/",
+		"category": "emi:grinding"
+	  },
+	  {
+		"id": "/warp_stone/",
+		"category": "emi:grinding"
+	  },
+	  {
+		"id": "/enchanted_golden/",
+		"category": "minecraft:crafting"
+	  },
+	  {
+		"id": "/enchanted_golden/",
+		"category": "create:automatic_shaped"
+	  }
+	]
+  }

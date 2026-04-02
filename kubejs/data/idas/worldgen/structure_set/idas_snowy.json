@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "idas:iceandfire/dread_citadel",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:frosted_prison",
+      "weight": 1
+    },
+    {
+      "structure": "idas:winter_wagon",
+      "weight": 1
+    },
+    {
+      "structure": "irons_spellbooks:mountain_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169469678,
+    "spacing": 35,
+    "separation": 27,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 3,
+      "other_set": "#idas:snowy_avoid"
+    }
+  }
+}

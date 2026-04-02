@@ -1,0 +1,28 @@
+{
+	"type": "sophisticatedbackpacks:backpack_upgrade",
+	"conditions": [
+	  {
+		"itemRegistryName": "sophisticatedbackpacks:copper_backpack",
+		"type": "sophisticatedcore:item_enabled"
+	  }
+	],
+	"pattern": [
+	  "DAD",
+	  "ABA",
+	  "DAD"
+	],
+	"key": {
+	    "A": {
+		"item": "minecraft:leather"
+	  },
+		"D": {
+		"item": "minecraft:copper_block"
+	  },
+	  "B": {
+		"item": "sophisticatedbackpacks:backpack"
+	  }
+	},
+	"result": {
+	  "item": "sophisticatedbackpacks:copper_backpack"
+	}
+  }

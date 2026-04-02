@@ -1,0 +1,9 @@
+{
+	"block": "caverns_and_chasms:peeper_head",
+	"stats": {
+		"maxEterna": 90.0,
+		"eterna": 0,
+		"quanta": 5,
+		"arcana": 0.0
+	}
+}

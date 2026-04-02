@@ -1,0 +1,75 @@
+{
+  "additional_requirements": {
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 1000,
+    "blood": 2000,
+    "experience": 0,
+    "souls": 8
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:prismarine_shard"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:scute"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:shark_tooth"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "alexsmobs:shark_tooth"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:scute"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:prismarine_shard"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "ars_nouveau:water_essence"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pure.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "forbidden_arcanus:sea_prism"
+    }
+  }
+}

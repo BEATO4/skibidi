@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "irons_spellbooks:catacombs_zombie",
+      "weight": 10
+    },
+    {
+      "name": "minecraft:cave_spider",
+      "weight": 5
+    }
+  ]
+}

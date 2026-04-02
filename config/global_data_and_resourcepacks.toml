@@ -1,0 +1,52 @@
+#This should under no circumstances be set to true in modpacks
+#If set to true, the mod creates a new global folder, that is global for your user on your computer.
+#The created folders will be:
+# <user_home>/.minecraft_global_packs/required_datapacks
+# <user_home>/.minecraft_global_packs/optional_datapacks
+# <user_home>/.minecraft_global_packs/required_resourcepacks
+# <user_home>/.minecraft_global_packs/optional_resourcepacks
+enable_system_global_packs = false
+
+#This config allows you to add or remove folders or single files as Data-/Resourcepacks
+#For that simply specify the file path to the folder/file relative to your .minecraft or instance folder
+#With the current config you can place a Datapack into '.minecraft/global_packs/required_data' to force enable a datapack.
+[resourcepacks]
+required = [
+    #"other_folder/random_pack.zip" # You can also point at specific files!
+    "EclecticTrove-1.20.1-1.3.0.zip",
+    "Soft-Weather-1.0-1.20.zip",
+    "Tool_Belt_Retextured_1.20.x_V3.zip",
+    "FreshAnimations_v1.9.2.zip",
+    "FreshCompats_v1.6.zip",
+    "MoreMobVariants_FreshAnimations_1.3.1-1.9.2.zip",
+    "waystones_1.20.zip",
+    "[1.4.1] Enhanced Boss Bars.zip",
+    "SRU_1-3.zip",
+    "MMV-Fix-1.20.1.zip",
+    "EnderEyes_1.20.1_v3.zip",
+    "Chaotix Apotheotic Tweaks v1.5.zip",
+    "Bibliophilia 1.13.2 (1.20.1).zip",
+    "Ars Nouveau Refresh 1.0.zip",
+    "Create Simple Storage 2.1.zip",
+    "Better tom\u0027s create storage 1.1.zip",
+    "Detailed dragon Armors.zip",
+    "Fancy Crops v1.0 f5-34.zip",
+    "FrostbiteBrimstone.zip",
+    "IAF-DE4THR4SH-Dragonsteel-Weaponry-V-3.5-[1.20.X].zip",
+    "Lopy-Create-Sophisticated-Backpacks.zip",
+    "Medieval_Style_Lootr.zip",
+    "SmoothDrawers_1.20.1_v2.zip",
+    "freshly-modded-1-5-10.zip",
+    "colourful containers.zip",
+    "colourful containers - modded.zip"
+]
+
+[datapacks]
+required = [
+    "resourcepacks/",
+    "global_packs/required_data/"
+]
+
+optional = [
+    "global_packs/optional_data/"
+]

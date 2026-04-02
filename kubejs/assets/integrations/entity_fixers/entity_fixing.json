@@ -1,0 +1,107 @@
+{
+	"alexsmobs:fly": {
+	  "offset": -20
+	},
+	"alexsmobs:roadrunner": {
+		"offset": -8
+	  },
+	"alexsmobs:rattlesnake": {
+		"offset": -10
+	  },
+	"alexsmobs:lobster": {
+		"offset": -8
+	},
+	"alexsmobs:mimicube": {
+		"offset": -2
+	},
+	"alexsmobs:raccoon": {
+		"offset": -2
+	},
+	"alexsmobs:blobfish": {
+		"offset": -7
+	},
+	"alexsmobs:cockroach": {
+		"offset": -10
+	},
+	"alexsmobs:cosmic_cod": {
+		"offset": -5
+	},
+	"alexsmobs:rocky_roller": {
+		"offset": 2
+	},
+	"alexsmobs:catfish": {
+		"offset": -3
+	},
+	"alexsmobs:flying_fish": {
+		"offset": -11
+	},
+	"alexsmobs:comb_jelly": {
+		"offset": -4
+	},
+	"alexsmobs:bison": {
+		"offset": 2
+	},
+	"alexsmobs:murmur": {
+		"offset": 1
+	},
+	"alexsmobs:kangaroo": {
+		"offset": 3
+	},
+	"alexsmobs:emu": {
+		"offset": 3
+	},
+	"alexsmobs:warped_mosco": {
+		"offset": 3
+	},
+	"alexsmobs:straddler": {
+		"offset": 4
+	},
+	"alexsmobs:banana_slug": {
+		"offset": -7
+	},
+	"alexscaves:atlatitan": {
+		"offset": 8
+	},
+	"alexscaves:relicheirus": {
+		"offset": 7
+	},
+	"alexscaves:tremorsaurus": {
+		"offset": 5
+	},
+	"alexscaves:grottoceratops": {
+		"offset": 1
+	},
+	"alexscaves:teletor": {
+		"offset": 3
+	},
+	"alexscaves:notor": {
+		"offset": -10
+	},
+	"alexscaves:luxtructosaurus": {
+		"offset": 7
+	},
+	"alexscaves:nucleeper": {
+		"offset": 5
+	},
+	"alexscaves:gossamer_worm": {
+		"offset": -5
+	},
+	"alexscaves:lanternfish": {
+		"offset": -10
+	},
+	"alexscaves:tripodfish": {
+		"offset": -5
+	},
+	"alexscaves:sea_pig": {
+		"offset": -8
+	},
+	"mowziesmobs:frostmaw": {
+		"offset": 5
+	},
+	"mowziesmobs:ferrous_wroughtnaut": {
+		"offset": 5
+	},
+	"mowziesmobs:umvuthi": {
+		"offset": 5
+	}
+}

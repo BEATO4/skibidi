@@ -1,0 +1,22 @@
+{
+	"replace": false,
+
+	"values": [
+	  "minecraft:bookshelf",
+	  "quark:spruce_bookshelf",
+	  "quark:birch_bookshelf",
+	  "quark:jungle_bookshelf",
+	  "quark:acacia_bookshelf",
+	  "quark:dark_oak_bookshelf",
+	  "quark:crimson_bookshelf",
+	  "quark:warped_bookshelf",
+	  "quark:mangrove_bookshelf",
+	  "quark:bamboo_bookshelf",
+	  "quark:cherry_bookshelf",
+	  "quark:blossom_bookshelf",
+	  "quark:azalea_bookshelf",
+	  "quark:ancient_bookshelf",
+	  "upgrade_aquatic:driftwood_bookshelf",
+	  "upgrade_aquatic:river_bookshelf"
+	]
+  }

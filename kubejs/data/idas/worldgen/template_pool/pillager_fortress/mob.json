@@ -1,0 +1,87 @@
+{
+  "name": "idas:pillager_fortress/mob",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "idas:pillager_fortress/pillager_fortress_evoker",
+        "processors": "idas:pillager_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "idas:pillager_fortress/pillager_fortress_vindicator",
+        "processors": "idas:pillager_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_provoker",
+        "processors": "idas:pillager_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_firecaller",
+        "processors": "idas:pillager_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_basher",
+        "processors": "idas:pillager_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_sorcerer",
+        "processors": "idas:pillager_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_archivist",
+        "processors": "idas:pillager_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_alchemist",
+        "processors": "idas:pillager_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "idas:illagerinvasion/illagerinvasion_inquisitor",
+        "processors": "idas:pillager_processor",
+        "projection": "rigid",
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "#integrated_api:collections/any_forests",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/badlands",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/caves",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/deserts",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/giant_taigas",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/hills",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/icy",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/jungles",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/meadows",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/mountains",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/mushrooms",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/plains",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/savannas",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/snowy_forests",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/snowy_plains",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/snowy_mountains",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/swamps",
+      "required": false
+    },
+    {
+      "id": "#integrated_api:collections/taigas",
+      "required": false
+    }
+  ]
+}

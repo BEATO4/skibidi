@@ -1,0 +1,51 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 1500,
+    "blood": 2500,
+    "experience": 1200,
+    "souls": 25
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "alexscaves:primal_magma"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "eidolon:crimson_gem"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ars_nouveau:fire_essence"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "iceandfire:fire_dragon_blood"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "simplyswords:netherite_greataxe"
+  },
+  "magic_circle": {
+    "inner_texture": "forbidden_arcanus:textures/effect/magic_circle/inner/origin.png",
+    "outer_texture": "forbidden_arcanus:textures/effect/magic_circle/outer/pactum.png"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "simplyswords:molten_edge"
+    }
+  }
+}
