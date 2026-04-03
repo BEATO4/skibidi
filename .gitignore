@@ -59,4 +59,6 @@ fancymenu_data/
 keybinding presets/
 modernfix/
 schematics/
-kubejs\data
+kubejs/data
+kubejs/assets
+config/fancymenu
