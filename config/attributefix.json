@@ -143,6 +143,17 @@
         "value": 100
       }
     },
+    "gtbcs_spell_lib:spell_crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "minecraft:generic.luck": {
       "enabled": true,
       "min": {
@@ -152,6 +163,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "gtbcs_geomancy_plus:geo_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "eidolon:persistent_soul_hearts": {
@@ -198,6 +220,17 @@
         "value": 1024
       }
     },
+    "gtbcs_spell_lib:spell_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "eidolon:chanting_speed": {
       "enabled": false,
       "min": {
@@ -207,6 +240,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "gtbcs_spell_lib:magic_projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "irons_spellbooks:casting_movespeed": {
@@ -251,6 +295,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "caverns_and_chasms:stealth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "caverns_and_chasms:magic_damage": {
@@ -361,6 +416,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "manaunification:mana_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "minecraft:generic.attack_speed": {
@@ -551,6 +617,17 @@
       }
     },
     "irons_spellbooks:ice_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "gtbcs_geomancy_plus:geo_magic_resist": {
       "enabled": false,
       "min": {
         "default": -100,
@@ -1120,6 +1197,28 @@
       "max": {
         "default": 20,
         "value": 20
+      }
+    },
+    "gtbcs_spell_lib:spell_crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "manaunification:max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000,
+        "value": 100000
       }
     },
     "attributeslib:arrow_damage": {

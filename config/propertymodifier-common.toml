@@ -115,6 +115,10 @@
 		"savage_and_ravage:griefer_chestplate" = 8000
 		"savage_and_ravage:griefer_leggings" = 8000
 		"savage_and_ravage:griefer_boots" = 8000
+		"legendary_monsters:annihilator_helmet" = 8000
+		"legendary_monsters:annihilator_chestplate" = 8000
+		"legendary_monsters:annihilator_leggings" = 8000
+		"legendary_monsters:annihilator_boots" = 8000
 		test = 0
 
 	#Set the max stack size of an item. Only values between 2 and 64 are supported. Items that have durability cannot have this value altered. Example (without the leading #):
@@ -216,6 +220,10 @@
 		"savage_and_ravage:griefer_chestplate" = true
 		"savage_and_ravage:griefer_leggings" = true
 		"savage_and_ravage:griefer_boots" = true
+		"legendary_monsters:annihilator_helmet" = true
+		"legendary_monsters:annihilator_chestplate" = true
+		"legendary_monsters:annihilator_leggings" = true
+		"legendary_monsters:annihilator_boots" = true
 		test = false
 
 	#Set the rarity (item color) of an item. Must be a valid rarity name. Example (without the leading #):
@@ -277,6 +285,10 @@
 			"savage_and_ravage:griefer_chestplate" = 11
 			"savage_and_ravage:griefer_leggings" = 8
 			"savage_and_ravage:griefer_boots" = 5
+			"legendary_monsters:annihilator_helmet" = 6
+			"legendary_monsters:annihilator_chestplate" = 11
+			"legendary_monsters:annihilator_leggings" = 8
+			"legendary_monsters:annihilator_boots" = 5
 			"betterend:crystalite_helmet" = 5
 			"betterend:crystalite_chestplate" = 10
 			"betterend:crystalite_leggings" = 7
@@ -323,6 +335,10 @@
 			"savage_and_ravage:griefer_chestplate" = 5
 			"savage_and_ravage:griefer_leggings" = 5
 			"savage_and_ravage:griefer_boots" = 5
+			"legendary_monsters:annihilator_helmet" = 5
+			"legendary_monsters:annihilator_chestplate" = 5
+			"legendary_monsters:annihilator_leggings" = 5
+			"legendary_monsters:annihilator_boots" = 5
 			"betterend:crystalite_helmet" = 4
 			"betterend:crystalite_chestplate" = 4
 			"betterend:crystalite_leggings" = 4
@@ -381,6 +397,10 @@
 			"savage_and_ravage:griefer_chestplate" = 1.5
 			"savage_and_ravage:griefer_leggings" = 1.5
 			"savage_and_ravage:griefer_boots" = 1.5
+			"legendary_monsters:annihilator_helmet" = 2
+			"legendary_monsters:annihilator_chestplate" = 2
+			"legendary_monsters:annihilator_leggings" = 2
+			"legendary_monsters:annihilator_boots" = 2
 			test = 0.0
 
 	#Set the values for tools, swords and tridents.
@@ -394,49 +414,50 @@
 		#Set the attack damage of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:netherite_sword" = 12
 		[items.tools.attack_damage]
-			"born_in_chaos_v1:spider_bite_sword" = 9.0
-			"simplyswords:caelestis" = 16.0
-			"simplyswords:icewhisper" = 13.0
-			"simplyswords:mjolnir" = 13.0
-			"simplyswords:thunderbrand" = 16.0
-			"simplyswords:stormbringer" = 12.0
-			"simplyswords:storms_edge" = 12.0
-			"simplyswords:soulrender" = 12.0
-			"simplyswords:soulstealer" = 7.0
-			"simplyswords:twisted_blade" = 15.0
-			"simplyswords:enigma" = 15.0
-			"simplyswords:soulpyre" = 14.0
-			"simplyswords:shadowsting" = 9.0
-			"simplyswords:hiveheart" = 13.0
-			"simplyswords:bramblethorn" = 11.0
-			"simplyswords:emberblade" = 10.0
-			"simplyswords:watcher_claymore" = 14.0
-			"simplyswords:watching_warglaive" = 11.0
-			"simplyswords:waxweaver" = 13.0
-			"simplyswords:wickpiercer" = 11.0
-			"simplyswords:whisperwind" = 12.0
-			"simplyswords:ribboncleaver" = 20.0
-			"simplyswords:tempest" = 8.0
-			"simplyswords:magiblade" = 12.0
-			"simplyswords:magispear" = 13.0
-			"simplyswords:magiscythe" = 13.0
-			"simplyswords:arcanethyst" = 14.0
-			"simplyswords:brimstone_claymore" = 15.0
-			"simplyswords:frostfall" = 14.0
-			"simplyswords:emberlash" = 7.0
-			"simplyswords:soulkeeper" = 16.0
-			"simplyswords:hearthflame" = 16.0
-			"simplyswords:molten_edge" = 11.0
-			"simplyswords:livyatan" = 11.0
-			"simplyswords:stars_edge" = 12.0
-			"simplyswords:toxic_longsword" = 12.0
-			"simplyswords:awakened_lichblade" = 18.0
-			"simplyswords:waking_lichblade" = 14.0
-			"simplyswords:sunfire" = 18.0
-			"simplyswords:harbinger" = 18.0
-			"simplyswords:righteous_relic" = 11.0
-			"simplyswords:tainted_relic" = 11.0
+			"born_in_chaos_v1:spider_bite_sword" = 10.0
+			"simplyswords:caelestis" = 18.0
+			"simplyswords:icewhisper" = 15.0
+			"simplyswords:mjolnir" = 15.0
+			"simplyswords:thunderbrand" = 18.0
+			"simplyswords:stormbringer" = 14.0
+			"simplyswords:storms_edge" = 14.0
+			"simplyswords:soulrender" = 14.0
+			"simplyswords:soulstealer" = 9.0
+			"simplyswords:twisted_blade" = 17.0
+			"simplyswords:enigma" = 17.0
+			"simplyswords:soulpyre" = 16.0
+			"simplyswords:shadowsting" = 11.0
+			"simplyswords:hiveheart" = 15.0
+			"simplyswords:bramblethorn" = 13.0
+			"simplyswords:emberblade" = 12.0
+			"simplyswords:watcher_claymore" = 16.0
+			"simplyswords:watching_warglaive" = 13.0
+			"simplyswords:waxweaver" = 14.0
+			"simplyswords:wickpiercer" = 12.0
+			"simplyswords:whisperwind" = 14.0
+			"simplyswords:ribboncleaver" = 22.0
+			"simplyswords:tempest" = 10.0
+			"simplyswords:magiblade" = 13.0
+			"simplyswords:magispear" = 14.0
+			"simplyswords:magiscythe" = 14.0
+			"simplyswords:arcanethyst" = 15.0
+			"simplyswords:brimstone_claymore" = 17.0
+			"simplyswords:frostfall" = 16.0
+			"simplyswords:emberlash" = 8.0
+			"simplyswords:soulkeeper" = 17.0
+			"simplyswords:hearthflame" = 17.0
+			"simplyswords:molten_edge" = 13.0
+			"simplyswords:livyatan" = 13.0
+			"simplyswords:stars_edge" = 14.0
+			"simplyswords:toxic_longsword" = 14.0
+			"simplyswords:awakened_lichblade" = 20.0
+			"simplyswords:waking_lichblade" = 16.0
+			"simplyswords:sunfire" = 20.0
+			"simplyswords:harbinger" = 20.0
+			"simplyswords:righteous_relic" = 12.0
+			"simplyswords:tainted_relic" = 12.0
 			"cataclysm:the_incinerator" = 16.0
+			"legendary_monsters:the_tesseract" = 16.0
 			test = 0.0
 
 		#Set the attack speed of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):

@@ -107,7 +107,7 @@
 				consume_items: true
 				count: 3L
 				id: "7944C5603905DCF1"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Nether Wastes"
@@ -154,7 +154,7 @@
 				consume_items: true
 				count: 3L
 				id: "3183F6C6E7E8F6EB"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Soul Sand Valley"
@@ -185,7 +185,7 @@
 				consume_items: true
 				count: 3L
 				id: "52F8892791C758B4"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Black Ice Glaciers"
@@ -216,7 +216,7 @@
 				consume_items: true
 				count: 3L
 				id: "77E8CDA9C52B5FE0"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Redstone Abyss"
@@ -247,7 +247,7 @@
 				consume_items: true
 				count: 3L
 				id: "1AE6C17F5A6A6587"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Old Swampland"
@@ -278,7 +278,7 @@
 				consume_items: true
 				count: 3L
 				id: "26D64A8A6455CC69"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Crimson Pinewood"
@@ -309,7 +309,7 @@
 				consume_items: true
 				count: 3L
 				id: "3502C07252937F4A"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Swampland"
@@ -340,7 +340,7 @@
 				consume_items: true
 				count: 3L
 				id: "0729C1BDCFAF10B8"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Upside Down Forest"
@@ -371,7 +371,7 @@
 				consume_items: true
 				count: 3L
 				id: "25FFC4DD92A4DF33"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Dead Upside Down Forest"
@@ -402,7 +402,7 @@
 				consume_items: true
 				count: 3L
 				id: "26E3869A772D565E"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Infernal Holt"
@@ -433,7 +433,7 @@
 				consume_items: true
 				count: 3L
 				id: "57B88F9005277461"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Old Warped Woods"
@@ -464,7 +464,7 @@
 				consume_items: true
 				count: 3L
 				id: "73CCACA90609E1F0"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Warped Forest"
@@ -495,7 +495,7 @@
 				consume_items: true
 				count: 3L
 				id: "7003F9499F2A1BED"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Crimson Forest"
@@ -526,7 +526,7 @@
 				consume_items: true
 				count: 3L
 				id: "79CE1349F68567C3"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Basalt Delta"
@@ -557,7 +557,7 @@
 				consume_items: true
 				count: 3L
 				id: "02C872BB88B440B4"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Flooded Deltas"
@@ -588,7 +588,7 @@
 				consume_items: true
 				count: 3L
 				id: "39FD25F5BB8CAD14"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Magma Land"
@@ -619,7 +619,7 @@
 				consume_items: true
 				count: 3L
 				id: "7C164847831F674B"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Swampland Terraces"
@@ -650,7 +650,7 @@
 				consume_items: true
 				count: 3L
 				id: "1D9761836C8D5DF7"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Blackstone Basin"
@@ -681,7 +681,7 @@
 				consume_items: true
 				count: 3L
 				id: "42389EC31DFBAD19"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Glistering Meadow"
@@ -712,7 +712,7 @@
 				consume_items: true
 				count: 3L
 				id: "11FD3228E812C9DA"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Nether Grasslands"
@@ -743,7 +743,7 @@
 				consume_items: true
 				count: 3L
 				id: "403C45E5E6CD3C72"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Mycotoxic Undergrowth"
@@ -774,7 +774,7 @@
 				consume_items: true
 				count: 3L
 				id: "71D752E20C52FF40"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Bone Reef"
@@ -805,7 +805,7 @@
 				consume_items: true
 				count: 3L
 				id: "05319E72DA6D91B2"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "Nether Jungle"

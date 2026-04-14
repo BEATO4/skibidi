@@ -19,14 +19,16 @@
 				umvuthana_crane = true
 				umvuthana_raptor = true
 				poison_ball = true
+				elokosa_howler = true
 				ferrous_wroughtnaut = true
-				umvuthi = true
 				dart = true
+				umvuthi = true
 				axe_attack = true
 				sunstrike = true
 				foliaath = true
 				ice_breath = true
 				rock_sling = true
+				elokosa_follower_howler = true
 				boulder_projectile = true
 				block_swapper = true
 				umvuthana_follower_raptor = true
@@ -39,6 +41,7 @@
 				falling_block = true
 				sculptor = true
 				pillar = true
+				solar_beam = true
 				bluff = true
 				grottol = true
 				naga = true
@@ -50,8 +53,8 @@
 			[light_sources.settings.entities.alexsmobs]
 				devils_hole_pupfish = true
 				kangaroo = true
-				blue_jay = true
 				skelewag = true
+				blue_jay = true
 				bone_serpent_part = true
 				catfish = true
 				tasmanian_devil = true
@@ -62,8 +65,8 @@
 				jerboa = true
 				mungus = true
 				skunk = true
-				dropbear = true
 				bunfungus = true
+				dropbear = true
 				rattlesnake = true
 				blobfish = true
 				mimicube = true
@@ -85,8 +88,8 @@
 				tarantula_hawk = true
 				void_worm_part = true
 				void_worm_shot = true
-				enderiophage = true
 				void_portal = true
+				enderiophage = true
 				terrapin = true
 				platypus = true
 				murmur = true
@@ -162,18 +165,6 @@
 				hunter_pet = true
 				archmage_pet = true
 
-			[light_sources.settings.entities.netherexp]
-				apparition = true
-				ecto_slab = true
-				carcass = true
-				will_o_wisp = true
-				soul_bullet = true
-				vessel = true
-				stampede = true
-				wisp = true
-				banshee = true
-				phasmo_arrow = true
-
 			[light_sources.settings.entities.biomemakeover]
 				rootling = true
 				cowboy = true
@@ -193,6 +184,18 @@
 				lightning_bottle = true
 				tumbleweed = true
 
+			[light_sources.settings.entities.netherexp]
+				apparition = true
+				ecto_slab = true
+				carcass = true
+				will_o_wisp = true
+				soul_bullet = true
+				vessel = true
+				stampede = true
+				wisp = true
+				banshee = true
+				phasmo_arrow = true
+
 			[light_sources.settings.entities.eidolon]
 				giant_skeleton = true
 				wraith = true
@@ -201,9 +204,15 @@
 				necromancer = true
 				zombie_brute = true
 
-			[light_sources.settings.entities.biomeswevegone]
-				pumpkin_warden = true
-				oddion = true
+			[light_sources.settings.entities.galosphere]
+				sparkle = true
+				spectator_vision = true
+				spectre = true
+				berserker = true
+				pink_salt_pillar = true
+				preserved = true
+				silver_bomb = true
+				pink_salt_shard = true
 
 			[light_sources.settings.entities.illagerinvasion]
 				skull_bolt = true
@@ -222,21 +231,20 @@
 				archivist = true
 				inquisitor = true
 
-			[light_sources.settings.entities.galosphere]
-				sparkle = true
-				spectator_vision = true
-				spectre = true
-				berserker = true
-				pink_salt_pillar = true
-				preserved = true
-				silver_bomb = true
-				pink_salt_shard = true
+			[light_sources.settings.entities.biomeswevegone]
+				pumpkin_warden = true
+				oddion = true
 
 			[light_sources.settings.entities.recrafted_creatures]
 				chameleon = true
 				owl = true
 				beaver = true
 				red_panda = true
+
+			[light_sources.settings.entities.gtbcs_geomancy_plus]
+				resonator = true
+				geo_grandmaster = true
+				geomancer = true
 
 			[light_sources.settings.entities.betternether]
 				naga_projectile = true
@@ -268,6 +276,9 @@
 
 			[light_sources.settings.entities.gateways]
 				normal_gateway = true
+
+			[light_sources.settings.entities.alexsmobsdelight]
+				thrown_banana = true
 
 			[light_sources.settings.entities.environmental]
 				deer = true
@@ -307,8 +318,8 @@
 			[light_sources.settings.entities.iceandfire]
 				dread_lich_skull = true
 				amphithere_arrow = true
-				siren = true
 				dread_ghoul = true
+				siren = true
 				dread_scuttler = true
 				chain_tie = true
 				dread_lich = true
@@ -394,9 +405,13 @@
 			[light_sources.settings.entities.caverns_and_chasms]
 				peeper = true
 				glare = true
+				rat = true
 				mime = true
 				deeper = true
+				large_arrow = true
 				lost_goat = true
+				cavefish = true
+				evendeeper = true
 
 			[light_sources.settings.entities.supplementaries]
 				dispenser_minecart = true
@@ -411,15 +426,15 @@
 				homing_tear = true
 				prismaw = true
 				harvest_spiral = true
-				forest_vines = true
 				aura_tearburst = true
+				forest_vines = true
 				pebblehead = true
 				giant_spider = true
 				grimhook = true
 				insatiable = true
 				carcass = true
-				scallop = true
 				fire_elemental = true
+				scallop = true
 				mournstone = true
 				debug_mobmorph = true
 				demonblood_projectile = true
@@ -479,15 +494,15 @@
 			[light_sources.settings.entities.minecraft]
 				zombie_horse = true
 				axolotl = true
-				zoglin = true
 				egg = true
+				zoglin = true
 				allay = true
 				llama = true
 				mule = true
 				bat = true
 				husk = true
-				camel = true
 				experience_bottle = true
+				camel = true
 				rabbit = true
 				silverfish = true
 				firework_rocket = true
@@ -506,8 +521,8 @@
 				lightning_bolt = true
 				ravager = true
 				evoker_fangs = true
-				chest_minecart = true
 				tropical_fish = true
+				chest_minecart = true
 				slime = true
 				pillager = true
 				area_effect_cloud = true
@@ -597,10 +612,10 @@
 				tremorzilla = true
 				ink_bomb = true
 				atlatitan = true
-				moving_metal_block = true
 				trilocaris = true
-				watcher = true
+				moving_metal_block = true
 				teletor = true
+				watcher = true
 				quarry_smasher = true
 				gumbeeper = true
 				caramel_cube = true
@@ -715,8 +730,8 @@
 			[light_sources.settings.entities.born_in_chaos_v1]
 				lifestealer_true_form = true
 				phantom_bomb_entity = true
-				pumpkin_spirit = true
 				krampus_henchman = true
+				pumpkin_spirit = true
 				firelight = true
 				zombie_fisherman = true
 				pumpkin_bomb = true
@@ -808,33 +823,39 @@
 				badloon = true
 
 			[light_sources.settings.entities.atmospheric]
+				tetra = true
 				cochineal = true
 
 			[light_sources.settings.entities.traveloptics]
-				fading_mage = true
-				flood_slash_projectile = true
+				the_nightwarden_defeated = true
 				extended_flare_bomb = true
-				aqua_vortex_entity = true
 				summoned_forsaken = true
-				aqua_grandmaster = true
 				bubble_spray = true
 				aquamancer = true
-				blackout_anti_magic_field = true
 				hydroshot = true
 				rainfall_aoe = true
+				fading_mage = true
+				flood_slash_projectile = true
+				aqua_vortex_entity = true
+				aqua_grandmaster = true
+				blackout_anti_magic_field = true
 
 			[light_sources.settings.entities.cataclysm]
 				void_shard = true
 				portal_abyss_blast = true
+				lightning_storm = true
 				maledictus = true
 				deepling_angler = true
 				amethyst_crab = true
 				bolt_strike = true
+				ignis_abyss_fireball = true
 				abyss_blast_portal = true
 				royal_draugr = true
 				deepling_brute = true
 				the_harbinger = true
+				lightning_area_effect = true
 				wither_missile = true
+				scylla_ceraunus = true
 				ender_golem = true
 				ancient_remnant = true
 				screen_shake = true
@@ -846,6 +867,7 @@
 				flame_jet = true
 				lionfish_spike = true
 				netherite_ministrosity = true
+				ignis_fireball = true
 				the_prowler = true
 				deepling_priest = true
 				ignis = true
@@ -859,7 +881,9 @@
 				ignited_revenant = true
 				cursed_sandstorm = true
 				aptrgangr = true
+				spark = true
 				abyss_mine = true
+				ignited_berserker = true
 				the_leviathan = true
 				netherite_monstrosity = true
 				void_vortex = true
@@ -871,6 +895,7 @@
 				flame_strike = true
 				wadjet = true
 				the_baby_leviathan = true
+				scylla = true
 				laser_beam = true
 				ancient_ancient_remnant = true
 				ancient_desert_stele = true
@@ -911,12 +936,21 @@
 				spiky_bug = true
 				shulker_mimic = true
 				chorusling = true
+				thrown_annihilation_bottle = true
+				flame_drifter = true
 				knights_armor = true
 				ancient_guardian = true
+				annihilation_pursuer = true
+				the_obliterator = true
+				flameborn_guard = true
+				annihilation_beam = true
 				endersent = true
 				dark_cloud_golem = true
+				flameborn_warrior = true
 				warped_fungussus = true
+				wandering_eye = true
 				lava_eater = true
+				small_dimensional_bomb = true
 				camera_shake = true
 				stratling = true
 				dune_sentinel = true
@@ -924,6 +958,7 @@
 				skeletosaurus = true
 				overgrown_colossus = true
 				hovering_hurricane = true
+				energy_explosion = true
 				ambusher = true
 				haunted_knight = true
 				withered_abomination = true
@@ -949,6 +984,7 @@
 				guiding_bolt = true
 				cryomancer = true
 				wisp = true
+				healing_aoe = true
 				icicle = true
 				fire_boss = true
 
@@ -1010,6 +1046,7 @@
 				golden_moth = true
 				maze_rose = true
 				maze_mother = true
+				abyssal_scyphoid = true
 				eel = true
 				poisoned_chakra = true
 				spinefish = true

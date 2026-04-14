@@ -745,6 +745,28 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6B0A3A212490C53F"
+					item: {
+						Count: 1
+						id: "legendary_monsters:atom_splitter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FC87D1893C2C59B"
+					item: {
+						Count: 1
+						id: "legendary_monsters:the_tesseract"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "All Unique Weapons"
 			x: 0.5d
@@ -3184,46 +3206,6 @@
 					type: "item"
 				}
 				{
-					id: "28FD5BD394C634B1"
-					item: "alexsdelight:kangaroo_pasta"
-					type: "item"
-				}
-				{
-					id: "15047D7B7C5CA734"
-					item: "alexsdelight:bunfungus_sandwich"
-					type: "item"
-				}
-				{
-					id: "20873576484E6F30"
-					item: "alexsdelight:bison_burger"
-					type: "item"
-				}
-				{
-					id: "2BD983EEBB4AAC02"
-					item: "alexsdelight:lobster_pasta"
-					type: "item"
-				}
-				{
-					id: "27C8992228398433"
-					item: "alexsdelight:acacia_blossom_soup"
-					type: "item"
-				}
-				{
-					id: "7F638FB570999898"
-					item: "alexsdelight:kangaroo_stew"
-					type: "item"
-				}
-				{
-					id: "2E09EC4228F427CE"
-					item: "alexsdelight:maggot_salad"
-					type: "item"
-				}
-				{
-					id: "60C596ED621A0196"
-					item: "alexsdelight:gongylidia_bruschetta"
-					type: "item"
-				}
-				{
 					id: "066D57AA7EB6CD40"
 					item: "arsdelight:bastion_pie"
 					type: "item"
@@ -3576,6 +3558,55 @@
 				{
 					id: "0119A7D43D90103E"
 					item: "brewinandchewin:kimchi"
+					type: "item"
+				}
+				{
+					id: "3CF55F4E60FB4EF3"
+					item: "alexsmobsdelight:big_mac"
+					type: "item"
+				}
+				{
+					id: "0EC28E4900EEBBEE"
+					item: "alexsmobsdelight:steamed_stuffed_crocodile"
+					type: "item"
+				}
+				{
+					id: "1D3299767F9D4762"
+					item: "alexsmobsdelight:shrimp_poke_bowl"
+					type: "item"
+				}
+				{
+					id: "1F5B2220A6FFBCD8"
+					item: {
+						Count: 1
+						id: "alexsmobsdelight:enchanted_eternal_cooked_seagull"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5FBCA0E04B75E59B"
+					item: "alexsmobsdelight:alexs_rice_roll_medley"
+					type: "item"
+				}
+				{
+					id: "6658D7FE06758E9F"
+					item: "alexsmobsdelight:cthulhus_breakfast"
+					type: "item"
+				}
+				{
+					id: "177BA3DD9C455E5F"
+					item: "alexsmobsdelight:takoyaki"
+					type: "item"
+				}
+				{
+					id: "14EDA2C33B6CDBC7"
+					item: "alexsmobsdelight:cheese_seal_burger"
+					type: "item"
+				}
+				{
+					id: "1AD979E007756FAE"
+					item: "alexsmobsdelight:bison_tartare"
 					type: "item"
 				}
 			]

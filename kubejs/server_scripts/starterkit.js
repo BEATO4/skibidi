@@ -6,6 +6,8 @@ PlayerEvents.loggedIn(event => {
       event.player.stages.add('starting_items')
       // Give some items to player
       event.player.give('ftbquests:book')
+      event.player.give('fieldguide:field_guide')
+      event.player.give('minecraft:spyglass')
       event.player.give(Item.of('farmersdelight:flint_knife', '{Damage:0}'))
       event.player.give('3x minecraft:bread')
     }

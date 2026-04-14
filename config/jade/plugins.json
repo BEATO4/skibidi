@@ -81,8 +81,15 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "betternether": {
+    "plant_growth": true
+  },
   "jadeaddons.lootr": {
     "info": true
+  },
+  "item-descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
   },
   "delightful": {
     "crop_progress": true,

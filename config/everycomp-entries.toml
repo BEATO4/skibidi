@@ -138,6 +138,9 @@
 			fig = true
 			durian = true
 
+		[types.leaves_type.minecraft]
+			pale_oak = true
+
 	[types.wood_type]
 
 		[types.wood_type.ars_nouveau]
@@ -262,6 +265,9 @@
 			laurel = true
 			kousa = true
 			grimwood = true
+
+		[types.wood_type.minecraft]
+			pale_oak = true
 
 	[types.cake]
 

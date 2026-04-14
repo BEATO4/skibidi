@@ -166,7 +166,7 @@
 			description: [
 				"You can now &dr-click&r to harvest fully-grown crops and the seeds will stay planted! If you harvest using a &bhoe,&r &ethe radius of crops harvested increases as the tier of the &bhoe&e increases. "
 				""
-				"&7Example: An iron hoe will harvest in a 3x3 and a diamond how will harvest in a 5x5."
+				"&7Example: An iron hoe will harvest in a 3x3 and a diamond hoe will harvest in a 5x5."
 			]
 			id: "395667567EB3B4A7"
 			rewards: [{

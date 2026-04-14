@@ -161,7 +161,7 @@
 				type: "checkmark"
 			}]
 			title: "JEI/EMI!"
-			x: -8.5d
+			x: -9.0d
 			y: 3.5d
 		}
 		{
@@ -305,6 +305,7 @@
 				"- &d\"C\"&r - Open Spellbook (&eArs Nouveau&r)"
 				"- &d\"N\"&r - Cast Selected Spell (&eIron's S 'n S&r)"
 				"- &d\"R\"&r - Roll/Dodge (&eCombat Roll&r)"
+				"- &d\"G\"&r - Open Field Guide"
 				"- &d\"Button 4\"&r - Cycles Offhand Slot (&eInventorio&r)"
 				"- &d\"M\"&r - Open World Map (&eXaero's World Map&r)"
 				"- &d\"Y\"&r - Minimap Settings (&eXaero's Minimap&r)"
@@ -344,7 +345,7 @@
 				type: "checkmark"
 			}]
 			title: "Keybinds"
-			x: -9.5d
+			x: -10.0d
 			y: 3.5d
 		}
 		{
@@ -367,6 +368,8 @@
 				"&5Special thanks to&r:"
 				""
 				"&eJAWredstoneguy&r, &eSlayDigger&r, &eChronicallyArden&r, &eAntN&r, and &earzadu&r for their work on the pack"
+				""
+				"&6Leafyyy&r for providing resources and help to the community"
 				""
 				"&dThe IDAS builder&r team for the fantastic structures"
 				""
@@ -705,7 +708,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["If you have any questions, please feel free to ask on discord! &dCraisin&r or &cHisakid&r are usually around to answer questions. Make sure to check that your question hasn't already been answered, though."]
+			description: ["If you have any questions, please feel free to ask on discord! &dCraisin&r or &eLeafyyy&r are usually around to answer questions. Make sure to check that your question hasn't already been answered, though."]
 			id: "516DF3AB5A9E93AC"
 			tasks: [{
 				id: "5FF94EF381E38CCB"
@@ -778,6 +781,53 @@
 			title: "Iron's Guidebook"
 			x: 5.0d
 			y: 4.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"&e\"Field Guide\"&r is your personal in-game encyclopedia for the world around you! Using a &dSpyglass&r, you can scan creatures, plants, and more to unlock entries. If you’ve ever wondered what something does… now you can find out!"
+				""
+				"Hold a &dSpyglass&r and &dright-click&r to zoom in. While zoomed, look directly at a mob or plant to &ascan&r it."
+				"Successfully scanning something will unlock a new entry in your &eField Guide&r. Try scanning everything you see to collect all the entries!"
+				""
+				"&bContinue on Next Page ->&r"
+				"{@pagebreak}"
+				"Every scan adds to your growing collection of knowledge!"
+				""
+				"Open your &eField Guide&r to browse all discovered entries. Think of it like your own adventure journal. You can use the item or a keybind."
+				""
+				"Entries may include useful info, lore, or hints about mechanics."
+				""
+				"You can also &dwrite your own notes&r in each entry. Found something interesting? Record it!"
+				""
+				"&bContinue on Next Page ->&r"
+				"{@pagebreak}"
+				"&6Note from the Modpack Devs:&r"
+				"We’ll be adding more custom descriptions and helpful info to entries over time to make your Field Guide even more useful."
+				""
+				"For now… &awrite your own notes!"
+			]
+			disable_toast: true
+			icon: "fieldguide:field_guide"
+			id: "738540155CB442FF"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "64D3FD9C3D770F70"
+				item: "alexsmobsdelight:cheese"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Learn to use the Field Guide to track your world!"
+			tasks: [{
+				disable_toast: true
+				id: "206E60BFBE2E777F"
+				title: "Learn to use JEI"
+				type: "checkmark"
+			}]
+			title: "Field Guide!"
+			x: -8.0d
+			y: 3.5d
 		}
 	]
 	title: "Pack Introduction"

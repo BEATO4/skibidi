@@ -10,7 +10,7 @@
     "result": "deny"
   },
   {
-    "mob": ["quark:stoneling", "quark:toretoise"],
+    "mob": ["quark:stoneling", "quark:toretoise", "irons_spellbooks:necromancer", "alexsmobs:cockroach"],
     "biome": ["alexscaves:abyssal_chasm", "alexscaves:candy_cavity", "alexscaves:forlorn_hollows", "alexscaves:magnetic_caves", "alexscaves:primordial_caves", "alexscaves:toxic_caves"],
     "result": "deny"
   },

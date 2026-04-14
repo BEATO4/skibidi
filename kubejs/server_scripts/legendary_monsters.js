@@ -4,6 +4,22 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'legendary_monsters:eye_of_bones' }),
     event.remove({ output: 'legendary_monsters:eye_of_moss' }),
     event.remove({ output: 'legendary_monsters:eye_of_frost' }),
+    event.remove({ output: 'legendary_monsters:enderitium_ingot' }),
+    event.remove({ output: 'legendary_monsters:enderitium_gem' }),
+    event.remove({ output: 'legendary_monsters:enderitium_sword' }),
+    event.remove({ output: 'legendary_monsters:enderitium_axe' }),
+    event.remove({ output: 'legendary_monsters:enderitium_pickaxe' }),
+    event.remove({ output: 'legendary_monsters:enderitium_shovel' }),
+    event.remove({ output: 'legendary_monsters:enderitium_hoe' }),
+    event.remove({ output: 'legendary_monsters:enderitium_block' }),
+    event.remove({ output: 'legendary_monsters:annihilator_helmet' }),
+    event.remove({ output: 'legendary_monsters:annihilator_chestplate' }),
+    event.remove({ output: 'legendary_monsters:annihilator_leggings' }),
+    event.remove({ output: 'legendary_monsters:annihilator_boots' }),
+    event.remove({ output: 'legendary_monsters:enderitium_upgrade_smithing_template' }),
+    event.remove({ output: 'legendary_monsters:annihilator_upgrade_smithing_template' }),
+    event.remove({ input: 'legendary_monsters:enderitium_upgrade_smithing_template' }),
+    event.remove({ input: 'legendary_monsters:annihilator_upgrade_smithing_template' }),
   //Recipe Changes
     event.remove({ output: 'legendary_monsters:eye_of_chorus' }),
     event.remove({ output: 'legendary_monsters:eye_of_shulker' }),
@@ -13,6 +29,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'legendary_monsters:eye_of_many_ribs' }),
     event.remove({ output: 'legendary_monsters:eye_of_ghost' }),
     event.remove({ output: 'legendary_monsters:eye_of_sandstorm' }),
+    event.remove({ output: 'legendary_monsters:bottle_of_annihilation' }),
 
     event.shaped('legendary_monsters:eye_of_chorus', [
       'BBB', 
@@ -192,6 +209,94 @@ ServerEvents.recipes(event => {
             "amount": 0
         },
         "fluidLevelsConsumed": 1000
+    }),
+    event.replaceInput(
+      { input: 'legendary_monsters:enderitium_gem' },
+      'legendary_monsters:enderitium_gem',
+      'betterend:ender_shard'
+    ),
+    event.replaceInput(
+      { input: 'legendary_monsters:enderitium_ingot' },
+      'legendary_monsters:enderitium_ingot',
+      'betterend:aeternium_ingot'
+    ),
+     event.custom({
+         "type": "hexerei:mixingcauldron",
+         "liquid": {
+             "fluid": "alexscaves:acid"
+         },
+         "ingredients": [
+             {
+                 "item": "minecraft:glass_bottle"
+             },
+             {
+                 "item": "alexscaves:uranium"
+             },
+             {
+                 "item": "betterend:ender_dust"
+             }
+         ],
+         "output": {
+             "item": "legendary_monsters:bottle_of_annihilation",
+             "count": 1
+         },
+         "liquidOutput": {
+             "fluid": "alexscaves:acid",
+             "amount": 0
+         },
+         "fluidLevelsConsumed": 1000
+     }),
+    event.recipes.create.compacting(
+      ['kubejs:annihilator_armor_plate'],
+      ['betterend:aeternium_ingot', 'legendary_monsters:portal_shard', Fluid.of("alexscaves:acid", 500)]
+    ).superheated(),
+    event.custom({
+      "type": "cataclysm:weapon_fusion",
+      "base": {
+          "item": "iceandfire:dragonsteel_lightning_helmet"
+        },
+        "addition": {
+          "item": "kubejs:annihilator_armor_plate"
+        },
+        "result": {
+          "item": "legendary_monsters:annihilator_helmet"
+        }
+    }),
+    event.custom({
+      "type": "cataclysm:weapon_fusion",
+      "base": {
+          "item": "iceandfire:dragonsteel_lightning_chestplate"
+        },
+        "addition": {
+          "item": "kubejs:annihilator_armor_plate"
+        },
+        "result": {
+          "item": "legendary_monsters:annihilator_chestplate"
+        }
+    }),
+    event.custom({
+      "type": "cataclysm:weapon_fusion",
+      "base": {
+          "item": "iceandfire:dragonsteel_lightning_leggings"
+        },
+        "addition": {
+          "item": "kubejs:annihilator_armor_plate"
+        },
+        "result": {
+          "item": "legendary_monsters:annihilator_leggings"
+        }
+    }),
+    event.custom({
+      "type": "cataclysm:weapon_fusion",
+      "base": {
+          "item": "iceandfire:dragonsteel_lightning_boots"
+        },
+        "addition": {
+          "item": "kubejs:annihilator_armor_plate"
+        },
+        "result": {
+          "item": "legendary_monsters:annihilator_boots"
+        }
     })
   }
 )

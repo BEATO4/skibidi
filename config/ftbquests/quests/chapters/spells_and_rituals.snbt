@@ -230,20 +230,20 @@
 			}]
 			tasks: [
 				{
-					id: "4FF7F292D526FD0B"
+					id: "0B4CEC23132DD9F1"
+					item: "ars_nouveau:glyph_touch"
+					type: "item"
+				}
+				{
+					id: "398825A2AF6288A6"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							"ftbfiltersystem:filter": "or(mod(irons_spellbooks)mod(traveloptics))or(nbt(fuzzy:{ISB_Spells:{maxSpells:1,mustEquip:0b,spellWheel:0b}}))"
+							"ftbfiltersystem:filter": "item(irons_spellbooks:scroll)"
 						}
 					}
-					title: "Spell Scroll"
-					type: "item"
-				}
-				{
-					id: "0B4CEC23132DD9F1"
-					item: "ars_nouveau:glyph_touch"
+					title: "Scroll"
 					type: "item"
 				}
 			]
@@ -617,6 +617,11 @@
 					item: "ars_elemental:anima_essence"
 					type: "item"
 				}
+				{
+					id: "038D2B79D3B57C70"
+					item: "kubejs:ice_essence"
+					type: "item"
+				}
 			]
 			title: "Schools of Magic Foci"
 			x: 0.0d
@@ -655,30 +660,6 @@
 			title: "Tiers of Ink"
 			x: 2.0d
 			y: -1.5d
-		}
-		{
-			description: ["&bAugments&r can be found throughout the world. They also have upgrades accessible through crafting. Augments fit into a special &e\"Augment Curio Slot\"&r and give the player both advantages and disadvantages in relation to &cbattle magic&r."]
-			id: "6A943EA9C4DD56EC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "204113D151420B34"
-				table_id: 1887718904363554025L
-				type: "random"
-			}]
-			tasks: [{
-				id: "193F33C2323787D0"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "item_tag(curios:augment_slot)"
-					}
-				}
-				title: "Augments"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 0.5d
 		}
 	]
 	title: "Spells and Rituals"

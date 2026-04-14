@@ -39,6 +39,7 @@
 		{ count: 4, item: "ars_nouveau:water_essence" }
 		{ count: 4, item: "ars_elemental:anima_essence" }
 		{ count: 4, item: "kubejs:ice_essence" }
+		{ count: 4, item: "kubejs:nature_essence" }
 	]
 	title: "Magic"
 }

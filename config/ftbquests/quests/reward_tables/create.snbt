@@ -9,5 +9,5 @@
 		{ count: 3, item: "create:belt_connector", random_bonus: 5 }
 		{ count: 5, item: "create:shaft", random_bonus: 5 }
 	]
-	title: "Create"
+	title: "Create Andesite"
 }

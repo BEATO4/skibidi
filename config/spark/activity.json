@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "CraisinLord",
+      "uniqueId": "fe730600-6654-4b7b-b61d-685a86da653f"
+    },
+    "time": 1775523682265,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ZLewDq2TMO"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "CraisinLord",
+      "uniqueId": "fe730600-6654-4b7b-b61d-685a86da653f"
+    },
+    "time": 1775523588562,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/9TfvvM4ioy"
+    }
+  }
+]

@@ -61,8 +61,14 @@ ServerEvents.recipes(event => {
         Item.of('ars_nouveau:earth_essence').withChance(0.50)
       ], 'alexscaves:ferrouslime_ball'
     ),
-   
-    //Ars Nouveau Spellbooks 
+    event.recipes.createCrushing([
+        '2x ars_nouveau:earth_essence',
+        Item.of('ars_nouveau:earth_essence').withChance(0.50)
+      ], 'mowziesmobs:bluff_rod'
+    ),
+
+
+    //Ars Nouveau Spellbooks
     //many recipes in data/ars_nouveau/recipes
     event.recipes.ars_nouveau.enchanting_apparatus([
               "eidolon:shadow_gem",

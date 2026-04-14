@@ -130,11 +130,15 @@
     "aquamirae:ice_maze/arch",
     "aquamirae:ice_maze/common",
     "betterarcheology:fossil_sheep_0",
-    "idas:nexus",
-    "trials:trials_chambers",
-    "idas:wizard_tower",
-    "idas:mason_house",
-    "integrated_villages:tavern_village",
-    "irons_spellbooks:citadel"
+    "betterarcheology:buried_ruins_sand",
+    "irons_spellbooks:pyromancer_tower",
+    "idas:ars_nouveau/archmages_tower",
+    "legendary_monsters:ancient_stronghold",
+    "idas:pillager_fortress",
+    "gtbcs_geomancy_plus:geomancer_tower",
+    "irons_spellbooks:evoker_fort",
+    "betteroceanmonuments:ocean_monument",
+    "idas:ancient_mines",
+    "betterarcheology:villager_grave"
   ]
 }

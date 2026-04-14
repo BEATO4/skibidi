@@ -11,5 +11,7 @@ StartupEvents.registry('item', event => {
   event.create('tyr_armor_plate'),
   event.create('mortem_armor_plate'),
   event.create('griefer_armor_plate'),
-  event.create('ice_essence')
+  event.create('annihilator_armor_plate'),
+  event.create('ice_essence'),
+  event.create('nature_essence')
 })

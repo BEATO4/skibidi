@@ -8,5 +8,7 @@ ServerEvents.tags('item', event => {
   )
 
   // Removes chorus fruit from "blastable_foods"
-  event.remove('spelunkery:blastable_foods', 'minecraft:chorus_fruit')
+  event.remove('spelunkery:blastable_foods', 'minecraft:chorus_fruit'),
+  event.add('forge:ingots/mithril', 'oreganized:silver_ingot'),
+  event.add('forge:ingots/pyrium','cataclysm:ignitium_ingot')
 })

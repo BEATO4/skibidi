@@ -10,3 +10,8 @@
 		#
 		"Disable Structures" = true
 
+["Perk Settings"]
+	#Settings related to Ars Nouveau perk integration
+	#List of armor registry names that should get thread slots
+	perk_armors = ["minecraft:netherite_chestplate", "minecraft:netherite_leggings"]
+

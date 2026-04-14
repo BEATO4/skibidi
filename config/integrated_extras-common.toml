@@ -1,0 +1,6 @@
+
+[recipe_unlocks]
+	#If true, the secret recipe unlock system also applies to creative-mode players.
+	#If false, creative-mode players bypass recipe hiding/blocking and receive an empty synced lock state.
+	apply_in_creative_mode = false
+

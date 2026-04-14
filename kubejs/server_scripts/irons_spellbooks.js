@@ -23,6 +23,14 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'irons_spellbooks:cinderous_soulcaller' }),
     event.remove({ type: 'irons_spellbooks:divine_pearl' }),
     event.remove({ output: 'ice_and_fire_spellbooks:dragonmancers_oathbook', type: 'minecraft:crafting_shaped' }),
+    event.remove({ output: 'irons_spellbooks:mithril_ore' }),
+    event.remove({ output: 'irons_spellbooks:deepslate_mithril_ore' }),
+    event.remove({ output: 'irons_spellbooks:mithril_ingot' }),
+    event.remove({ output: 'irons_spellbooks:mithril_scrap' }),
+    event.remove({ output: 'irons_spellbooks:mithril_weave' }),
+    event.remove({ output: 'irons_spellbooks:raw_mithril' }),
+    event.remove({ output: 'irons_spellbooks:brazier' }),
+    event.remove({ output: 'irons_spellbooks:brazier_soul' }),
 	
 	event.replaceInput(
       { input: 'irons_spellbooks:arcane_salvage' }, // Arg 1: the filter
@@ -63,6 +71,36 @@ ServerEvents.recipes(event => {
       { input: 'irons_spellbooks:permafrost_shard' }, // Arg 1: the filter
       'irons_spellbooks:permafrost_shard',  // Arg 2: the item to replace
       'kubejs:ice_essence'         // Arg 3: the item to replace it with
+    ),
+    event.replaceInput(
+      { input: 'irons_spellbooks:mithril_ingot' }, // Arg 1: the filter
+      'irons_spellbooks:mithril_ingot',  // Arg 2: the item to replace
+      'oreganized:silver_ingot'         // Arg 3: the item to replace it with
+    ),
+    event.replaceInput(
+      { input: '#forge:ingots/mithril' }, // Arg 1: the filter
+      '#forge:ingots/mithril',  // Arg 2: the item to replace
+      'oreganized:silver_ingot'         // Arg 3: the item to replace it with
+    ),
+    event.replaceInput(
+      { input: 'irons_spellbooks:mithril_scrap' }, // Arg 1: the filter
+      'irons_spellbooks:mithril_scrap',  // Arg 2: the item to replace
+      'forbidden_arcanus:arcane_crystal'         // Arg 3: the item to replace it with
+    ),
+    event.replaceInput(
+      { input: 'irons_spellbooks:mithril_weave' }, // Arg 1: the filter
+      'irons_spellbooks:mithril_weave',  // Arg 2: the item to replace
+      'born_in_chaos_v1:dark_metal_ingot'         // Arg 3: the item to replace it with
+    ),
+    event.replaceInput(
+      { input: 'irons_spellbooks:pyrium_ingot' }, // Arg 1: the filter
+      'irons_spellbooks:pyrium_ingot',  // Arg 2: the item to replace
+      'cataclysm:ignitium_ingot'         // Arg 3: the item to replace it with
+    ),
+    event.replaceInput(
+      { input: '#forge:ingots/pyrium' }, // Arg 1: the filter
+      '#forge:ingots/pyrium',  // Arg 2: the item to replace
+      'cataclysm:ignitium_ingot'         // Arg 3: the item to replace it with
     ),
     event.recipes.createMixing('3x irons_spellbooks:cinder_essence', [
       '3x minecraft:coal',
@@ -396,7 +434,7 @@ ServerEvents.recipes(event => {
         ],
         "output": {
             "item": "irons_spellbooks:magic_cloth",
-            "count": 1
+            "count": 3
         },
 		"liquidOutput": {
             "fluid": "minecraft:water",

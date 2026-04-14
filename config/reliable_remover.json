@@ -968,6 +968,8 @@
     "irons_spellbooks:mithril_scrap",
     "irons_spellbooks:mithril_weave",
     "irons_spellbooks:raw_mithril",
-    "irons_spellbooks:pyrium_ingot"
+    "irons_spellbooks:pyrium_ingot",
+    "irons_spellbooks:brazier",
+    "irons_spellbooks:brazier_soul"
   ]
 }

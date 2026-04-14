@@ -134,7 +134,7 @@
 					type: "item"
 				}
 			]
-			title: "Trading: Archery Gear"
+			title: "Trade: Archery Gear"
 			x: 5.5d
 			y: -5.0d
 		}
@@ -231,7 +231,7 @@
 					type: "item"
 				}
 			]
-			title: "Trading: Warrior Gear"
+			title: "Trade: Warrior Gear"
 			x: 7.0d
 			y: -5.5d
 		}
@@ -264,7 +264,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "Buying: Hire a Guard"
+			title: "Buy: Hire a Guard"
 			x: 4.0d
 			y: -5.5d
 		}
@@ -636,11 +636,17 @@
 		{
 			can_repeat: true
 			dependencies: ["3DCE077F2537A980"]
+			description: [
+				"Villages from all over the land haave heard of your brave defense against those raiders."
+				""
+				"&7You can sacrifice 5 xp levels to gain Hero of the Village II for 3 minutes. This does not stack, so I recommend not submitting a bunch of levels at once and trying to redeem them all."
+			]
 			icon: "minecraft:emerald"
 			id: "01EBD437B2203CA4"
 			optional: true
 			rewards: [{
-				command: "/effect give @p minecraft:hero_of_the_village 500"
+				command: "/effect give @s minecraft:hero_of_the_village 180 1"
+				exclude_from_claim_all: true
 				icon: "minecraft:emerald"
 				id: "5DC888DAE5316F6E"
 				title: "Rumor of the Hero"
@@ -656,7 +662,7 @@
 			}]
 			title: "Rumor: Hero of the Village"
 			x: 5.5d
-			y: -13.5d
+			y: -13.0d
 		}
 		{
 			can_repeat: true
@@ -820,8 +826,8 @@
 				}
 			]
 			title: "The Ancient Labyrinth"
-			x: -4.5d
-			y: -2.0d
+			x: -6.5d
+			y: -0.75d
 		}
 		{
 			description: [
@@ -842,8 +848,8 @@
 				type: "structure"
 			}]
 			title: "The Desert Bazaar"
-			x: -4.5d
-			y: -3.0d
+			x: -8.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["6DA7ACC4B17C7A44"]
@@ -927,8 +933,8 @@
 				}
 			]
 			title: "Buy: Map to the Oasis"
-			x: -5.5d
-			y: -3.5d
+			x: -9.0d
+			y: -2.0d
 		}
 		{
 			dependency_requirement: "one_started"
@@ -1033,8 +1039,8 @@
 				}
 			]
 			title: "Trade: 2x Desert Supplies for Desert Loot"
-			x: -3.5d
-			y: -3.5d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -1056,7 +1062,7 @@
 			}]
 			title: "The Soaring City"
 			x: -0.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2162E50E99B2C533"]
@@ -1130,7 +1136,6 @@
 					type: "choice"
 				}
 			]
-			shape: "square"
 			subtitle: "You hand the woman the Spyglass and Spectre Flares..."
 			tasks: [
 				{
@@ -1529,7 +1534,6 @@
 					xp_levels: 5
 				}
 			]
-			shape: "square"
 			subtitle: "A better path..."
 			tasks: [
 				{
@@ -1604,6 +1608,7 @@
 				"- Tavern Village"
 				"- Kutcha Village"
 				"- Castle"
+				"- Clockwork Village"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:emerald"
@@ -1616,7 +1621,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Help the various inhabitants of this world and be rewarded!"
+			subtitle: "Help the various inhabitants of this world and be rewarded! (Make sure to zoom out as these quests are quite spread out on this page)"
 			tasks: [{
 				id: "1622FE6239A56F67"
 				type: "checkmark"
@@ -1680,6 +1685,7 @@
 				""
 				"&d\"You've done this village a great service. Do one for me as well, so I may continue my duty. Take the &6Conversion Crucible&r&d from the &eWitches of the Candy Cavities&r&d and feed it an &6Oasis Biome Candy&r&d so I may refresh my waters. Then, &6make a new fountain so I may bestow my gift onto my children.&r&d\"&r"
 			]
+			hide_until_deps_complete: false
 			icon: "ars_nouveau:water_essence"
 			id: "30DFA334B31B28CF"
 			rewards: [
@@ -1706,7 +1712,6 @@
 					type: "random"
 				}
 			]
-			shape: "square"
 			size: 1.0d
 			subtitle: "Rejuvenate the Oasis..."
 			tasks: [
@@ -1716,24 +1721,21 @@
 					type: "item"
 				}
 				{
-					id: "33511F9CB4C91D23"
-					item: {
-						Count: 1
-						id: "alexscaves:biome_treat"
-						tag: {
-							CaveBiome: "wilderwild:oasis"
-						}
-					}
-					title: "Oasis Biome Treat"
-					type: "item"
-				}
-				{
 					id: "5CCA8097C47AC108"
 					item: "minecraft:water_bucket"
 					type: "item"
 				}
 				{
-					id: "230D7326641895B4"
+					id: "2FB8B68A4BED830F"
+					item: {
+						Count: 1
+						id: "alexscaves:biome_treat"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "42F1854EA3444D95"
 					title: "Create a Fountain!"
 					type: "checkmark"
 				}
@@ -2035,7 +2037,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "circle"
 			subtitle: "To return to the past..."
 			tasks: [
 				{
@@ -2207,8 +2209,8 @@
 				type: "structure"
 			}]
 			title: "The Village of Colors"
-			x: 3.5d
-			y: 3.75d
+			x: -2.25d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -2235,24 +2237,34 @@
 				type: "structure"
 			}]
 			title: "Home of the Hunters"
-			x: 0.0d
-			y: 3.0d
+			x: -1.9914965986394648d
+			y: 3.819727891156475d
 		}
 		{
-			dependencies: ["70F08FB0A44B9B94"]
+			icon: "mowziesmobs:grant_suns_blessing"
 			id: "76B79195000014B1"
+			invisible: true
 			secret: true
 			shape: "diamond"
 			size: 1.5d
-			tasks: [{
-				id: "77B252BD639B5AFD"
-				structure: "integrated_villages:mediterranean_village"
-				title: "Find the Mediterranean Village"
-				type: "structure"
-			}]
+			subtitle: "A bustling hub of trade for artisans, farmers, and more."
+			tasks: [
+				{
+					id: "77B252BD639B5AFD"
+					structure: "integrated_villages:mediterranean_village"
+					title: "Find the Mediterranean Village"
+					type: "structure"
+				}
+				{
+					count: 64L
+					id: "4A5F4878B2AAAC7C"
+					item: { Count: 64, id: "minecraft:bedrock" }
+					type: "item"
+				}
+			]
 			title: "Mediterranean Village"
-			x: -5.25d
-			y: 5.25d
+			x: 2.25d
+			y: 2.25d
 		}
 		{
 			description: [
@@ -3070,8 +3082,8 @@
 				type: "item"
 			}]
 			title: "A Song of Scales \\& Smoke I"
-			x: -1.0d
-			y: 5.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6449C6A7A5AB1BCA"]
@@ -3113,8 +3125,8 @@
 				type: "item"
 			}]
 			title: "A Song of Scales \\& Smoke II"
-			x: -1.0d
-			y: 6.5d
+			x: -3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["365871124C0A4C2D"]
@@ -3146,8 +3158,8 @@
 				type: "item"
 			}]
 			title: "A Song of Scales \\& Smoke III"
-			x: -1.0d
-			y: 8.0d
+			x: -3.0d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -3176,9 +3188,9 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "Trading: Dragon Bones for Gems"
-			x: -2.5d
-			y: 8.0d
+			title: "Trade: Dragon Bones for Gems"
+			x: -4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4665C398E1FEFC69"]
@@ -3396,8 +3408,8 @@
 				}
 			]
 			title: "The Secret Society of Slayers II"
-			x: 0.0d
-			y: 5.5d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["54BED0E8315B4352"]
@@ -3418,8 +3430,8 @@
 				type: "checkmark"
 			}]
 			title: "The Secret Society of Slayers I"
-			x: 0.0d
-			y: 4.5d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -3442,8 +3454,8 @@
 				type: "item"
 			}]
 			title: "Pack Animal I"
-			x: 1.0d
-			y: 5.0d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0ED1F398AAC94813"]
@@ -3476,8 +3488,8 @@
 				type: "advancement"
 			}]
 			title: "Pack Animal II"
-			x: 1.0d
-			y: 6.5d
+			x: -1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1B4CF8A3B65B17EB"]
@@ -3600,8 +3612,8 @@
 				}
 			]
 			title: "The Secret Society of Slayers III"
-			x: 0.0d
-			y: 6.5d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7E508B292B8F29F5"]
@@ -3670,8 +3682,8 @@
 				type: "item"
 			}]
 			title: "The Secret Society of Slayers IV"
-			x: 0.0d
-			y: 7.5d
+			x: -2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2951C43CB2CC87B9"]
@@ -3747,8 +3759,8 @@
 				}
 			]
 			title: "Pack Animal III"
-			x: 1.0d
-			y: 8.0d
+			x: -1.0d
+			y: 9.0d
 		}
 		{
 			description: ["A &3Basenji&r can be bred from either a &6Jupiter and Golden Retriever&r or a &6Rusty and Ashen&r."]
@@ -3761,8 +3773,8 @@
 				title: "Basenji"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 11.0d
+			x: -2.5d
+			y: 12.0d
 		}
 		{
 			description: ["A &3French Bulldog&r can be bred from either a &6Husky and Golden Retriever&r or a &6Rusty and Golden Retriever&r."]
@@ -3775,8 +3787,8 @@
 				title: "French Bulldog"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 10.0d
+			x: -2.5d
+			y: 11.0d
 		}
 		{
 			description: ["A &3German Shepherd&r can be bred from either a &6Jupiter and Husky&r or a &6Woods and Chestnut&r."]
@@ -3789,8 +3801,8 @@
 				title: "German Shepherd"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 10.0d
+			x: -1.5d
+			y: 11.0d
 		}
 		{
 			description: ["A &3Golden Retriever&r can be bred from either a &6Jupiter and Pale (Default)&r or a &6Rusty and Pale (Default)&r."]
@@ -3803,8 +3815,8 @@
 				title: "Golden Retriever"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 11.0d
+			x: -1.5d
+			y: 12.0d
 		}
 		{
 			description: ["A &3Husky&r can be bred from either a &6Black and Ashen&r or a &6Snowy and Ashen&r."]
@@ -3817,8 +3829,8 @@
 				title: "Husky"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 12.0d
+			x: -1.5d
+			y: 13.0d
 		}
 		{
 			description: ["A &3Jupiter&r can be bred from either a &6Rusty and Woods&r or a &6Striped and Woods&r."]
@@ -3831,8 +3843,8 @@
 				title: "Jupiter"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 12.0d
+			x: -2.5d
+			y: 13.0d
 		}
 		{
 			description: ["A &3Skeleton Wolf&r can be bred from any dog breeding &6in the Nether&r."]
@@ -3845,8 +3857,8 @@
 				title: "Skeleton Wolf"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 13.0d
+			x: -2.0d
+			y: 14.0d
 		}
 		{
 			can_repeat: true
@@ -3873,8 +3885,8 @@
 				type: "item"
 			}]
 			title: "Trade: Dog Food for Wolf Breed Info"
-			x: 2.5d
-			y: 8.0d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -3891,7 +3903,7 @@
 			description: [
 				"You return to &5Alex&r full of new knowledge and carrying loads upon loads of dog food."
 				""
-				"&b\"Wow! I can't believe how invested you are in learning about animals. As promised, I will trade you &6specific variants of wolves&r&b in return for more &6dog food&r&b. I'm only doing this because you havev shown yourself to be a loyal and responsible pet owner.\""
+				"&b\"Wow! I can't believe how invested you are in learning about animals. As promised, I will trade you &6specific variants of wolves&r&b in return for more &6dog food&r&b. I'm only doing this because you have shown yourself to be a loyal and responsible pet owner.\""
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -3911,9 +3923,9 @@
 				item: "farmersdelight:dog_food"
 				type: "item"
 			}]
-			title: "Trading: Dog Food for Wolf Variant Spawn Egg"
-			x: 1.0d
-			y: 9.0d
+			title: "Trade: Dog Food for Wolf Variant Spawn Egg"
+			x: -1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["739967C9DA90AF30"]
@@ -3940,8 +3952,8 @@
 				type: "advancement"
 			}]
 			title: "A Song of Scales \\& Smoke IV"
-			x: -1.0d
-			y: 9.0d
+			x: -3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["70F08FB0A44B9B94"]
@@ -3956,8 +3968,8 @@
 				type: "structure"
 			}]
 			title: "Minka Village"
-			x: -6.75d
-			y: 6.75d
+			x: 4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["70F08FB0A44B9B94"]
@@ -3972,8 +3984,8 @@
 				type: "structure"
 			}]
 			title: "Marketstead Village"
-			x: -6.75d
-			y: 5.25d
+			x: 3.0d
+			y: 11.25d
 		}
 		{
 			dependencies: ["70F08FB0A44B9B94"]
@@ -3988,8 +4000,8 @@
 				type: "structure"
 			}]
 			title: "Cabin Village"
-			x: -5.25d
-			y: 6.75d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -4030,9 +4042,9 @@
 				item: "illagerinvasion:illusionary_dust"
 				type: "item"
 			}]
-			title: "Trading: Illusionary Dust for Potions"
-			x: 0.0d
-			y: 9.0d
+			title: "Trade: Illusionary Dust for Potions"
+			x: -2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5BB9CDDB5CC625A3"]
@@ -4077,53 +4089,11 @@
 				}
 			]
 			title: "Doom of the Dunes I"
-			x: 6.0d
-			y: 6.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["6AAA371BABF988F6"]
-			description: [
-				"You cautiously approach the home of the &6Death Worms&r. It seems to be just a giant pit in the ground. But the large bones sticking out of the sand warn you to not underestimate this enemy."
-				""
-				"While clearing out the &eDeath Worm Pit,&r you notice that the tongues of the death worms could be used to make a powerful weapon. you decide to try and collect one to give back to the village. With a &eweapon made from death worms&r, surely they will be safe. "
-			]
-			icon: {
-				Count: 1
-				id: "iceandfire:deathworm_gauntlet_yellow"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "14D52F6472552559"
-			shape: "gear"
-			subtitle: "Something lurks beneath the sand"
-			tasks: [
-				{
-					id: "79794458849E5ABB"
-					structure: "integrated_minecraft:deathworm_pit"
-					title: "Find the Deathworm Pit"
-					type: "structure"
-				}
-				{
-					entity: "iceandfire:deathworm"
-					icon: {
-						Count: 1
-						id: "iceandfire:deathworm_gauntlet_yellow"
-						tag: {
-							Damage: 0
-						}
-					}
-					id: "71FC779E8B19E5EB"
-					type: "kill"
-					value: 5L
-				}
-			]
-			title: "Doom of the Dunes IV"
-			x: 4.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["14D52F6472552559"]
+			dependencies: ["54D7532C8C194FDB"]
 			description: [
 				"You triumphantly return to the &eKutcha Village&r. The villagers cheer as they see you approach. &6Derrick&r walks up to you."
 				""
@@ -4161,8 +4131,8 @@
 				}
 			]
 			title: "Doom of the Dunes V"
-			x: 6.0d
-			y: 10.0d
+			x: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5F94DA31EAEFEC00"]
@@ -4250,8 +4220,8 @@
 				}
 			]
 			title: "Doom of the Dunes II"
-			x: 4.5d
-			y: 7.0d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["075884C5ED718014"]
@@ -4286,8 +4256,8 @@
 				type: "checkmark"
 			}]
 			title: "Doom of the Dunes III"
-			x: 6.0d
-			y: 8.0d
+			x: -7.0d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -4313,9 +4283,9 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "Trading: Emeralds for Dyes"
-			x: 4.5d
-			y: 11.0d
+			title: "Buy: Dyes"
+			x: -6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5BB9CDDB5CC625A3"]
@@ -4374,8 +4344,8 @@
 				}
 			]
 			title: "Feline Frenzy I"
-			x: 5.5d
-			y: 3.5d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1E19811D3170031B"]
@@ -4492,8 +4462,8 @@
 				}
 			]
 			title: "Feline Frenzy II"
-			x: 7.0d
-			y: 4.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -4523,9 +4493,9 @@
 				item: "minecraft:tropical_fish"
 				type: "item"
 			}]
-			title: "Trading: Fish for Cat Variant Spawn Egg"
-			x: 10.0d
-			y: 5.0d
+			title: "Trade: Fish for Cat Variant Spawn Egg"
+			x: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["36793C32901CF405"]
@@ -4553,31 +4523,42 @@
 				""
 				"{image:imcquests:textures/misc/cat_tower_ref.png width:150 height:150 align:center}"
 			]
+			icon: "domesticationinnovation:pet_bed_magenta"
 			id: "1B7C5F7C97E82D22"
+			min_required_tasks: 1
 			rewards: [{
 				id: "326D54DA2273F42D"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			subtitle: "The Lady and the Cat"
-			tasks: [{
-				hasCustomPicture: false
-				icon: "domesticationinnovation:pet_bed_magenta"
-				id: "2BE6931A51A948A3"
-				ignoreState: true
-				layer: false
-				name: "Cat_Tower"
-				rightclick: false
-				title: "Build a Cat Tower"
-				type: "questsadditions:structure"
-			}]
+			tasks: [
+				{
+					hasCustomPicture: false
+					icon: "domesticationinnovation:pet_bed_magenta"
+					id: "2BE6931A51A948A3"
+					ignoreState: true
+					layer: false
+					name: "Cat_Tower"
+					rightclick: false
+					title: "Build a Cat Tower"
+					type: "questsadditions:structure"
+				}
+				{
+					id: "08BF35BB8EFCFC5D"
+					title: "If Structure Task not working, click me"
+					type: "checkmark"
+				}
+			]
 			title: "Feline Frenzy III"
-			x: 8.5d
-			y: 4.5d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["70F08FB0A44B9B94"]
+			icon: "create:cuckoo_clock"
 			id: "0267C07A6B65F055"
+			invisible: true
 			secret: true
 			shape: "diamond"
 			size: 1.5d
@@ -4588,8 +4569,940 @@
 				type: "structure"
 			}]
 			title: "Clockwork Village"
-			x: -4.0d
+			x: -5.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0267C07A6B65F055"]
+			description: [
+				"The clatter of belts and gears fills the dusty air as a mechanic waves you over."
+				""
+				"&b\"Gold keeps this town ticking, traveler. Every saw, drill, and press out here chews through metal faster than a badlands storm. Bring us a bit of raw gold and a few spare machine parts, and we'll show you some proper &6Clockwork hospitality&b.\"&r"
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:raw_gold"
+			id: "615A8FE6FDA866E1"
+			rewards: [
+				{
+					count: 2
+					id: "58CBAE7341D90F26"
+					item: "create:builders_tea"
+					type: "item"
+				}
+				{
+					id: "7DA3ECB5F82FECCE"
+					item: "fruitsdelight:blueberry_custard"
+					type: "item"
+				}
+			]
+			subtitle: "The fastest patrol in the badlands"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "63AC8F5DF3311E59"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "2FB89C6D41AE7053"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "63AD10F2E4B97C85"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "55A7594940EFF4B6"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			title: "Meep Meep on the Mesa I"
+			x: -7.996258503401357d
+			y: 5.102551020408164d
+		}
+		{
+			dependencies: ["615A8FE6FDA866E1"]
+			description: [
+				"The mechanic lowers his voice and jerks a thumb toward the edge of town."
+				""
+				"&b\"Snakes have been slipping in from the mesa again. Lucky for us, the locals know a better hunter than any guard. Ever hear the old stories about a bird that just goes &6meep meep&b and leaves every rattler eating dust? Bring me some maggots and we'll lure a few &6Roadrunners&b to the mine road.\"&r"
+			]
+			hide_until_deps_visible: true
+			icon: "alexsmobs:maggot"
+			id: "2805E7A5EC850A13"
+			rewards: [
+				{
+					count: 4
+					id: "6C12AF8E49DB7305"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "638FF90FFF422CCE"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "14E0CB73D9A6528A"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			subtitle: "The fastest patrol in the badlands"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "7FB79881BCABFC7B"
+				item: "alexsmobs:maggot"
+				type: "item"
+			}]
+			title: "Meep Meep on the Mesa II"
+			x: -9.174829931972788d
+			y: 5.566836734693879d
+		}
+		{
+			dependencies: ["2805E7A5EC850A13"]
+			description: [
+				"A few days later, the village is buzzing."
+				""
+				"&b\"Worked like a charm,\"&r the mechanic says with a grin. &b\"Seen those birds? Fast as gossip. Feathers on the ground, rattles in the dust, and not a snake in sight. Bring me proof our new patrol is doing its job, and I'll set you up with something fit for the mesa.\"&r"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:autoloader_crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D0FAE39C71B2486"
+			rewards: [
+				{
+					id: "0C5F9D73AE1842B6"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:autoloader_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 48
+					id: "17AE59953F753065"
+					item: "caverns_and_chasms:large_arrow"
+					type: "item"
+				}
+			]
+			subtitle: "The fastest patrol in the badlands"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "3554020F129104B2"
+					item: "alexsmobs:roadrunner_feather"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "71CD58B29E04AF63"
+					item: "alexsmobs:rattlesnake_rattle"
+					type: "item"
+				}
+			]
+			title: "Meep Meep on the Mesa III"
+			x: -10.460544217687072d
+			y: 6.352551020408164d
+		}
+		{
+			dependencies: ["5D0FAE39C71B2486"]
+			description: [
+				"A leathery fletcher near the switchyard watches you sling the new crossbow across your back."
+				""
+				"&b\"Now that's proper mesa kit,\"&r he says approvingly. &b\"If you want to put it to work somewhere other than our mine road, I've got a lead for you. Old hunters used to hole up in a cabin out past the badlands. Quiet place. Good sightlines. Decent stories, if the bones are telling the truth.\"&r"
+			]
+			hide_until_deps_visible: true
+			icon: "supplementaries:cartographers_quill"
+			id: "6B4D3812AEF907C4"
+			rewards: [{
+				id: "520183F8F0AC3B9D"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Hunter's Cabin Explorer Map\"}"
+						}
+						maxSearchRadius: 150
+						skinKnown: 1b
+						targetStructure: "idas:hunters_cabin"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The fastest patrol in the badlands"
+			tasks: [{
+				id: "30064EDC02B0D84B"
+				title: "Ask about better hunting grounds"
+				type: "checkmark"
+			}]
+			title: "Meep Meep on the Mesa IV"
+			x: -11.496258503401364d
+			y: 7.102551020408164d
+		}
+		{
+			dependencies: ["0267C07A6B65F055"]
+			description: [
+				"A clockmaker proudly gestures at the village's current timepiece."
+				""
+				"&b\"Nothing wrong with that one. I built it myself. But this town has grown, and the mines on the far end can't see it worth a lick. I want a bigger clock. One fit for the whole mesa. Help me gather the works for a proper design.\"&r"
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:clock"
+			id: "7D61795BECB61818"
+			rewards: [
+				{
+					count: 8
+					id: "68224597CDBE93E4"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "25CF9A6B3DE17408"
+					item: "create:builders_tea"
+					type: "item"
+				}
+			]
+			subtitle: "A clock big enough for the whole mesa"
+			tasks: [
+				{
+					consume_items: true
+					id: "6F2A0DC81BE94735"
+					item: "minecraft:clock"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "3C5E70BF9214DA68"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "5A660894303CE9EA"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "396DD2C2BE7DDB55"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "The New Town Clock I"
+			x: -6.174829931972788d
+			y: 6.602551020408164d
+		}
+		{
+			dependencies: ["7D61795BECB61818"]
+			description: [
+				"The clockmaker spreads out sketches over a workbench."
+				""
+				"&b\"Every great project starts small. Before I hang a giant clock over the tram yard, I want a proper model on my desk. Bring me a &6Cuckoo Clock&b. If it sings on time, the big one will too. After you bring me that I'll cook you up a nice Kangaroo meatball dinner. The Clockwork classic!\"&r"
+			]
+			hide_until_deps_visible: true
+			icon: "create:cuckoo_clock"
+			id: "4E72A1C8B39FD605"
+			rewards: [{
+				id: "1DE07E0368A29F88"
+				item: "alexsmobsdelight:braised_kangaroo_meatballs"
+				type: "item"
+			}]
+			subtitle: "A clock big enough for the whole mesa"
+			tasks: [{
+				consume_items: true
+				id: "262313E88315FB76"
+				item: "create:cuckoo_clock"
+				type: "item"
+			}]
+			title: "The New Town Clock II"
+			x: -7.031972789115642d
+			y: 7.9239795918367335d
+		}
+		{
+			dependencies: ["4E72A1C8B39FD605"]
+			description: [
+				"The old artisan taps the blueprint with a grease-stained finger."
+				""
+				"&b\"Now we make it real. Big hands. Big bearing. Enough gold trim to catch the sun from the mine entrance to the outskirts. Bring me the guts of the mechanism, and &6Clockwork Village&b will have a clock no one forgets.\"&r"
+			]
+			hide_until_deps_visible: true
+			icon: "create:clockwork_bearing"
+			id: "4E46D36FF706AF79"
+			rewards: [{
+				id: "6FBF2F908DF332F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "A clock big enough for the whole mesa"
+			tasks: [
+				{
+					consume_items: true
+					id: "27E5AD80F6C9413B"
+					item: "create:clockwork_bearing"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "4AC8079B2D6FE153"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "6D1EB2A75F9048CC"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			title: "The New Town Clock III"
+			x: -7.8176870748299265d
+			y: 8.995408163265303d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4E46D36FF706AF79"]
+			description: [
+				"The new clock gleams above the tram yard, its hands catching the late badlands sun."
+				""
+				"The clockmaker folds his arms, trying and failing to hide how pleased he is. &b\"There. Now the whole mesa knows what time it is. You've earned more than thanks. Help me restock the workshop with a little gold, and I'll open my shelves to you whenever you pass through.\""
+			]
+			hide_until_deps_visible: true
+			icon: "create:precision_mechanism"
+			id: "2E4307442838D520"
+			optional: true
+			repeatable: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A363A314FAA04F2"
+				table_id: 5485987885308422206L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "A clock big enough for the whole mesa"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3605D94D71DEAE27"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Trade: Gold for Fine Clockwork Parts"
+			x: -8.674829931972788d
+			y: 10.173979591836734d
+		}
+		{
+			dependencies: ["0267C07A6B65F055"]
+			description: [
+				"A rail foreman storms toward you, covered in soot."
+				""
+				"&b\"Skeleton Demomans again. Every time we lay fresh track, those lunatics come cackling out of the badlands and turn the whole line into a fireworks show. Go put down a few of them before they turn my switchyard into a crater. \"&r"
+				""
+				"&6\"As a reward I'll give you some imported fancy candles. Real classy.\"&r"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:damned_demomans_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2E949B63BAF86F97"
+			rewards: [{
+				count: 3
+				id: "217171A2BE09E7A4"
+				item: {
+					Count: 1
+					id: "spelunkery:mineomite"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Fancy Italian Candles\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The rail line must run again"
+			tasks: [{
+				disable_toast: true
+				entity: "born_in_chaos_v1:skeleton_demoman"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:damned_demomans_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "20D7AB59EC3148F6"
+				title: "Kill 2 Skeleton Demomans"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Italian Candles I"
+			x: -7.281972789115649d
+			y: 6.102551020408164d
+		}
+		{
+			dependencies: ["2E949B63BAF86F97"]
+			description: [
+				"The foreman presses the salvaged charge into your hand with a grin."
+				""
+				"&b\"What I just gave you are Italian candles,\"&r he says solemnly. &b\"Imported. Real classy stuff. Toss it down somewhere outside town and light it. You'll get the idea.\"&r"
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:red_candle"
+			id: "7D3AEF9084BC1265"
+			rewards: [{
+				id: "6D5072FCEC6CA52D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Light the Italian Candles"
+			tasks: [{
+				id: "72ED94768B8B52F5"
+				title: "Try an Italian Candle outside town"
+				type: "checkmark"
+			}]
+			title: "Italian Candles II"
+			x: -8.424829931972788d
+			y: 7.031122448979588d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7D3AEF9084BC1265"]
+			description: [
+				"After you return a litte beat up and covered in soot he wheezes &b\"You've been hoodwinked, baby!\"&r After a long moment, he finally straightens up and wipes his eyes. &b\"Around here, &6Italian Candles&r&b are just &6Mineomite&r&b with better marketing. Really classy stuff.\""
+				""
+				"&rThe foreman slides a crate across the bench with a grin. &b\"Ya want more where that came from? Gold up front, fuses later.\"&r"
+			]
+			hide_until_deps_visible: true
+			icon: "spelunkery:mineomite"
+			id: "7CE50AB3D618F294"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3707C868E85A7F8A"
+				table_id: 9012354419216731684L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "The rail line must run again"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "5BC4E7435DF88C74"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Trade: Gold for Italian Candles"
+			x: -9.567687074829934d
+			y: 7.959693877551025d
+		}
+		{
+			dependencies: ["6AAA371BABF988F6"]
+			description: [
+				"You cautiously approach the home of the &6Death Worms&r. It seems to be just a giant pit in the ground. But the large bones sticking out of the sand warn you to not underestimate this enemy."
+				""
+				"While clearing out the &eDeath Worm Pit,&r you notice that the tongues of the death worms could be used to make a powerful weapon. you decide to try and collect one to give back to the village. With a &eweapon made from death worms&r, surely they will be safe. "
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:deathworm_gauntlet_yellow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "54D7532C8C194FDB"
+			shape: "gear"
+			subtitle: "Something lurks beneath the sand"
+			tasks: [
+				{
+					id: "05A098CED4AB7F11"
+					structure: "integrated_minecraft:deathworm_pit"
+					title: "Find the Deathworm Pit"
+					type: "structure"
+				}
+				{
+					entity: "iceandfire:deathworm"
+					icon: {
+						Count: 1
+						id: "iceandfire:deathworm_gauntlet_yellow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "53928F9BD8282FFE"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Doom of the Dunes IV"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["76B79195000014B1"]
+			description: [
+				"The village baker catches flour on his apron and waves you over from a row of stone ovens near the temple square."
+				""
+				"&b\"Perfect timing. We are preparing for a temple feast, and I am short on grain. If you help the village fields along and plant fresh wheat, I'll make sure your name is remembered whenever the bells ring for supper.\"&r"
+			]
+			icon: "minecraft:wheat_seeds"
+			id: "4355B4301B89FDB6"
+			rewards: [{
+				id: "5521966657C4310E"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			subtitle: "12 + 1 = A Dozen. Right?"
+			tasks: [{
+				block: "minecraft:wheat"
+				block_type: 0
+				icon: "minecraft:wheat_seeds"
+				id: "58DBAEF074AC1EF2"
+				replace: false
+				replaced: "minecraft:air"
+				title: "Plant 20 Wheat Seeds"
+				type: "questsadditions:place"
+				value: 20L
+			}]
+			title: "A Baker's Dozen I"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4355B4301B89FDB6"]
+			description: [
+				"A few days later, the baker meets you by the same ovens with a broad smile."
+				""
+				"&b\"There we are. A proper crop. Bring me the wheat and I'll show you how we turn a field into a feast.\"&r"
+			]
+			icon: "minecraft:wheat"
+			id: "596F7D56D313AD41"
+			rewards: [{
+				id: "2517D427E5041597"
+				item: "create:millstone"
+				type: "item"
+			}]
+			subtitle: "12 + 1 = A Dozen. Right?"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "116024FDCCFD27D2"
+				item: "minecraft:wheat"
+				title: "Bring 20 Wheat"
+				type: "item"
+			}]
+			title: "A Baker's Dozen II"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["596F7D56D313AD41"]
+			description: [
+				"The baker pats the millstone and nods approvingly."
+				""
+				"&b\"Good bread starts with good flour. Grind the grain down fine enough for temple loaves and bring me the first proper batch.\"&r"
+			]
+			hide_until_deps_complete: true
+			icon: "create:wheat_flour"
+			id: "3F7A470ABE1AFEFB"
+			rewards: [
+				{
+					count: 4
+					id: "7D95E2B30C4AF861"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "164EC8BDF09253A7"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			subtitle: "12 + 1 = A Dozen. Right?"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "2EAF1836E403FC61"
+				item: "create:wheat_flour"
+				title: "Bring 8 Wheat Flour"
+				type: "item"
+			}]
+			title: "A Baker's Dozen III"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F7A470ABE1AFEFB"]
+			description: [
+				"The baker folds the flour into a bowl and glances toward the temple steps."
+				""
+				"&b\"Almost there. Knead it properly and bring me enough dough for the first trays. The priests like their feast bread soft, not tough as saddle leather.\"&r"
+			]
+			icon: "create:dough"
+			id: "367B7C4619695C3B"
+			rewards: [{
+				count: 8
+				id: "5F4B8C13D6EA0297"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			subtitle: "12 + 1 = A Dozen. Right?"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "6E2E16A303F44D60"
+				item: "create:dough"
+				title: "Bring 8 Dough"
+				type: "item"
+			}]
+			title: "A Baker's Dozen IV"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["367B7C4619695C3B"]
+			description: [
+				"By dusk, the square smells of fresh bread and olive wood smoke."
+				""
+				"&b\"Now for the feast itself,\"&r the baker says, arranging platters beside the temple doors. &b\"I want variety on these tables. Ordinary bread for the crowd, pumpkin bread for the elders, and cantaloupe bread for the children. Thirteen loaves in spirit, if not in count. A baker's dozen.\"&r"
+			]
+			icon: "minecraft:bread"
+			id: "1146325F82E0CCD3"
+			rewards: [
+				{
+					count: 10
+					id: "7FE7536848092ADD"
+					item: "farmersdelight:pie_crust"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "138EF68C5FF7D673"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6FE12C355D8309AA"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			subtitle: "12 + 1 = A Dozen. Right?"
+			tasks: [
+				{
+					consume_items: true
+					count: 9L
+					id: "0BED6D99845481F1"
+					item: "minecraft:bread"
+					title: "Bring 9 Bread"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "192CD9D6AE359D3F"
+					item: "autumnity:pumpkin_bread"
+					title: "Bring 2 Pumpkin Bread"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "5EF2C352977334C8"
+					item: "delightful:cantaloupe_bread"
+					title: "Bring 2 Cantaloupe Bread"
+					type: "item"
+				}
+			]
+			title: "A Baker's Dozen V"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["186902AFB716A5B6"]
+			description: [
+				"The animal handler returns from the shade of the stables with a hunter at her side."
+				""
+				"&b\"An elephant will tell you whether a person has patience. A hunt will tell you whether they have nerve. Bring us the signs of a proper savannah stalker, and we'll arm you like one. Then we'll show you where the old Umvuthana trails begin.\"&r"
+			]
+			icon: "alexsmobs:emu_feather"
+			id: "1ECD399E9FB952EC"
+			rewards: [
+				{
+					id: "253BEB0BD9B64FD3"
+					item: {
+						Count: 1
+						id: "mowziesmobs:blowgun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "15752E0D328F3342"
+					item: "mowziesmobs:dart"
+					type: "item"
+				}
+				{
+					id: "35FE9B20B9D50A02"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							decoration: "target_x"
+							display: {
+								Name: "{\"text\":\"Umvuthana Grove Explorer Map\"}"
+							}
+							maxSearchRadius: 250
+							skinKnown: 1b
+							targetStructure: "mowziesmobs:umvuthana_grove"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Hakuna Matata!"
+			tasks: [
+				{
+					id: "48466DD8FFBFCD16"
+					item: "alexsmobs:emu_feather"
+					title: "Collect an Emu Feather"
+					type: "item"
+				}
+				{
+					id: "6AA39AE11E74E688"
+					item: "minecraft:feather"
+					title: "Collect a regular Feather"
+					type: "item"
+				}
+				{
+					id: "06E6F46F8F4068AD"
+					item: {
+						Count: 1
+						id: "mowziesmobs:spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Circle of Life II"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1ECD399E9FB952EC"]
+			description: [
+				"Map in hand, you follow the old trails beyond the village until the air grows tense and watchful."
+				""
+				"&b\"Then let your next lesson be courage,\"&r the priest had said. &b\"The Umvuthana near our roads have grown hostile and suspicious. Drive back their boldest warriors, and if one of their masks falls into your hands, keep it. We would rather meet the Sunbird as guests than as thieves.\"&r"
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_faith"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "440BA26FFCE876E1"
+			rewards: [{
+				count: 7
+				id: "19853F516CA36EF5"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Hakuna Matata!"
+			tasks: [{
+				entity: "mowziesmobs:umvuthana"
+				id: "15B7C05D010D9928"
+				title: "Kill 10 Umvuthana"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Circle of Life III"
+			x: 4.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["440BA26FFCE876E1"]
+			description: [
+				"Inside the village temple, incense curls around a painted sun disk while the priest speaks in a low voice."
+				""
+				"&b\"Good. Now hear this well,\"&r the priest says. &b\"If you carry one of the Umvuthana masks and offer &67 Blocks of Gold&r&b to &6Umvuthi, the Sunbird&r&b, he may answer you with &6Sun's Blessing&r&b instead of fire. We seek understanding with the old powers of the savannah, not needless war. Go with respect.\"&r"
+			]
+			id: "1EE489DE2DEF23E1"
+			rewards: [{
+				id: "49C590E7198647AD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gear"
+			subtitle: "Hakuna Matata!"
+			tasks: [{
+				advancement: "mowziesmobs:suns_blessing"
+				criterion: ""
+				id: "5E064A518BE9D410"
+				title: "Receive Sun's Blessing"
+				type: "advancement"
+			}]
+			title: "Circle of Life IV"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1146325F82E0CCD3"]
+			description: [
+				"The temple cooks greet you with easy smiles."
+				""
+				"&b\"Bring us staple loaves or fresh dough and we'll see you leave here fully fed. A village feast should nourish wanderers too.\"&r"
+			]
+			id: "0FBB8DFE83277C68"
+			min_required_tasks: 1
+			optional: true
+			repeatable: true
+			rewards: [{
+				auto: "disabled"
+				command: "/effect give @s farmersdelight:nourishment 300"
+				icon: "farmersdelight:shepherds_pie"
+				id: "21E6A954F256D3D2"
+				title: "Fully Nourished"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "585E592E356293F9"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "04A7E068C673DD2E"
+					item: "create:dough"
+					type: "item"
+				}
+			]
+			title: "Trade: Bread OR Dough for Nourishing"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["76B79195000014B1"]
+			description: [
+				"Near the animal pens, a patient handler strokes an elephant's trunk while watching you approach."
+				""
+				"&b\"Any fool can chase a beast. It takes a gentler hand to earn one's trust. Tame an elephant and come back to me. If you can do that, I'll know you're ready to learn the ways of the savannah.\"&r"
+			]
+			icon: "minecraft:lead"
+			id: "186902AFB716A5B6"
+			rewards: [
+				{
+					count: 2
+					id: "4F2B8E90C153D6A7"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					id: "61072A2946826A97"
+					item: "minecraft:orange_carpet"
+					type: "item"
+				}
+			]
+			subtitle: "Tame an Elephant!"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_elephant"
+				criterion: ""
+				id: "14D9A5FC9FFF0DC9"
+				title: "Tame your own Elephant!"
+				type: "advancement"
+			}]
+			title: "Circle of Life I"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1EE489DE2DEF23E1"]
+			description: [
+				"You return to the Mediterranean Village as the temple bells begin to ring."
+				""
+				"The priest meets you at the shrine with solemn eyes, then smiles when he sees the light lingering around you. &b\"So the Sunbird answered after all. Carry this wisely. Let the sun answer your courage, but never your arrogance.\"&r"
+			]
+			icon: "mowziesmobs:grant_suns_blessing"
+			id: "6E8C1A4975D230BF"
+			rewards: [{
+				id: "12A01EF9C4EF918B"
+				item: "mowziesmobs:grant_suns_blessing"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Hakuna Matata!"
+			tasks: [{
+				id: "3B7DCA1509E8246F"
+				structure: "integrated_villages:mediterranean_village"
+				title: "Return to the Mediterranean Village"
+				type: "structure"
+			}]
+			title: "Circle of Life V"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "5691037E792CD528"
+			tasks: [{
+				id: "7FB804E4F9E62729"
+				nbt: { }
+				type: "questsadditions:playernbt"
+			}]
+			x: 5.5d
+			y: 19.0d
 		}
 	]
 	title: "Village Quests"

@@ -1545,7 +1545,7 @@
 				}
 			]
 			title: "Primordial Crest Armor"
-			x: -1.0d
+			x: -2.0d
 			y: -6.5d
 		}
 		{
@@ -1666,7 +1666,7 @@
 				}
 			]
 			title: "Tectonic Crest Armor"
-			x: 0.0d
+			x: -1.0d
 			y: -6.5d
 		}
 		{
@@ -2771,8 +2771,8 @@
 				}
 			]
 			title: "Tyr Armor"
-			x: 1.9115646258503318d
-			y: -0.6666666666666714d
+			x: 2.4d
+			y: -1.2d
 		}
 		{
 			dependencies: ["2D80F91B985C5AD6"]
@@ -2894,6 +2894,320 @@
 			title: "Cardboard Disguise"
 			x: 7.5d
 			y: 1.0d
+		}
+		{
+			id: "3FD44295355BD49B"
+			shape: "octagon"
+			subtitle: "Stormline Ascension ability. Aqua and Lightning school bonuses"
+			tasks: [
+				{
+					id: "5B215E5571AF175B"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_hat"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "61015FD8BF2BB846"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_fincloak"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08EB018DECAD5822"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_leggings"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "349B9E3FAA79A6F4"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_boots"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Riptide Sovereign Armor"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			id: "32A412608013191D"
+			shape: "octagon"
+			subtitle: "Nightfallen Dominion ability. Eldritch and Blood school bonuses"
+			tasks: [
+				{
+					id: "01332C6E16E5FEED"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_hood"
+						tag: {
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 3
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5079EF2267E6DB43"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_robe"
+						tag: {
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 3
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 1
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3062CE58EFFC0512"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_leggings"
+						tag: {
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0717CA94F67DCB4E"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_boots"
+						tag: {
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 1
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forlorn Harbinger Armor"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2D80F91B985C5AD6"]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:annihilator_helmet"
+				tag: {
+					Damage: 0
+					PerkData: [
+						{
+							Slot: "arsthreadexpansion:slot_1"
+							Tier: 2
+						}
+						{
+							Slot: "arsthreadexpansion:slot_2"
+							Tier: 1
+						}
+						{
+							Slot: "arsthreadexpansion:slot_3"
+							Tier: 1
+						}
+					]
+				}
+			}
+			id: "262F3AD70C59D21B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "234E9C25079A0906"
+				table_id: 1787598695114971302L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [
+				{
+					id: "77BA4C41CD7620B3"
+					item: {
+						Count: 1
+						id: "legendary_monsters:annihilator_helmet"
+						tag: {
+							Damage: 0
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 1
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C99CFDF5BBA39CC"
+					item: {
+						Count: 1
+						id: "legendary_monsters:annihilator_chestplate"
+						tag: {
+							Damage: 0
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 3
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C98F87ECC3FF32D"
+					item: {
+						Count: 1
+						id: "legendary_monsters:annihilator_leggings"
+						tag: {
+							Damage: 0
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 1
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47CC46F0361759F5"
+					item: {
+						Count: 1
+						id: "legendary_monsters:annihilator_boots"
+						tag: {
+							Damage: 0
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 1
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51343B08B8A523A8"
+					item: {
+						Count: 1
+						id: "legendary_monsters:buckler_of_annihilation"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Annihilator Armor"
+			x: 1.500000000000007d
+			y: -0.1607142857142847d
 		}
 	]
 	title: "Suit Up"

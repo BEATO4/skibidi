@@ -136,6 +136,8 @@
     "legendary_monsters:polished_diorite_pillar": "quark:diorite_pillar",
     "legendary_monsters:enderitium_ore": "minecraft:end_stone",
     "irons_spellbooks:mithril_ore": "minecraft:stone",
-    "irons_spellbooks:deepslate_mithril_ore": "minecraft:deepslate"
+    "irons_spellbooks:deepslate_mithril_ore": "minecraft:deepslate",
+    "irons_spellbooks:brazier": "caverns_and_chasms:brazier",
+    "irons_spellbooks:brazier_soul": "caverns_and_chasms:soul_brazier"
   }
 }
